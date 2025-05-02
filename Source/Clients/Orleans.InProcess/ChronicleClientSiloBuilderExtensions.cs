@@ -4,6 +4,7 @@
 extern alias Server;
 
 using Cratis.Chronicle;
+using Cratis.Chronicle.AspNetCore.Identities;
 using Cratis.Chronicle.Connections;
 using Cratis.Chronicle.Grains.Observation.Reactors.Clients;
 using Cratis.Chronicle.Grains.Observation.Reducers.Clients;
@@ -13,6 +14,7 @@ using Cratis.Chronicle.Rules;
 using Cratis.Chronicle.Setup;
 using Cratis.DependencyInjection;
 using Microsoft.AspNetCore.Builder;
+using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
@@ -90,9 +92,11 @@ public static class ChronicleClientSiloBuilderExtensions
 
     static void ConfigureChronicle(this ISiloBuilder builder, Action<IChronicleBuilder>? configureChronicle = default)
     {
+        // Add Chronicle to the silo as the first thing we do, order matters - this is especially important for the different call filters.
+        builder.AddChronicleToSilo(configureChronicle);
+        builder.AddActivityPropagation();
         builder.AddIncomingGrainCallFilter<UnitOfWorkIncomingCallFilter>();
         builder.AddOutgoingGrainCallFilter<UnitOfWorkOutgoingCallFilter>();
-        builder.AddChronicleToSilo(configureChronicle);
         builder.AddStartupTask<ChronicleOrleansClientStartupTask>();
         builder.ConfigureServices(services =>
         {
@@ -108,12 +112,15 @@ public static class ChronicleClientSiloBuilderExtensions
             services.AddSingleton(sp => sp.GetRequiredService<IOptions<ChronicleOptions>>().Value.ModelNameConvention);
             services.AddSingleton(sp => sp.GetRequiredService<IOptions<ChronicleOptions>>().Value.IdentityProvider);
             services.AddSingleton(sp => sp.GetRequiredService<IOptions<ChronicleOptions>>().Value.JsonSerializerOptions);
-
+            services.AddHttpContextAccessor();
             services.AddSingleton<IChronicleClient>(sp =>
             {
                 var options = sp.GetRequiredService<IOptions<ChronicleOptions>>().Value;
                 options.ServiceProvider = sp;
                 options.ArtifactsProvider = sp.GetRequiredService<IClientArtifactsProvider>();
+                options.IdentityProvider = new IdentityProvider(
+                    sp.GetRequiredService<IHttpContextAccessor>(),
+                    sp.GetRequiredService<ILogger<IdentityProvider>>());
 
                 var grainFactory = sp.GetRequiredService<IGrainFactory>();
                 var services = sp.GetRequiredService<IServices>();

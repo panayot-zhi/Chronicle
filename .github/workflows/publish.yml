@@ -38,6 +38,10 @@ on:
       - "**"
       - "!Docker/BaseDevelopment/**"
 
+permissions:
+  contents: write
+  deployments: write
+
 jobs:
   dotnet-x64:
     runs-on: ubuntu-latest
@@ -169,7 +173,7 @@ jobs:
         run: rm -rf ${{ env.NUGET_OUTPUT }}
 
       - name: Build
-        run: dotnet build --configuration Release
+        run: dotnet build --configuration Release -p:DisableProxyGenerator=true
 
       - name: Create NuGet packages
         run: dotnet pack --no-build --configuration Release -o ${{ env.NUGET_OUTPUT }} -p:PackageVersion=${{ needs.release.outputs.version }}

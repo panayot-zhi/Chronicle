@@ -44,7 +44,9 @@ public class Sink(
     /// <inheritdoc/>
     public async Task<ExpandoObject?> FindOrDefault(Key key)
     {
-        using var result = await Collection.FindAsync(Builders<BsonDocument>.Filter.Eq("_id", converter.ToBsonValue(key)));
+        var collection = Collection;
+
+        using var result = await collection.FindAsync(Builders<BsonDocument>.Filter.Eq("_id", converter.ToBsonValue(key)));
         var instance = result.SingleOrDefault();
         if (instance != default)
         {

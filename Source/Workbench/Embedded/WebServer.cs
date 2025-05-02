@@ -5,7 +5,7 @@ using Cratis.Chronicle.Api;
 using Cratis.Chronicle.Connections;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Hosting;
@@ -33,6 +33,7 @@ public class WebServer(
             async () =>
             {
                 var builder = WebApplication.CreateBuilder();
+                builder.Configuration.Sources.Clear();
                 var chronicleServices = serviceProvider.GetService<IServices>();
 
                 builder.Host
@@ -44,55 +45,46 @@ public class WebServer(
                     });
 
                 builder.Services.AddCratisChronicleApi(chronicleServices);
-
+                builder.Services.Configure<MvcOptions>(options => options.UseRoutePrefix(workbenchOptions.Value.BasePath));
                 builder.WebHost
-                    .UseKestrel()
-                    .UseUrls($"http://*:{workbenchOptions.Value.Port}");
+                    .UseKestrel(options =>
+                    {
+                        options.ConfigureEndpointDefaults(_ => { });
+                        options.ListenAnyIP(workbenchOptions.Value.Port);
+                    });
 
                 _webApplication = builder.Build();
 
-                var basePath = workbenchOptions.Value.BaseUrl;
-                _webApplication.UsePathBase(basePath);
-
-                _webApplication.Use(async (context, next) =>
-                {
-                    context.Request.PathBase = context.Request.Path.Value!.Replace(basePath, "/");
-                    await next();
-                });
+                var basePath = workbenchOptions.Value.BasePath;
+                if (!basePath.StartsWith('/')) basePath = $"/{basePath}";
+                if (basePath.EndsWith('/')) basePath = basePath[0..^1];
 
                 _webApplication.UseCratisChronicleApi();
 
                 var rootType = typeof(WorkbenchWebApplicationBuilderExtensions);
                 var rootResourceNamespace = $"{rootType.Namespace}.Files";
-                var fileProvider = new ManifestEmbeddedFileProvider(rootType.Assembly, rootResourceNamespace);
-                _webApplication.Use(async (context, next) =>
+                IFileProvider fileProvider = new ManifestEmbeddedFileProvider(rootType.Assembly, rootResourceNamespace);
+
+                var indexFile = string.Empty;
+                var file = fileProvider.GetFileInfo("index.html");
+
+                if (file.Exists)
                 {
-                    if (context.Request.Path == "/index.html" || context.Request.Path == "/")
-                    {
-                        var file = fileProvider.GetFileInfo("index.html");
+                    await using var stream = file.CreateReadStream();
+                    using var reader = new StreamReader(stream);
+                    indexFile = await reader.ReadToEndAsync();
 
-                        if (file.Exists)
-                        {
-                            await using var stream = file.CreateReadStream();
-                            using var reader = new StreamReader(stream);
-                            var content = await reader.ReadToEndAsync();
-
-                            content = content
-                                .Replace("src=\"/", $"src=\"{workbenchOptions.Value.BaseUrl}/")
-                                .Replace("href=\"/", $"href=\"{workbenchOptions.Value.BaseUrl}/");
-
-                            context.Response.ContentType = "text/html";
-                            await context.Response.WriteAsync(content);
-                            return;
-                        }
-                    }
-
-                    await next();
-                });
+                    indexFile = indexFile
+                        .Replace("src=\"/", $"src=\"{basePath}/")
+                        .Replace("href=\"/", $"href=\"{basePath}/")
+                        .Replace("name=\"base-path\" content=\"\"", $"name=\"base-path\" content=\"{basePath}\"");
+                }
+                fileProvider = new StaticFilesFileProvider(fileProvider, basePath, indexFile);
 
                 _webApplication.UseDefaultFiles(new DefaultFilesOptions
                 {
-                    FileProvider = fileProvider
+                    FileProvider = fileProvider,
+                    RequestPath = basePath
                 });
                 var staticFileOptions = new StaticFileOptions
                 {
@@ -102,9 +94,8 @@ public class WebServer(
                 _webApplication.UseStaticFiles(staticFileOptions);
                 _webApplication.MapFallbackToFile("index.html", staticFileOptions);
 
-                await _webApplication.RunAsync();
-            },
-            _cancellationTokenSource.Token);
+                await _webApplication.RunAsync(_cancellationTokenSource.Token);
+            });
 
         return Task.CompletedTask;
     }
