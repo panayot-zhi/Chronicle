@@ -3,17 +3,18 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 131 days, 18:38:37 | 4 days, 0:54:52 | 311 days, 3:11:17 |
-| Time to close | 277 days, 16:57:55 | 123 days, 17:56:37 | 831 days, 6:17:47 |
+| Time to close | 278 days, 23:54:19 | 123 days, 17:56:37 | 838 days, 21:40:14 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
 | Number of items that remain open | 269 |
-| Number of items closed | 588 |
-| Total number of items created | 857 |
+| Number of items closed | 590 |
+| Total number of items created | 859 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Bulk update on replay of projections or reducers for sinks | https://github.com/Cratis/Chronicle/issues/2364 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Add a way to immediately query projections and get a collection of snapshots per CorrelationId | https://github.com/Cratis/Chronicle/issues/2311 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 5 days, 4:27:14 | None |
 | AppendedEvent in the .NET Client should hold the actual deserialized ready to go event instead of an ExpandoObject | https://github.com/Cratis/Chronicle/issues/2303 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Improve Read Model APIs and consistency between Reducers and Projections | https://github.com/Cratis/Chronicle/issues/2301 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
@@ -313,6 +314,7 @@
 | Implement AppendMany on Storage provider and hook up in EventSequence grain | https://github.com/Cratis/Chronicle/issues/1252 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Move away from our custom DefaultServiceProvider to just instantiate the built in one if not provided | https://github.com/Cratis/Chronicle/issues/1251 | None | [einari](https://github.com/einari) | None | None | None |
 | Move contract/chronicle converters from Shared into Services project | https://github.com/Cratis/Chronicle/issues/1250 | None | [einari](https://github.com/einari) | None | None | None |
+| Formalize a main database for the event store to hold common data | https://github.com/Cratis/Chronicle/issues/1249 | None | [einari](https://github.com/einari) | None | 20 days, 5:59:58 | None |
 | Optimize the Projections storage provider to have a local cache for projection definitions it already has loaded | https://github.com/Cratis/Chronicle/issues/1248 | None | [einari](https://github.com/einari) | None | None | None |
 | Add support for an automatic namespace selection | https://github.com/Cratis/Chronicle/issues/1243 | None | [einari](https://github.com/einari) | None | 62 days, 9:00:02 | None |
 | Improve WebApplicationBuilder, ServiceCollection and HostBuilder extensions to allow for customization | https://github.com/Cratis/Chronicle/issues/1242 | None | [einari](https://github.com/einari) | None | None | None |
@@ -337,7 +339,4 @@
 | Support unmanaged observers / reactors | https://github.com/Cratis/Chronicle/issues/1067 | None | [einari](https://github.com/einari) | None | None | None |
 | Identity is not resolved for reducer handlers | https://github.com/Cratis/Chronicle/issues/1066 | None | [einari](https://github.com/einari) | 334 days, 5:05:34 | 401 days, 1:11:14 | None |
 | Change to the concept of namespace within an Event Store rather than using the concept of a Tenant | https://github.com/Cratis/Chronicle/issues/1064 | None | [einari](https://github.com/einari) | None | 198 days, 23:01:35 | None |
-| Separate EventContext into client and server representation | https://github.com/Cratis/Chronicle/issues/1063 | None | [einari](https://github.com/einari) | None | 215 days, 22:13:43 | None |
-| Get rid of Serilog | https://github.com/Cratis/Chronicle/issues/1059 | None | [einari](https://github.com/einari) | None | 237 days, 12:42:12 | None |
-| Make projection definitions versionable | https://github.com/Cratis/Chronicle/issues/1058 | None | [einari](https://github.com/einari) | None | None | None |
-| Add the ability to associate custom metadata with events | https://github.com/Cratis/Chronicle/issues/1057 | None | [einari](ht
+| Separate EventContext into client and server representation | https://github.com/Cratis/Chronicle/issues/1063 | None | [einari](https://github.com/einari) | None | 215 days, 22:13:43 | N
