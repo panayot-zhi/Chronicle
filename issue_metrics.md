@@ -3,13 +3,13 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 125 days, 12:17:55 | 2 days, 19:57:57 | 300 days, 17:44:52 |
-| Time to close | 281 days, 14:47:08 | 123 days, 3:12:33 | 825 days, 17:28:32 |
+| Time to close | 281 days, 6:37:44 | 123 days, 1:53:22 | 825 days, 15:15:08 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 259 |
-| Number of items closed | 643 |
+| Number of items that remain open | 258 |
+| Number of items closed | 644 |
 | Total number of items created | 902 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
@@ -53,7 +53,7 @@
 | Improve seed data and add editor | https://github.com/Cratis/Chronicle/issues/2433 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Throttling for job system | https://github.com/Cratis/Chronicle/issues/2431 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 30 days, 3:18:10 | None |
 | Simplify TLS | https://github.com/Cratis/Chronicle/issues/2429 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 31 days, 3:29:20 | None |
-| Performance benchmarks | https://github.com/Cratis/Chronicle/issues/2427 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Performance benchmarks | https://github.com/Cratis/Chronicle/issues/2427 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 62 days, 17:58:26 | None |
 | Build statistics | https://github.com/Cratis/Chronicle/issues/2425 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 12 days, 18:37:18 | None |
 | Introduce tags support and wire up for event | https://github.com/Cratis/Chronicle/issues/2423 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 30 days, 4:03:07 | None |
 | Synchronization of CoPilot instructions | https://github.com/Cratis/Chronicle/issues/2421 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
@@ -328,4 +328,4 @@
 | Support creating business rules that are for a concept | https://github.com/Cratis/Chronicle/issues/1290 | None | [einari](https://github.com/einari) | None | 506 days, 14:45:38 | None |
 | Add a way to clear state / API call. Only available in Development | https://github.com/Cratis/Chronicle/issues/1287 | None | [einari](https://github.com/einari) | None | None | None |
 | Investigate a simplified "query language" for projections | https://github.com/Cratis/Chronicle/issues/1284 | None | [einari](https://github.com/einari) | None | 460 days, 23:29:09 | None |
-| Ability to configure automatically applying recommendation based on their type | https://github.com/Cratis/Chronicle/issues/128
+| Ability to configure automatically applying recommendation based on their type | https://github.com/Cratis/Chronicl
