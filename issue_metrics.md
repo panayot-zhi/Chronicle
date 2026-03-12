@@ -8,12 +8,14 @@
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 259 |
+| Number of items that remain open | 261 |
 | Number of items closed | 646 |
-| Total number of items created | 905 |
+| Total number of items created | 907 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Add support for Aspire | https://github.com/Cratis/Chronicle/issues/2798 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Specify Admin password in development image as config option | https://github.com/Cratis/Chronicle/issues/2793 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Support projecting without specifying a read model - infer it | https://github.com/Cratis/Chronicle/issues/2764 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Move AddCratisChronicle from AspNetCore to DotNET client, target IHostApplicationBuilder | https://github.com/Cratis/Chronicle/issues/2755 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2:36:04 | None |
 | Separate structural dependencies from runtime configuration in ChronicleOptions | https://github.com/Cratis/Chronicle/issues/2753 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 6:49:57 | None |
@@ -325,6 +327,4 @@
 | Move OneOf<> Protobuf implementation to fundamentals (introduce new package) | https://github.com/Cratis/Chronicle/issues/1297 | None | [einari](https://github.com/einari) | None | 505 days, 14:04:24 | None |
 | Add access to IServiceProvider on RuleAttribute | https://github.com/Cratis/Chronicle/issues/1296 | None | [einari](https://github.com/einari) | None | 506 days, 0:18:24 | None |
 | Make DefineState on attribute based rules a virtual method on the base `RuleAttribute` - making the API clearer | https://github.com/Cratis/Chronicle/issues/1295 | None | [einari](https://github.com/einari) | None | 505 days, 14:54:37 | None |
-| Move Rules documentation and correct it from Application Model to Chronicle | https://github.com/Cratis/Chronicle/issues/1294 | None | [einari](https://github.com/einari) | None | 505 days, 14:57:27 | None |
-| Repack client consumed assemblies to internalize dependencies we don't want to expose externally | https://github.com/Cratis/Chronicle/issues/1293 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 313 days, 8:28:42 | None |
-| Introduce a "transaction scope" for AggregateRoot operations | https:/
+| Move Rules documentation and correct it from Application Model to Chronicle |
