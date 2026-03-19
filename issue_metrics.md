@@ -8,12 +8,14 @@
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 227 |
+| Number of items that remain open | 229 |
 | Number of items closed | 682 |
-| Total number of items created | 909 |
+| Total number of items created | 911 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Move NamingPolicy from ChronicleOptions | https://github.com/Cratis/Chronicle/issues/2868 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Event Type Generation validation | https://github.com/Cratis/Chronicle/issues/2866 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Outbox - inbox pattern for events | https://github.com/Cratis/Chronicle/issues/2831 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2 days, 2:15:10 | None |
 | Add support for Aspire | https://github.com/Cratis/Chronicle/issues/2798 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 3 days, 3:00:58 | None |
 | Specify Admin password in development image as config option | https://github.com/Cratis/Chronicle/issues/2793 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 4 days, 7:55:17 | None |
@@ -322,6 +324,4 @@
 | Integration tests for core functionality using the in-process Orleans client | https://github.com/Cratis/Chronicle/issues/1305 | None | [einari](https://github.com/einari) | None | 584 days, 17:38:25 | None |
 | Jobs should have a priority | https://github.com/Cratis/Chronicle/issues/1304 | None | [einari](https://github.com/einari) | None | None | None |
 | The DuplicateEventSequenceNumber being thrown should contain next available event sequence number | https://github.com/Cratis/Chronicle/issues/1303 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 343 days, 2:15:44 | None |
-| Convert all members in all specs to be more C# idiomatic rather than use snake casing. | https://github.com/Cratis/Chronicle/issues/1302 | None | [einari](https://github.com/einari) | None | 251 days, 4:23:40 | None |
-| Move UniqueInstanceValidator to Application Model and make it work as a general FluentValidation property validator and not only for state | https://github.com/Cratis/Chronicle/issues/1300 | None | [einari](https://github.com/einari) | None | 39 days, 21:41:53 | None |
-| Adhere (mostly) to the library guidance from Microsoft | https://github.com/Cratis/Chronicle/issues/1299 | None | [ein
+| Convert all members in all specs to be more C# idiomatic rather than use snake casing. | https://github.com/Cratis/Chronicle/issues/1302 | None | [einari](ht
