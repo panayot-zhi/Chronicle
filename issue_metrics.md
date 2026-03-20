@@ -3,19 +3,21 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 125 days, 12:17:55 | 2 days, 19:57:57 | 300 days, 17:44:52 |
-| Time to close | 283 days, 1:30:28 | 115 days, 10:01:04 | 839 days, 1:56:42 |
+| Time to close | 282 days, 7:49:00 | 115 days, 3:57:49 | 839 days, 0:20:32 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 229 |
-| Number of items closed | 682 |
-| Total number of items created | 911 |
+| Number of items that remain open | 228 |
+| Number of items closed | 685 |
+| Total number of items created | 913 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
-| Move NamingPolicy from ChronicleOptions | https://github.com/Cratis/Chronicle/issues/2868 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
-| Event Type Generation validation | https://github.com/Cratis/Chronicle/issues/2866 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| gRPC Code Generation from Arc based artifacts | https://github.com/Cratis/Chronicle/issues/2884 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Add specific specs for the entire auth flow for both users and clients | https://github.com/Cratis/Chronicle/issues/2879 | None | [einari](https://github.com/einari) | None | None | None |
+| Move NamingPolicy from ChronicleOptions | https://github.com/Cratis/Chronicle/issues/2868 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 22:54:20 | None |
+| Event Type Generation validation | https://github.com/Cratis/Chronicle/issues/2866 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 23:34:03 | None |
 | Outbox - inbox pattern for events | https://github.com/Cratis/Chronicle/issues/2831 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2 days, 2:15:10 | None |
 | Add support for Aspire | https://github.com/Cratis/Chronicle/issues/2798 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 3 days, 3:00:58 | None |
 | Specify Admin password in development image as config option | https://github.com/Cratis/Chronicle/issues/2793 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 4 days, 7:55:17 | None |
@@ -109,7 +111,7 @@
 | Support SQL type Servers as Event Store | https://github.com/Cratis/Chronicle/issues/1868 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | None | None |
 | Support clustering for Kernel | https://github.com/Cratis/Chronicle/issues/1863 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Support for compensating existing events | https://github.com/Cratis/Chronicle/issues/1860 | None | [einari](https://github.com/einari) | None | None | None |
-| Support migration of events between generations (up & down casting) | https://github.com/Cratis/Chronicle/issues/1859 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Support migration of events between generations (up & down casting) | https://github.com/Cratis/Chronicle/issues/1859 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 342 days, 7:40:08 | None |
 | Add support for redacting events | https://github.com/Cratis/Chronicle/issues/1858 | None | [einari](https://github.com/einari) | None | 338 days, 3:02:52 | None |
 | Add support for handling things in bulk for Reactors | https://github.com/Cratis/Chronicle/issues/1857 | None | [einari](https://github.com/einari) | None | None | None |
 | Add support for handling things in bulk for Reducers | https://github.com/Cratis/Chronicle/issues/1856 | None | [einari](https://github.com/einari) | None | None | None |
@@ -322,6 +324,4 @@
 | Fix Storage configuration | https://github.com/Cratis/Chronicle/issues/1307 | None | [einari](https://github.com/einari) | None | None | None |
 | Clean up storage abstractions | https://github.com/Cratis/Chronicle/issues/1306 | None | [einari](https://github.com/einari) | None | None | None |
 | Integration tests for core functionality using the in-process Orleans client | https://github.com/Cratis/Chronicle/issues/1305 | None | [einari](https://github.com/einari) | None | 584 days, 17:38:25 | None |
-| Jobs should have a priority | https://github.com/Cratis/Chronicle/issues/1304 | None | [einari](https://github.com/einari) | None | None | None |
-| The DuplicateEventSequenceNumber being thrown should contain next available event sequence number | https://github.com/Cratis/Chronicle/issues/1303 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 343 days, 2:15:44 | None |
-| Convert all members in all specs to be more C# idiomatic rather than use snake casing. | https://github.com/Cratis/Chronicle/issues/1302 | None | [einari](ht
+| Jobs should have a priority | https://github.com/Cratis/Chronicle/issues/1304 | None | [einari](https://github.com/einari)
