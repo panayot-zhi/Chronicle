@@ -3,17 +3,20 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 125 days, 12:17:55 | 2 days, 19:57:57 | 300 days, 17:44:52 |
-| Time to close | 282 days, 7:49:00 | 115 days, 3:57:49 | 839 days, 0:20:32 |
+| Time to close | 284 days, 14:54:41 | 115 days, 16:04:19 | 845 days, 3:47:32 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 228 |
-| Number of items closed | 685 |
-| Total number of items created | 913 |
+| Number of items that remain open | 229 |
+| Number of items closed | 687 |
+| Total number of items created | 916 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Assembly version does not match the actual version of Chronicle | https://github.com/Cratis/Chronicle/issues/2902 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [woksin](https://github.com/woksin) | None | None | None |
+| Projection Definition comparison might be wrong | https://github.com/Cratis/Chronicle/issues/2900 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Raise Conditions between seeded events and projections at startup | https://github.com/Cratis/Chronicle/issues/2898 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | gRPC Code Generation from Arc based artifacts | https://github.com/Cratis/Chronicle/issues/2884 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Add specific specs for the entire auth flow for both users and clients | https://github.com/Cratis/Chronicle/issues/2879 | None | [einari](https://github.com/einari) | None | None | None |
 | Move NamingPolicy from ChronicleOptions | https://github.com/Cratis/Chronicle/issues/2868 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 22:54:20 | None |
@@ -320,8 +323,4 @@
 | Introduce a "distributed" UnitOfWork for Orleans clients | https://github.com/Cratis/Chronicle/issues/1311 | None | [einari](https://github.com/einari) | None | 52 days, 1:15:16 | None |
 | Make sure JSON Schemas are generated correctly after upgrading to NJsonSchema v11 | https://github.com/Cratis/Chronicle/issues/1310 | None | [einari](https://github.com/einari) | None | 23 days, 4:54:37 | None |
 | Change to FrozenCollection for those collection types that are completely static and shouldn’t be mutated | https://github.com/Cratis/Chronicle/issues/1309 | None | [einari](https://github.com/einari) | None | None | None |
-| Add a UniqueConstraint indexer job for reindexing constraints on change | https://github.com/Cratis/Chronicle/issues/1308 | None | [einari](https://github.com/einari) | None | None | None |
-| Fix Storage configuration | https://github.com/Cratis/Chronicle/issues/1307 | None | [einari](https://github.com/einari) | None | None | None |
-| Clean up storage abstractions | https://github.com/Cratis/Chronicle/issues/1306 | None | [einari](https://github.com/einari) | None | None | None |
-| Integration tests for core functionality using the in-process Orleans client | https://github.com/Cratis/Chronicle/issues/1305 | None | [einari](https://github.com/einari) | None | 584 days, 17:38:25 | None |
-| Jobs should have a priority | https://github.com/Cratis/Chronicle/issues/1304 | None | [einari](https://github.com/einari)
+| Add a UniqueConstraint indexer job for reindexing constraints on change
