@@ -3,20 +3,21 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 125 days, 12:17:55 | 2 days, 19:57:57 | 300 days, 17:44:52 |
-| Time to close | 284 days, 14:54:41 | 115 days, 16:04:19 | 845 days, 3:47:32 |
+| Time to close | 284 days, 5:01:12 | 115 days, 10:01:04 | 844 days, 3:08:51 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
 | Number of items that remain open | 229 |
-| Number of items closed | 687 |
-| Total number of items created | 916 |
+| Number of items closed | 688 |
+| Total number of items created | 917 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| MongoDB Storage Sink should follow MongoDB conventions for Id properties | https://github.com/Cratis/Chronicle/issues/2904 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Assembly version does not match the actual version of Chronicle | https://github.com/Cratis/Chronicle/issues/2902 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [woksin](https://github.com/woksin) | None | None | None |
 | Projection Definition comparison might be wrong | https://github.com/Cratis/Chronicle/issues/2900 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
-| Raise Conditions between seeded events and projections at startup | https://github.com/Cratis/Chronicle/issues/2898 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Raise Conditions between seeded events and projections at startup | https://github.com/Cratis/Chronicle/issues/2898 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 1:34:10 | None |
 | gRPC Code Generation from Arc based artifacts | https://github.com/Cratis/Chronicle/issues/2884 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Add specific specs for the entire auth flow for both users and clients | https://github.com/Cratis/Chronicle/issues/2879 | None | [einari](https://github.com/einari) | None | None | None |
 | Move NamingPolicy from ChronicleOptions | https://github.com/Cratis/Chronicle/issues/2868 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 22:54:20 | None |
@@ -322,5 +323,4 @@
 | Add support for testing Projections | https://github.com/Cratis/Chronicle/issues/1312 | None | [einari](https://github.com/einari) | None | None | None |
 | Introduce a "distributed" UnitOfWork for Orleans clients | https://github.com/Cratis/Chronicle/issues/1311 | None | [einari](https://github.com/einari) | None | 52 days, 1:15:16 | None |
 | Make sure JSON Schemas are generated correctly after upgrading to NJsonSchema v11 | https://github.com/Cratis/Chronicle/issues/1310 | None | [einari](https://github.com/einari) | None | 23 days, 4:54:37 | None |
-| Change to FrozenCollection for those collection types that are completely static and shouldn’t be mutated | https://github.com/Cratis/Chronicle/issues/1309 | None | [einari](https://github.com/einari) | None | None | None |
-| Add a UniqueConstraint indexer job for reindexing constraints on change
+| Change to FrozenCollectio
