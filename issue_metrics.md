@@ -3,19 +3,21 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 125 days, 12:17:55 | 2 days, 19:57:57 | 300 days, 17:44:52 |
-| Time to close | 284 days, 5:01:12 | 115 days, 10:01:04 | 844 days, 3:08:51 |
+| Time to close | 285 days, 4:11:18 | 115 days, 10:01:04 | 851 days, 18:37:25 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
 | Number of items that remain open | 229 |
-| Number of items closed | 688 |
-| Total number of items created | 917 |
+| Number of items closed | 690 |
+| Total number of items created | 919 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Simplify Kernel code | https://github.com/Cratis/Chronicle/issues/2909 | None | [einari](https://github.com/einari) | None | None | None |
+| Refactor to use Arc Commands, Queries and command->Event Hook up (Functional) | https://github.com/Cratis/Chronicle/issues/2908 | None | [einari](https://github.com/einari) | None | None | None |
 | MongoDB Storage Sink should follow MongoDB conventions for Id properties | https://github.com/Cratis/Chronicle/issues/2904 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
-| Assembly version does not match the actual version of Chronicle | https://github.com/Cratis/Chronicle/issues/2902 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [woksin](https://github.com/woksin) | None | None | None |
+| Assembly version does not match the actual version of Chronicle | https://github.com/Cratis/Chronicle/issues/2902 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [woksin](https://github.com/woksin) | None | 2 days, 21:59:07 | None |
 | Projection Definition comparison might be wrong | https://github.com/Cratis/Chronicle/issues/2900 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Raise Conditions between seeded events and projections at startup | https://github.com/Cratis/Chronicle/issues/2898 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 1:34:10 | None |
 | gRPC Code Generation from Arc based artifacts | https://github.com/Cratis/Chronicle/issues/2884 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
@@ -321,6 +323,4 @@
 | Implement Reducer definition comparison to then only recommend replaying of projections that actually has changed | https://github.com/Cratis/Chronicle/issues/1314 | None | [einari](https://github.com/einari) | None | 44 days, 9:57:10 | None |
 | Implement Projection definition comparison to then only recommend replaying of projections that actually has changed | https://github.com/Cratis/Chronicle/issues/1313 | None | [einari](https://github.com/einari) | None | 40 days, 21:04:31 | None |
 | Add support for testing Projections | https://github.com/Cratis/Chronicle/issues/1312 | None | [einari](https://github.com/einari) | None | None | None |
-| Introduce a "distributed" UnitOfWork for Orleans clients | https://github.com/Cratis/Chronicle/issues/1311 | None | [einari](https://github.com/einari) | None | 52 days, 1:15:16 | None |
-| Make sure JSON Schemas are generated correctly after upgrading to NJsonSchema v11 | https://github.com/Cratis/Chronicle/issues/1310 | None | [einari](https://github.com/einari) | None | 23 days, 4:54:37 | None |
-| Change to FrozenCollectio
+| Introduce a "distributed" UnitOfWork for Orleans clients | https://github.co
