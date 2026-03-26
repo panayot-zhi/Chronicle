@@ -8,12 +8,13 @@
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 229 |
+| Number of items that remain open | 230 |
 | Number of items closed | 690 |
-| Total number of items created | 919 |
+| Total number of items created | 920 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Fix Observers view | https://github.com/Cratis/Chronicle/issues/2916 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Simplify Kernel code | https://github.com/Cratis/Chronicle/issues/2909 | None | [einari](https://github.com/einari) | None | None | None |
 | Refactor to use Arc Commands, Queries and command->Event Hook up (Functional) | https://github.com/Cratis/Chronicle/issues/2908 | None | [einari](https://github.com/einari) | None | None | None |
 | MongoDB Storage Sink should follow MongoDB conventions for Id properties | https://github.com/Cratis/Chronicle/issues/2904 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
@@ -322,5 +323,4 @@
 | We need a better way to delimit individual components for Grain keys | https://github.com/Cratis/Chronicle/issues/1315 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 33 days, 21:36:27 | None |
 | Implement Reducer definition comparison to then only recommend replaying of projections that actually has changed | https://github.com/Cratis/Chronicle/issues/1314 | None | [einari](https://github.com/einari) | None | 44 days, 9:57:10 | None |
 | Implement Projection definition comparison to then only recommend replaying of projections that actually has changed | https://github.com/Cratis/Chronicle/issues/1313 | None | [einari](https://github.com/einari) | None | 40 days, 21:04:31 | None |
-| Add support for testing Projections | https://github.com/Cratis/Chronicle/issues/1312 | None | [einari](https://github.com/einari) | None | None | None |
-| Introduce a "distributed" UnitOfWork for Orleans clients | https://github.co
+| Add support for testing
