@@ -3,25 +3,25 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 125 days, 12:17:55 | 2 days, 19:57:57 | 300 days, 17:44:52 |
-| Time to close | 285 days, 4:11:18 | 115 days, 10:01:04 | 851 days, 18:37:25 |
+| Time to close | 286 days, 12:24:13 | 115 days, 10:01:04 | 852 days, 16:32:58 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 230 |
-| Number of items closed | 690 |
+| Number of items that remain open | 222 |
+| Number of items closed | 698 |
 | Total number of items created | 920 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
-| Fix Observers view | https://github.com/Cratis/Chronicle/issues/2916 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Fix Observers view | https://github.com/Cratis/Chronicle/issues/2916 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2 days, 18:09:49 | None |
 | Simplify Kernel code | https://github.com/Cratis/Chronicle/issues/2909 | None | [einari](https://github.com/einari) | None | None | None |
-| Refactor to use Arc Commands, Queries and command->Event Hook up (Functional) | https://github.com/Cratis/Chronicle/issues/2908 | None | [einari](https://github.com/einari) | None | None | None |
-| MongoDB Storage Sink should follow MongoDB conventions for Id properties | https://github.com/Cratis/Chronicle/issues/2904 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Refactor to use Arc Commands, Queries and command->Event Hook up (Functional) | https://github.com/Cratis/Chronicle/issues/2908 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| MongoDB Storage Sink should follow MongoDB conventions for Id properties | https://github.com/Cratis/Chronicle/issues/2904 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 7 days, 0:01:14 | None |
 | Assembly version does not match the actual version of Chronicle | https://github.com/Cratis/Chronicle/issues/2902 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [woksin](https://github.com/woksin) | None | 2 days, 21:59:07 | None |
-| Projection Definition comparison might be wrong | https://github.com/Cratis/Chronicle/issues/2900 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Projection Definition comparison might be wrong | https://github.com/Cratis/Chronicle/issues/2900 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 7 days, 20:03:19 | None |
 | Raise Conditions between seeded events and projections at startup | https://github.com/Cratis/Chronicle/issues/2898 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 1:34:10 | None |
-| gRPC Code Generation from Arc based artifacts | https://github.com/Cratis/Chronicle/issues/2884 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| gRPC Code Generation from Arc based artifacts | https://github.com/Cratis/Chronicle/issues/2884 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 8 days, 21:13:01 | None |
 | Add specific specs for the entire auth flow for both users and clients | https://github.com/Cratis/Chronicle/issues/2879 | None | [einari](https://github.com/einari) | None | None | None |
 | Move NamingPolicy from ChronicleOptions | https://github.com/Cratis/Chronicle/issues/2868 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 22:54:20 | None |
 | Event Type Generation validation | https://github.com/Cratis/Chronicle/issues/2866 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 23:34:03 | None |
@@ -250,7 +250,7 @@
 | Expose configuration for adding JsonConverters | https://github.com/Cratis/Chronicle/issues/1469 | None | [einari](https://github.com/einari) | None | None | None |
 | Observers should resolve dependencies from scoped service provider | https://github.com/Cratis/Chronicle/issues/1468 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1 day, 2:11:05 | None |
 | Custom JsonConverter not used | https://github.com/Cratis/Chronicle/issues/1466 | [einari](https://github.com/einari) | [Petteroe](https://github.com/Petteroe) | 1 day, 0:04:32 | 1 day, 20:54:48 | None |
-| Look into switching to .NET 9 new JsonSchemaExporter instead of NJsonSchema | https://github.com/Cratis/Chronicle/issues/1459 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Look into switching to .NET 9 new JsonSchemaExporter instead of NJsonSchema | https://github.com/Cratis/Chronicle/issues/1459 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 538 days, 0:51:52 | None |
 | Refactor EventSequence Grain | https://github.com/Cratis/Chronicle/issues/1451 | None | [einari](https://github.com/einari) | None | None | None |
 | Add support for constraints scoped to a stream | https://github.com/Cratis/Chronicle/issues/1449 | None | [einari](https://github.com/einari) | None | None | None |
 | Add support for "closing the books" type of book keeping | https://github.com/Cratis/Chronicle/issues/1448 | None | [einari](https://github.com/einari) | None | None | None |
@@ -322,5 +322,4 @@
 | Orleans based Aggregate Roots does not need to rehydrate from the beginning if the grain is already in memory | https://github.com/Cratis/Chronicle/issues/1316 | None | [einari](https://github.com/einari) | None | 31 days, 22:34:38 | None |
 | We need a better way to delimit individual components for Grain keys | https://github.com/Cratis/Chronicle/issues/1315 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 33 days, 21:36:27 | None |
 | Implement Reducer definition comparison to then only recommend replaying of projections that actually has changed | https://github.com/Cratis/Chronicle/issues/1314 | None | [einari](https://github.com/einari) | None | 44 days, 9:57:10 | None |
-| Implement Projection definition comparison to then only recommend replaying of projections that actually has changed | https://github.com/Cratis/Chronicle/issues/1313 | None | [einari](https://github.com/einari) | None | 40 days, 21:04:31 | None |
-| Add support for testing
+| Implement Projection definition comparison to then only recommend replaying of projections that actually has changed | https://github.com/Crat
