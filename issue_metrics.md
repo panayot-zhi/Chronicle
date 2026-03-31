@@ -8,12 +8,13 @@
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 223 |
+| Number of items that remain open | 224 |
 | Number of items closed | 698 |
-| Total number of items created | 921 |
+| Total number of items created | 922 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Testing read models created by reducers or projections without having to do integration testing | https://github.com/Cratis/Chronicle/issues/2949 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Infer Source event store when subscribing to inbox | https://github.com/Cratis/Chronicle/issues/2947 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Fix Observers view | https://github.com/Cratis/Chronicle/issues/2916 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2 days, 18:09:49 | None |
 | Simplify Kernel code | https://github.com/Cratis/Chronicle/issues/2909 | None | [einari](https://github.com/einari) | None | None | None |
@@ -321,5 +322,4 @@
 | Use scoped service provider for Reactors & Reducers on the client | https://github.com/Cratis/Chronicle/issues/1319 | None | [einari](https://github.com/einari) | None | 194 days, 0:45:42 | None |
 | Unique Constraints should support a way of removing based on an event | https://github.com/Cratis/Chronicle/issues/1317 | None | [einari](https://github.com/einari) | None | 129 days, 12:34:36 | None |
 | Orleans based Aggregate Roots does not need to rehydrate from the beginning if the grain is already in memory | https://github.com/Cratis/Chronicle/issues/1316 | None | [einari](https://github.com/einari) | None | 31 days, 22:34:38 | None |
-| We need a better way to delimit individual components for Grain keys | https://github.com/Cratis/Chronicle/issues/1315 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 33 days, 21:36:27 | None |
-| Implement Reducer definition comparison to then only recommend replaying of projections that actually has changed | https://github.com/Cratis/Chron
+| We need a better way to delimit individual components for Grain keys | https://github.com/Crat
