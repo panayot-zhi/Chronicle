@@ -3,18 +3,19 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 125 days, 12:17:55 | 2 days, 19:57:57 | 300 days, 17:44:52 |
-| Time to close | 286 days, 12:24:13 | 115 days, 10:01:04 | 852 days, 16:32:58 |
+| Time to close | 286 days, 1:23:19 | 115 days, 3:57:49 | 851 days, 7:39:38 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 225 |
-| Number of items closed | 698 |
-| Total number of items created | 923 |
+| Number of items that remain open | 223 |
+| Number of items closed | 701 |
+| Total number of items created | 924 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
-| Static code analysis for checking reactors, reducers, projections for multiple event stores for events | https://github.com/Cratis/Chronicle/issues/2970 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Allow EventStore to be assembly level attribute | https://github.com/Cratis/Chronicle/issues/2972 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1:38:24 | None |
+| Static code analysis for checking reactors, reducers, projections for multiple event stores for events | https://github.com/Cratis/Chronicle/issues/2970 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 13:26:01 | None |
 | Testing read models created by reducers or projections without having to do integration testing | https://github.com/Cratis/Chronicle/issues/2949 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Infer Source event store when subscribing to inbox | https://github.com/Cratis/Chronicle/issues/2947 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Fix Observers view | https://github.com/Cratis/Chronicle/issues/2916 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2 days, 18:09:49 | None |
@@ -248,7 +249,7 @@
 | Implement Orleans serializer for IEnumerable<> | https://github.com/Cratis/Chronicle/issues/1516 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 402 days, 9:01:47 | None |
 | Add support for clearing all children in a projection | https://github.com/Cratis/Chronicle/issues/1475 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Unit Of Work transactions does not respect event constraints | https://github.com/Cratis/Chronicle/issues/1474 | None | [woksin](https://github.com/woksin) | None | None | None |
-| Support the Outbox -> Inbox forwarding and subscriptions - configured from the client | https://github.com/Cratis/Chronicle/issues/1473 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | None | None |
+| Support the Outbox -> Inbox forwarding and subscriptions - configured from the client | https://github.com/Cratis/Chronicle/issues/1473 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 537 days, 4:38:11 | None |
 | Add support for overriding the type a type should be represented as in the JsonSchema when used in an Event or Read Model | https://github.com/Cratis/Chronicle/issues/1470 | None | [einari](https://github.com/einari) | None | None | None |
 | Expose configuration for adding JsonConverters | https://github.com/Cratis/Chronicle/issues/1469 | None | [einari](https://github.com/einari) | None | None | None |
 | Observers should resolve dependencies from scoped service provider | https://github.com/Cratis/Chronicle/issues/1468 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1 day, 2:11:05 | None |
@@ -320,6 +321,4 @@
 | Implement ImmutableList serializer for Orleans | https://github.com/Cratis/Chronicle/issues/1322 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | None | None |
 | Reactors need to collect errors from the UnitOfWork and report back for "failed partitions" | https://github.com/Cratis/Chronicle/issues/1321 | None | [einari](https://github.com/einari) | None | 496 days, 0:09:05 | None |
 | Change Dispose() on UnitOfWork to commit instead of rollback | https://github.com/Cratis/Chronicle/issues/1320 | None | [einari](https://github.com/einari) | None | 4:59:38 | None |
-| Use scoped service provider for Reactors & Reducers on the client | https://github.com/Cratis/Chronicle/issues/1319 | None | [einari](https://github.com/einari) | None | 194 days, 0:45:42 | None |
-| Unique Constraints should support a way of removing based on an event | https://github.com/Cratis/Chronicle/issues/1317 | None | [einari](https://github.com/einari) | None | 129 days, 12:34:36 | None |
-| Orleans based Aggregate Roots does not need 
+| Use scoped service provider for Reactors & Reducers on the client | https://github.com/Cratis/Chronicle/issues/1319 | None | [einari](https://github.com/einari) | None | 194 days, 0:45:42 | No
