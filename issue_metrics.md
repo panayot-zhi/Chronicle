@@ -3,21 +3,23 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 125 days, 12:17:55 | 2 days, 19:57:57 | 300 days, 17:44:52 |
-| Time to close | 286 days, 1:23:19 | 115 days, 3:57:49 | 851 days, 7:39:38 |
+| Time to close | 284 days, 20:37:33 | 113 days, 13:30:58 | 848 days, 5:43:35 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 223 |
-| Number of items closed | 701 |
-| Total number of items created | 924 |
+| Number of items that remain open | 222 |
+| Number of items closed | 704 |
+| Total number of items created | 926 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Fix Constraint documentation | https://github.com/Cratis/Chronicle/issues/2984 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 0:15:33 | None |
+| Testing EventSequence without having to do integration tests | https://github.com/Cratis/Chronicle/issues/2982 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Allow EventStore to be assembly level attribute | https://github.com/Cratis/Chronicle/issues/2972 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1:38:24 | None |
 | Static code analysis for checking reactors, reducers, projections for multiple event stores for events | https://github.com/Cratis/Chronicle/issues/2970 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 13:26:01 | None |
-| Testing read models created by reducers or projections without having to do integration testing | https://github.com/Cratis/Chronicle/issues/2949 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
-| Infer Source event store when subscribing to inbox | https://github.com/Cratis/Chronicle/issues/2947 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Testing read models created by reducers or projections without having to do integration testing | https://github.com/Cratis/Chronicle/issues/2949 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 6 days, 17:44:54 | None |
+| Infer Source event store when subscribing to inbox | https://github.com/Cratis/Chronicle/issues/2947 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 7 days, 17:04:11 | None |
 | Fix Observers view | https://github.com/Cratis/Chronicle/issues/2916 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2 days, 18:09:49 | None |
 | Simplify Kernel code | https://github.com/Cratis/Chronicle/issues/2909 | None | [einari](https://github.com/einari) | None | None | None |
 | Refactor to use Arc Commands, Queries and command->Event Hook up (Functional) | https://github.com/Cratis/Chronicle/issues/2908 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
@@ -319,6 +321,4 @@
 | EventStore.RegisterAll called twice, once through EventStore.RegisterAll explicitly and once through the ConnectionLifecycle | https://github.com/Cratis/Chronicle/issues/1324 | [Copilot](https://github.com/Copilot) | [woksin](https://github.com/woksin) | 11:15:40 | 333 days, 11:37:57 | None |
 | Add EventSourceId for the event that caused unique constraint | https://github.com/Cratis/Chronicle/issues/1323 | None | [einari](https://github.com/einari) | None | 1 day, 2:34:28 | None |
 | Implement ImmutableList serializer for Orleans | https://github.com/Cratis/Chronicle/issues/1322 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | None | None |
-| Reactors need to collect errors from the UnitOfWork and report back for "failed partitions" | https://github.com/Cratis/Chronicle/issues/1321 | None | [einari](https://github.com/einari) | None | 496 days, 0:09:05 | None |
-| Change Dispose() on UnitOfWork to commit instead of rollback | https://github.com/Cratis/Chronicle/issues/1320 | None | [einari](https://github.com/einari) | None | 4:59:38 | None |
-| Use scoped service provider for Reactors & Reducers on the client | https://github.com/Cratis/Chronicle/issues/1319 | None | [einari](https://github.com/einari) | None | 194 days, 0:45:42 | No
+| Reactors need to collect errors from the UnitOfWork and report back for "failed partitions" | https://
