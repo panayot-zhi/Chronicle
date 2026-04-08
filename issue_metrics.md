@@ -3,19 +3,19 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 125 days, 12:17:55 | 2 days, 19:57:57 | 300 days, 17:44:52 |
-| Time to close | 284 days, 20:37:33 | 113 days, 13:30:58 | 848 days, 5:43:35 |
+| Time to close | 284 days, 10:58:26 | 111 days, 23:21:39 | 847 days, 5:04:54 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 222 |
-| Number of items closed | 704 |
+| Number of items that remain open | 221 |
+| Number of items closed | 705 |
 | Total number of items created | 926 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
 | Fix Constraint documentation | https://github.com/Cratis/Chronicle/issues/2984 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 0:15:33 | None |
-| Testing EventSequence without having to do integration tests | https://github.com/Cratis/Chronicle/issues/2982 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Testing EventSequence without having to do integration tests | https://github.com/Cratis/Chronicle/issues/2982 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 8:00:23 | None |
 | Allow EventStore to be assembly level attribute | https://github.com/Cratis/Chronicle/issues/2972 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1:38:24 | None |
 | Static code analysis for checking reactors, reducers, projections for multiple event stores for events | https://github.com/Cratis/Chronicle/issues/2970 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 13:26:01 | None |
 | Testing read models created by reducers or projections without having to do integration testing | https://github.com/Cratis/Chronicle/issues/2949 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 6 days, 17:44:54 | None |
@@ -321,4 +321,4 @@
 | EventStore.RegisterAll called twice, once through EventStore.RegisterAll explicitly and once through the ConnectionLifecycle | https://github.com/Cratis/Chronicle/issues/1324 | [Copilot](https://github.com/Copilot) | [woksin](https://github.com/woksin) | 11:15:40 | 333 days, 11:37:57 | None |
 | Add EventSourceId for the event that caused unique constraint | https://github.com/Cratis/Chronicle/issues/1323 | None | [einari](https://github.com/einari) | None | 1 day, 2:34:28 | None |
 | Implement ImmutableList serializer for Orleans | https://github.com/Cratis/Chronicle/issues/1322 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | None | None |
-| Reactors need to collect errors from the UnitOfWork and report back for "failed partitions" | https://
+| Reactors need to collect errors from the UnitOfWork and report back for "failed partitions" 
