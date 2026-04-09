@@ -3,17 +3,18 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 125 days, 12:17:55 | 2 days, 19:57:57 | 300 days, 17:44:52 |
-| Time to close | 284 days, 10:58:26 | 111 days, 23:21:39 | 847 days, 5:04:54 |
+| Time to close | 284 days, 1:18:49 | 111 days, 16:03:16 | 846 days, 4:26:13 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
 | Number of items that remain open | 221 |
-| Number of items closed | 705 |
-| Total number of items created | 926 |
+| Number of items closed | 706 |
+| Total number of items created | 927 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Documentation for EventSequence attribute | https://github.com/Cratis/Chronicle/issues/3004 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 6:47:13 | None |
 | Fix Constraint documentation | https://github.com/Cratis/Chronicle/issues/2984 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 0:15:33 | None |
 | Testing EventSequence without having to do integration tests | https://github.com/Cratis/Chronicle/issues/2982 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 8:00:23 | None |
 | Allow EventStore to be assembly level attribute | https://github.com/Cratis/Chronicle/issues/2972 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1:38:24 | None |
@@ -320,5 +321,4 @@
 | Change CorrelationId to be a Guid - for consistency with Open Telemetry | https://github.com/Cratis/Chronicle/issues/1327 | None | [einari](https://github.com/einari) | None | 17 days, 4:34:38 | None |
 | EventStore.RegisterAll called twice, once through EventStore.RegisterAll explicitly and once through the ConnectionLifecycle | https://github.com/Cratis/Chronicle/issues/1324 | [Copilot](https://github.com/Copilot) | [woksin](https://github.com/woksin) | 11:15:40 | 333 days, 11:37:57 | None |
 | Add EventSourceId for the event that caused unique constraint | https://github.com/Cratis/Chronicle/issues/1323 | None | [einari](https://github.com/einari) | None | 1 day, 2:34:28 | None |
-| Implement ImmutableList serializer for Orleans | https://github.com/Cratis/Chronicle/issues/1322 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | None | None |
-| Reactors need to collect errors from the UnitOfWork and report back for "failed partitions" 
+| Implement ImmutableList serializer for Orleans | https:/
