@@ -2,18 +2,20 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 125 days, 12:17:55 | 2 days, 19:57:57 | 300 days, 17:44:52 |
-| Time to close | 284 days, 1:18:49 | 111 days, 16:03:16 | 846 days, 4:26:13 |
+| Time to first response | 129 days, 15:44:53 | 3 days, 22:09:24 | 307 days, 14:14:21 |
+| Time to close | 283 days, 16:22:05 | 111 days, 16:03:16 | 844 days, 3:08:51 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
 | Number of items that remain open | 222 |
-| Number of items closed | 706 |
-| Total number of items created | 928 |
+| Number of items closed | 708 |
+| Total number of items created | 930 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Consoliate storage implementations in Testing | https://github.com/Cratis/Chronicle/issues/3034 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 12:33:27 | None |
+| ContentHashes are not being produced when events are appended | https://github.com/Cratis/Chronicle/issues/3032 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Observe based on EventSourceType, EventStreamType and tags | https://github.com/Cratis/Chronicle/issues/3021 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Documentation for EventSequence attribute | https://github.com/Cratis/Chronicle/issues/3004 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 6:47:13 | None |
 | Fix Constraint documentation | https://github.com/Cratis/Chronicle/issues/2984 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 0:15:33 | None |
@@ -115,7 +117,7 @@
 | [Design] - DSL for projections | https://github.com/Cratis/Chronicle/issues/1915 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 234 days, 10:27:05 | None |
 | Chronicle should not decide casing on read models, event types or other artifacts given to it by the client | https://github.com/Cratis/Chronicle/issues/1914 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 61 days, 1:30:04 | None |
 | Sequence Query editor in Workbench | https://github.com/Cratis/Chronicle/issues/1911 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | None | None |
-| Multiple sinks for projections and reducers | https://github.com/Cratis/Chronicle/issues/1910 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Multiple sinks for projections and reducers | https://github.com/Cratis/Chronicle/issues/1910 | None | [woksin](https://github.com/woksin) | 303 days, 16:37:25 | 303 days, 16:37:28 | None |
 | Symbol package validation failed - NuGet | https://github.com/Cratis/Chronicle/issues/1907 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 29 days, 5:13:14 | None |
 | Improve the way integration specifications has to be set up | https://github.com/Cratis/Chronicle/issues/1906 | None | [einari](https://github.com/einari) | None | None | None |
 | Reactor/Reducer/Projection-Handler should be split apart | https://github.com/Cratis/Chronicle/issues/1899 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | None | None |
@@ -318,7 +320,4 @@
 | Optimize publish build to do the build for the NuGet package in parallel with the other dotnet builds | https://github.com/Cratis/Chronicle/issues/1333 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 537 days, 11:45:44 | None |
 | Add support for .AutoMap() on the top level of projections to include all .From() mappings | https://github.com/Cratis/Chronicle/issues/1331 | None | [einari](https://github.com/einari) | None | 0:00:03 | None |
 | Hook up integration tests with GitHub Actions | https://github.com/Cratis/Chronicle/issues/1330 | None | [einari](https://github.com/einari) | None | 46 days, 13:27:21 | None |
-| .WithInitialValues() does not seem to populate empty collections in MongoDB - the fields are just missing | https://github.com/Cratis/Chronicle/issues/1329 | None | [einari](https://github.com/einari) | None | 4:41:02 | None |
-| Change CorrelationId to be a Guid - for consistency with Open Telemetry | https://github.com/Cratis/Chronicle/issues/1327 | None | [einari](https://github.com/einari) | None | 17 days, 4:34:38 | None |
-| EventStore.RegisterAll called twice, once through EventStore.RegisterAll explicitly and once through the ConnectionLifecycle | https://github.com/Cratis/Chronicle/issues/1324 | [Copilot](https://github.com/Copilot) | [woksin](https://github.com/woksin) | 11:15:40 | 333 days, 11:37:57 | None |
-|
+| .WithInitialValues() does not seem to populate empty collections in MongoDB - the fields are just missing | https://github.com/Cratis/Chronicle/issues/1329 | None | [einari](https://github.com/einari) | None
