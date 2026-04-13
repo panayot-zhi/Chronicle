@@ -3,20 +3,23 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 129 days, 15:44:53 | 3 days, 22:09:24 | 307 days, 14:14:21 |
-| Time to close | 283 days, 16:22:05 | 111 days, 16:03:16 | 844 days, 3:08:51 |
+| Time to close | 282 days, 2:14:42 | 110 days, 1:05:54 | 840 days, 20:32:24 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 222 |
-| Number of items closed | 708 |
-| Total number of items created | 930 |
+| Number of items that remain open | 221 |
+| Number of items closed | 712 |
+| Total number of items created | 933 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Add support for parent key for model bound FromEvent | https://github.com/Cratis/Chronicle/issues/3042 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2:21:40 | None |
+| Constraints need scoping | https://github.com/Cratis/Chronicle/issues/3039 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 10:11:53 | None |
+| Improve Integration Specs performance | https://github.com/Cratis/Chronicle/issues/3037 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Consoliate storage implementations in Testing | https://github.com/Cratis/Chronicle/issues/3034 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 12:33:27 | None |
-| ContentHashes are not being produced when events are appended | https://github.com/Cratis/Chronicle/issues/3032 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
-| Observe based on EventSourceType, EventStreamType and tags | https://github.com/Cratis/Chronicle/issues/3021 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| ContentHashes are not being produced when events are appended | https://github.com/Cratis/Chronicle/issues/3032 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 0:13:02 | None |
+| Observe based on EventSourceType, EventStreamType and tags | https://github.com/Cratis/Chronicle/issues/3021 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2 days, 5:11:36 | None |
 | Documentation for EventSequence attribute | https://github.com/Cratis/Chronicle/issues/3004 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 6:47:13 | None |
 | Fix Constraint documentation | https://github.com/Cratis/Chronicle/issues/2984 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 0:15:33 | None |
 | Testing EventSequence without having to do integration tests | https://github.com/Cratis/Chronicle/issues/2982 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 8:00:23 | None |
@@ -317,7 +320,4 @@
 | Investigate if the way we set invariant culture is the best | https://github.com/Cratis/Chronicle/issues/1345 | None | [einari](https://github.com/einari) | None | None | None |
 | Change to minimal API for the Server and API applications | https://github.com/Cratis/Chronicle/issues/1344 | None | [einari](https://github.com/einari) | None | 137 days, 9:16:51 | None |
 | Fix how we deal with unhandled exceptions and make sure we get them into the logs as well - not just Console | https://github.com/Cratis/Chronicle/issues/1343 | None | [einari](https://github.com/einari) | None | None | None |
-| Optimize publish build to do the build for the NuGet package in parallel with the other dotnet builds | https://github.com/Cratis/Chronicle/issues/1333 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 537 days, 11:45:44 | None |
-| Add support for .AutoMap() on the top level of projections to include all .From() mappings | https://github.com/Cratis/Chronicle/issues/1331 | None | [einari](https://github.com/einari) | None | 0:00:03 | None |
-| Hook up integration tests with GitHub Actions | https://github.com/Cratis/Chronicle/issues/1330 | None | [einari](https://github.com/einari) | None | 46 days, 13:27:21 | None |
-| .WithInitialValues() does not seem to populate empty collections in MongoDB - the fields are just missing | https://github.com/Cratis/Chronicle/issues/1329 | None | [einari](https://github.com/einari) | None
+| Optimize publish build to do the build for the NuGet package in parallel with the other dotnet builds | https://github.com/Cratis/Chronicle/issues/1333 | [einari](https://github.com/einari), [C
