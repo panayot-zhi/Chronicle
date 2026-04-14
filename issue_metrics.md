@@ -8,12 +8,13 @@
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 221 |
+| Number of items that remain open | 222 |
 | Number of items closed | 712 |
-| Total number of items created | 933 |
+| Total number of items created | 934 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Identity chain can have duplicates | https://github.com/Cratis/Chronicle/issues/3052 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Add support for parent key for model bound FromEvent | https://github.com/Cratis/Chronicle/issues/3042 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2:21:40 | None |
 | Constraints need scoping | https://github.com/Cratis/Chronicle/issues/3039 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 10:11:53 | None |
 | Improve Integration Specs performance | https://github.com/Cratis/Chronicle/issues/3037 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
@@ -319,5 +320,4 @@
 | Models with Arrays should always have the initial values of these set to empty array for projections | https://github.com/Cratis/Chronicle/issues/1346 | None | [einari](https://github.com/einari) | None | 20:47:59 | None |
 | Investigate if the way we set invariant culture is the best | https://github.com/Cratis/Chronicle/issues/1345 | None | [einari](https://github.com/einari) | None | None | None |
 | Change to minimal API for the Server and API applications | https://github.com/Cratis/Chronicle/issues/1344 | None | [einari](https://github.com/einari) | None | 137 days, 9:16:51 | None |
-| Fix how we deal with unhandled exceptions and make sure we get them into the logs as well - not just Console | https://github.com/Cratis/Chronicle/issues/1343 | None | [einari](https://github.com/einari) | None | None | None |
-| Optimize publish build to do the build for the NuGet package in parallel with the other dotnet builds | https://github.com/Cratis/Chronicle/issues/1333 | [einari](https://github.com/einari), [C
+| Fix how we deal with unhandled exceptions and make sure we get them into the logs as well - not just Console | https://github.com/Cratis/Chronicle/issues/1343 | None | [einari](https://github.com/e
