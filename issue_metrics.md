@@ -3,17 +3,19 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 129 days, 15:44:53 | 3 days, 22:09:24 | 307 days, 14:14:21 |
-| Time to close | 282 days, 2:14:42 | 110 days, 1:05:54 | 840 days, 20:32:24 |
+| Time to close | 281 days, 7:17:29 | 109 days, 16:46:32 | 840 days, 11:11:35 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
 | Number of items that remain open | 222 |
-| Number of items closed | 712 |
-| Total number of items created | 934 |
+| Number of items closed | 714 |
+| Total number of items created | 936 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Production TLS Hardening: Workbench-specific TLS config, gRPC enforcement, and Client bootstrap config | https://github.com/Cratis/Chronicle/issues/3088 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2:47:59 | None |
+| Constraint violation on nullable types when appending event | https://github.com/Cratis/Chronicle/issues/3086 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 4:47:51 | None |
 | Identity chain can have duplicates | https://github.com/Cratis/Chronicle/issues/3052 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Add support for parent key for model bound FromEvent | https://github.com/Cratis/Chronicle/issues/3042 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2:21:40 | None |
 | Constraints need scoping | https://github.com/Cratis/Chronicle/issues/3039 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 10:11:53 | None |
@@ -318,6 +320,4 @@
 | Add integration specs for AppendedEventsQueues system | https://github.com/Cratis/Chronicle/issues/1351 | None | [einari](https://github.com/einari) | None | None | None |
 | Introduce a specific Join builder for Children | https://github.com/Cratis/Chronicle/issues/1350 | None | [einari](https://github.com/einari) | None | None | None |
 | Models with Arrays should always have the initial values of these set to empty array for projections | https://github.com/Cratis/Chronicle/issues/1346 | None | [einari](https://github.com/einari) | None | 20:47:59 | None |
-| Investigate if the way we set invariant culture is the best | https://github.com/Cratis/Chronicle/issues/1345 | None | [einari](https://github.com/einari) | None | None | None |
-| Change to minimal API for the Server and API applications | https://github.com/Cratis/Chronicle/issues/1344 | None | [einari](https://github.com/einari) | None | 137 days, 9:16:51 | None |
-| Fix how we deal with unhandled exceptions and make sure we get them into the logs as well - not just Console | https://github.com/Cratis/Chronicle/issues/1343 | None | [einari](https://github.com/e
+| Investigate if the
