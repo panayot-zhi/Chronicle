@@ -3,17 +3,21 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 129 days, 15:44:53 | 3 days, 22:09:24 | 307 days, 14:14:21 |
-| Time to close | 281 days, 7:17:29 | 109 days, 16:46:32 | 840 days, 11:11:35 |
+| Time to close | 280 days, 12:26:08 | 109 days, 2:11:21 | 840 days, 1:50:47 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 222 |
-| Number of items closed | 714 |
-| Total number of items created | 936 |
+| Number of items that remain open | 224 |
+| Number of items closed | 716 |
+| Total number of items created | 940 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Configurable Admin user with credentials | https://github.com/Cratis/Chronicle/issues/3106 | None | [einari](https://github.com/einari) | None | 0:45:24 | None |
+| Make TLS more flexible | https://github.com/Cratis/Chronicle/issues/3104 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1:04:45 | None |
+| Read Model hookup for Testing scenarios | https://github.com/Cratis/Chronicle/issues/3101 | None | [einari](https://github.com/einari) | None | None | None |
+| Preview of Projections from Workbench doesn't do anything | https://github.com/Cratis/Chronicle/issues/3099 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Production TLS Hardening: Workbench-specific TLS config, gRPC enforcement, and Client bootstrap config | https://github.com/Cratis/Chronicle/issues/3088 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2:47:59 | None |
 | Constraint violation on nullable types when appending event | https://github.com/Cratis/Chronicle/issues/3086 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 4:47:51 | None |
 | Identity chain can have duplicates | https://github.com/Cratis/Chronicle/issues/3052 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
@@ -315,9 +319,4 @@
 | Add support for "once only delivery" for projections | https://github.com/Cratis/Chronicle/issues/1357 | None | [einari](https://github.com/einari) | None | 180 days, 17:06:48 | None |
 | Add handled sequence number on the models during projection | https://github.com/Cratis/Chronicle/issues/1356 | None | [einari](https://github.com/einari) | None | 17 days, 3:38:32 | None |
 | Add support for tombstoning events | https://github.com/Cratis/Chronicle/issues/2420 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | None | None |
-| Add support for joining other event sequences in projections | https://github.com/Cratis/Chronicle/issues/1353 | None | [einari](https://github.com/einari) | None | None | None |
-| Add more integration test scenarios for Projections | https://github.com/Cratis/Chronicle/issues/1352 | None | [einari](https://github.com/einari) | None | 33 days, 10:05:22 | None |
-| Add integration specs for AppendedEventsQueues system | https://github.com/Cratis/Chronicle/issues/1351 | None | [einari](https://github.com/einari) | None | None | None |
-| Introduce a specific Join builder for Children | https://github.com/Cratis/Chronicle/issues/1350 | None | [einari](https://github.com/einari) | None | None | None |
-| Models with Arrays should always have the initial values of these set to empty array for projections | https://github.com/Cratis/Chronicle/issues/1346 | None | [einari](https://github.com/einari) | None | 20:47:59 | None |
-| Investigate if the
+| Add support for joining other event sequences in projections | https://github.com/Cratis/Chronicle/issues/1353 | None | [einari](https://github.com/einari) | None 
