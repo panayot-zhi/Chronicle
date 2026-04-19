@@ -8,12 +8,14 @@
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 224 |
+| Number of items that remain open | 226 |
 | Number of items closed | 717 |
-| Total number of items created | 941 |
+| Total number of items created | 943 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Compliance - PII | https://github.com/Cratis/Chronicle/issues/3120 | None | [einari](https://github.com/einari) | None | None | None |
+| Time Traveling debugging | https://github.com/Cratis/Chronicle/issues/3118 | None | [einari](https://github.com/einari) | None | None | None |
 | Nested ChildrenFrom Collections Not Auto-initialized in Read Models | https://github.com/Cratis/Chronicle/issues/3114 | None | [einari](https://github.com/einari) | None | None | None |
 | Configurable Admin user with credentials | https://github.com/Cratis/Chronicle/issues/3106 | None | [einari](https://github.com/einari) | None | 0:45:24 | None |
 | Make TLS more flexible | https://github.com/Cratis/Chronicle/issues/3104 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1:04:45 | None |
@@ -318,5 +320,4 @@
 | Optimize replays for observers to not replay tombstoned partitions | https://github.com/Cratis/Chronicle/issues/1363 | None | [einari](https://github.com/einari) | None | None | None |
 | Add support for removal in constraint index | https://github.com/Cratis/Chronicle/issues/1360 | None | [einari](https://github.com/einari) | None | 10 days, 7:31:36 | None |
 | Add support for "once only delivery" for projections | https://github.com/Cratis/Chronicle/issues/1357 | None | [einari](https://github.com/einari) | None | 180 days, 17:06:48 | None |
-| Add handled sequence number on the models during projection | https://github.com/Cratis/Chronicle/issues/1356 | None | [einari](https://github.com/einari) | None | 17 days, 3:38:32 | None |
-| Add support for tombstoning events | https://github.com/Cratis/Chronicle/issues/2420 | [einari](https://github.com/einari) | [einari](https://github
+| Add handled sequence number on the models during projectio
