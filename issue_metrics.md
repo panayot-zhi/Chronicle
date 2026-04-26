@@ -3,13 +3,13 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 129 days, 15:44:53 | 3 days, 22:09:24 | 307 days, 14:14:21 |
-| Time to close | 280 days, 3:10:12 | 108 days, 19:00:25 | 839 days, 21:10:23 |
+| Time to close | 279 days, 18:14:53 | 108 days, 12:11:06 | 839 days, 16:29:59 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 227 |
-| Number of items closed | 717 |
+| Number of items that remain open | 226 |
+| Number of items closed | 718 |
 | Total number of items created | 944 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
@@ -27,7 +27,7 @@
 | Identity chain can have duplicates | https://github.com/Cratis/Chronicle/issues/3052 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 3 days, 16:52:23 | None |
 | Add support for parent key for model bound FromEvent | https://github.com/Cratis/Chronicle/issues/3042 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2:21:40 | None |
 | Constraints need scoping | https://github.com/Cratis/Chronicle/issues/3039 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 10:11:53 | None |
-| Improve Integration Specs performance | https://github.com/Cratis/Chronicle/issues/3037 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Improve Integration Specs performance | https://github.com/Cratis/Chronicle/issues/3037 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 13 days, 5:21:58 | None |
 | Consoliate storage implementations in Testing | https://github.com/Cratis/Chronicle/issues/3034 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 12:33:27 | None |
 | ContentHashes are not being produced when events are appended | https://github.com/Cratis/Chronicle/issues/3032 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 0:13:02 | None |
 | Observe based on EventSourceType, EventStreamType and tags | https://github.com/Cratis/Chronicle/issues/3021 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2 days, 5:11:36 | None |
@@ -320,4 +320,4 @@
 | Look into moving tombstoned partitions into "cold" storage | https://github.com/Cratis/Chronicle/issues/1364 | None | [einari](https://github.com/einari) | None | None | None |
 | Optimize replays for observers to not replay tombstoned partitions | https://github.com/Cratis/Chronicle/issues/1363 | None | [einari](https://github.com/einari) | None | None | None |
 | Add support for removal in constraint index | https://github.com/Cratis/Chronicle/issues/1360 | None | [einari](https://github.com/einari) | None | 10 days, 7:31:36 | None |
-| Add support for "once only delivery" for projections | https://github.com/Cratis/Chronicle/issues/1357 |
+| Add support for "once only delivery" for projections | https://github.com/Cratis/Chronicle/
