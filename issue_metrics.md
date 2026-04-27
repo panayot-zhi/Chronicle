@@ -3,21 +3,24 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 129 days, 15:44:53 | 3 days, 22:09:24 | 307 days, 14:14:21 |
-| Time to close | 279 days, 18:14:53 | 108 days, 12:11:06 | 839 days, 16:29:59 |
+| Time to close | 279 days, 0:01:15 | 107 days, 13:32:14 | 839 days, 7:09:10 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 226 |
-| Number of items closed | 718 |
-| Total number of items created | 944 |
+| Number of items that remain open | 227 |
+| Number of items closed | 720 |
+| Total number of items created | 947 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
-| Collection of issues | https://github.com/Cratis/Chronicle/issues/3134 | None | [einari](https://github.com/einari) | None | None | None |
+| Support for setting / clearing single child object | https://github.com/Cratis/Chronicle/issues/3142 | None | [einari](https://github.com/einari) | None | None | None |
+| Content on redacted is not displaying everything in Workbench | https://github.com/Cratis/Chronicle/issues/3141 | None | [einari](https://github.com/einari) | None | None | None |
+| Errors for Reactors when closing Kernel | https://github.com/Cratis/Chronicle/issues/3140 | None | [einari](https://github.com/einari) | None | None | None |
+| Collection of issues | https://github.com/Cratis/Chronicle/issues/3134 | None | [einari](https://github.com/einari) | None | 3 days, 23:48:05 | None |
 | Compliance - PII | https://github.com/Cratis/Chronicle/issues/3120 | None | [einari](https://github.com/einari) | None | None | None |
 | Time Traveling debugging | https://github.com/Cratis/Chronicle/issues/3118 | None | [einari](https://github.com/einari) | None | None | None |
-| Nested ChildrenFrom Collections Not Auto-initialized in Read Models | https://github.com/Cratis/Chronicle/issues/3114 | None | [einari](https://github.com/einari) | None | None | None |
+| Nested ChildrenFrom Collections Not Auto-initialized in Read Models | https://github.com/Cratis/Chronicle/issues/3114 | None | [einari](https://github.com/einari) | None | 8 days, 17:00:17 | None |
 | Configurable Admin user with credentials | https://github.com/Cratis/Chronicle/issues/3106 | None | [einari](https://github.com/einari) | None | 0:45:24 | None |
 | Make TLS more flexible | https://github.com/Cratis/Chronicle/issues/3104 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1:04:45 | None |
 | Read Model hookup for Testing scenarios | https://github.com/Cratis/Chronicle/issues/3101 | None | [einari](https://github.com/einari) | None | None | None |
@@ -317,7 +320,4 @@
 | Move default initialization of ensuring existence of event store and namespace out of MongoDB implementation | https://github.com/Cratis/Chronicle/issues/1375 | None | [einari](https://github.com/einari) | None | 22 days, 0:56:03 | None |
 | Hook up the CorrelationId throughout | https://github.com/Cratis/Chronicle/issues/1374 | None | [einari](https://github.com/einari) | None | 4 days, 22:02:43 | None |
 | Add support for creating mementos of a stream | https://github.com/Cratis/Chronicle/issues/1370 | None | [einari](https://github.com/einari) | None | None | None |
-| Look into moving tombstoned partitions into "cold" storage | https://github.com/Cratis/Chronicle/issues/1364 | None | [einari](https://github.com/einari) | None | None | None |
-| Optimize replays for observers to not replay tombstoned partitions | https://github.com/Cratis/Chronicle/issues/1363 | None | [einari](https://github.com/einari) | None | None | None |
-| Add support for removal in constraint index | https://github.com/Cratis/Chronicle/issues/1360 | None | [einari](https://github.com/einari) | None | 10 days, 7:31:36 | None |
-| Add support for "once only delivery" for projections | https://github.com/Cratis/Chronicle/
+| Look into moving tombstoned partitions into "cold" storage | https://github.com/Cratis/Chronicle/i
