@@ -3,19 +3,19 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 129 days, 15:44:53 | 3 days, 22:09:24 | 307 days, 14:14:21 |
-| Time to close | 279 days, 0:01:15 | 107 days, 13:32:14 | 839 days, 7:09:10 |
+| Time to close | 278 days, 5:53:13 | 105 days, 3:07:13 | 839 days, 1:56:42 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 227 |
-| Number of items closed | 720 |
+| Number of items that remain open | 225 |
+| Number of items closed | 722 |
 | Total number of items created | 947 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
 | Support for setting / clearing single child object | https://github.com/Cratis/Chronicle/issues/3142 | None | [einari](https://github.com/einari) | None | None | None |
-| Content on redacted is not displaying everything in Workbench | https://github.com/Cratis/Chronicle/issues/3141 | None | [einari](https://github.com/einari) | None | None | None |
+| Content on redacted is not displaying everything in Workbench | https://github.com/Cratis/Chronicle/issues/3141 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 7:23:45 | None |
 | Errors for Reactors when closing Kernel | https://github.com/Cratis/Chronicle/issues/3140 | None | [einari](https://github.com/einari) | None | None | None |
 | Collection of issues | https://github.com/Cratis/Chronicle/issues/3134 | None | [einari](https://github.com/einari) | None | 3 days, 23:48:05 | None |
 | Compliance - PII | https://github.com/Cratis/Chronicle/issues/3120 | None | [einari](https://github.com/einari) | None | None | None |
@@ -24,7 +24,7 @@
 | Configurable Admin user with credentials | https://github.com/Cratis/Chronicle/issues/3106 | None | [einari](https://github.com/einari) | None | 0:45:24 | None |
 | Make TLS more flexible | https://github.com/Cratis/Chronicle/issues/3104 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1:04:45 | None |
 | Read Model hookup for Testing scenarios | https://github.com/Cratis/Chronicle/issues/3101 | None | [einari](https://github.com/einari) | None | None | None |
-| Preview of Projections from Workbench doesn't do anything | https://github.com/Cratis/Chronicle/issues/3099 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Preview of Projections from Workbench doesn't do anything | https://github.com/Cratis/Chronicle/issues/3099 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 11 days, 4:00:31 | None |
 | Production TLS Hardening: Workbench-specific TLS config, gRPC enforcement, and Client bootstrap config | https://github.com/Cratis/Chronicle/issues/3088 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2:47:59 | None |
 | Constraint violation on nullable types when appending event | https://github.com/Cratis/Chronicle/issues/3086 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 4:47:51 | None |
 | Identity chain can have duplicates | https://github.com/Cratis/Chronicle/issues/3052 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 3 days, 16:52:23 | None |
@@ -320,4 +320,4 @@
 | Move default initialization of ensuring existence of event store and namespace out of MongoDB implementation | https://github.com/Cratis/Chronicle/issues/1375 | None | [einari](https://github.com/einari) | None | 22 days, 0:56:03 | None |
 | Hook up the CorrelationId throughout | https://github.com/Cratis/Chronicle/issues/1374 | None | [einari](https://github.com/einari) | None | 4 days, 22:02:43 | None |
 | Add support for creating mementos of a stream | https://github.com/Cratis/Chronicle/issues/1370 | None | [einari](https://github.com/einari) | None | None | None |
-| Look into moving tombstoned partitions into "cold" storage | https://github.com/Cratis/Chronicle/i
+| Look in
