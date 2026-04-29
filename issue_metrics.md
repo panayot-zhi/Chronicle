@@ -8,12 +8,13 @@
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 225 |
+| Number of items that remain open | 226 |
 | Number of items closed | 722 |
-| Total number of items created | 947 |
+| Total number of items created | 948 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Projection Simulation | https://github.com/Cratis/Chronicle/issues/3146 | None | [einari](https://github.com/einari) | None | None | None |
 | Support for setting / clearing single child object | https://github.com/Cratis/Chronicle/issues/3142 | None | [einari](https://github.com/einari) | None | None | None |
 | Content on redacted is not displaying everything in Workbench | https://github.com/Cratis/Chronicle/issues/3141 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 7:23:45 | None |
 | Errors for Reactors when closing Kernel | https://github.com/Cratis/Chronicle/issues/3140 | None | [einari](https://github.com/einari) | None | None | None |
@@ -319,5 +320,4 @@
 | Optimize EventSerializer | https://github.com/Cratis/Chronicle/issues/1382 | None | [einari](https://github.com/einari) | None | None | None |
 | Move default initialization of ensuring existence of event store and namespace out of MongoDB implementation | https://github.com/Cratis/Chronicle/issues/1375 | None | [einari](https://github.com/einari) | None | 22 days, 0:56:03 | None |
 | Hook up the CorrelationId throughout | https://github.com/Cratis/Chronicle/issues/1374 | None | [einari](https://github.com/einari) | None | 4 days, 22:02:43 | None |
-| Add support for creating mementos of a stream | https://github.com/Cratis/Chronicle/issues/1370 | None | [einari](https://github.com/einari) | None | None | None |
-| Look in
+| Add support for creating mement
