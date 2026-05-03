@@ -3,24 +3,31 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 129 days, 15:44:53 | 3 days, 22:09:24 | 307 days, 14:14:21 |
-| Time to close | 278 days, 5:53:13 | 105 days, 3:07:13 | 839 days, 1:56:42 |
+| Time to close | 275 days, 7:51:55 | 102 days, 2:00:32 | 838 days, 21:40:14 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 227 |
-| Number of items closed | 722 |
-| Total number of items created | 949 |
+| Number of items that remain open | 226 |
+| Number of items closed | 730 |
+| Total number of items created | 956 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Bug: faulted GetDefinition() in Reducers hangs client observable indefinitely | https://github.com/Cratis/Chronicle/issues/3172 | None | [einari](https://github.com/einari) | None | 1:02:31 | None |
+| Bug: race condition in AppendedEventsQueue.Unsubscribe — subscriptions can be silently lost | https://github.com/Cratis/Chronicle/issues/3171 | None | [einari](https://github.com/einari) | None | 1:02:46 | None |
+| Performance: IEnumerable<AppendedEvent> enumerated multiple times in AppendedEventsQueue | https://github.com/Cratis/Chronicle/issues/3170 | None | [einari](https://github.com/einari) | None | 1:03:02 | None |
+| Performance: multiple blocking .GetAwaiter().GetResult() calls in service and Rx pipeline code | https://github.com/Cratis/Chronicle/issues/3169 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 8:51:29 | None |
+| Performance: blocking async in AppendedEventSerializer (Orleans serialization hot path) | https://github.com/Cratis/Chronicle/issues/3168 | None | [einari](https://github.com/einari) | None | None | None |
+| Memory leak: CancellationTokenSource not disposed in JobStep on reactivation and Stop | https://github.com/Cratis/Chronicle/issues/3167 | None | [einari](https://github.com/einari) | None | 1:03:43 | None |
+| Memory leak: untracked Rx subscriptions in ProjectionEventContextExtensions | https://github.com/Cratis/Chronicle/issues/3166 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1:39:05 | None |
 | It would be nice to see what events affect which observers | https://github.com/Cratis/Chronicle/issues/3147 | None | [einari](https://github.com/einari) | None | None | None |
 | Projection Simulation | https://github.com/Cratis/Chronicle/issues/3146 | None | [einari](https://github.com/einari) | None | None | None |
 | Support for setting / clearing single child object | https://github.com/Cratis/Chronicle/issues/3142 | None | [einari](https://github.com/einari) | None | None | None |
 | Content on redacted is not displaying everything in Workbench | https://github.com/Cratis/Chronicle/issues/3141 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 7:23:45 | None |
 | Errors for Reactors when closing Kernel | https://github.com/Cratis/Chronicle/issues/3140 | None | [einari](https://github.com/einari) | None | None | None |
 | Collection of issues | https://github.com/Cratis/Chronicle/issues/3134 | None | [einari](https://github.com/einari) | None | 3 days, 23:48:05 | None |
-| Compliance - PII | https://github.com/Cratis/Chronicle/issues/3120 | None | [einari](https://github.com/einari) | None | None | None |
+| Compliance - PII | https://github.com/Cratis/Chronicle/issues/3120 | None | [einari](https://github.com/einari) | None | 14 days, 0:21:31 | None |
 | Time Traveling debugging | https://github.com/Cratis/Chronicle/issues/3118 | None | [einari](https://github.com/einari) | None | None | None |
 | Nested ChildrenFrom Collections Not Auto-initialized in Read Models | https://github.com/Cratis/Chronicle/issues/3114 | None | [einari](https://github.com/einari) | None | 8 days, 17:00:17 | None |
 | Configurable Admin user with credentials | https://github.com/Cratis/Chronicle/issues/3106 | None | [einari](https://github.com/einari) | None | 0:45:24 | None |
@@ -83,7 +90,7 @@
 | Compatibility checks for clients when connecting to server | https://github.com/Cratis/Chronicle/issues/2638 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 31 days, 5:40:08 | None |
 | Consolidate projects in Kernel | https://github.com/Cratis/Chronicle/issues/2632 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 3 days, 19:00:49 | None |
 | Code generators not working as expected | https://github.com/Cratis/Chronicle/issues/2622 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 12:27:32 | None |
-| Agentic Event Sourcing | https://github.com/Cratis/Chronicle/issues/2600 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Agentic Event Sourcing | https://github.com/Cratis/Chronicle/issues/2600 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 81 days, 12:10:49 | None |
 | Handle Keys properly with metadata and make ExpandoObjectConverter honor this | https://github.com/Cratis/Chronicle/issues/2586 | None | [einari](https://github.com/einari) | None | None | None |
 | Authorization + Workbench for Webhooks | https://github.com/Cratis/Chronicle/issues/2573 | None | [einari](https://github.com/einari) | None | 9 days, 8:31:59 | None |
 | Cratis.Chronicle 15.0.0 not published in NuGet Gallery | https://github.com/Cratis/Chronicle/issues/2572 | None | [leicht-io](https://github.com/leicht-io) | 10:36:35 | 10:36:35 | None |
@@ -311,13 +318,4 @@
 | Fix Unit of Work | https://github.com/Cratis/Chronicle/issues/1405 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | 2:46:54 | 460 days, 0:16:55 | None |
 | StatelessAggregateRootMutator should update NextSequenceNumber in a better way | https://github.com/Cratis/Chronicle/issues/1400 | None | [woksin](https://github.com/woksin) | None | 464 days, 14:54:02 | None |
 | StatelessAggregateRootMutator when rehydrating for orleans aggregate root the state is not reverted if rehydration fails | https://github.com/Cratis/Chronicle/issues/1398 | None | [woksin](https://github.com/woksin) | None | 464 days, 15:39:38 | None |
-| Add tracing to UnitOfWork | https://github.com/Cratis/Chronicle/issues/1396 | None | [woksin](https://github.com/woksin) | None | None | None |
-| Add logging messages for client reactors + reducers | https://github.com/Cratis/Chronicle/issues/1395 | None | [einari](https://github.com/einari) | None | None | None |
-| Support specifying key for events for Reactors and Reducers | https://github.com/Cratis/Chronicle/issues/1392 | None | [einari](https://github.com/einari) | None | None | None |
-| AggregateRootCommitResult.Events does not seem to come in order of when events was Applied | https://github.com/Cratis/Chronicle/issues/1864 | None | [woksin](https://github.com/woksin) | None | 466 days, 23:33:54 | None |
-| Look into how we represent a Key and see if we need to improve this | https://github.com/Cratis/Chronicle/issues/1387 | None | [einari](https://github.com/einari) | None | None | None |
-| Switch to KeepAliveAttribute for Grains that needs to always be there | https://github.com/Cratis/Chronicle/issues/1386 | None | [einari](https://github.com/einari) | None | 168 days, 16:13:26 | None |
-| Look into if it makes sense to allow sharing reducers and projections for Aggregates and Read Models | https://github.com/Cratis/Chronicle/issues/1383 | None | [einari](https://github.com/einari) | None | 472 days, 0:47:54 | None |
-| Optimize EventSerializer | https://github.com/Cratis/Chronicle/issues/1382 | None | [einari](https://github.com/einari) | None | None | None |
-| Move default initialization of ensuring existence of event store and namespace out of MongoDB implementation | https://github.com/Cratis/Chronicle/issues/1375 | None | [einari](https://github.com/einari) | None | 22 days, 0:56:03 | None |
-| Hook up the Correlati
+| Add tracing to UnitOfWork | https://github.com/Cratis/Chronicle/issues/1396 | None | [woksin](https://github.com/woksin) | None 
