@@ -3,17 +3,37 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 129 days, 15:44:53 | 3 days, 22:09:24 | 307 days, 14:14:21 |
-| Time to close | 275 days, 7:51:55 | 102 days, 2:00:32 | 838 days, 21:40:14 |
+| Time to close | 276 days, 14:43:05 | 102 days, 2:00:32 | 839 days, 1:56:42 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 226 |
-| Number of items closed | 730 |
-| Total number of items created | 956 |
+| Number of items that remain open | 244 |
+| Number of items closed | 732 |
+| Total number of items created | 976 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Add support for SQL sink type. | https://github.com/Cratis/Chronicle/issues/3201 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Exposé SQL support to the outside world | https://github.com/Cratis/Chronicle/issues/3199 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Feature: Observer-level quarantine to prevent retry storms from mass partition failures | https://github.com/Cratis/Chronicle/issues/3195 | None | [einari](https://github.com/einari) | None | None | None |
+| Feature: Quarantined partition state for consistently failing observer partitions | https://github.com/Cratis/Chronicle/issues/3194 | None | [einari](https://github.com/einari) | None | None | None |
+| Observer: Code hygiene — mutable ObserverState, naming inconsistencies, and logging in hot path | https://github.com/Cratis/Chronicle/issues/3193 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Observer: Replay state has no progress tracking or intermediate checkpointing | https://github.com/Cratis/Chronicle/issues/3192 | None | [einari](https://github.com/einari) | None | None | None |
+| Observer: No metrics or instrumentation for observer health and performance | https://github.com/Cratis/Chronicle/issues/3191 | None | [einari](https://github.com/einari) | None | None | None |
+| Observer: No cancellation token propagated to CatchUpObserver parallel loop | https://github.com/Cratis/Chronicle/issues/3190 | None | [einari](https://github.com/einari) | None | None | None |
+| Observer: MaxRetryAttempts configuration value is stored but never enforced | https://github.com/Cratis/Chronicle/issues/3189 | None | [einari](https://github.com/einari) | None | None | None |
+| Observer: GetFilteredEvents allocates a new List on every call causing GC pressure | https://github.com/Cratis/Chronicle/issues/3188 | None | [einari](https://github.com/einari) | None | None | None |
+| Observer: Event filtering happens client-side after full batch fetch, wasting memory | https://github.com/Cratis/Chronicle/issues/3187 | None | [einari](https://github.com/einari) | None | None | None |
+| Observer: Parallel.ForEachAsync in CatchUpObserver has no MaxDegreeOfParallelism | https://github.com/Cratis/Chronicle/issues/3186 | None | [einari](https://github.com/einari) | None | None | None |
+| Observer: No timeout on gRPC OnNext/OnCompleted writes to client | https://github.com/Cratis/Chronicle/issues/3185 | None | [einari](https://github.com/einari) | None | None | None |
+| Observer: No circuit breaker or backoff for consistently failing partitions | https://github.com/Cratis/Chronicle/issues/3184 | None | [einari](https://github.com/einari) | None | None | None |
+| Observer: FailedPartitions dictionary grows without bound causing memory leak | https://github.com/Cratis/Chronicle/issues/3183 | None | [einari](https://github.com/einari) | None | None | None |
+| Observer: Failed partitions can become permanently stuck with no recovery path | https://github.com/Cratis/Chronicle/issues/3182 | None | [einari](https://github.com/einari) | None | None | None |
+| Observer: RetryFailedPartition can double-call Complete causing job state corruption | https://github.com/Cratis/Chronicle/issues/3181 | None | [einari](https://github.com/einari) | None | None | None |
+| Observer: Race condition in DecryptEvents on State.Subject null check | https://github.com/Cratis/Chronicle/issues/3180 | None | [einari](https://github.com/einari) | None | None | None |
+| Observer: CatchUpObserver retries already-failed partitions causing CPU spin | https://github.com/Cratis/Chronicle/issues/3179 | None | [einari](https://github.com/einari) | None | None | None |
+| Observer.Subscribe() blocks for 27+ seconds preventing interleaved calls from completing | https://github.com/Cratis/Chronicle/issues/3177 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 7:04:13 | None |
 | Bug: faulted GetDefinition() in Reducers hangs client observable indefinitely | https://github.com/Cratis/Chronicle/issues/3172 | None | [einari](https://github.com/einari) | None | 1:02:31 | None |
 | Bug: race condition in AppendedEventsQueue.Unsubscribe — subscriptions can be silently lost | https://github.com/Cratis/Chronicle/issues/3171 | None | [einari](https://github.com/einari) | None | 1:02:46 | None |
 | Performance: IEnumerable<AppendedEvent> enumerated multiple times in AppendedEventsQueue | https://github.com/Cratis/Chronicle/issues/3170 | None | [einari](https://github.com/einari) | None | 1:03:02 | None |
@@ -297,25 +317,4 @@
 | Adjust column sizes in different views | https://github.com/Cratis/Chronicle/issues/1441 | None | [einari](https://github.com/einari) | None | 451 days, 12:40:00 | None |
 | Disable replay button for disconnected observers | https://github.com/Cratis/Chronicle/issues/1440 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 535 days, 4:42:10 | None |
 | Show "Are you sure" dialog when ignoring recommendation | https://github.com/Cratis/Chronicle/issues/1439 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 536 days, 4:39:29 | None |
-| Change to smaller font size and make things a bit more compact | https://github.com/Cratis/Chronicle/issues/1438 | None | [einari](https://github.com/einari) | None | 285 days, 5:29:44 | None |
-| Event and EventType details views should have scrollbars when content overflows vertically | https://github.com/Cratis/Chronicle/issues/1437 | None | [einari](https://github.com/einari) | None | None | None |
-| Show failed partition details when hovering and when clicking a failed partition | https://github.com/Cratis/Chronicle/issues/1436 | None | [einari](https://github.com/einari) | None | None | None |
-| Reducer methods without EventContext are not discovered | https://github.com/Cratis/Chronicle/issues/1435 | None | [einari](https://github.com/einari) | None | None | None |
-| Support unit of work for basic event sequence appends | https://github.com/Cratis/Chronicle/issues/1434 | None | [einari](https://github.com/einari) | None | 286 days, 0:17:05 | None |
-| While debugging increase / or disable timeout for observers | https://github.com/Cratis/Chronicle/issues/1433 | None | [woksin](https://github.com/woksin) | 150 days, 20:38:07 | None | None |
-| Replaying an observer and there only one event does not replay anything | https://github.com/Cratis/Chronicle/issues/1427 | None | [einari](https://github.com/einari) | None | 151 days, 12:33:18 | None |
-| Improve replay recommendation for Reactors | https://github.com/Cratis/Chronicle/issues/1426 | None | [einari](https://github.com/einari) | None | 151 days, 15:39:18 | None |
-| Introduce a client project for adding Workbench to a process | https://github.com/Cratis/Chronicle/issues/1425 | None | [einari](https://github.com/einari) | None | 41 days, 6:23:28 | None |
-| Fix Compliance hookup for clients | https://github.com/Cratis/Chronicle/issues/1424 | None | [einari](https://github.com/einari) | None | None | None |
-| Upgrade styles for Prime React to be able to upgrade Prime React | https://github.com/Cratis/Chronicle/issues/1423 | None | [einari](https://github.com/einari) | None | 288 days, 8:09:23 | None |
-| Parallelize Observers on partition | https://github.com/Cratis/Chronicle/issues/1420 | None | [woksin](https://github.com/woksin) | None | 297 days, 5:14:04 | None |
-| Improve Cratis.Chronicle.Storage.MongoDB.Sinks.Sink ApplyChanges | https://github.com/Cratis/Chronicle/issues/1419 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [woksin](https://github.com/woksin) | None | 501 days, 9:25:59 | None |
-| ObserverManager.Notify calls multiple places uses non-task notification delegate | https://github.com/Cratis/Chronicle/issues/1418 | None | [woksin](https://github.com/woksin) | None | None | None |
-| There are lots of magic TimeSpan.From*** in the codebase, many of them should be configurable | https://github.com/Cratis/Chronicle/issues/1417 | None | [woksin](https://github.com/woksin) | None | None | None |
-| Improve projection comparer to support scenarios that are safe to not be considered different | https://github.com/Cratis/Chronicle/issues/1416 | None | [einari](https://github.com/einari) | None | None | None |
-| Issues with Reactor | https://github.com/Cratis/Chronicle/issues/1411 | None | [woksin](https://github.com/woksin) | None | 9:50:30 | None |
-| Add integration specs for constraints | https://github.com/Cratis/Chronicle/issues/1406 | None | [einari](https://github.com/einari) | None | None | None |
-| Fix Unit of Work | https://github.com/Cratis/Chronicle/issues/1405 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | 2:46:54 | 460 days, 0:16:55 | None |
-| StatelessAggregateRootMutator should update NextSequenceNumber in a better way | https://github.com/Cratis/Chronicle/issues/1400 | None | [woksin](https://github.com/woksin) | None | 464 days, 14:54:02 | None |
-| StatelessAggregateRootMutator when rehydrating for orleans aggregate root the state is not reverted if rehydration fails | https://github.com/Cratis/Chronicle/issues/1398 | None | [woksin](https://github.com/woksin) | None | 464 days, 15:39:38 | None |
-| Add tracing to UnitOfWork | https://github.com/Cratis/Chronicle/issues/1396 | None | [woksin](https://github.com/woksin) | None 
+| Change to smaller font size and make things a
