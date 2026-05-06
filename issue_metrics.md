@@ -8,12 +8,13 @@
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 243 |
+| Number of items that remain open | 244 |
 | Number of items closed | 733 |
-| Total number of items created | 976 |
+| Total number of items created | 977 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Add support for HashiCorp Vault for storage of certificates for subjects related to GDPR/PII | https://github.com/Cratis/Chronicle/issues/3205 | None | [einari](https://github.com/einari) | None | None | None |
 | Add support for SQL sink type. | https://github.com/Cratis/Chronicle/issues/3201 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 0:39:56 | None |
 | Exposé SQL support to the outside world | https://github.com/Cratis/Chronicle/issues/3199 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Feature: Observer-level quarantine to prevent retry storms from mass partition failures | https://github.com/Cratis/Chronicle/issues/3195 | None | [einari](https://github.com/einari) | None | None | None |
@@ -316,5 +317,4 @@
 | Make it possible for event handling methods to be private | https://github.com/Cratis/Chronicle/issues/1442 | None | [einari](https://github.com/einari) | None | 4 days, 7:05:23 | None |
 | Adjust column sizes in different views | https://github.com/Cratis/Chronicle/issues/1441 | None | [einari](https://github.com/einari) | None | 451 days, 12:40:00 | None |
 | Disable replay button for disconnected observers | https://github.com/Cratis/Chronicle/issues/1440 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 535 days, 4:42:10 | None |
-| Show "Are you sure" dialog when ignoring recommendation | https://github.com/Cratis/Chronicle/issues/1439 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 536 days, 4:39:29 | None |
-| Change to smaller font size and make
+| Show "Are you sure" dialog when ignoring recommendation | https://github.com/Crati
