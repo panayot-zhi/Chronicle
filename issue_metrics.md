@@ -8,12 +8,15 @@
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 243 |
+| Number of items that remain open | 246 |
 | Number of items closed | 734 |
-| Total number of items created | 977 |
+| Total number of items created | 980 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Subject key must follow between event stores | https://github.com/Cratis/Chronicle/issues/3216 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Elixir Contracts Client | https://github.com/Cratis/Chronicle/issues/3214 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| .NET client AppendMany sends null contract members and causes kernel AppendMany to throw | https://github.com/Cratis/Chronicle/issues/3211 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Add support for HashiCorp Vault for storage of certificates for subjects related to GDPR/PII | https://github.com/Cratis/Chronicle/issues/3205 | None | [einari](https://github.com/einari) | None | None | None |
 | Add support for SQL sink type. | https://github.com/Cratis/Chronicle/issues/3201 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 0:39:56 | None |
 | Exposé SQL support to the outside world | https://github.com/Cratis/Chronicle/issues/3199 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
@@ -313,8 +316,4 @@
 | Add support for "closing the books" type of book keeping | https://github.com/Cratis/Chronicle/issues/1448 | None | [einari](https://github.com/einari) | None | None | None |
 | Add support for completing a stream | https://github.com/Cratis/Chronicle/issues/1446 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | 308 days, 13:38:35 | None | None |
 | Add the concept of stream that goes along with all events | https://github.com/Cratis/Chronicle/issues/1445 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 47 days, 7:19:58 | None |
-| Invalid path for reactors in client (Reactions) | https://github.com/Cratis/Chronicle/issues/1443 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 37 days, 2:01:24 | None |
-| Make it possible for event handling methods to be private | https://github.com/Cratis/Chronicle/issues/1442 | None | [einari](https://github.com/einari) | None | 4 days, 7:05:23 | None |
-| Adjust column sizes in different views | https://github.com/Cratis/Chronicle/issues/1441 | None | [einari](https://github.com/einari) | None | 451 days, 12:40:00 | None |
-| Disable replay button for disconnected observers | https://github.com/Cratis/Chronicle/issues/1440 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 535 days, 4:42:10 | None |
-| Show "Are you sure" dialog when ignoring recommendation | https://git
+| Invalid path for reactors in client (Reactions) | https://github.com/Cratis/Chronicle/issues/1443 | [einari](https://github.com/einari) | [einari](https://github.com/
