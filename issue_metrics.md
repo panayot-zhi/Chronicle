@@ -3,19 +3,19 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 129 days, 15:44:53 | 3 days, 22:09:24 | 307 days, 14:14:21 |
-| Time to close | 275 days, 2:51:18 | 101 days, 7:35:20 | 838 days, 23:48:28 |
+| Time to close | 274 days, 17:55:35 | 101 days, 7:31:27 | 838 days, 23:16:24 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 246 |
-| Number of items closed | 736 |
+| Number of items that remain open | 245 |
+| Number of items closed | 737 |
 | Total number of items created | 982 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
 | Potential bug for Constraints when using deep property paths | https://github.com/Cratis/Chronicle/issues/3222 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
-| Connection String breaking change fix | https://github.com/Cratis/Chronicle/issues/3220 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Connection String breaking change fix | https://github.com/Cratis/Chronicle/issues/3220 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 22:26:14 | None |
 | Subject key must follow between event stores | https://github.com/Cratis/Chronicle/issues/3216 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 4:43:03 | None |
 | Elixir Contracts Client | https://github.com/Cratis/Chronicle/issues/3214 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 7:32:00 | None |
 | .NET client AppendMany sends null contract members and causes kernel AppendMany to throw | https://github.com/Cratis/Chronicle/issues/3211 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
@@ -316,4 +316,4 @@
 | Refactor EventSequence Grain | https://github.com/Cratis/Chronicle/issues/1451 | None | [einari](https://github.com/einari) | None | None | None |
 | Add support for constraints scoped to a stream | https://github.com/Cratis/Chronicle/issues/1449 | None | [einari](https://github.com/einari) | None | None | None |
 | Add support for "closing the books" type of book keeping | https://github.com/Cratis/Chronicle/issues/1448 | None | [einari](https://github.com/einari) | None | None | None |
-| Add support for completing a stream | https://github.com/Cratis/Chronicle/issues/1446 | [w
+| Add support for completing a stream | https://github.com/Cratis/Chronicle/issues/1446
