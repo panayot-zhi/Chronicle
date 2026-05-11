@@ -3,18 +3,18 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 129 days, 15:44:53 | 3 days, 22:09:24 | 307 days, 14:14:21 |
-| Time to close | 274 days, 17:55:35 | 101 days, 7:31:27 | 838 days, 23:16:24 |
+| Time to close | 277 days, 14:07:20 | 102 days, 2:00:32 | 840 days, 11:11:35 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 245 |
-| Number of items closed | 737 |
+| Number of items that remain open | 238 |
+| Number of items closed | 744 |
 | Total number of items created | 982 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
-| Potential bug for Constraints when using deep property paths | https://github.com/Cratis/Chronicle/issues/3222 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Potential bug for Constraints when using deep property paths | https://github.com/Cratis/Chronicle/issues/3222 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2 days, 20:31:49 | None |
 | Connection String breaking change fix | https://github.com/Cratis/Chronicle/issues/3220 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 22:26:14 | None |
 | Subject key must follow between event stores | https://github.com/Cratis/Chronicle/issues/3216 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 4:43:03 | None |
 | Elixir Contracts Client | https://github.com/Cratis/Chronicle/issues/3214 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 7:32:00 | None |
@@ -176,9 +176,9 @@
 | Simplify and merge projects | https://github.com/Cratis/Chronicle/issues/1898 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | None | None |
 | Watch Projection changeset for Children RemoveWithJoin issue | https://github.com/Cratis/Chronicle/issues/1896 | None | [woksin](https://github.com/woksin) | 0:32:56 | None | None |
 | Formalize Read Model definition storage and make it generational | https://github.com/Cratis/Chronicle/issues/1877 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 110 days, 2:01:01 | None |
-| Support SQL type of servers as Sink for Reducers and Projections | https://github.com/Cratis/Chronicle/issues/1869 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | 8 days, 18:13:02 | None | None |
+| Support SQL type of servers as Sink for Reducers and Projections | https://github.com/Cratis/Chronicle/issues/1869 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | 8 days, 18:13:02 | 388 days, 15:51:44 | None |
 | Support SQL type Servers as Event Store | https://github.com/Cratis/Chronicle/issues/1868 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | None | None |
-| Support clustering for Kernel | https://github.com/Cratis/Chronicle/issues/1863 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Support clustering for Kernel | https://github.com/Cratis/Chronicle/issues/1863 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 392 days, 22:56:19 | None |
 | Support for compensating existing events | https://github.com/Cratis/Chronicle/issues/1860 | None | [einari](https://github.com/einari) | None | None | None |
 | Support migration of events between generations (up & down casting) | https://github.com/Cratis/Chronicle/issues/1859 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 342 days, 7:40:08 | None |
 | Add support for redacting events | https://github.com/Cratis/Chronicle/issues/1858 | None | [einari](https://github.com/einari) | None | 338 days, 3:02:52 | None |
@@ -187,7 +187,7 @@
 | Add a way to wait for all observers affected by an append to an event sequence | https://github.com/Cratis/Chronicle/issues/1845 | None | [einari](https://github.com/einari) | None | None | None |
 | Build the namespaces for integration specs dynamically based on folders | https://github.com/Cratis/Chronicle/issues/1821 | None | [einari](https://github.com/einari) | None | None | None |
 | Attempted sequence number of a failed partition attempt seems to be wrong | https://github.com/Cratis/Chronicle/issues/1820 | None | [einari](https://github.com/einari) | None | None | None |
-| Run MongoDB in-memory engine to improve run speed of integration specs | https://github.com/Cratis/Chronicle/issues/1811 | None | [einari](https://github.com/einari) | None | None | None |
+| Run MongoDB in-memory engine to improve run speed of integration specs | https://github.com/Cratis/Chronicle/issues/1811 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Improve setup / teardown | https://github.com/Cratis/Chronicle/issues/1810 | None | [einari](https://github.com/einari) | None | None | None |
 | Parallelize running integration specs in GitHub workflow | https://github.com/Cratis/Chronicle/issues/1809 | None | [einari](https://github.com/einari) | 3:12:02 | 3:12:02 | None |
 | Improve performance of integration specs | https://github.com/Cratis/Chronicle/issues/1808 | None | [einari](https://github.com/einari) | None | None | None |
@@ -240,7 +240,7 @@
 | Support defining what is the Key - unique identifier on a model | https://github.com/Cratis/Chronicle/issues/1630 | None | [einari](https://github.com/einari) | None | None | None |
 | Constraints should be registered in the event store - maybe even as Grains?? | https://github.com/Cratis/Chronicle/issues/1615 | None | [einari](https://github.com/einari) | None | None | None |
 | When starting up Job System should make sure that all persisted jobs are resumed | https://github.com/Cratis/Chronicle/issues/1614 | None | [woksin](https://github.com/woksin) | None | 91 days, 7:39:17 | None |
-| Constraints should support the ability to have support  multiple properties for unique constraints as a composite from an event | https://github.com/Cratis/Chronicle/issues/1612 | None | [einari](https://github.com/einari) | None | None | None |
+| Constraints should support the ability to have support  multiple properties for unique constraints as a composite from an event | https://github.com/Cratis/Chronicle/issues/1612 | None | [einari](https://github.com/einari) | None | 513 days, 17:23:27 | None |
 | Job OnStepFailed and OnStepSucceeded should be "recoverable" | https://github.com/Cratis/Chronicle/issues/1609 | None | [woksin](https://github.com/woksin) | None | 97 days, 8:56:20 | None |
 | We have some (at least two, Job and JobStep) that need to call itself indirectly to avoid issues | https://github.com/Cratis/Chronicle/issues/1606 | None | [woksin](https://github.com/woksin) | None | 98 days, 6:49:49 | None |
 | Observer reminder for failed partition is removed twice | https://github.com/Cratis/Chronicle/issues/1605 | [Copilot](https://github.com/Copilot) | [woksin](https://github.com/woksin) | 210 days, 7:10:52 | 216 days, 0:54:00 | None |
@@ -315,5 +315,4 @@
 | Look into switching to .NET 9 new JsonSchemaExporter instead of NJsonSchema | https://github.com/Cratis/Chronicle/issues/1459 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 538 days, 0:51:52 | None |
 | Refactor EventSequence Grain | https://github.com/Cratis/Chronicle/issues/1451 | None | [einari](https://github.com/einari) | None | None | None |
 | Add support for constraints scoped to a stream | https://github.com/Cratis/Chronicle/issues/1449 | None | [einari](https://github.com/einari) | None | None | None |
-| Add support for "closing the books" type of book keeping | https://github.com/Cratis/Chronicle/issues/1448 | None | [einari](https://github.com/einari) | None | None | None |
-| Add support for completing a stream | https://github.com/Cratis/Chronicle/issues/1446
+| Add support for "closing the books" type of book keeping | https://github.com/Cratis/Chronicle/issues/1448 | None | [einari](https://githu
