@@ -3,17 +3,19 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 129 days, 15:44:53 | 3 days, 22:09:24 | 307 days, 14:14:21 |
-| Time to close | 272 days, 15:03:36 | 97 days, 23:31:19 | 838 days, 21:08:10 |
+| Time to close | 273 days, 0:19:58 | 97 days, 23:31:19 | 839 days, 0:20:32 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 223 |
-| Number of items closed | 761 |
-| Total number of items created | 984 |
+| Number of items that remain open | 221 |
+| Number of items closed | 765 |
+| Total number of items created | 986 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Decrypt read models and appended events | https://github.com/Cratis/Chronicle/issues/3246 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2:18:52 | None |
+| Make the server compile with proper AOT | https://github.com/Cratis/Chronicle/issues/3243 | None | [einari](https://github.com/einari) | None | None | None |
 | __subject missing on Projected read models | https://github.com/Cratis/Chronicle/issues/3235 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 16:58:53 | None |
 | Improve projection/reducer registration diagnostics and key schema validation | https://github.com/Cratis/Chronicle/issues/3233 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 17:33:03 | None |
 | Potential bug for Constraints when using deep property paths | https://github.com/Cratis/Chronicle/issues/3222 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2 days, 20:31:49 | None |
@@ -32,7 +34,7 @@
 | Observer: No cancellation token propagated to CatchUpObserver parallel loop | https://github.com/Cratis/Chronicle/issues/3190 | None | [einari](https://github.com/einari) | None | None | None |
 | Observer: MaxRetryAttempts configuration value is stored but never enforced | https://github.com/Cratis/Chronicle/issues/3189 | None | [einari](https://github.com/einari) | None | 9 days, 4:46:07 | None |
 | Observer: GetFilteredEvents allocates a new List on every call causing GC pressure | https://github.com/Cratis/Chronicle/issues/3188 | None | [einari](https://github.com/einari) | None | None | None |
-| Observer: Event filtering happens client-side after full batch fetch, wasting memory | https://github.com/Cratis/Chronicle/issues/3187 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Observer: Event filtering happens client-side after full batch fetch, wasting memory | https://github.com/Cratis/Chronicle/issues/3187 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 10 days, 3:15:29 | None |
 | Observer: Parallel.ForEachAsync in CatchUpObserver has no MaxDegreeOfParallelism | https://github.com/Cratis/Chronicle/issues/3186 | None | [einari](https://github.com/einari) | None | None | None |
 | Observer: No timeout on gRPC OnNext/OnCompleted writes to client | https://github.com/Cratis/Chronicle/issues/3185 | None | [einari](https://github.com/einari) | None | 9 days, 4:47:11 | None |
 | Observer: No circuit breaker or backoff for consistently failing partitions | https://github.com/Cratis/Chronicle/issues/3184 | None | [einari](https://github.com/einari) | None | 9 days, 4:47:25 | None |
@@ -179,7 +181,7 @@
 | Watch Projection changeset for Children RemoveWithJoin issue | https://github.com/Cratis/Chronicle/issues/1896 | None | [woksin](https://github.com/woksin) | 0:32:56 | None | None |
 | Formalize Read Model definition storage and make it generational | https://github.com/Cratis/Chronicle/issues/1877 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 110 days, 2:01:01 | None |
 | Support SQL type of servers as Sink for Reducers and Projections | https://github.com/Cratis/Chronicle/issues/1869 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | 8 days, 18:13:02 | 388 days, 15:51:44 | None |
-| Support SQL type Servers as Event Store | https://github.com/Cratis/Chronicle/issues/1868 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | None | None |
+| Support SQL type Servers as Event Store | https://github.com/Cratis/Chronicle/issues/1868 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 390 days, 19:23:20 | None |
 | Support clustering for Kernel | https://github.com/Cratis/Chronicle/issues/1863 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 392 days, 22:56:19 | None |
 | Support for compensating existing events | https://github.com/Cratis/Chronicle/issues/1860 | None | [einari](https://github.com/einari) | None | 394 days, 16:37:11 | None |
 | Support migration of events between generations (up & down casting) | https://github.com/Cratis/Chronicle/issues/1859 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 342 days, 7:40:08 | None |
@@ -312,5 +314,3 @@
 | Support the Outbox -> Inbox forwarding and subscriptions - configured from the client | https://github.com/Cratis/Chronicle/issues/1473 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 537 days, 4:38:11 | None |
 | Add support for overriding the type a type should be represented as in the JsonSchema when used in an Event or Read Model | https://github.com/Cratis/Chronicle/issues/1470 | None | [einari](https://github.com/einari) | None | None | None |
 | Expose configuration for adding JsonConverters | https://github.com/Cratis/Chronicle/issues/1469 | None | [einari](https://github.com/einari) | None | None | None |
-| Observers should resolve dependencies from scoped service provider | https://github.com/Cratis/Chronicle/issues/1468 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1 day, 2:11:05 | None |
-| Custom JsonConverter not used | https://github.com/Cratis/Chronicle/issues/1466 | [einari](https://github.com/einari) | [Petteroe](https://github.com/Petteroe) | 1 day, 0:04:32 | 1 day, 
