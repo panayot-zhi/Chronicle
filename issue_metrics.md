@@ -3,17 +3,19 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 129 days, 15:44:53 | 3 days, 22:09:24 | 307 days, 14:14:21 |
-| Time to close | 273 days, 0:19:58 | 97 days, 23:31:19 | 839 days, 0:20:32 |
+| Time to close | 272 days, 20:07:03 | 97 days, 6:45:58 | 839 days, 7:09:10 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 221 |
-| Number of items closed | 765 |
-| Total number of items created | 986 |
+| Number of items that remain open | 218 |
+| Number of items closed | 770 |
+| Total number of items created | 988 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Docker image cratis/chronicle:latest-development fails to start Chronicle server | https://github.com/Cratis/Chronicle/issues/3250 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 0:23:09 | None |
+| Capture Declaration Language (CDL) — Change Data Capture DSL | https://github.com/Cratis/Chronicle/issues/3248 | None | [einari](https://github.com/einari) | None | None | None |
 | Decrypt read models and appended events | https://github.com/Cratis/Chronicle/issues/3246 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2:18:52 | None |
 | Make the server compile with proper AOT | https://github.com/Cratis/Chronicle/issues/3243 | None | [einari](https://github.com/einari) | None | None | None |
 | __subject missing on Projected read models | https://github.com/Cratis/Chronicle/issues/3235 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 16:58:53 | None |
@@ -31,16 +33,16 @@
 | Observer: Code hygiene — mutable ObserverState, naming inconsistencies, and logging in hot path | https://github.com/Cratis/Chronicle/issues/3193 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 3 days, 2:52:31 | None |
 | Observer: Replay state has no progress tracking or intermediate checkpointing | https://github.com/Cratis/Chronicle/issues/3192 | None | [einari](https://github.com/einari) | None | 9 days, 4:45:30 | None |
 | Observer: No metrics or instrumentation for observer health and performance | https://github.com/Cratis/Chronicle/issues/3191 | None | [einari](https://github.com/einari) | None | 9 days, 4:45:45 | None |
-| Observer: No cancellation token propagated to CatchUpObserver parallel loop | https://github.com/Cratis/Chronicle/issues/3190 | None | [einari](https://github.com/einari) | None | None | None |
+| Observer: No cancellation token propagated to CatchUpObserver parallel loop | https://github.com/Cratis/Chronicle/issues/3190 | None | [einari](https://github.com/einari) | None | 11 days, 19:04:57 | None |
 | Observer: MaxRetryAttempts configuration value is stored but never enforced | https://github.com/Cratis/Chronicle/issues/3189 | None | [einari](https://github.com/einari) | None | 9 days, 4:46:07 | None |
-| Observer: GetFilteredEvents allocates a new List on every call causing GC pressure | https://github.com/Cratis/Chronicle/issues/3188 | None | [einari](https://github.com/einari) | None | None | None |
+| Observer: GetFilteredEvents allocates a new List on every call causing GC pressure | https://github.com/Cratis/Chronicle/issues/3188 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Observer: Event filtering happens client-side after full batch fetch, wasting memory | https://github.com/Cratis/Chronicle/issues/3187 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 10 days, 3:15:29 | None |
-| Observer: Parallel.ForEachAsync in CatchUpObserver has no MaxDegreeOfParallelism | https://github.com/Cratis/Chronicle/issues/3186 | None | [einari](https://github.com/einari) | None | None | None |
+| Observer: Parallel.ForEachAsync in CatchUpObserver has no MaxDegreeOfParallelism | https://github.com/Cratis/Chronicle/issues/3186 | None | [einari](https://github.com/einari) | None | 11 days, 19:08:14 | None |
 | Observer: No timeout on gRPC OnNext/OnCompleted writes to client | https://github.com/Cratis/Chronicle/issues/3185 | None | [einari](https://github.com/einari) | None | 9 days, 4:47:11 | None |
 | Observer: No circuit breaker or backoff for consistently failing partitions | https://github.com/Cratis/Chronicle/issues/3184 | None | [einari](https://github.com/einari) | None | 9 days, 4:47:25 | None |
 | Observer: FailedPartitions dictionary grows without bound causing memory leak | https://github.com/Cratis/Chronicle/issues/3183 | None | [einari](https://github.com/einari) | None | 9 days, 4:47:42 | None |
 | Observer: Failed partitions can become permanently stuck with no recovery path | https://github.com/Cratis/Chronicle/issues/3182 | None | [einari](https://github.com/einari) | None | 9 days, 4:47:55 | None |
-| Observer: RetryFailedPartition can double-call Complete causing job state corruption | https://github.com/Cratis/Chronicle/issues/3181 | None | [einari](https://github.com/einari) | None | None | None |
+| Observer: RetryFailedPartition can double-call Complete causing job state corruption | https://github.com/Cratis/Chronicle/issues/3181 | None | [einari](https://github.com/einari) | None | 11 days, 19:05:17 | None |
 | Observer: Race condition in DecryptEvents on State.Subject null check | https://github.com/Cratis/Chronicle/issues/3180 | None | [einari](https://github.com/einari) | None | 9 days, 8:40:45 | None |
 | Observer: CatchUpObserver retries already-failed partitions causing CPU spin | https://github.com/Cratis/Chronicle/issues/3179 | None | [einari](https://github.com/einari) | None | 9 days, 8:40:27 | None |
 | Observer.Subscribe() blocks for 27+ seconds preventing interleaved calls from completing | https://github.com/Cratis/Chronicle/issues/3177 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 7:04:13 | None |
@@ -311,6 +313,4 @@
 | Implement Orleans serializer for IEnumerable<> | https://github.com/Cratis/Chronicle/issues/1516 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 402 days, 9:01:47 | None |
 | Add support for clearing all children in a projection | https://github.com/Cratis/Chronicle/issues/1475 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Unit Of Work transactions does not respect event constraints | https://github.com/Cratis/Chronicle/issues/1474 | None | [woksin](https://github.com/woksin) | None | None | None |
-| Support the Outbox -> Inbox forwarding and subscriptions - configured from the client | https://github.com/Cratis/Chronicle/issues/1473 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 537 days, 4:38:11 | None |
-| Add support for overriding the type a type should be represented as in the JsonSchema when used in an Event or Read Model | https://github.com/Cratis/Chronicle/issues/1470 | None | [einari](https://github.com/einari) | None | None | None |
-| Expose configuration for adding JsonConverters | https://github.com/Cratis/Chronicle/issues/1469 | None | [einari](https://github.com/einari) | None | None | None |
+| Support the Outbox -> Inbox forwarding and subscriptions - configured from the client | http
