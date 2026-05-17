@@ -3,17 +3,18 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 129 days, 15:44:53 | 3 days, 22:09:24 | 307 days, 14:14:21 |
-| Time to close | 286 days, 2:18:25 | 102 days, 0:48:27 | 873 days, 5:03:43 |
+| Time to close | 291 days, 5:59:27 | 103 days, 8:31:45 | 878 days, 15:08:23 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 198 |
-| Number of items closed | 791 |
-| Total number of items created | 989 |
+| Number of items that remain open | 187 |
+| Number of items closed | 803 |
+| Total number of items created | 990 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Issues with slim image | https://github.com/Cratis/Chronicle/issues/3272 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 0:14:04 | None |
 | Introduce a development slim image | https://github.com/Cratis/Chronicle/issues/3264 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 0:52:48 | None |
 | Docker image cratis/chronicle:latest-development fails to start Chronicle server | https://github.com/Cratis/Chronicle/issues/3250 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 0:23:09 | None |
 | Capture Declaration Language (CDL) — Change Data Capture DSL | https://github.com/Cratis/Chronicle/issues/3248 | None | [einari](https://github.com/einari) | None | None | None |
@@ -26,7 +27,7 @@
 | Subject key must follow between event stores | https://github.com/Cratis/Chronicle/issues/3216 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 4:43:03 | None |
 | Elixir Contracts Client | https://github.com/Cratis/Chronicle/issues/3214 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 7:32:00 | None |
 | .NET client AppendMany sends null contract members and causes kernel AppendMany to throw | https://github.com/Cratis/Chronicle/issues/3211 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 4 days, 3:23:12 | None |
-| Add support for HashiCorp Vault for storage of certificates for subjects related to GDPR/PII | https://github.com/Cratis/Chronicle/issues/3205 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Add support for HashiCorp Vault for storage of certificates for subjects related to GDPR/PII | https://github.com/Cratis/Chronicle/issues/3205 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 11 days, 0:22:40 | None |
 | Add support for SQL sink type. | https://github.com/Cratis/Chronicle/issues/3201 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 0:39:56 | None |
 | Exposé SQL support to the outside world | https://github.com/Cratis/Chronicle/issues/3199 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 8 days, 22:03:08 | None |
 | Feature: Observer-level quarantine to prevent retry storms from mass partition failures | https://github.com/Cratis/Chronicle/issues/3195 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 12 days, 8:56:30 | None |
@@ -223,7 +224,7 @@
 | Add a constraint editor for seeing and updating values in things like the unique constraint index | https://github.com/Cratis/Chronicle/issues/1724 | None | [einari](https://github.com/einari) | None | None | None |
 | Allow for case insensitivity for constraints | https://github.com/Cratis/Chronicle/issues/1723 | None | [einari](https://github.com/einari) | 1:27:24 | 28 days, 1:06:33 | None |
 | Change JobStepState.Type to be the same semantically as JobState.Type | https://github.com/Cratis/Chronicle/issues/1706 | None | [woksin](https://github.com/woksin) | None | 33 days, 3:37:40 | None |
-| When unsubscribing Observer it should also Pause all ongoing jobs for that observer so that they can be resumed later | https://github.com/Cratis/Chronicle/issues/1705 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [woksin](https://github.com/woksin) | None | None | None |
+| When unsubscribing Observer it should also Pause all ongoing jobs for that observer so that they can be resumed later | https://github.com/Cratis/Chronicle/issues/1705 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [woksin](https://github.com/woksin) | None | 458 days, 3:18:13 | None |
 | In Job implementations handle failures of steps | https://github.com/Cratis/Chronicle/issues/1703 | None | [woksin](https://github.com/woksin) | None | 33 days, 8:56:56 | None |
 | ObserverManager Expiration time | https://github.com/Cratis/Chronicle/issues/1692 | None | [woksin](https://github.com/woksin) | 18 days, 20:18:08 | 18 days, 20:18:52 | None |
 | It should be possible to see catching up/replaying partitions for an observer and delete these in the workbench | https://github.com/Cratis/Chronicle/issues/1690 | None | [einari](https://github.com/einari) | None | None | None |
@@ -276,7 +277,7 @@
 | Remove System.Private.Uri audit suppression from Directory.Build.Props when fixed in .NET 9.0.200 | https://github.com/Cratis/Chronicle/issues/1575 | None | [einari](https://github.com/einari) | None | 85 days, 16:18:18 | None |
 | In Observer Jobs figure out what to do when HandeEventsFOrPartition job handles no events | https://github.com/Cratis/Chronicle/issues/1571 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 19 days, 3:14:54 | None |
 | GetNextSequenceNumberGreaterOrEqualThan may cause problems | https://github.com/Cratis/Chronicle/issues/1570 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 17 days, 23:49:29 | None |
-| Reactors will never reconnect if connection is lost and re-established | https://github.com/Cratis/Chronicle/issues/1566 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Reactors will never reconnect if connection is lost and re-established | https://github.com/Cratis/Chronicle/issues/1566 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 535 days, 21:19:47 | None |
 | Extract our internal integration test helpers into the testing library we offer | https://github.com/Cratis/Chronicle/issues/1564 | None | [einari](https://github.com/einari) | None | 471 days, 19:27:24 | None |
 | Integration tests for Reducers | https://github.com/Cratis/Chronicle/issues/1563 | None | [einari](https://github.com/einari) | None | None | None |
 | Integration tests for Reactors | https://github.com/Cratis/Chronicle/issues/1562 | None | [einari](https://github.com/einari) | None | None | None |
@@ -308,6 +309,4 @@
 | Upgrade to .NET 9 | https://github.com/Cratis/Chronicle/issues/1528 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | 8 days, 5:51:24 | None |
 | Add tracing | https://github.com/Cratis/Chronicle/issues/1527 | None | [einari](https://github.com/einari) | None | None | None |
 | Improve Log coverage | https://github.com/Cratis/Chronicle/issues/1526 | None | [einari](https://github.com/einari) | None | 393 days, 0:27:36 | None |
-| Add details on recommendations | https://github.com/Cratis/Chronicle/issues/1522 | None | [einari](https://github.com/einari) | None | None | None |
-| Some Observer properties in state has wrong values | https://github.com/Cratis/Chronicle/issues/1521 | None | [einari](https://github.com/einari) | 9 days, 7:29:21 | 541 days, 20:39:40 | None |
-|
+| Add details on recommendations | https://github.com/Cratis/Chronicle/issues/1522 | None | 
