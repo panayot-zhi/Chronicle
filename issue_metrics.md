@@ -3,17 +3,19 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 129 days, 15:44:53 | 3 days, 22:09:24 | 307 days, 14:14:21 |
-| Time to close | 291 days, 5:59:27 | 103 days, 8:31:45 | 878 days, 15:08:23 |
+| Time to close | 291 days, 22:30:01 | 106 days, 21:42:41 | 876 days, 0:57:12 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 187 |
-| Number of items closed | 803 |
-| Total number of items created | 990 |
+| Number of items that remain open | 185 |
+| Number of items closed | 807 |
+| Total number of items created | 992 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| [SetValue<TEvent>] on child record constructor parameters is not applied in ChildrenFrom projections | https://github.com/Cratis/Chronicle/issues/3275 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2:46:20 | None |
+| Onboarding: Improve Learning / getting started paths | https://github.com/Cratis/Chronicle/issues/3274 | None | [einari](https://github.com/einari) | None | None | None |
 | Issues with slim image | https://github.com/Cratis/Chronicle/issues/3272 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 0:14:04 | None |
 | Introduce a development slim image | https://github.com/Cratis/Chronicle/issues/3264 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 0:52:48 | None |
 | Docker image cratis/chronicle:latest-development fails to start Chronicle server | https://github.com/Cratis/Chronicle/issues/3250 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 0:23:09 | None |
@@ -193,7 +195,7 @@
 | Add support for handling things in bulk for Reactors | https://github.com/Cratis/Chronicle/issues/1857 | None | [einari](https://github.com/einari) | None | None | None |
 | Add support for handling things in bulk for Reducers | https://github.com/Cratis/Chronicle/issues/1856 | None | [einari](https://github.com/einari) | None | None | None |
 | Add a way to wait for all observers affected by an append to an event sequence | https://github.com/Cratis/Chronicle/issues/1845 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
-| Build the namespaces for integration specs dynamically based on folders | https://github.com/Cratis/Chronicle/issues/1821 | None | [einari](https://github.com/einari) | None | None | None |
+| Build the namespaces for integration specs dynamically based on folders | https://github.com/Cratis/Chronicle/issues/1821 | None | [einari](https://github.com/einari) | None | 418 days, 21:50:15 | None |
 | Attempted sequence number of a failed partition attempt seems to be wrong | https://github.com/Cratis/Chronicle/issues/1820 | None | [einari](https://github.com/einari) | None | None | None |
 | Run MongoDB in-memory engine to improve run speed of integration specs | https://github.com/Cratis/Chronicle/issues/1811 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 416 days, 19:27:03 | None |
 | Improve setup / teardown | https://github.com/Cratis/Chronicle/issues/1810 | None | [einari](https://github.com/einari) | None | 420 days, 0:25:56 | None |
@@ -306,7 +308,4 @@
 | Increase Integration spec coverage | https://github.com/Cratis/Chronicle/issues/1531 | None | [einari](https://github.com/einari) | None | 3 days, 23:03:26 | None |
 | Explore Orleans warnings | https://github.com/Cratis/Chronicle/issues/1530 | None | [einari](https://github.com/einari) | None | 393 days, 0:19:09 | None |
 | Increase Spec coverage | https://github.com/Cratis/Chronicle/issues/1529 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 395 days, 23:00:39 | None |
-| Upgrade to .NET 9 | https://github.com/Cratis/Chronicle/issues/1528 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | 8 days, 5:51:24 | None |
-| Add tracing | https://github.com/Cratis/Chronicle/issues/1527 | None | [einari](https://github.com/einari) | None | None | None |
-| Improve Log coverage | https://github.com/Cratis/Chronicle/issues/1526 | None | [einari](https://github.com/einari) | None | 393 days, 0:27:36 | None |
-| Add details on recommendations | https://github.com/Cratis/Chronicle/issues/1522 | None | 
+| Upgrade to .NET 9 | https://github.com/Cratis/Chronicle/issues/1528 | [wok
