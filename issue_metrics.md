@@ -3,17 +3,21 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 129 days, 15:44:53 | 3 days, 22:09:24 | 307 days, 14:14:21 |
-| Time to close | 291 days, 22:30:01 | 106 days, 21:42:41 | 876 days, 0:57:12 |
+| Time to close | 292 days, 16:17:02 | 106 days, 21:42:41 | 877 days, 8:02:48 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 185 |
-| Number of items closed | 807 |
-| Total number of items created | 992 |
+| Number of items that remain open | 181 |
+| Number of items closed | 815 |
+| Total number of items created | 996 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Orleans MongoDB client in WithMongoDB does not honor DirectConnection — Orleans reminders fail against single-node rs | https://github.com/Cratis/Chronicle/issues/3287 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 8:18:03 | None |
+| MongoDBOptions.DirectConnection clobbers ?directConnection=true from connection string | https://github.com/Cratis/Chronicle/issues/3284 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1:29:36 | None |
+| Only suggest replay if there are instances of the event type already in the sequence for projections | https://github.com/Cratis/Chronicle/issues/3282 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 15:30:37 | None |
+| Only replay the projection / reducer that was affected - not everything | https://github.com/Cratis/Chronicle/issues/3280 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2:04:41 | None |
 | [SetValue<TEvent>] on child record constructor parameters is not applied in ChildrenFrom projections | https://github.com/Cratis/Chronicle/issues/3275 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2:46:20 | None |
 | Onboarding: Improve Learning / getting started paths | https://github.com/Cratis/Chronicle/issues/3274 | None | [einari](https://github.com/einari) | None | None | None |
 | Issues with slim image | https://github.com/Cratis/Chronicle/issues/3272 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 0:14:04 | None |
@@ -194,7 +198,7 @@
 | Add support for redacting events | https://github.com/Cratis/Chronicle/issues/1858 | None | [einari](https://github.com/einari) | None | 338 days, 3:02:52 | None |
 | Add support for handling things in bulk for Reactors | https://github.com/Cratis/Chronicle/issues/1857 | None | [einari](https://github.com/einari) | None | None | None |
 | Add support for handling things in bulk for Reducers | https://github.com/Cratis/Chronicle/issues/1856 | None | [einari](https://github.com/einari) | None | None | None |
-| Add a way to wait for all observers affected by an append to an event sequence | https://github.com/Cratis/Chronicle/issues/1845 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Add a way to wait for all observers affected by an append to an event sequence | https://github.com/Cratis/Chronicle/issues/1845 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 407 days, 13:18:59 | None |
 | Build the namespaces for integration specs dynamically based on folders | https://github.com/Cratis/Chronicle/issues/1821 | None | [einari](https://github.com/einari) | None | 418 days, 21:50:15 | None |
 | Attempted sequence number of a failed partition attempt seems to be wrong | https://github.com/Cratis/Chronicle/issues/1820 | None | [einari](https://github.com/einari) | None | None | None |
 | Run MongoDB in-memory engine to improve run speed of integration specs | https://github.com/Cratis/Chronicle/issues/1811 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 416 days, 19:27:03 | None |
@@ -216,7 +220,7 @@
 | Add programatic support for replaying from the .NET client (Reactors, Reducers, Projections) | https://github.com/Cratis/Chronicle/issues/1754 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 125 days, 0:35:04 | None |
 | More efficient JobStorage queries | https://github.com/Cratis/Chronicle/issues/1753 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Improve shutdown to be more graceful - or at least not "spew" out irrelevant error messages | https://github.com/Cratis/Chronicle/issues/1752 | None | [einari](https://github.com/einari) | 120 days, 10:52:32 | 138 days, 21:45:25 | None |
-| Add "rehydration" of reactors & reducers to fix wrong state on startup without client connecting | https://github.com/Cratis/Chronicle/issues/1751 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Add "rehydration" of reactors & reducers to fix wrong state on startup without client connecting | https://github.com/Cratis/Chronicle/issues/1751 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 435 days, 23:03:40 | None |
 | Sink last handled event sequence number is wrong | https://github.com/Cratis/Chronicle/issues/1749 | [Copilot](https://github.com/Copilot) | [woksin](https://github.com/woksin) | None | 433 days, 17:43:48 | None |
 | It should be possible to run replays without destroying any other jobs that are going on | https://github.com/Cratis/Chronicle/issues/1748 | None | [einari](https://github.com/einari) | None | None | None |
 | Projection watch dog | https://github.com/Cratis/Chronicle/issues/1744 | None | [einari](https://github.com/einari) | None | 290 days, 20:23:56 | None |
@@ -254,7 +258,7 @@
 | Job OnStepFailed and OnStepSucceeded should be "recoverable" | https://github.com/Cratis/Chronicle/issues/1609 | None | [woksin](https://github.com/woksin) | None | 97 days, 8:56:20 | None |
 | We have some (at least two, Job and JobStep) that need to call itself indirectly to avoid issues | https://github.com/Cratis/Chronicle/issues/1606 | None | [woksin](https://github.com/woksin) | None | 98 days, 6:49:49 | None |
 | Observer reminder for failed partition is removed twice | https://github.com/Cratis/Chronicle/issues/1605 | [Copilot](https://github.com/Copilot) | [woksin](https://github.com/woksin) | 210 days, 7:10:52 | 216 days, 0:54:00 | None |
-| Observer grain should have a failed partition count metric | https://github.com/Cratis/Chronicle/issues/1604 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Observer grain should have a failed partition count metric | https://github.com/Cratis/Chronicle/issues/1604 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 526 days, 20:10:45 | None |
 | IObserver should not implement IStateMachine, it's an internal concern | https://github.com/Cratis/Chronicle/issues/1601 | None | [woksin](https://github.com/woksin) | None | None | None |
 | HandleEventsForPartition job step if it fails after successfully handling some events but not all | https://github.com/Cratis/Chronicle/issues/1600 | None | [woksin](https://github.com/woksin) | None | 10 days, 22:34:13 | None |
 | Add failed partition client API | https://github.com/Cratis/Chronicle/issues/1599 | None | [einari](https://github.com/einari) | None | 80 days, 8:23:05 | None |
@@ -301,11 +305,4 @@
 | JobSystem generally a bit hard and error prone | https://github.com/Cratis/Chronicle/issues/1541 | None | [woksin](https://github.com/woksin) | 91 days, 20:08:44 | 91 days, 20:08:44 | None |
 | JobStep Resume not implemented | https://github.com/Cratis/Chronicle/issues/1540 | None | [woksin](https://github.com/woksin) | 91 days, 18:00:19 | 91 days, 18:00:19 | None |
 | Magic code check in RetryFailedPartitionJob | https://github.com/Cratis/Chronicle/issues/1539 | None | [woksin](https://github.com/woksin) | None | 8 days, 2:22:15 | None |
-| Job-system should use the new Try-Catch monads | https://github.com/Cratis/Chronicle/issues/1538 | None | [woksin](https://github.com/woksin) | 91 days, 20:22:18 | 115 days, 3:57:49 | None |
-| Kernel Concept classes that can probably be record | https://github.com/Cratis/Chronicle/issues/1537 | None | [woksin](https://github.com/woksin) | None | None | None |
-| Observer does not handle calling Subscribe multiple times | https://github.com/Cratis/Chronicle/issues/1536 | None | [woksin](https://github.com/woksin) | None | None | None |
-| Move away from projection building blocks (lamdbas) sitting as extension methods | https://github.com/Cratis/Chronicle/issues/1533 | None | [einari](https://github.com/einari) | None | None | None |
-| Increase Integration spec coverage | https://github.com/Cratis/Chronicle/issues/1531 | None | [einari](https://github.com/einari) | None | 3 days, 23:03:26 | None |
-| Explore Orleans warnings | https://github.com/Cratis/Chronicle/issues/1530 | None | [einari](https://github.com/einari) | None | 393 days, 0:19:09 | None |
-| Increase Spec coverage | https://github.com/Cratis/Chronicle/issues/1529 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 395 days, 23:00:39 | None |
-| Upgrade to .NET 9 | https://github.com/Cratis/Chronicle/issues/1528 | [wok
+| Job-system should use the new Try-Catch monads | https://github.com/Cratis/Chronicle/issues/1538 | None | [woksin](https://github.com/wok
