@@ -8,12 +8,14 @@
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 181 |
+| Number of items that remain open | 183 |
 | Number of items closed | 815 |
-| Total number of items created | 996 |
+| Total number of items created | 998 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Multi-[SetValue<T>] on a projected property only applies the first attribute | https://github.com/Cratis/Chronicle/issues/3297 | None | [einari](https://github.com/einari) | None | None | None |
+| Default values for EventSequence gRPC surface | https://github.com/Cratis/Chronicle/issues/3295 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Orleans MongoDB client in WithMongoDB does not honor DirectConnection — Orleans reminders fail against single-node rs | https://github.com/Cratis/Chronicle/issues/3287 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 8:18:03 | None |
 | MongoDBOptions.DirectConnection clobbers ?directConnection=true from connection string | https://github.com/Cratis/Chronicle/issues/3284 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1:29:36 | None |
 | Only suggest replay if there are instances of the event type already in the sequence for projections | https://github.com/Cratis/Chronicle/issues/3282 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 15:30:37 | None |
@@ -200,7 +202,7 @@
 | Add support for handling things in bulk for Reducers | https://github.com/Cratis/Chronicle/issues/1856 | None | [einari](https://github.com/einari) | None | None | None |
 | Add a way to wait for all observers affected by an append to an event sequence | https://github.com/Cratis/Chronicle/issues/1845 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 407 days, 13:18:59 | None |
 | Build the namespaces for integration specs dynamically based on folders | https://github.com/Cratis/Chronicle/issues/1821 | None | [einari](https://github.com/einari) | None | 418 days, 21:50:15 | None |
-| Attempted sequence number of a failed partition attempt seems to be wrong | https://github.com/Cratis/Chronicle/issues/1820 | None | [einari](https://github.com/einari) | None | None | None |
+| Attempted sequence number of a failed partition attempt seems to be wrong | https://github.com/Cratis/Chronicle/issues/1820 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | None | None |
 | Run MongoDB in-memory engine to improve run speed of integration specs | https://github.com/Cratis/Chronicle/issues/1811 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 416 days, 19:27:03 | None |
 | Improve setup / teardown | https://github.com/Cratis/Chronicle/issues/1810 | None | [einari](https://github.com/einari) | None | 420 days, 0:25:56 | None |
 | Parallelize running integration specs in GitHub workflow | https://github.com/Cratis/Chronicle/issues/1809 | None | [einari](https://github.com/einari) | 3:12:02 | 3:12:02 | None |
@@ -211,7 +213,7 @@
 | Optimize Job system | https://github.com/Cratis/Chronicle/issues/1789 | None | [einari](https://github.com/einari) | None | None | None |
 | HandleEventsForPartition does not work now when resumed (started without prepare call) and grain is newly activated | https://github.com/Cratis/Chronicle/issues/1787 | None | [woksin](https://github.com/woksin) | None | 10 days, 8:28:55 | None |
 | Prepare job steps and starting them should run asyncronously | https://github.com/Cratis/Chronicle/issues/1786 | None | [woksin](https://github.com/woksin) | 3 days, 22:09:24 | None | None |
-| We should not be able to start a job on an observer when there is a replay job | https://github.com/Cratis/Chronicle/issues/1779 | None | [woksin](https://github.com/woksin) | None | None | None |
+| We should not be able to start a job on an observer when there is a replay job | https://github.com/Cratis/Chronicle/issues/1779 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | During GitHub builds we want to build specs and integration specs with Debug but compile them with "treat warning as errors" | https://github.com/Cratis/Chronicle/issues/1773 | None | [einari](https://github.com/einari) | None | 16 days, 17:36:25 | None |
 | Projections for Rules shouldn't end up as an observer | https://github.com/Cratis/Chronicle/issues/1766 | None | [einari](https://github.com/einari) | None | 0:06:00 | None |
 | Add support for observer Replays being cancelled | https://github.com/Cratis/Chronicle/issues/1764 | None | [einari](https://github.com/einari) | None | None | None |
@@ -242,7 +244,7 @@
 | When catching up all partitions, the Observer should just register all partitions itself as catching up | https://github.com/Cratis/Chronicle/issues/1683 | None | [einari](https://github.com/einari) | None | None | None |
 | Improve state consistency around observers and next/handled event sequence number for when multiple partitions are working and for some reason the server goes down | https://github.com/Cratis/Chronicle/issues/1682 | None | [einari](https://github.com/einari) | None | None | None |
 | Make it possible for observers to opt-in for supporting parallelizing replay or not | https://github.com/Cratis/Chronicle/issues/1670 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | None | None |
-| Add support for Reactors and Reducers to be notified when a replay begins and ends | https://github.com/Cratis/Chronicle/issues/1669 | None | [einari](https://github.com/einari) | None | None | None |
+| Add support for Reactors and Reducers to be notified when a replay begins and ends | https://github.com/Cratis/Chronicle/issues/1669 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | None | None |
 | Observer Routing does not take into consideration Observers with Replaying or CatchingUp Partitions | https://github.com/Cratis/Chronicle/issues/1667 | None | [woksin](https://github.com/woksin) | None | 2 days, 0:44:03 | None |
 | Make sure Reactors, Reducers and Projections does not try to do catch up, unless they actually are behind | https://github.com/Cratis/Chronicle/issues/1663 | None | [einari](https://github.com/einari) | None | 2 days, 7:50:12 | None |
 | Fix ordering of serializers and avoid duplicate serializers (Codecs) | https://github.com/Cratis/Chronicle/issues/1662 | None | [einari](https://github.com/einari) | 7:02:57 | 7:02:57 | None |
@@ -302,7 +304,4 @@
 | Observer should have configurable handling of retrying failed partitions | https://github.com/Cratis/Chronicle/issues/1544 | None | [woksin](https://github.com/woksin) | 16:57:12 | 16:57:12 | None |
 | ReplayObserverPartition calls Observer.PartitionReplayed which throws exception | https://github.com/Cratis/Chronicle/issues/1543 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | 1:14:25 | 6 days, 5:41:57 | None |
 | JobStep.PerformWork method cannot be right | https://github.com/Cratis/Chronicle/issues/1542 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | 1 day, 17:46:30 | 115 days, 3:40:17 | None |
-| JobSystem generally a bit hard and error prone | https://github.com/Cratis/Chronicle/issues/1541 | None | [woksin](https://github.com/woksin) | 91 days, 20:08:44 | 91 days, 20:08:44 | None |
-| JobStep Resume not implemented | https://github.com/Cratis/Chronicle/issues/1540 | None | [woksin](https://github.com/woksin) | 91 days, 18:00:19 | 91 days, 18:00:19 | None |
-| Magic code check in RetryFailedPartitionJob | https://github.com/Cratis/Chronicle/issues/1539 | None | [woksin](https://github.com/woksin) | None | 8 days, 2:22:15 | None |
-| Job-system should use the new Try-Catch monads | https://github.com/Cratis/Chronicle/issues/1538 | None | [woksin](https://github.com/wok
+| JobSystem generally a bit hard and error prone | https://github.com/Cratis/Chronicle/issues/1541 | None | [woksin](https://github.com/woksin) | 91 days, 20:
