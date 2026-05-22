@@ -3,19 +3,22 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 129 days, 15:44:53 | 3 days, 22:09:24 | 307 days, 14:14:21 |
-| Time to close | 293 days, 1:33:14 | 107 days, 13:32:14 | 876 days, 16:30:00 |
+| Time to close | 292 days, 13:25:50 | 103 days, 8:31:45 | 876 days, 0:57:12 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 182 |
-| Number of items closed | 816 |
-| Total number of items created | 998 |
+| Number of items that remain open | 183 |
+| Number of items closed | 817 |
+| Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| ts-proto decoders throw on EventSequenceNumber sentinel (ulong.MaxValue) over the wire | https://github.com/Cratis/Chronicle/issues/3308 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 3:52:32 | None |
+| Add ability to return "side effects" from Reactors | https://github.com/Cratis/Chronicle/issues/3307 | None | [einari](https://github.com/einari) | None | None | None |
+| Regression with getting instance by Id for ReadModels created by Reducers | https://github.com/Cratis/Chronicle/issues/3305 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Multi-[SetValue<T>] on a projected property only applies the first attribute | https://github.com/Cratis/Chronicle/issues/3297 | None | [einari](https://github.com/einari) | None | None | None |
-| Default values for EventSequence gRPC surface | https://github.com/Cratis/Chronicle/issues/3295 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Default values for EventSequence gRPC surface | https://github.com/Cratis/Chronicle/issues/3295 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 17:18:54 | None |
 | Orleans MongoDB client in WithMongoDB does not honor DirectConnection — Orleans reminders fail against single-node rs | https://github.com/Cratis/Chronicle/issues/3287 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 8:18:03 | None |
 | MongoDBOptions.DirectConnection clobbers ?directConnection=true from connection string | https://github.com/Cratis/Chronicle/issues/3284 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1:29:36 | None |
 | Only suggest replay if there are instances of the event type already in the sequence for projections | https://github.com/Cratis/Chronicle/issues/3282 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 15:30:37 | None |
@@ -300,7 +303,4 @@
 | Observer does not handle partitions separetely / parallel | https://github.com/Cratis/Chronicle/issues/1549 | None | [woksin](https://github.com/woksin) | 10:01:58 | None | None |
 | AppendedEventsQueue QueueHandler should just send the appended events to each subscriber at the same time | https://github.com/Cratis/Chronicle/issues/1547 | [einari](https://github.com/einari) | [woksin](https://github.com/woksin) | None | 5 days, 18:24:39 | None |
 | AppendedEventsQueue QueueHandler calling Observer.Handle is completely unreliable | https://github.com/Cratis/Chronicle/issues/1546 | [einari](https://github.com/einari) | [woksin](https://github.com/woksin) | None | 5 days, 18:07:51 | None |
-| AppendedEventsQueue unreliable AsyncManualResetEvent | https://github.com/Cratis/Chronicle/issues/1545 | [einari](https://github.com/einari) | [woksin](https://github.com/woksin) | None | 5 days, 18:10:58 | None |
-| Observer should have configurable handling of retrying failed partitions | https://github.com/Cratis/Chronicle/issues/1544 | None | [woksin](https://github.com/woksin) | 16:57:12 | 16:57:12 | None |
-| ReplayObserverPartition calls Observer.PartitionReplayed which throws exception | https://github.com/Cratis/Chronicle/issues/1543 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | 1:14:25 | 6 days, 5:41:57 | None |
-| JobStep.PerformWork method cannot be right | https://github.com/Cratis/Chronicle/issues/1542 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | 1 
+| AppendedEventsQueue unreliable AsyncManualResetEvent | https://github.com/Cratis/Chronicle/issues/1545 | [ein
