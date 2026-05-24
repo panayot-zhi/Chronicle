@@ -3,18 +3,18 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 129 days, 15:44:53 | 3 days, 22:09:24 | 307 days, 14:14:21 |
-| Time to close | 292 days, 0:27:51 | 102 days, 4:23:54 | 876 days, 0:57:12 |
+| Time to close | 296 days, 5:54:44 | 105 days, 3:07:13 | 889 days, 9:24:41 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 183 |
-| Number of items closed | 817 |
+| Number of items that remain open | 174 |
+| Number of items closed | 826 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
-| Roslyn Analyzer: Chronicle Command & Handler Enforcement (CHR-A023..A025) | https://github.com/Cratis/Chronicle/issues/3312 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Roslyn Analyzer: Chronicle Command & Handler Enforcement (CHR-A023..A025) | https://github.com/Cratis/Chronicle/issues/3312 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 6:29:41 | None |
 | Roslyn Analyzer: Domain Model Integrity (CHR-A011..A015) | https://github.com/Cratis/Chronicle/issues/3311 | None | [einari](https://github.com/einari) | None | 4:42:45 | None |
 | @cratis/chronicle.contracts: forceLong=bigint change in fda71e5 is unreleased; latest npm artifact still ships number | https://github.com/Cratis/Chronicle/issues/3310 | None | [einari](https://github.com/einari) | None | 0:04:44 | None |
 | ts-proto decoders throw on EventSequenceNumber sentinel (ulong.MaxValue) over the wire | https://github.com/Cratis/Chronicle/issues/3308 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 3:52:32 | None |
@@ -73,7 +73,7 @@
 | Projection Simulation | https://github.com/Cratis/Chronicle/issues/3146 | None | [einari](https://github.com/einari) | None | None | None |
 | Support for setting / clearing single child object | https://github.com/Cratis/Chronicle/issues/3142 | None | [einari](https://github.com/einari) | None | None | None |
 | Content on redacted is not displaying everything in Workbench | https://github.com/Cratis/Chronicle/issues/3141 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 7:23:45 | None |
-| Clean stopping the client when application is closing | https://github.com/Cratis/Chronicle/issues/3140 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Clean stopping the client when application is closing | https://github.com/Cratis/Chronicle/issues/3140 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 27 days, 3:20:59 | None |
 | Collection of issues | https://github.com/Cratis/Chronicle/issues/3134 | None | [einari](https://github.com/einari) | None | 3 days, 23:48:05 | None |
 | Compliance - PII | https://github.com/Cratis/Chronicle/issues/3120 | None | [einari](https://github.com/einari) | None | 14 days, 0:21:31 | None |
 | Time Traveling debugging | https://github.com/Cratis/Chronicle/issues/3118 | None | [einari](https://github.com/einari) | None | None | None |
@@ -208,7 +208,7 @@
 | Add support for handling things in bulk for Reducers | https://github.com/Cratis/Chronicle/issues/1856 | None | [einari](https://github.com/einari) | None | None | None |
 | Add a way to wait for all observers affected by an append to an event sequence | https://github.com/Cratis/Chronicle/issues/1845 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 407 days, 13:18:59 | None |
 | Build the namespaces for integration specs dynamically based on folders | https://github.com/Cratis/Chronicle/issues/1821 | None | [einari](https://github.com/einari) | None | 418 days, 21:50:15 | None |
-| Attempted sequence number of a failed partition attempt seems to be wrong | https://github.com/Cratis/Chronicle/issues/1820 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Attempted sequence number of a failed partition attempt seems to be wrong | https://github.com/Cratis/Chronicle/issues/1820 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 425 days, 4:41:30 | None |
 | Run MongoDB in-memory engine to improve run speed of integration specs | https://github.com/Cratis/Chronicle/issues/1811 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 416 days, 19:27:03 | None |
 | Improve setup / teardown | https://github.com/Cratis/Chronicle/issues/1810 | None | [einari](https://github.com/einari) | None | 420 days, 0:25:56 | None |
 | Parallelize running integration specs in GitHub workflow | https://github.com/Cratis/Chronicle/issues/1809 | None | [einari](https://github.com/einari) | 3:12:02 | 3:12:02 | None |
@@ -219,7 +219,7 @@
 | Optimize Job system | https://github.com/Cratis/Chronicle/issues/1789 | None | [einari](https://github.com/einari) | None | None | None |
 | HandleEventsForPartition does not work now when resumed (started without prepare call) and grain is newly activated | https://github.com/Cratis/Chronicle/issues/1787 | None | [woksin](https://github.com/woksin) | None | 10 days, 8:28:55 | None |
 | Prepare job steps and starting them should run asyncronously | https://github.com/Cratis/Chronicle/issues/1786 | None | [woksin](https://github.com/woksin) | 3 days, 22:09:24 | None | None |
-| We should not be able to start a job on an observer when there is a replay job | https://github.com/Cratis/Chronicle/issues/1779 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [woksin](https://github.com/woksin) | None | None | None |
+| We should not be able to start a job on an observer when there is a replay job | https://github.com/Cratis/Chronicle/issues/1779 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [woksin](https://github.com/woksin) | None | 436 days, 6:28:35 | None |
 | During GitHub builds we want to build specs and integration specs with Debug but compile them with "treat warning as errors" | https://github.com/Cratis/Chronicle/issues/1773 | None | [einari](https://github.com/einari) | None | 16 days, 17:36:25 | None |
 | Projections for Rules shouldn't end up as an observer | https://github.com/Cratis/Chronicle/issues/1766 | None | [einari](https://github.com/einari) | None | 0:06:00 | None |
 | Add support for observer Replays being cancelled | https://github.com/Cratis/Chronicle/issues/1764 | None | [einari](https://github.com/einari) | None | None | None |
@@ -250,7 +250,7 @@
 | When catching up all partitions, the Observer should just register all partitions itself as catching up | https://github.com/Cratis/Chronicle/issues/1683 | None | [einari](https://github.com/einari) | None | None | None |
 | Improve state consistency around observers and next/handled event sequence number for when multiple partitions are working and for some reason the server goes down | https://github.com/Cratis/Chronicle/issues/1682 | None | [einari](https://github.com/einari) | None | None | None |
 | Make it possible for observers to opt-in for supporting parallelizing replay or not | https://github.com/Cratis/Chronicle/issues/1670 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | None | None |
-| Add support for Reactors and Reducers to be notified when a replay begins and ends | https://github.com/Cratis/Chronicle/issues/1669 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Add support for Reactors and Reducers to be notified when a replay begins and ends | https://github.com/Cratis/Chronicle/issues/1669 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 487 days, 4:52:14 | None |
 | Observer Routing does not take into consideration Observers with Replaying or CatchingUp Partitions | https://github.com/Cratis/Chronicle/issues/1667 | None | [woksin](https://github.com/woksin) | None | 2 days, 0:44:03 | None |
 | Make sure Reactors, Reducers and Projections does not try to do catch up, unless they actually are behind | https://github.com/Cratis/Chronicle/issues/1663 | None | [einari](https://github.com/einari) | None | 2 days, 7:50:12 | None |
 | Fix ordering of serializers and avoid duplicate serializers (Codecs) | https://github.com/Cratis/Chronicle/issues/1662 | None | [einari](https://github.com/einari) | 7:02:57 | 7:02:57 | None |
@@ -303,4 +303,4 @@
 | JobStep.PerformStep should return a Catch<JobStepResult> | https://github.com/Cratis/Chronicle/issues/1554 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 20 days, 22:16:50 | None |
 | HandleEventsForPartition JobStep Perform is not reliable | https://github.com/Cratis/Chronicle/issues/1553 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 20 days, 22:22:14 | None |
 | Observer Handle make it reentrant | https://github.com/Cratis/Chronicle/issues/1552 | None | [woksin](https://github.com/woksin) | 0:07:12 | 89 days, 0:27:51 | None |
-| Observer does not handle partitions separetely / parallel | https://github.com/Cratis/Chronicle/issues/1549 | None | 
+| Observer does not handle partitions separetely / paralle
