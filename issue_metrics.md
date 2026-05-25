@@ -3,13 +3,13 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 129 days, 15:44:53 | 3 days, 22:09:24 | 307 days, 14:14:21 |
-| Time to close | 296 days, 5:54:44 | 105 days, 3:07:13 | 889 days, 9:24:41 |
+| Time to close | 296 days, 4:49:01 | 105 days, 3:07:13 | 888 days, 8:59:55 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 174 |
-| Number of items closed | 826 |
+| Number of items that remain open | 172 |
+| Number of items closed | 828 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
@@ -20,7 +20,7 @@
 | ts-proto decoders throw on EventSequenceNumber sentinel (ulong.MaxValue) over the wire | https://github.com/Cratis/Chronicle/issues/3308 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 3:52:32 | None |
 | Add ability to return "side effects" from Reactors | https://github.com/Cratis/Chronicle/issues/3307 | None | [einari](https://github.com/einari) | None | None | None |
 | Regression with getting instance by Id for ReadModels created by Reducers | https://github.com/Cratis/Chronicle/issues/3305 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 20:48:02 | None |
-| Multi-[SetValue<T>] on a projected property only applies the first attribute | https://github.com/Cratis/Chronicle/issues/3297 | None | [einari](https://github.com/einari) | None | None | None |
+| Multi-[SetValue<T>] on a projected property only applies the first attribute | https://github.com/Cratis/Chronicle/issues/3297 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 4 days, 20:18:21 | None |
 | Default values for EventSequence gRPC surface | https://github.com/Cratis/Chronicle/issues/3295 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 17:18:54 | None |
 | Orleans MongoDB client in WithMongoDB does not honor DirectConnection — Orleans reminders fail against single-node rs | https://github.com/Cratis/Chronicle/issues/3287 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 8:18:03 | None |
 | MongoDBOptions.DirectConnection clobbers ?directConnection=true from connection string | https://github.com/Cratis/Chronicle/issues/3284 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1:29:36 | None |
@@ -187,7 +187,7 @@
 | Integration Specs should have an isolated database per fixture | https://github.com/Cratis/Chronicle/issues/1929 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 19 days, 17:17:06 | None |
 | Get rid of EventMetadata and move properties to EventContext | https://github.com/Cratis/Chronicle/issues/1926 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 46 days, 16:47:49 | None |
 | Filtering of properties in Event Sequence table | https://github.com/Cratis/Chronicle/issues/1925 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | None | None |
-| Add OpenTelemetry tracing context to appending of events and also let this flow further into observers | https://github.com/Cratis/Chronicle/issues/1923 | None | [einari](https://github.com/einari) | None | None | None |
+| Add OpenTelemetry tracing | https://github.com/Cratis/Chronicle/issues/1923 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | [Design] - DSL for projections | https://github.com/Cratis/Chronicle/issues/1915 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 234 days, 10:27:05 | None |
 | Chronicle should not decide casing on read models, event types or other artifacts given to it by the client | https://github.com/Cratis/Chronicle/issues/1914 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 61 days, 1:30:04 | None |
 | Sequence Query editor in Workbench | https://github.com/Cratis/Chronicle/issues/1911 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | None | None |
@@ -302,5 +302,4 @@
 | Show number of handled events for every observer | https://github.com/Cratis/Chronicle/issues/1557 | None | [einari](https://github.com/einari) | None | None | None |
 | JobStep.PerformStep should return a Catch<JobStepResult> | https://github.com/Cratis/Chronicle/issues/1554 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 20 days, 22:16:50 | None |
 | HandleEventsForPartition JobStep Perform is not reliable | https://github.com/Cratis/Chronicle/issues/1553 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 20 days, 22:22:14 | None |
-| Observer Handle make it reentrant | https://github.com/Cratis/Chronicle/issues/1552 | None | [woksin](https://github.com/woksin) | 0:07:12 | 89 days, 0:27:51 | None |
-| Observer does not handle partitions separetely / paralle
+| Observer Handle make it reentrant | https://github.com/Cratis/Chronicle/issues/1552 | None | [woksin](https://github.com/woksin) | 0:07:12 | 89 days, 
