@@ -3,22 +3,23 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 129 days, 15:44:53 | 3 days, 22:09:24 | 307 days, 14:14:21 |
-| Time to close | 296 days, 4:49:01 | 105 days, 3:07:13 | 888 days, 8:59:55 |
+| Time to close | 297 days, 2:06:55 | 108 days, 5:21:47 | 887 days, 20:47:31 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 172 |
-| Number of items closed | 828 |
+| Number of items that remain open | 171 |
+| Number of items closed | 829 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Add integration specs for clustering | https://github.com/Cratis/Chronicle/issues/3324 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Roslyn Analyzer: Chronicle Command & Handler Enforcement (CHR-A023..A025) | https://github.com/Cratis/Chronicle/issues/3312 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 6:29:41 | None |
 | Roslyn Analyzer: Domain Model Integrity (CHR-A011..A015) | https://github.com/Cratis/Chronicle/issues/3311 | None | [einari](https://github.com/einari) | None | 4:42:45 | None |
 | @cratis/chronicle.contracts: forceLong=bigint change in fda71e5 is unreleased; latest npm artifact still ships number | https://github.com/Cratis/Chronicle/issues/3310 | None | [einari](https://github.com/einari) | None | 0:04:44 | None |
 | ts-proto decoders throw on EventSequenceNumber sentinel (ulong.MaxValue) over the wire | https://github.com/Cratis/Chronicle/issues/3308 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 3:52:32 | None |
-| Add ability to return "side effects" from Reactors | https://github.com/Cratis/Chronicle/issues/3307 | None | [einari](https://github.com/einari) | None | None | None |
+| Add ability to return "side effects" from Reactors | https://github.com/Cratis/Chronicle/issues/3307 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Regression with getting instance by Id for ReadModels created by Reducers | https://github.com/Cratis/Chronicle/issues/3305 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 20:48:02 | None |
 | Multi-[SetValue<T>] on a projected property only applies the first attribute | https://github.com/Cratis/Chronicle/issues/3297 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 4 days, 20:18:21 | None |
 | Default values for EventSequence gRPC surface | https://github.com/Cratis/Chronicle/issues/3295 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 17:18:54 | None |
@@ -31,7 +32,7 @@
 | Issues with slim image | https://github.com/Cratis/Chronicle/issues/3272 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 0:14:04 | None |
 | Introduce a development slim image | https://github.com/Cratis/Chronicle/issues/3264 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 0:52:48 | None |
 | Docker image cratis/chronicle:latest-development fails to start Chronicle server | https://github.com/Cratis/Chronicle/issues/3250 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 0:23:09 | None |
-| Capture Declaration Language (CDL) — Change Data Capture DSL | https://github.com/Cratis/Chronicle/issues/3248 | None | [einari](https://github.com/einari) | None | None | None |
+| Capture Declaration Language (CDL) — Change Data Capture DSL | https://github.com/Cratis/Chronicle/issues/3248 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Decrypt read models and appended events | https://github.com/Cratis/Chronicle/issues/3246 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2:18:52 | None |
 | Make the server compile with proper AOT | https://github.com/Cratis/Chronicle/issues/3243 | None | [einari](https://github.com/einari) | None | None | None |
 | __subject missing on Projected read models | https://github.com/Cratis/Chronicle/issues/3235 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 16:58:53 | None |
@@ -69,9 +70,9 @@
 | Performance: blocking async in AppendedEventSerializer (Orleans serialization hot path) | https://github.com/Cratis/Chronicle/issues/3168 | None | [einari](https://github.com/einari) | None | None | None |
 | Memory leak: CancellationTokenSource not disposed in JobStep on reactivation and Stop | https://github.com/Cratis/Chronicle/issues/3167 | None | [einari](https://github.com/einari) | None | 1:03:43 | None |
 | Memory leak: untracked Rx subscriptions in ProjectionEventContextExtensions | https://github.com/Cratis/Chronicle/issues/3166 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1:39:05 | None |
-| It would be nice to see what events affect which observers | https://github.com/Cratis/Chronicle/issues/3147 | None | [einari](https://github.com/einari) | None | None | None |
+| It would be nice to see what events affect which observers | https://github.com/Cratis/Chronicle/issues/3147 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | None | None |
 | Projection Simulation | https://github.com/Cratis/Chronicle/issues/3146 | None | [einari](https://github.com/einari) | None | None | None |
-| Support for setting / clearing single child object | https://github.com/Cratis/Chronicle/issues/3142 | None | [einari](https://github.com/einari) | None | None | None |
+| Support for setting / clearing single child object | https://github.com/Cratis/Chronicle/issues/3142 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | None | None |
 | Content on redacted is not displaying everything in Workbench | https://github.com/Cratis/Chronicle/issues/3141 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 7:23:45 | None |
 | Clean stopping the client when application is closing | https://github.com/Cratis/Chronicle/issues/3140 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 27 days, 3:20:59 | None |
 | Collection of issues | https://github.com/Cratis/Chronicle/issues/3134 | None | [einari](https://github.com/einari) | None | 3 days, 23:48:05 | None |
@@ -190,7 +191,7 @@
 | Add OpenTelemetry tracing | https://github.com/Cratis/Chronicle/issues/1923 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | [Design] - DSL for projections | https://github.com/Cratis/Chronicle/issues/1915 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 234 days, 10:27:05 | None |
 | Chronicle should not decide casing on read models, event types or other artifacts given to it by the client | https://github.com/Cratis/Chronicle/issues/1914 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 61 days, 1:30:04 | None |
-| Sequence Query editor in Workbench | https://github.com/Cratis/Chronicle/issues/1911 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | None | None |
+| Sequence Query editor in Workbench | https://github.com/Cratis/Chronicle/issues/1911 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Multiple sinks for projections and reducers | https://github.com/Cratis/Chronicle/issues/1910 | None | [woksin](https://github.com/woksin) | 303 days, 16:37:25 | 303 days, 16:37:28 | None |
 | Symbol package validation failed - NuGet | https://github.com/Cratis/Chronicle/issues/1907 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 29 days, 5:13:14 | None |
 | Improve the way integration specifications has to be set up | https://github.com/Cratis/Chronicle/issues/1906 | None | [einari](https://github.com/einari) | None | 342 days, 14:14:01 | None |
@@ -248,7 +249,7 @@
 | Job system should clean up jobs that are "dead in the water" | https://github.com/Cratis/Chronicle/issues/1685 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 408 days, 7:35:32 | None |
 | Add the capability of changing name of an identity | https://github.com/Cratis/Chronicle/issues/1684 | None | [einari](https://github.com/einari) | None | None | None |
 | When catching up all partitions, the Observer should just register all partitions itself as catching up | https://github.com/Cratis/Chronicle/issues/1683 | None | [einari](https://github.com/einari) | None | None | None |
-| Improve state consistency around observers and next/handled event sequence number for when multiple partitions are working and for some reason the server goes down | https://github.com/Cratis/Chronicle/issues/1682 | None | [einari](https://github.com/einari) | None | None | None |
+| Improve state consistency around observers and next/handled event sequence number for when multiple partitions are working and for some reason the server goes down | https://github.com/Cratis/Chronicle/issues/1682 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | None | None |
 | Make it possible for observers to opt-in for supporting parallelizing replay or not | https://github.com/Cratis/Chronicle/issues/1670 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | None | None |
 | Add support for Reactors and Reducers to be notified when a replay begins and ends | https://github.com/Cratis/Chronicle/issues/1669 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 487 days, 4:52:14 | None |
 | Observer Routing does not take into consideration Observers with Replaying or CatchingUp Partitions | https://github.com/Cratis/Chronicle/issues/1667 | None | [woksin](https://github.com/woksin) | None | 2 days, 0:44:03 | None |
@@ -293,13 +294,11 @@
 | GetNextSequenceNumberGreaterOrEqualThan may cause problems | https://github.com/Cratis/Chronicle/issues/1570 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 17 days, 23:49:29 | None |
 | Reactors will never reconnect if connection is lost and re-established | https://github.com/Cratis/Chronicle/issues/1566 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 535 days, 21:19:47 | None |
 | Extract our internal integration test helpers into the testing library we offer | https://github.com/Cratis/Chronicle/issues/1564 | None | [einari](https://github.com/einari) | None | 471 days, 19:27:24 | None |
-| Integration tests for Reducers | https://github.com/Cratis/Chronicle/issues/1563 | None | [einari](https://github.com/einari) | None | None | None |
-| Integration tests for Reactors | https://github.com/Cratis/Chronicle/issues/1562 | None | [einari](https://github.com/einari) | None | None | None |
+| Integration tests for Reducers | https://github.com/Cratis/Chronicle/issues/1563 | None | [einari](https://github.com/einari) | None | 545 days, 1:49:20 | None |
+| Integration tests for Reactors | https://github.com/Cratis/Chronicle/issues/1562 | None | [einari](https://github.com/einari) | None | 545 days, 1:49:46 | None |
 | Client Reducers should register on reconnect | https://github.com/Cratis/Chronicle/issues/1561 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 228 days, 23:16:55 | None |
 | It should be possible to configure number of queues each event sequence gets | https://github.com/Cratis/Chronicle/issues/1560 | None | [einari](https://github.com/einari) | None | 87 days, 21:09:52 | None |
 | Create a common JobStep for Observers extracting out common things | https://github.com/Cratis/Chronicle/issues/1559 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | 230 days, 6:41:22 | 230 days, 6:41:22 | None |
 | JobStep Resume does not do anything | https://github.com/Cratis/Chronicle/issues/1558 | None | [woksin](https://github.com/woksin) | None | 111 days, 8:44:53 | None |
-| Show number of handled events for every observer | https://github.com/Cratis/Chronicle/issues/1557 | None | [einari](https://github.com/einari) | None | None | None |
-| JobStep.PerformStep should return a Catch<JobStepResult> | https://github.com/Cratis/Chronicle/issues/1554 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 20 days, 22:16:50 | None |
-| HandleEventsForPartition JobStep Perform is not reliable | https://github.com/Cratis/Chronicle/issues/1553 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 20 days, 22:22:14 | None |
-| Observer Handle make it reentrant | https://github.com/Cratis/Chronicle/issues/1552 | None | [woksin](https://github.com/woksin) | 0:07:12 | 89 days, 
+| Show number of handled events for every observer | https://github.com/Cratis/Chronicle/issues/1557 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | None | None |
+| JobStep.PerformStep should return a
