@@ -3,17 +3,19 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 129 days, 15:44:53 | 3 days, 22:09:24 | 307 days, 14:14:21 |
-| Time to close | 297 days, 2:06:55 | 108 days, 5:21:47 | 887 days, 20:47:31 |
+| Time to close | 297 days, 2:14:59 | 105 days, 3:07:13 | 888 days, 8:59:55 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 171 |
-| Number of items closed | 829 |
+| Number of items that remain open | 172 |
+| Number of items closed | 828 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Self-referencing model-bound projections: remaining gaps after #3330 | https://github.com/Cratis/Chronicle/issues/3336 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Model-bound projections: self-referencing children are flattened instead of nested | https://github.com/Cratis/Chronicle/issues/3329 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 4:52:11 | None |
 | Add integration specs for clustering | https://github.com/Cratis/Chronicle/issues/3324 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Roslyn Analyzer: Chronicle Command & Handler Enforcement (CHR-A023..A025) | https://github.com/Cratis/Chronicle/issues/3312 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 6:29:41 | None |
 | Roslyn Analyzer: Domain Model Integrity (CHR-A011..A015) | https://github.com/Cratis/Chronicle/issues/3311 | None | [einari](https://github.com/einari) | None | 4:42:45 | None |
@@ -298,7 +300,4 @@
 | Integration tests for Reactors | https://github.com/Cratis/Chronicle/issues/1562 | None | [einari](https://github.com/einari) | None | 545 days, 1:49:46 | None |
 | Client Reducers should register on reconnect | https://github.com/Cratis/Chronicle/issues/1561 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 228 days, 23:16:55 | None |
 | It should be possible to configure number of queues each event sequence gets | https://github.com/Cratis/Chronicle/issues/1560 | None | [einari](https://github.com/einari) | None | 87 days, 21:09:52 | None |
-| Create a common JobStep for Observers extracting out common things | https://github.com/Cratis/Chronicle/issues/1559 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | 230 days, 6:41:22 | 230 days, 6:41:22 | None |
-| JobStep Resume does not do anything | https://github.com/Cratis/Chronicle/issues/1558 | None | [woksin](https://github.com/woksin) | None | 111 days, 8:44:53 | None |
-| Show number of handled events for every observer | https://github.com/Cratis/Chronicle/issues/1557 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | None | None |
-| JobStep.PerformStep should return a
+| Create a common JobStep for Observers extracting out common things | https://github.com/Cratis/Chronicle/issues/15
