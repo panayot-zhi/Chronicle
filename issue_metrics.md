@@ -3,17 +3,19 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 129 days, 15:44:53 | 3 days, 22:09:24 | 307 days, 14:14:21 |
-| Time to close | 297 days, 1:32:26 | 105 days, 3:07:13 | 888 days, 8:59:55 |
+| Time to close | 297 days, 7:39:19 | 106 days, 21:42:41 | 888 days, 21:12:18 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 172 |
-| Number of items closed | 828 |
+| Number of items that remain open | 173 |
+| Number of items closed | 827 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Compensating events | https://github.com/Cratis/Chronicle/issues/3343 | None | [einari](https://github.com/einari) | None | None | None |
+| «Why Event Sourcing» in documentation | https://github.com/Cratis/Chronicle/issues/3341 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 0:11:50 | None |
 | Do not apply patches unless they should be applied | https://github.com/Cratis/Chronicle/issues/3339 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Self-referencing model-bound projections: remaining gaps after #3330 | https://github.com/Cratis/Chronicle/issues/3336 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 18:12:17 | None |
 | Model-bound projections: self-referencing children are flattened instead of nested | https://github.com/Cratis/Chronicle/issues/3329 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 4:52:11 | None |
@@ -298,6 +300,4 @@
 | Reactors will never reconnect if connection is lost and re-established | https://github.com/Cratis/Chronicle/issues/1566 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 535 days, 21:19:47 | None |
 | Extract our internal integration test helpers into the testing library we offer | https://github.com/Cratis/Chronicle/issues/1564 | None | [einari](https://github.com/einari) | None | 471 days, 19:27:24 | None |
 | Integration tests for Reducers | https://github.com/Cratis/Chronicle/issues/1563 | None | [einari](https://github.com/einari) | None | 545 days, 1:49:20 | None |
-| Integration tests for Reactors | https://github.com/Cratis/Chronicle/issues/1562 | None | [einari](https://github.com/einari) | None | 545 days, 1:49:46 | None |
-| Client Reducers should register on reconnect | https://github.com/Cratis/Chronicle/issues/1561 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 228 days, 23:16:55 | None |
-| It should be possible to configure number of queues each event sequence gets | 
+| Integration tests for Reactors | https://github.com/Cratis/Chronicle/issues/1562 |
