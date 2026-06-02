@@ -3,20 +3,21 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 129 days, 15:44:53 | 3 days, 22:09:24 | 307 days, 14:14:21 |
-| Time to close | 297 days, 7:39:19 | 106 days, 21:42:41 | 888 days, 21:12:18 |
+| Time to close | 297 days, 3:00:46 | 108 days, 5:21:47 | 885 days, 10:48:20 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 173 |
-| Number of items closed | 827 |
+| Number of items that remain open | 167 |
+| Number of items closed | 833 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| MongoDB out-of-process: nested children replay drops feature/slice/event children when ChildrenFrom uses an event-property key | https://github.com/Cratis/Chronicle/issues/3345 | None | [einari](https://github.com/einari) | None | None | None |
 | Compensating events | https://github.com/Cratis/Chronicle/issues/3343 | None | [einari](https://github.com/einari) | None | None | None |
 | «Why Event Sourcing» in documentation | https://github.com/Cratis/Chronicle/issues/3341 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 0:11:50 | None |
-| Do not apply patches unless they should be applied | https://github.com/Cratis/Chronicle/issues/3339 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Do not apply patches unless they should be applied | https://github.com/Cratis/Chronicle/issues/3339 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 3 days, 23:20:24 | None |
 | Self-referencing model-bound projections: remaining gaps after #3330 | https://github.com/Cratis/Chronicle/issues/3336 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 18:12:17 | None |
 | Model-bound projections: self-referencing children are flattened instead of nested | https://github.com/Cratis/Chronicle/issues/3329 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 4:52:11 | None |
 | Add integration specs for clustering | https://github.com/Cratis/Chronicle/issues/3324 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
@@ -24,7 +25,7 @@
 | Roslyn Analyzer: Domain Model Integrity (CHR-A011..A015) | https://github.com/Cratis/Chronicle/issues/3311 | None | [einari](https://github.com/einari) | None | 4:42:45 | None |
 | @cratis/chronicle.contracts: forceLong=bigint change in fda71e5 is unreleased; latest npm artifact still ships number | https://github.com/Cratis/Chronicle/issues/3310 | None | [einari](https://github.com/einari) | None | 0:04:44 | None |
 | ts-proto decoders throw on EventSequenceNumber sentinel (ulong.MaxValue) over the wire | https://github.com/Cratis/Chronicle/issues/3308 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 3:52:32 | None |
-| Add ability to return "side effects" from Reactors | https://github.com/Cratis/Chronicle/issues/3307 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Add ability to return "side effects" from Reactors | https://github.com/Cratis/Chronicle/issues/3307 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 11 days, 14:32:56 | None |
 | Regression with getting instance by Id for ReadModels created by Reducers | https://github.com/Cratis/Chronicle/issues/3305 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 20:48:02 | None |
 | Multi-[SetValue<T>] on a projected property only applies the first attribute | https://github.com/Cratis/Chronicle/issues/3297 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 4 days, 20:18:21 | None |
 | Default values for EventSequence gRPC surface | https://github.com/Cratis/Chronicle/issues/3295 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 17:18:54 | None |
@@ -193,7 +194,7 @@
 | Integration Specs should have an isolated database per fixture | https://github.com/Cratis/Chronicle/issues/1929 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 19 days, 17:17:06 | None |
 | Get rid of EventMetadata and move properties to EventContext | https://github.com/Cratis/Chronicle/issues/1926 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 46 days, 16:47:49 | None |
 | Filtering of properties in Event Sequence table | https://github.com/Cratis/Chronicle/issues/1925 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | None | None |
-| Add OpenTelemetry tracing | https://github.com/Cratis/Chronicle/issues/1923 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Add OpenTelemetry tracing | https://github.com/Cratis/Chronicle/issues/1923 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 345 days, 16:40:31 | None |
 | [Design] - DSL for projections | https://github.com/Cratis/Chronicle/issues/1915 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 234 days, 10:27:05 | None |
 | Chronicle should not decide casing on read models, event types or other artifacts given to it by the client | https://github.com/Cratis/Chronicle/issues/1914 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 61 days, 1:30:04 | None |
 | Sequence Query editor in Workbench | https://github.com/Cratis/Chronicle/issues/1911 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
@@ -254,7 +255,7 @@
 | Job system should clean up jobs that are "dead in the water" | https://github.com/Cratis/Chronicle/issues/1685 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 408 days, 7:35:32 | None |
 | Add the capability of changing name of an identity | https://github.com/Cratis/Chronicle/issues/1684 | None | [einari](https://github.com/einari) | None | None | None |
 | When catching up all partitions, the Observer should just register all partitions itself as catching up | https://github.com/Cratis/Chronicle/issues/1683 | None | [einari](https://github.com/einari) | None | None | None |
-| Improve state consistency around observers and next/handled event sequence number for when multiple partitions are working and for some reason the server goes down | https://github.com/Cratis/Chronicle/issues/1682 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | None | None |
+| Improve state consistency around observers and next/handled event sequence number for when multiple partitions are working and for some reason the server goes down | https://github.com/Cratis/Chronicle/issues/1682 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | 488 days, 18:15:54 | None |
 | Make it possible for observers to opt-in for supporting parallelizing replay or not | https://github.com/Cratis/Chronicle/issues/1670 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | None | None |
 | Add support for Reactors and Reducers to be notified when a replay begins and ends | https://github.com/Cratis/Chronicle/issues/1669 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 487 days, 4:52:14 | None |
 | Observer Routing does not take into consideration Observers with Replaying or CatchingUp Partitions | https://github.com/Cratis/Chronicle/issues/1667 | None | [woksin](https://github.com/woksin) | None | 2 days, 0:44:03 | None |
@@ -298,6 +299,4 @@
 | In Observer Jobs figure out what to do when HandeEventsFOrPartition job handles no events | https://github.com/Cratis/Chronicle/issues/1571 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 19 days, 3:14:54 | None |
 | GetNextSequenceNumberGreaterOrEqualThan may cause problems | https://github.com/Cratis/Chronicle/issues/1570 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 17 days, 23:49:29 | None |
 | Reactors will never reconnect if connection is lost and re-established | https://github.com/Cratis/Chronicle/issues/1566 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 535 days, 21:19:47 | None |
-| Extract our internal integration test helpers into the testing library we offer | https://github.com/Cratis/Chronicle/issues/1564 | None | [einari](https://github.com/einari) | None | 471 days, 19:27:24 | None |
-| Integration tests for Reducers | https://github.com/Cratis/Chronicle/issues/1563 | None | [einari](https://github.com/einari) | None | 545 days, 1:49:20 | None |
-| Integration tests for Reactors | https://github.com/Cratis/Chronicle/issues/1562 |
+| Extract our internal integration test helpers into the testing library we offer | https://github.com/Cratis/Chronicle/issues/1564 | None | [einari](https://githu
