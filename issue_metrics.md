@@ -3,13 +3,13 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 129 days, 15:44:53 | 3 days, 22:09:24 | 307 days, 14:14:21 |
-| Time to close | 297 days, 3:00:46 | 108 days, 5:21:47 | 885 days, 10:48:20 |
+| Time to close | 297 days, 21:05:35 | 109 days, 2:11:21 | 886 days, 20:04:40 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 167 |
-| Number of items closed | 833 |
+| Number of items that remain open | 162 |
+| Number of items closed | 838 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
@@ -78,7 +78,7 @@
 | Memory leak: untracked Rx subscriptions in ProjectionEventContextExtensions | https://github.com/Cratis/Chronicle/issues/3166 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1:39:05 | None |
 | It would be nice to see what events affect which observers | https://github.com/Cratis/Chronicle/issues/3147 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | None | None |
 | Projection Simulation | https://github.com/Cratis/Chronicle/issues/3146 | None | [einari](https://github.com/einari) | None | None | None |
-| Support for setting / clearing single child object | https://github.com/Cratis/Chronicle/issues/3142 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | None | None |
+| Support for setting / clearing single child object | https://github.com/Cratis/Chronicle/issues/3142 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | 37 days, 15:50:12 | None |
 | Content on redacted is not displaying everything in Workbench | https://github.com/Cratis/Chronicle/issues/3141 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 7:23:45 | None |
 | Clean stopping the client when application is closing | https://github.com/Cratis/Chronicle/issues/3140 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 27 days, 3:20:59 | None |
 | Collection of issues | https://github.com/Cratis/Chronicle/issues/3134 | None | [einari](https://github.com/einari) | None | 3 days, 23:48:05 | None |
@@ -173,7 +173,7 @@
 | Improve Read Model APIs and consistency between Reducers and Projections | https://github.com/Cratis/Chronicle/issues/2301 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 62 days, 10:54:47 | None |
 | Investigate ReadModels.Register() behavior for reactor-only applications | https://github.com/Cratis/Chronicle/issues/2290 | None | [einari](https://github.com/einari) | None | None | None |
 | Support of seeding a system with events | https://github.com/Cratis/Chronicle/issues/2278 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 17:49:05 | None |
-| Enable running integration specs for different setups | https://github.com/Cratis/Chronicle/issues/2268 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Enable running integration specs for different setups | https://github.com/Cratis/Chronicle/issues/2268 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 198 days, 13:00:05 | None |
 | Authentication for connecting to Kernel | https://github.com/Cratis/Chronicle/issues/2263 | None | [einari](https://github.com/einari) | None | 80 days, 2:59:33 | None |
 | TLS for secure connection between client and server | https://github.com/Cratis/Chronicle/issues/2261 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 79 days, 3:13:30 | None |
 | Switch to NuGet trusted publishing | https://github.com/Cratis/Chronicle/issues/2260 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 81 days, 11:11:11 | None |
@@ -181,13 +181,13 @@
 | Expand Command pipeline with Event metadata | https://github.com/Cratis/Chronicle/issues/2207 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1:05:15 | None |
 | Make the namespace resolver configurable for ASP.NET Core clients | https://github.com/Cratis/Chronicle/issues/2205 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 5:10:17 | None |
 | Introduce provider model for namespace resolution | https://github.com/Cratis/Chronicle/issues/2202 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 22:26:05 | None |
-| Integration spec project matrix | https://github.com/Cratis/Chronicle/issues/2148 | None | [einari](https://github.com/einari) | None | None | None |
+| Integration spec project matrix | https://github.com/Cratis/Chronicle/issues/2148 | None | [einari](https://github.com/einari) | None | 232 days, 1:40:18 | None |
 | ASP.NET Core is missing a dependency to the core Cratis.Chronicle client package | https://github.com/Cratis/Chronicle/issues/2091 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 31 days, 5:44:24 | None |
 | Investigate how we could be writing tests/specs for event sourcing in a better way | https://github.com/Cratis/Chronicle/issues/1980 | None | [einari](https://github.com/einari) | None | None | None |
 | Improve serialization when Appending events in the MongoDB Storage | https://github.com/Cratis/Chronicle/issues/1967 | None | [einari](https://github.com/einari) | None | None | None |
 | Add authorization on the Kernel side | https://github.com/Cratis/Chronicle/issues/1965 | None | [einari](https://github.com/einari) | None | None | None |
 | Add authentication & TLS for server and client | https://github.com/Cratis/Chronicle/issues/1964 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 103 days, 7:14:49 | None |
-| Add generate test events in workbench. Leveraging LLM | https://github.com/Cratis/Chronicle/issues/1960 | None | [einari](https://github.com/einari) | None | None | None |
+| Add generate test events in workbench. Leveraging LLM | https://github.com/Cratis/Chronicle/issues/1960 | None | [einari](https://github.com/einari) | None | 308 days, 10:31:11 | None |
 | Support generational Projections with references to correct generation of ReadModel | https://github.com/Cratis/Chronicle/issues/1959 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 16 days, 18:27:52 | None |
 | Make event type storage generational within same document stored | https://github.com/Cratis/Chronicle/issues/1957 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 17 days, 14:15:20 | None |
 | Rename Schemas collection in MongoDB to be EventTypes | https://github.com/Cratis/Chronicle/issues/1948 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 31 days, 17:07:35 | None |
@@ -299,4 +299,4 @@
 | In Observer Jobs figure out what to do when HandeEventsFOrPartition job handles no events | https://github.com/Cratis/Chronicle/issues/1571 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 19 days, 3:14:54 | None |
 | GetNextSequenceNumberGreaterOrEqualThan may cause problems | https://github.com/Cratis/Chronicle/issues/1570 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 17 days, 23:49:29 | None |
 | Reactors will never reconnect if connection is lost and re-established | https://github.com/Cratis/Chronicle/issues/1566 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 535 days, 21:19:47 | None |
-| Extract our internal integration test helpers into the testing library we offer | https://github.com/Cratis/Chronicle/issues/1564 | None | [einari](https://githu
+| Extract our internal integration test helpers into the testing library we offer | https://github.com/Crati
