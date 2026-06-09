@@ -3,17 +3,18 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 129 days, 15:44:53 | 3 days, 22:09:24 | 307 days, 14:14:21 |
-| Time to close | 296 days, 20:07:06 | 108 days, 12:11:06 | 883 days, 9:05:26 |
+| Time to close | 296 days, 23:26:40 | 108 days, 5:21:47 | 884 days, 1:39:44 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 164 |
-| Number of items closed | 836 |
+| Number of items that remain open | 165 |
+| Number of items closed | 835 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Add support for Geospatial Coordinate | https://github.com/Cratis/Chronicle/issues/3368 | None | [einari](https://github.com/einari) | None | None | None |
 | React to read model changes. | https://github.com/Cratis/Chronicle/issues/3359 | None | [einari](https://github.com/einari) | None | None | None |
 | Ability to take dependencies to read models in reactors | https://github.com/Cratis/Chronicle/issues/3358 | None | [einari](https://github.com/einari) | None | None | None |
 | Expand read models interface | https://github.com/Cratis/Chronicle/issues/3350 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 4:55:48 | None |
@@ -299,5 +300,4 @@
 | CpuBoundWorker support pausing and resuming | https://github.com/Cratis/Chronicle/issues/1578 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 108 days, 5:21:47 | None |
 | JobsManager ensure that Job is in correct state when performing operations on them | https://github.com/Cratis/Chronicle/issues/1576 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 108 days, 19:00:25 | None |
 | Remove System.Private.Uri audit suppression from Directory.Build.Props when fixed in .NET 9.0.200 | https://github.com/Cratis/Chronicle/issues/1575 | None | [einari](https://github.com/einari) | None | 85 days, 16:18:18 | None |
-| In Observer Jobs figure out what to do when HandeEventsFOrPartition job handles no events | https://github.com/Cratis/Chronicle/issues/1571 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 19 days, 3:14:54 | None |
-| GetNextSequenceNumberGreaterOrEqualThan may cause problem
+| In Observer Jobs figure out what to do when HandeEventsFOrPartition job handles no events | https://github.com/Cratis/Chronicle/issues/1571 | [woksin](ht
