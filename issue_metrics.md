@@ -3,19 +3,22 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 129 days, 15:44:53 | 3 days, 22:09:24 | 307 days, 14:14:21 |
-| Time to close | 297 days, 3:33:10 | 107 days, 13:32:14 | 884 days, 18:14:02 |
+| Time to close | 296 days, 8:14:07 | 103 days, 7:14:49 | 885 days, 10:48:20 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 166 |
-| Number of items closed | 834 |
+| Number of items that remain open | 167 |
+| Number of items closed | 833 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Add missing JsonConverters | https://github.com/Cratis/Chronicle/issues/3389 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Roslyn warning/error if a Reactor returns event side effects but is not marked as OnceOnly | https://github.com/Cratis/Chronicle/issues/3382 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 6:15:47 | None |
+| Reactor side-effects needs to honor append result and fail if it fails | https://github.com/Cratis/Chronicle/issues/3381 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Consolidate on port 35000 | https://github.com/Cratis/Chronicle/issues/3372 | None | [einari](https://github.com/einari) | None | None | None |
-| Add support for Geospatial Coordinate | https://github.com/Cratis/Chronicle/issues/3368 | None | [einari](https://github.com/einari) | None | None | None |
+| Add support for Geospatial Coordinate | https://github.com/Cratis/Chronicle/issues/3368 | None | [einari](https://github.com/einari) | None | 2 days, 1:52:13 | None |
 | React to read model changes. | https://github.com/Cratis/Chronicle/issues/3359 | None | [einari](https://github.com/einari) | None | None | None |
 | Ability to take dependencies to read models in reactors | https://github.com/Cratis/Chronicle/issues/3358 | None | [einari](https://github.com/einari) | None | None | None |
 | Expand read models interface | https://github.com/Cratis/Chronicle/issues/3350 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 4:55:48 | None |
@@ -297,8 +300,4 @@
 | Should Job run using the same TaskScheduler as the JobSteps? | https://github.com/Cratis/Chronicle/issues/1583 | None | [woksin](https://github.com/woksin) | None | 103 days, 8:31:45 | None |
 | Create a resilient version of IGrainStorage | https://github.com/Cratis/Chronicle/issues/1582 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 12 days, 20:09:00 | None |
 | Look into splitting JobSteps from Job | https://github.com/Cratis/Chronicle/issues/1581 | None | [woksin](https://github.com/woksin) | None | 2 days, 20:29:20 | None |
-| Add specs for Observers involving Job System | https://github.com/Cratis/Chronicle/issues/1580 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | 58 days, 21:52:48 | None |
-| CpuBoundWorker support pausing and resuming | https://github.com/Cratis/Chronicle/issues/1578 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 108 days, 5:21:47 | None |
-| JobsManager ensure that Job is in correct state when performing operations on them | https://github.com/Cratis/Chronicle/issues/1576 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 108 days, 19:00:25 | None |
-| Remove System.Private.Uri audit suppression from Directory.Build.Props when fixed in .NET 9.0.200 | https://github.com/Cratis/Chronicle/issues/1575 | None | [einari](https://github.com/einari) | None | 85 days, 16:18:18 | None |
-| In Obs
+| Add specs for Observers involving Job System | https://github.com/Cratis/Chronicle/issues/1580 | [woksin](https://github.com/woksi
