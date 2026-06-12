@@ -3,18 +3,18 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 129 days, 15:44:53 | 3 days, 22:09:24 | 307 days, 14:14:21 |
-| Time to close | 296 days, 8:14:07 | 103 days, 7:14:49 | 885 days, 10:48:20 |
+| Time to close | 295 days, 23:43:04 | 102 days, 17:49:22 | 884 days, 18:14:02 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 167 |
-| Number of items closed | 833 |
+| Number of items that remain open | 166 |
+| Number of items closed | 834 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
-| Add missing JsonConverters | https://github.com/Cratis/Chronicle/issues/3389 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Add missing JsonConverters | https://github.com/Cratis/Chronicle/issues/3389 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 8:40:54 | None |
 | Roslyn warning/error if a Reactor returns event side effects but is not marked as OnceOnly | https://github.com/Cratis/Chronicle/issues/3382 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 6:15:47 | None |
 | Reactor side-effects needs to honor append result and fail if it fails | https://github.com/Cratis/Chronicle/issues/3381 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Consolidate on port 35000 | https://github.com/Cratis/Chronicle/issues/3372 | None | [einari](https://github.com/einari) | None | None | None |
@@ -300,4 +300,4 @@
 | Should Job run using the same TaskScheduler as the JobSteps? | https://github.com/Cratis/Chronicle/issues/1583 | None | [woksin](https://github.com/woksin) | None | 103 days, 8:31:45 | None |
 | Create a resilient version of IGrainStorage | https://github.com/Cratis/Chronicle/issues/1582 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 12 days, 20:09:00 | None |
 | Look into splitting JobSteps from Job | https://github.com/Cratis/Chronicle/issues/1581 | None | [woksin](https://github.com/woksin) | None | 2 days, 20:29:20 | None |
-| Add specs for Observers involving Job System | https://github.com/Cratis/Chronicle/issues/1580 | [woksin](https://github.com/woksi
+| Add specs for Observers involving Job System | https://github.com/Cratis/Chronicle/issues/1580 | [woksin](https://github.com/
