@@ -2,25 +2,27 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 129 days, 15:44:53 | 3 days, 22:09:24 | 307 days, 14:14:21 |
-| Time to close | 295 days, 23:43:04 | 102 days, 17:49:22 | 884 days, 18:14:02 |
+| Time to first response | 104 days, 18:18:42 | 2 days, 19:57:57 | 296 days, 8:25:49 |
+| Time to close | 295 days, 0:01:25 | 102 days, 3:48:16 | 879 days, 6:41:10 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 166 |
-| Number of items closed | 834 |
+| Number of items that remain open | 168 |
+| Number of items closed | 832 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Aspire: slim-image WithMongoDB silently requires a MongoDB replica set + directConnection — document and/or provide a provisioning helper | https://github.com/Cratis/Chronicle/issues/3400 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Missing paging in Event Types in workbench | https://github.com/Cratis/Chronicle/issues/3396 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Add missing JsonConverters | https://github.com/Cratis/Chronicle/issues/3389 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 8:40:54 | None |
 | Roslyn warning/error if a Reactor returns event side effects but is not marked as OnceOnly | https://github.com/Cratis/Chronicle/issues/3382 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 6:15:47 | None |
 | Reactor side-effects needs to honor append result and fail if it fails | https://github.com/Cratis/Chronicle/issues/3381 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Consolidate on port 35000 | https://github.com/Cratis/Chronicle/issues/3372 | None | [einari](https://github.com/einari) | None | None | None |
 | Add support for Geospatial Coordinate | https://github.com/Cratis/Chronicle/issues/3368 | None | [einari](https://github.com/einari) | None | 2 days, 1:52:13 | None |
-| React to read model changes. | https://github.com/Cratis/Chronicle/issues/3359 | None | [einari](https://github.com/einari) | None | None | None |
-| Ability to take dependencies to read models in reactors | https://github.com/Cratis/Chronicle/issues/3358 | None | [einari](https://github.com/einari) | None | None | None |
+| React to read model changes. | https://github.com/Cratis/Chronicle/issues/3359 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | None | None |
+| Ability to take dependencies to read models in reactors | https://github.com/Cratis/Chronicle/issues/3358 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | None | None |
 | Expand read models interface | https://github.com/Cratis/Chronicle/issues/3350 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 4:55:48 | None |
 | MongoDB out-of-process: nested children replay drops feature/slice/event children when ChildrenFrom uses an event-property key | https://github.com/Cratis/Chronicle/issues/3345 | None | [einari](https://github.com/einari) | None | None | None |
 | Compensating events | https://github.com/Cratis/Chronicle/issues/3343 | None | [einari](https://github.com/einari) | None | None | None |
@@ -297,7 +299,4 @@
 | Namespace in Storage should make the namespace the ID | https://github.com/Cratis/Chronicle/issues/1589 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | 12 days, 13:07:10 | None |
 | ConnectedClients does not dispose the grain timer | https://github.com/Cratis/Chronicle/issues/1585 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [woksin](https://github.com/woksin) | None | 527 days, 4:32:18 | None |
 | Job Subscription Timer is disposed in Pause and Stop but not re-activated in Resume | https://github.com/Cratis/Chronicle/issues/1584 | None | [woksin](https://github.com/woksin) | None | 12 days, 0:03:38 | None |
-| Should Job run using the same TaskScheduler as the JobSteps? | https://github.com/Cratis/Chronicle/issues/1583 | None | [woksin](https://github.com/woksin) | None | 103 days, 8:31:45 | None |
-| Create a resilient version of IGrainStorage | https://github.com/Cratis/Chronicle/issues/1582 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 12 days, 20:09:00 | None |
-| Look into splitting JobSteps from Job | https://github.com/Cratis/Chronicle/issues/1581 | None | [woksin](https://github.com/woksin) | None | 2 days, 20:29:20 | None |
-| Add specs for Observers involving Job System | https://github.com/Cratis/Chronicle/issues/1580 | [woksin](https://github.com/
+| Should Job run using the same TaskScheduler as the JobSteps? | https://github.com/Cratis/Chronicle/issues/1583 | None | [woksin](https://github.com/
