@@ -3,13 +3,13 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 104 days, 18:18:42 | 2 days, 19:57:57 | 296 days, 8:25:49 |
-| Time to close | 294 days, 3:38:01 | 102 days, 3:12:37 | 873 days, 10:46:02 |
+| Time to close | 293 days, 19:25:43 | 102 days, 2:00:32 | 873 days, 10:11:48 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 169 |
-| Number of items closed | 831 |
+| Number of items that remain open | 168 |
+| Number of items closed | 832 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
@@ -20,7 +20,7 @@
 | Missing paging in Event Types in workbench | https://github.com/Cratis/Chronicle/issues/3396 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Add missing JsonConverters | https://github.com/Cratis/Chronicle/issues/3389 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 8:40:54 | None |
 | Roslyn warning/error if a Reactor returns event side effects but is not marked as OnceOnly | https://github.com/Cratis/Chronicle/issues/3382 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 6:15:47 | None |
-| Reactor side-effects needs to honor append result and fail if it fails | https://github.com/Cratis/Chronicle/issues/3381 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Reactor side-effects needs to honor append result and fail if it fails | https://github.com/Cratis/Chronicle/issues/3381 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 9 days, 17:02:49 | None |
 | Consolidate on port 35000 | https://github.com/Cratis/Chronicle/issues/3372 | None | [einari](https://github.com/einari) | None | None | None |
 | Add support for Geospatial Coordinate | https://github.com/Cratis/Chronicle/issues/3368 | None | [einari](https://github.com/einari) | None | 2 days, 1:52:13 | None |
 | React to read model changes. | https://github.com/Cratis/Chronicle/issues/3359 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | None | None |
@@ -299,4 +299,4 @@
 | JobsManager OnCompleted probably unncessary? | https://github.com/Cratis/Chronicle/issues/1591 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | 5:31:35 | 11 days, 0:24:45 | None |
 | Job invokes OnComplete on itself when Pause is invoked | https://github.com/Cratis/Chronicle/issues/1590 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 12 days, 2:39:11 | None |
 | Namespace in Storage should make the namespace the ID | https://github.com/Cratis/Chronicle/issues/1589 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | 12 days, 13:07:10 | None |
-| ConnectedClients does not dispose the grain timer | https://github.com/Cratis/Chronicle/issues/1585 | [einari](https://github.com/ein
+| ConnectedClients does not dispose the grain timer | https://github.com/Cratis/Chronicle/issues/1585 | [einari](https://g
