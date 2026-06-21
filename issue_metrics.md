@@ -3,17 +3,18 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 104 days, 18:18:42 | 2 days, 19:57:57 | 296 days, 8:25:49 |
-| Time to close | 293 days, 19:25:43 | 102 days, 2:00:32 | 873 days, 10:11:48 |
+| Time to close | 294 days, 1:05:03 | 102 days, 3:12:37 | 873 days, 10:46:02 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 168 |
-| Number of items closed | 832 |
+| Number of items that remain open | 169 |
+| Number of items closed | 831 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Read model reactors: reliable Added/Modified change type for reducer-backed and replayed changes | https://github.com/Cratis/Chronicle/issues/3418 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Fix Coverage build problems | https://github.com/Cratis/Chronicle/issues/3407 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 3:02:19 | None |
 | Unable to find a datacollector with friendly name 'XPlat Code Coverage' | https://github.com/Cratis/Chronicle/issues/3405 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Aspire: slim-image WithMongoDB silently requires a MongoDB replica set + directConnection — document and/or provide a provisioning helper | https://github.com/Cratis/Chronicle/issues/3400 | None | [woksin](https://github.com/woksin) | None | None | None |
@@ -298,5 +299,4 @@
 | JobStep PerformWork sends message to itself to ReportStatusChange | https://github.com/Cratis/Chronicle/issues/1592 | None | [woksin](https://github.com/woksin) | 4:38:20 | 23:38:41 | None |
 | JobsManager OnCompleted probably unncessary? | https://github.com/Cratis/Chronicle/issues/1591 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | 5:31:35 | 11 days, 0:24:45 | None |
 | Job invokes OnComplete on itself when Pause is invoked | https://github.com/Cratis/Chronicle/issues/1590 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 12 days, 2:39:11 | None |
-| Namespace in Storage should make the namespace the ID | https://github.com/Cratis/Chronicle/issues/1589 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | 12 days, 13:07:10 | None |
-| ConnectedClients does not dispose the grain timer | https://github.com/Cratis/Chronicle/issues/1585 | [einari](https://g
+| Namespace in Storage should make the namespace the ID | https://github.com/Cratis/Chronicle/issues/1589 | [woksin](https:/
