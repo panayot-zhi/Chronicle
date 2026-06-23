@@ -3,17 +3,18 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 104 days, 18:18:42 | 2 days, 19:57:57 | 296 days, 8:25:49 |
-| Time to close | 294 days, 1:05:03 | 102 days, 3:12:37 | 873 days, 10:46:02 |
+| Time to close | 293 days, 17:34:07 | 102 days, 2:00:32 | 874 days, 2:18:50 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 169 |
-| Number of items closed | 831 |
+| Number of items that remain open | 170 |
+| Number of items closed | 830 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| [RemovedWith] attribute does not work with empty removal events using implicit EventSourceId resolution | https://github.com/Cratis/Chronicle/issues/3421 | None | [einari](https://github.com/einari) | None | None | None |
 | Read model reactors: reliable Added/Modified change type for reducer-backed and replayed changes | https://github.com/Cratis/Chronicle/issues/3418 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Fix Coverage build problems | https://github.com/Cratis/Chronicle/issues/3407 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 3:02:19 | None |
 | Unable to find a datacollector with friendly name 'XPlat Code Coverage' | https://github.com/Cratis/Chronicle/issues/3405 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
@@ -298,5 +299,4 @@
 | Gracefully handle cancellation (especially pausing) of jobs and job steps | https://github.com/Cratis/Chronicle/issues/1593 | None | [woksin](https://github.com/woksin) | None | 109 days, 9:22:17 | None |
 | JobStep PerformWork sends message to itself to ReportStatusChange | https://github.com/Cratis/Chronicle/issues/1592 | None | [woksin](https://github.com/woksin) | 4:38:20 | 23:38:41 | None |
 | JobsManager OnCompleted probably unncessary? | https://github.com/Cratis/Chronicle/issues/1591 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | 5:31:35 | 11 days, 0:24:45 | None |
-| Job invokes OnComplete on itself when Pause is invoked | https://github.com/Cratis/Chronicle/issues/1590 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 12 days, 2:39:11 | None |
-| Namespace in Storage should make the namespace the ID | https://github.com/Cratis/Chronicle/issues/1589 | [woksin](https:/
+| Job invokes OnComplete on itself when Pause is invoked | https://github.com/Cratis/Chronicle/issues/1590 | [woksin](
