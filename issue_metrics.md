@@ -3,18 +3,20 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 104 days, 18:18:42 | 2 days, 19:57:57 | 296 days, 8:25:49 |
-| Time to close | 294 days, 0:51:39 | 102 days, 3:12:37 | 874 days, 17:51:37 |
+| Time to close | 293 days, 3:43:38 | 102 days, 0:48:27 | 873 days, 7:20:39 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 171 |
-| Number of items closed | 829 |
+| Number of items that remain open | 173 |
+| Number of items closed | 827 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
-| Constraint index does not need the actual data | https://github.com/Cratis/Chronicle/issues/3430 | None | [einari](https://github.com/einari) | None | None | None |
+| Flaky integration test: when_projecting_with_watcher.should_receive_same_model times out | https://github.com/Cratis/Chronicle/issues/3435 | None | [einari](https://github.com/einari) | None | None | None |
+| Consolidate the Testing client's in-memory storage doubles onto Storage.InMemory | https://github.com/Cratis/Chronicle/issues/3434 | None | [einari](https://github.com/einari) | None | None | None |
+| Constraint index does not need the actual data | https://github.com/Cratis/Chronicle/issues/3430 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | [RemovedWith] attribute does not work with empty removal events using implicit EventSourceId resolution | https://github.com/Cratis/Chronicle/issues/3421 | None | [einari](https://github.com/einari) | None | None | None |
 | Read model reactors: reliable Added/Modified change type for reducer-backed and replayed changes | https://github.com/Cratis/Chronicle/issues/3418 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Fix Coverage build problems | https://github.com/Cratis/Chronicle/issues/3407 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 3:02:19 | None |
@@ -297,6 +299,4 @@
 | Parallelize PrepareAndStartJobSteps | https://github.com/Cratis/Chronicle/issues/1596 | None | [woksin](https://github.com/woksin) | 102 days, 3:12:37 | 102 days, 3:12:37 | None |
 | Persisted JobStep state never seems to be cleared | https://github.com/Cratis/Chronicle/issues/1595 | None | [woksin](https://github.com/woksin) | None | 0:23:18 | None |
 | JobStep Pause unsubscribes job step from job, but Resume does not subscribe them again | https://github.com/Cratis/Chronicle/issues/1594 | None | [woksin](https://github.com/woksin) | None | 102 days, 4:23:54 | None |
-| Gracefully handle cancellation (especially pausing) of jobs and job steps | https://github.com/Cratis/Chronicle/issues/1593 | None | [woksin](https://github.com/woksin) | None | 109 days, 9:22:17 | None |
-| JobStep PerformWork sends message to itself to ReportStatusChange | https://github.com/Cratis/Chronicle/issues/1592 | None | [woksin](https://github.com/woksin) | 4:38:20 | 23:38:41 | None |
-| JobsManager OnCompleted probably unncessary? | https://github.com/Cratis/Chronicle/issues/1591 | [woksin](https://github.com/woksin) | [woksin](https://github.c
+| Gracefully handle cancellation (especially pausing) of jobs and job steps | https
