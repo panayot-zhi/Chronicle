@@ -3,18 +3,18 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 104 days, 18:18:42 | 2 days, 19:57:57 | 296 days, 8:25:49 |
-| Time to close | 293 days, 1:21:59 | 101 days, 16:13:50 | 873 days, 7:54:52 |
+| Time to close | 292 days, 17:02:54 | 101 days, 7:39:14 | 873 days, 7:20:39 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 174 |
-| Number of items closed | 826 |
+| Number of items that remain open | 173 |
+| Number of items closed | 827 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
-| Model-bound projection: explicit property source overwritten by name-based AutoMap from a coincidentally same-named event | https://github.com/Cratis/Chronicle/issues/3444 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Model-bound projection: explicit property source overwritten by name-based AutoMap from a coincidentally same-named event | https://github.com/Cratis/Chronicle/issues/3444 | None | [woksin](https://github.com/woksin) | None | 6 days, 10:26:17 | None |
 | Flaky integration test: when_projecting_with_watcher.should_receive_same_model times out | https://github.com/Cratis/Chronicle/issues/3435 | None | [einari](https://github.com/einari) | None | None | None |
 | Consolidate the Testing client's in-memory storage doubles onto Storage.InMemory | https://github.com/Cratis/Chronicle/issues/3434 | None | [einari](https://github.com/einari) | None | None | None |
 | Constraint index does not need the actual data | https://github.com/Cratis/Chronicle/issues/3430 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
@@ -299,4 +299,4 @@
 | Figure out what to do when Job starts without job steps and OnCompleted fails | https://github.com/Cratis/Chronicle/issues/1597 | None | [woksin](https://github.com/woksin) | None | 102 days, 0:48:27 | None |
 | Parallelize PrepareAndStartJobSteps | https://github.com/Cratis/Chronicle/issues/1596 | None | [woksin](https://github.com/woksin) | 102 days, 3:12:37 | 102 days, 3:12:37 | None |
 | Persisted JobStep state never seems to be cleared | https://github.com/Cratis/Chronicle/issues/1595 | None | [woksin](https://github.com/woksin) | None | 0:23:18 | None |
-| JobStep Pause unsubscribes job step from job, but Resume d
+| JobStep Pause unsubscribes job step from job, 
