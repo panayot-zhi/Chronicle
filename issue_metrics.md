@@ -3,13 +3,13 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 104 days, 18:18:42 | 2 days, 19:57:57 | 296 days, 8:25:49 |
-| Time to close | 292 days, 22:51:33 | 101 days, 16:13:50 | 873 days, 7:54:52 |
+| Time to close | 292 days, 15:46:51 | 101 days, 7:39:14 | 873 days, 7:20:39 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 174 |
-| Number of items closed | 826 |
+| Number of items that remain open | 173 |
+| Number of items closed | 827 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
@@ -39,7 +39,7 @@
 | Do not apply patches unless they should be applied | https://github.com/Cratis/Chronicle/issues/3339 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 3 days, 23:20:24 | None |
 | Self-referencing model-bound projections: remaining gaps after #3330 | https://github.com/Cratis/Chronicle/issues/3336 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 18:12:17 | None |
 | Model-bound projections: self-referencing children are flattened instead of nested | https://github.com/Cratis/Chronicle/issues/3329 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 4:52:11 | None |
-| Add integration specs for clustering | https://github.com/Cratis/Chronicle/issues/3324 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Add integration specs for clustering | https://github.com/Cratis/Chronicle/issues/3324 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 49 days, 0:58:21 | None |
 | Roslyn Analyzer: Chronicle Command & Handler Enforcement (CHR-A023..A025) | https://github.com/Cratis/Chronicle/issues/3312 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 6:29:41 | None |
 | Roslyn Analyzer: Domain Model Integrity (CHR-A011..A015) | https://github.com/Cratis/Chronicle/issues/3311 | None | [einari](https://github.com/einari) | None | 4:42:45 | None |
 | @cratis/chronicle.contracts: forceLong=bigint change in fda71e5 is unreleased; latest npm artifact still ships number | https://github.com/Cratis/Chronicle/issues/3310 | None | [einari](https://github.com/einari) | None | 0:04:44 | None |
@@ -298,4 +298,4 @@
 | Add failed partition client API | https://github.com/Cratis/Chronicle/issues/1599 | None | [einari](https://github.com/einari) | None | 80 days, 8:23:05 | None |
 | Make resuming Jobs and JobSteps work | https://github.com/Cratis/Chronicle/issues/1598 | None | [woksin](https://github.com/woksin) | None | 101 days, 7:39:14 | None |
 | Figure out what to do when Job starts without job steps and OnCompleted fails | https://github.com/Cratis/Chronicle/issues/1597 | None | [woksin](https://github.com/woksin) | None | 102 days, 0:48:27 | None |
-| Parallelize PrepareAndStartJobSteps | https://github.com/Cratis/Chronicle/issues/1596 | None | [woksin](https://github.com/woksin) | 102 days, 3:12:37 | 102 days, 
+| Parallelize PrepareAndStartJobSteps | https://github.com/Cratis/Chronicle/issues/1596 | None | [woksin](https://github.com/woksin) | 102 days, 3:12:37 |
