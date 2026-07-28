@@ -3,17 +3,18 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 104 days, 18:18:42 | 2 days, 19:57:57 | 296 days, 8:25:49 |
-| Time to close | 292 days, 15:46:51 | 101 days, 7:39:14 | 873 days, 7:20:39 |
+| Time to close | 292 days, 20:05:50 | 101 days, 7:35:20 | 873 days, 7:54:52 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 173 |
-| Number of items closed | 827 |
+| Number of items that remain open | 174 |
+| Number of items closed | 826 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Expose a public API for compiling a projection into its ProjectionDefinition | https://github.com/Cratis/Chronicle/issues/3520 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Non-passive model-bound [ChildrenFrom] child-collection projection does not materialize in the out-of-process kernel | https://github.com/Cratis/Chronicle/issues/3463 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Model-bound projection: explicit property source overwritten by name-based AutoMap from a coincidentally same-named event | https://github.com/Cratis/Chronicle/issues/3444 | None | [woksin](https://github.com/woksin) | None | 6 days, 10:26:17 | None |
 | Flaky integration test: when_projecting_with_watcher.should_receive_same_model times out | https://github.com/Cratis/Chronicle/issues/3435 | None | [einari](https://github.com/einari) | None | None | None |
@@ -297,5 +298,4 @@
 | HandleEventsForPartition job step if it fails after successfully handling some events but not all | https://github.com/Cratis/Chronicle/issues/1600 | None | [woksin](https://github.com/woksin) | None | 10 days, 22:34:13 | None |
 | Add failed partition client API | https://github.com/Cratis/Chronicle/issues/1599 | None | [einari](https://github.com/einari) | None | 80 days, 8:23:05 | None |
 | Make resuming Jobs and JobSteps work | https://github.com/Cratis/Chronicle/issues/1598 | None | [woksin](https://github.com/woksin) | None | 101 days, 7:39:14 | None |
-| Figure out what to do when Job starts without job steps and OnCompleted fails | https://github.com/Cratis/Chronicle/issues/1597 | None | [woksin](https://github.com/woksin) | None | 102 days, 0:48:27 | None |
-| Parallelize PrepareAndStartJobSteps | https://github.com/Cratis/Chronicle/issues/1596 | None | [woksin](https://github.com/woksin) | 102 days, 3:12:37 |
+| Figure out what to do when Job starts without job steps and OnCompleted fails | https://github.com/Cratis/Chronicle/issues/1597 | None | [woksin](https://github.com/w
