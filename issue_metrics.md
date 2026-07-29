@@ -3,17 +3,19 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 104 days, 18:18:42 | 2 days, 19:57:57 | 296 days, 8:25:49 |
-| Time to close | 292 days, 20:05:50 | 101 days, 7:35:20 | 873 days, 7:54:52 |
+| Time to close | 292 days, 23:08:38 | 101 days, 7:35:20 | 873 days, 9:03:20 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 174 |
-| Number of items closed | 826 |
+| Number of items that remain open | 176 |
+| Number of items closed | 824 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Nested [ChildrenFrom]: child events for a level-2+ nested read model are never projected (stuck in projection-futures) | https://github.com/Cratis/Chronicle/issues/3532 | None | [einari](https://github.com/einari) | None | None | None |
+| UI does not display sequences properly | https://github.com/Cratis/Chronicle/issues/3531 | None | [manuelprinz](https://github.com/manuelprinz) | None | None | None |
 | Expose a public API for compiling a projection into its ProjectionDefinition | https://github.com/Cratis/Chronicle/issues/3520 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Non-passive model-bound [ChildrenFrom] child-collection projection does not materialize in the out-of-process kernel | https://github.com/Cratis/Chronicle/issues/3463 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Model-bound projection: explicit property source overwritten by name-based AutoMap from a coincidentally same-named event | https://github.com/Cratis/Chronicle/issues/3444 | None | [woksin](https://github.com/woksin) | None | 6 days, 10:26:17 | None |
@@ -296,6 +298,4 @@
 | Observer grain should have a failed partition count metric | https://github.com/Cratis/Chronicle/issues/1604 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 526 days, 20:10:45 | None |
 | IObserver should not implement IStateMachine, it's an internal concern | https://github.com/Cratis/Chronicle/issues/1601 | None | [woksin](https://github.com/woksin) | None | None | None |
 | HandleEventsForPartition job step if it fails after successfully handling some events but not all | https://github.com/Cratis/Chronicle/issues/1600 | None | [woksin](https://github.com/woksin) | None | 10 days, 22:34:13 | None |
-| Add failed partition client API | https://github.com/Cratis/Chronicle/issues/1599 | None | [einari](https://github.com/einari) | None | 80 days, 8:23:05 | None |
-| Make resuming Jobs and JobSteps work | https://github.com/Cratis/Chronicle/issues/1598 | None | [woksin](https://github.com/woksin) | None | 101 days, 7:39:14 | None |
-| Figure out what to do when Job starts without job steps and OnCompleted fails | https://github.com/Cratis/Chronicle/issues/1597 | None | [woksin](https://github.com/w
+| Add failed partition client API | https://github.com/Cratis/Chronicle/issues/1599 | None | [
