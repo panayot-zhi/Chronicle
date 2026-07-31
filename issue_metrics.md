@@ -3,17 +3,19 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 330 days, 22:51:32 | 91 days, 18:00:19 | 1116 days, 18:02:53 |
-| Time to close | 306 days, 2:52:28 | 109 days, 9:22:17 | 897 days, 10:23:20 |
+| Time to close | 306 days, 21:57:44 | 110 days, 1:05:54 | 898 days, 2:52:56 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 147 |
-| Number of items closed | 853 |
+| Number of items that remain open | 148 |
+| Number of items closed | 852 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Integration tests for frontend | https://github.com/Cratis/Chronicle/issues/3561 | None | [einari](https://github.com/einari) | None | None | None |
+| Captures improvements | https://github.com/Cratis/Chronicle/issues/3560 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | None | None |
 | Copilot instruction propagation has been failing to ~13 repos since early July | https://github.com/Cratis/Chronicle/issues/3555 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Document how to get Chronicle client traces into OpenTelemetry | https://github.com/Cratis/Chronicle/issues/3546 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Document the replay-notification API for observers | https://github.com/Cratis/Chronicle/issues/3545 | None | [woksin](https://github.com/woksin) | None | None | None |
@@ -279,7 +281,7 @@
 | Ensure that resuming of jobs work as intended | https://github.com/Cratis/Chronicle/issues/1687 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | 45 days, 9:12:03 | None |
 | Jobs RequestType discriminator seems to not work every | https://github.com/Cratis/Chronicle/issues/1686 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | 4:38:34 | 11 days, 0:19:35 | None |
 | Job system should clean up jobs that are "dead in the water" | https://github.com/Cratis/Chronicle/issues/1685 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 408 days, 7:35:32 | None |
-| Add the capability of changing name of an identity | https://github.com/Cratis/Chronicle/issues/1684 | None | [einari](https://github.com/einari) | None | None | None |
+| Add the capability of changing name of an identity | https://github.com/Cratis/Chronicle/issues/1684 | None | [einari](https://github.com/einari) | None | 545 days, 9:08:01 | None |
 | When catching up all partitions, the Observer should just register all partitions itself as catching up | https://github.com/Cratis/Chronicle/issues/1683 | None | [einari](https://github.com/einari) | None | None | None |
 | Improve state consistency around observers and next/handled event sequence number for when multiple partitions are working and for some reason the server goes down | https://github.com/Cratis/Chronicle/issues/1682 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | 488 days, 18:15:54 | None |
 | Make it possible for observers to opt-in for supporting parallelizing replay or not | https://github.com/Cratis/Chronicle/issues/1670 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | None | None |
@@ -296,5 +298,4 @@
 | Constraints should be registered in the event store - maybe even as Grains?? | https://github.com/Cratis/Chronicle/issues/1615 | None | [einari](https://github.com/einari) | 590 days, 0:47:20 | 590 days, 0:47:21 | None |
 | When starting up Job System should make sure that all persisted jobs are resumed | https://github.com/Cratis/Chronicle/issues/1614 | None | [woksin](https://github.com/woksin) | None | 91 days, 7:39:17 | None |
 | Constraints should support the ability to have support  multiple properties for unique constraints as a composite from an event | https://github.com/Cratis/Chronicle/issues/1612 | None | [einari](https://github.com/einari) | None | 513 days, 17:23:27 | None |
-| Job OnStepFailed and OnStepSucceeded should be "recoverable" | https://github.com/Cratis/Chronicle/issues/1609 | None | [woksin](https://github.com/woksin) | None | 97 days, 8:56:20 | None |
-| We have some (at least two, Job and JobStep) that need to call itself indirectly to avoid issues | https://github.com/Cratis/Chronicle/issues/1606 | None | [woksin](https://github.com/woksin) | None | 98 days, 6:49:49 | 
+| Job OnStepFailed and OnStepSucceeded should be "recoverable" | https://githu
