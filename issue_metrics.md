@@ -2,19 +2,25 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 558 days, 20:41:51 | 653 days, 0:27:49 | 1278 days, 18:19:22 |
-| Time to close | 324 days, 23:25:45 | 123 days, 3:12:33 | 935 days, 21:03:16 |
+| Time to first response | 548 days, 17:55:50 | 590 days, 0:47:20 | 1278 days, 18:19:22 |
+| Time to close | 321 days, 20:17:59 | 118 days, 0:29:05 | 917 days, 10:54:22 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 127 |
-| Number of items closed | 873 |
+| Number of items that remain open | 131 |
+| Number of items closed | 869 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
-| Documentation link verification passes without checking any links | https://github.com/Cratis/Chronicle/issues/3581 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Cross-store outbox subscription never delivers the first-ever event of a new event type on a low-traffic sequence | https://github.com/Cratis/Chronicle/issues/3591 | None | [einari](https://github.com/einari) | None | 1:38:58 | None |
+| Constraint release is not visible within the same AppendMany batch | https://github.com/Cratis/Chronicle/issues/3590 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Kernel MongoDB convention pack is registered twice | https://github.com/Cratis/Chronicle/issues/3589 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Projection changesets carry bookkeeping into a document that is then schema-validated | https://github.com/Cratis/Chronicle/issues/3588 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Unique event type constraints silently ignore their scope | https://github.com/Cratis/Chronicle/issues/3587 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Conformance suite: prove every client meets the value contract | https://github.com/Cratis/Chronicle/issues/3583 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Documentation link verification passes without checking any links | https://github.com/Cratis/Chronicle/issues/3581 | None | [woksin](https://github.com/woksin) | None | 9:54:10 | None |
 | Client capability claims in shared docs cannot be maintained where they are written | https://github.com/Cratis/Chronicle/issues/3580 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Mongo sink writes polymorphic [DerivedType] child objects without _derivedTypeId after 16.13.4 re-materialization | https://github.com/Cratis/Chronicle/issues/3571 | None | [einari](https://github.com/einari) | None | 1 day, 14:23:03 | None |
 | Client reactor observer with pending events is never caught up after server restart | https://github.com/Cratis/Chronicle/issues/3570 | None | [einari](https://github.com/einari) | None | 1 day, 14:23:55 | None |
@@ -26,7 +32,7 @@
 | Document the replay-notification API for observers | https://github.com/Cratis/Chronicle/issues/3545 | None | [woksin](https://github.com/woksin) | None | None | None |
 | for_JobStateSerializer specs run against a class map production never uses | https://github.com/Cratis/Chronicle/issues/3541 | None | [woksin](https://github.com/woksin) | None | 3:53:20 | None |
 | Nested [ChildrenFrom]: child events for a level-2+ nested read model are never projected (stuck in projection-futures) | https://github.com/Cratis/Chronicle/issues/3532 | None | [einari](https://github.com/einari) | None | None | None |
-| UI does not display sequences properly | https://github.com/Cratis/Chronicle/issues/3531 | None | [manuelprinz](https://github.com/manuelprinz) | None | None | None |
+| UI does not display sequences properly | https://github.com/Cratis/Chronicle/issues/3531 | None | [manuelprinz](https://github.com/manuelprinz) | 8 days, 14:59:32 | None | None |
 | Expose a public API for compiling a projection into its ProjectionDefinition | https://github.com/Cratis/Chronicle/issues/3520 | None | [woksin](https://github.com/woksin) | None | 8 days, 18:31:50 | None |
 | Non-passive model-bound [ChildrenFrom] child-collection projection does not materialize in the out-of-process kernel | https://github.com/Cratis/Chronicle/issues/3463 | None | [woksin](https://github.com/woksin) | None | 19 days, 11:29:46 | None |
 | Model-bound projection: explicit property source overwritten by name-based AutoMap from a coincidentally same-named event | https://github.com/Cratis/Chronicle/issues/3444 | None | [woksin](https://github.com/woksin) | None | 6 days, 10:26:17 | None |
@@ -291,10 +297,4 @@
 | Improve state consistency around observers and next/handled event sequence number for when multiple partitions are working and for some reason the server goes down | https://github.com/Cratis/Chronicle/issues/1682 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | 488 days, 18:15:54 | None |
 | Make it possible for observers to opt-in for supporting parallelizing replay or not | https://github.com/Cratis/Chronicle/issues/1670 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | None | None |
 | Add support for Reactors and Reducers to be notified when a replay begins and ends | https://github.com/Cratis/Chronicle/issues/1669 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 487 days, 4:52:14 | None |
-| Observer Routing does not take into consideration Observers with Replaying or CatchingUp Partitions | https://github.com/Cratis/Chronicle/issues/1667 | None | [woksin](https://github.com/woksin) | None | 2 days, 0:44:03 | None |
-| Make sure Reactors, Reducers and Projections does not try to do catch up, unless they actually are behind | https://github.com/Cratis/Chronicle/issues/1663 | None | [einari](https://github.com/einari) | None | 2 days, 7:50:12 | None |
-| Fix ordering of serializers and avoid duplicate serializers (Codecs) | https://github.com/Cratis/Chronicle/issues/1662 | None | [einari](https://github.com/einari) | 7:02:57 | 7:02:57 | None |
-| Crashes when restarting | https://github.com/Cratis/Chronicle/issues/1661 | None | [einari](https://github.com/einari) | None | 2 days, 7:53:35 | None |
-| ConnectionService - avoid task delay 1 second | https://github.com/Cratis/Chronicle/issues/1658 | None | [woksin](https://github.com/woksin) | None | 8 days, 22:44:10 | None |
-| Add integration specs for Catching Up and Replay with partitions failing | https://github.com/Cratis/Chronicle/issues/1655 | None | [einari](https://github.com/einari) | None | 6 days, 2:56:43 | None |
-| Configurable retry mechanism for Observers | https://github.com/Cratis/Chronicle/issues/1636 | [woksin](https://github.com/woksin) | [einari](https://gi
+| Observer Routing does not take into consideration Observers with Replaying or CatchingUp Partitions | https://github.com/Cratis/Chronicle/issues/1667 | None | [woksin](https:/
