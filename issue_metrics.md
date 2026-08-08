@@ -3,17 +3,20 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 548 days, 17:55:50 | 590 days, 0:47:20 | 1278 days, 18:19:22 |
-| Time to close | 321 days, 20:17:59 | 118 days, 0:29:05 | 917 days, 10:54:22 |
+| Time to close | 321 days, 18:47:52 | 120 days, 12:31:38 | 914 days, 2:39:02 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 131 |
-| Number of items closed | 869 |
+| Number of items that remain open | 134 |
+| Number of items closed | 866 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Should a release-exempt PII marker exist, and where should [ReleaseUnder] on a stored read model be refused? | https://github.com/Cratis/Chronicle/issues/3601 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Is erasing a subject's encryption key a permanent refusal, or only removal of the key that exists now? | https://github.com/Cratis/Chronicle/issues/3600 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Cratis.Chronicle.Testing bakes in Cratis.Screenplay.Secrets types, so every spec fails against Screenplay 2.0.0 | https://github.com/Cratis/Chronicle/issues/3598 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Cross-store outbox subscription never delivers the first-ever event of a new event type on a low-traffic sequence | https://github.com/Cratis/Chronicle/issues/3591 | None | [einari](https://github.com/einari) | None | 1:38:58 | None |
 | Constraint release is not visible within the same AppendMany batch | https://github.com/Cratis/Chronicle/issues/3590 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Kernel MongoDB convention pack is registered twice | https://github.com/Cratis/Chronicle/issues/3589 | None | [woksin](https://github.com/woksin) | None | None | None |
@@ -295,6 +298,4 @@
 | Add the capability of changing name of an identity | https://github.com/Cratis/Chronicle/issues/1684 | None | [einari](https://github.com/einari) | None | 545 days, 9:08:01 | None |
 | When catching up all partitions, the Observer should just register all partitions itself as catching up | https://github.com/Cratis/Chronicle/issues/1683 | None | [einari](https://github.com/einari) | None | None | None |
 | Improve state consistency around observers and next/handled event sequence number for when multiple partitions are working and for some reason the server goes down | https://github.com/Cratis/Chronicle/issues/1682 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | 488 days, 18:15:54 | None |
-| Make it possible for observers to opt-in for supporting parallelizing replay or not | https://github.com/Cratis/Chronicle/issues/1670 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | None | None |
-| Add support for Reactors and Reducers to be notified when a replay begins and ends | https://github.com/Cratis/Chronicle/issues/1669 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 487 days, 4:52:14 | None |
-| Observer Routing does not take into consideration Observers with Replaying or CatchingUp Partitions | https://github.com/Cratis/Chronicle/issues/1667 | None | [woksin](https:/
+| Make it poss
