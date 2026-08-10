@@ -2,18 +2,27 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 548 days, 17:55:50 | 590 days, 0:47:20 | 1278 days, 18:19:22 |
-| Time to close | 321 days, 18:47:52 | 120 days, 12:31:38 | 914 days, 2:39:02 |
+| Time to first response | 543 days, 22:24:25 | 587 days, 16:14:48 | 1278 days, 8:07:56 |
+| Time to close | 319 days, 5:32:15 | 115 days, 16:04:19 | 912 days, 20:34:43 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 134 |
-| Number of items closed | 866 |
+| Number of items that remain open | 143 |
+| Number of items closed | 857 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| JsonSchema.Validate accepts wrong property value types | https://github.com/Cratis/Chronicle/issues/3613 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Preserve seeding failures and legitimate repeated events | https://github.com/Cratis/Chronicle/issues/3612 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Document and diagnose passive projections that re-key events from another stream | https://github.com/Cratis/Chronicle/issues/3609 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Passive immediate projections retain read models after RemovedWith events | https://github.com/Cratis/Chronicle/issues/3608 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Make production hosting guidance executable and encryption-certificate lifecycle recoverable | https://github.com/Cratis/Chronicle/issues/3607 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Make TLS certificate-validation defaults and precedence secure and unambiguous | https://github.com/Cratis/Chronicle/issues/3606 | None | [woksin](https://github.com/woksin) | 0:14:48 | None | None |
+| Support materialized read models through IReadModel | https://github.com/Cratis/Chronicle/issues/3605 | None | [einari](https://github.com/einari) | None | None | None |
+| Add an opt-in health-only dedicated listener | https://github.com/Cratis/Chronicle/issues/3604 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Allow PII value objects to contain enum members during append | https://github.com/Cratis/Chronicle/issues/3603 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Should a release-exempt PII marker exist, and where should [ReleaseUnder] on a stored read model be refused? | https://github.com/Cratis/Chronicle/issues/3601 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Is erasing a subject's encryption key a permanent refusal, or only removal of the key that exists now? | https://github.com/Cratis/Chronicle/issues/3600 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Cratis.Chronicle.Testing bakes in Cratis.Screenplay.Secrets types, so every spec fails against Screenplay 2.0.0 | https://github.com/Cratis/Chronicle/issues/3598 | None | [woksin](https://github.com/woksin) | None | None | None |
@@ -290,12 +299,4 @@
 | When unsubscribing Observer it should also Pause all ongoing jobs for that observer so that they can be resumed later | https://github.com/Cratis/Chronicle/issues/1705 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [woksin](https://github.com/woksin) | None | 458 days, 3:18:13 | None |
 | In Job implementations handle failures of steps | https://github.com/Cratis/Chronicle/issues/1703 | None | [woksin](https://github.com/woksin) | None | 33 days, 8:56:56 | None |
 | ObserverManager Expiration time | https://github.com/Cratis/Chronicle/issues/1692 | None | [woksin](https://github.com/woksin) | 18 days, 20:18:08 | 18 days, 20:18:52 | None |
-| It should be possible to see catching up/replaying partitions for an observer and delete these in the workbench | https://github.com/Cratis/Chronicle/issues/1690 | None | [einari](https://github.com/einari) | None | None | None |
-| Self healing of partitions in catch up and replaying partitions | https://github.com/Cratis/Chronicle/issues/1688 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | 24 days, 6:10:02 | None |
-| Ensure that resuming of jobs work as intended | https://github.com/Cratis/Chronicle/issues/1687 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | 45 days, 9:12:03 | None |
-| Jobs RequestType discriminator seems to not work every | https://github.com/Cratis/Chronicle/issues/1686 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | 4:38:34 | 11 days, 0:19:35 | None |
-| Job system should clean up jobs that are "dead in the water" | https://github.com/Cratis/Chronicle/issues/1685 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 408 days, 7:35:32 | None |
-| Add the capability of changing name of an identity | https://github.com/Cratis/Chronicle/issues/1684 | None | [einari](https://github.com/einari) | None | 545 days, 9:08:01 | None |
-| When catching up all partitions, the Observer should just register all partitions itself as catching up | https://github.com/Cratis/Chronicle/issues/1683 | None | [einari](https://github.com/einari) | None | None | None |
-| Improve state consistency around observers and next/handled event sequence number for when multiple partitions are working and for some reason the server goes down | https://github.com/Cratis/Chronicle/issues/1682 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | 488 days, 18:15:54 | None |
-| Make it poss
+| It should be possible to see catching up/replaying partitions for an observer and delete these in the workbench | https://github.com/Cratis/Chronicle/issues/1690 | None | [einari](https://github.com/einari) | None | None 
