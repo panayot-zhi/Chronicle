@@ -3,17 +3,25 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 534 days, 7:04:36 | 585 days, 7:42:16 | 1275 days, 8:47:48 |
-| Time to close | 289 days, 23:56:51 | 86 days, 18:44:05 | 854 days, 9:40:55 |
+| Time to close | 283 days, 8:55:43 | 80 days, 2:59:33 | 825 days, 8:34:59 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 148 |
-| Number of items closed | 852 |
+| Number of items that remain open | 153 |
+| Number of items closed | 847 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Unique value constraints silently keep only the last RemovedWith declaration | https://github.com/Cratis/Chronicle/issues/3697 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Source/Kernel/Contracts does not build in Release | https://github.com/Cratis/Chronicle/issues/3696 | None | [woksin](https://github.com/woksin) | None | None | None |
+| State the encryption-certificate requirement consistently, and let the Aspire production image be pinned | https://github.com/Cratis/Chronicle/issues/3691 | None | [woksin](https://github.com/woksin) | None | 0:10:17 | None |
+| Encryption-certificate rotation: decide the mechanism, then implement it and document the backup/restore ordering | https://github.com/Cratis/Chronicle/issues/3690 | None | [woksin](https://github.com/woksin) | None | None | None |
+| ReadModelScenario drops a same-event child projection when the event also maps parent fields | https://github.com/Cratis/Chronicle/issues/3689 | None | [woksin](https://github.com/woksin) | None | None | None |
+| ReadModelScenario carries [ChildrenFrom] children across event sources | https://github.com/Cratis/Chronicle/issues/3688 | None | [einari](https://github.com/einari) | None | None | None |
+| ApplicationAuthenticated cannot be appended after ResetKernelState: MissingEventSchemaForEventType | https://github.com/Cratis/Chronicle/issues/3687 | None | [einari](https://github.com/einari) | None | None | None |
+| The Aspire production/development discriminator is the wrong signal | https://github.com/Cratis/Chronicle/issues/3686 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Allow a unit of work to enroll ordered events with exact concurrency scopes | https://github.com/Cratis/Chronicle/issues/3683 | None | [woksin](https://github.com/woksin) | None | 2:31:42 | None |
 | A container whose startup threw stays Running with a dead process | https://github.com/Cratis/Chronicle/issues/3682 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Tls:Enabled=false still refuses to start without a certificate, contradicting its own documentation | https://github.com/Cratis/Chronicle/issues/3681 | None | [woksin](https://github.com/woksin) | None | None | None |
@@ -54,7 +62,6 @@
 | a spec cannot ask Cratis which artifacts it registered, so every consumer re-derives the registry by reflection | https://github.com/Cratis/Chronicle/issues/3633 | None | [woksin](https://github.com/woksin) | None | 1 day, 8:25:28 | None |
 | widen CHR0039: a discarded Task-returning assertion is a silent no-op, and the rule's own namespace gate skips Chronicle's own assertions | https://github.com/Cratis/Chronicle/issues/3631 | None | [woksin](https://github.com/woksin) | None | 1 day, 8:25:27 | None |
 | the default unique-constraint violation message interpolates the offending value into a client-visible result | https://github.com/Cratis/Chronicle/issues/3632 | None | [woksin](https://github.com/woksin) | None | None | None |
-| IReadModels has no non-key query surface, so every consumer drops to IMongoCollection<T> — which the spec harness then cannot reach | https://github.com/Cratis/Chronicle/issues/3630 | None | [woksin](https://github.com/woksin) | None | None | None |
 | the reactor side-effect handlers and the event serializer are [Singleton] while the IEventTypes they consume is scoped per event store, so a host that validates scopes cannot run reactors at all | https://github.com/Cratis/Chronicle/issues/3629 | None | [woksin](https://github.com/woksin) | None | 1:08:42 | None |
 | a root-level [Join] filters on the raw event-source-id string, so it silently never matches a non-string-keyed column | https://github.com/Cratis/Chronicle/issues/3628 | None | [woksin](https://github.com/woksin) | None | 1:08:39 | None |
 | three attribute docstrings promise projections filter on event metadata; nothing anywhere does | https://github.com/Cratis/Chronicle/issues/3627 | None | [woksin](https://github.com/woksin) | None | 1 day, 1:32:06 | None |
@@ -66,8 +73,8 @@
 | Cratis.Chronicle.XUnit.Integration's nuspec omits the embedded kernel's runtime dependencies | https://github.com/Cratis/Chronicle/issues/3621 | None | [woksin](https://github.com/woksin) | None | 1 day, 1:50:39 | None |
 | one unregistered event type named in a model-bound projection attribute aborts discovery for EVERY projection | https://github.com/Cratis/Chronicle/issues/3620 | None | [woksin](https://github.com/woksin) | None | 1 day, 1:50:38 | None |
 | the testing harness materializes an empty child collection as [] while the live sink omits it, so no spec at any tier can catch the divergence | https://github.com/Cratis/Chronicle/issues/3619 | None | [woksin](https://github.com/woksin) | None | 1 day, 3:20:26 | None |
-| an empty collection is absent, and the C# reader turns that into null | https://github.com/Cratis/Chronicle/issues/3618 | None | [woksin](https://github.com/woksin) | None | 1 day, 1:30:21 | None |
 | the Mongo read-model sink drops a zero-valued projected enum | https://github.com/Cratis/Chronicle/issues/3617 | None | [woksin](https://github.com/woksin) | None | 1 day, 1:30:19 | None |
+| an empty collection is absent, and the C# reader turns that into null | https://github.com/Cratis/Chronicle/issues/3618 | None | [woksin](https://github.com/woksin) | None | 1 day, 1:30:21 | None |
 | the release pass blanks a value that was never encrypted | https://github.com/Cratis/Chronicle/issues/3616 | None | [woksin](https://github.com/woksin) | None | 1 day, 1:30:17 | None |
 | the pre-16.12 constraint-store upgrade ships but never runs | https://github.com/Cratis/Chronicle/issues/3615 | None | [woksin](https://github.com/woksin) | None | 15:56:05 | None |
 | CHR0043 makes large consumer builds tens of times slower | https://github.com/Cratis/Chronicle/issues/3614 | None | [woksin](https://github.com/woksin) | None | 6:58:50 | None |
@@ -75,7 +82,7 @@
 | Preserve seeding failures and legitimate repeated events | https://github.com/Cratis/Chronicle/issues/3612 | None | [woksin](https://github.com/woksin) | None | 8:01:16 | None |
 | Document and diagnose passive projections that re-key events from another stream | https://github.com/Cratis/Chronicle/issues/3609 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Passive immediate projections retain read models after RemovedWith events | https://github.com/Cratis/Chronicle/issues/3608 | None | [woksin](https://github.com/woksin) | None | 15:22:17 | None |
-| Make production hosting guidance executable and encryption-certificate lifecycle recoverable | https://github.com/Cratis/Chronicle/issues/3607 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Make production hosting guidance executable and encryption-certificate lifecycle recoverable | https://github.com/Cratis/Chronicle/issues/3607 | None | [woksin](https://github.com/woksin) | None | 3 days, 9:44:28 | None |
 | Make TLS certificate-validation defaults and precedence secure and unambiguous | https://github.com/Cratis/Chronicle/issues/3606 | None | [woksin](https://github.com/woksin) | 0:14:48 | 19:38:23 | None |
 | Support materialized read models through IReadModel | https://github.com/Cratis/Chronicle/issues/3605 | None | [einari](https://github.com/einari) | None | 2 days, 5:44:36 | None |
 | Add an opt-in health-only dedicated listener | https://github.com/Cratis/Chronicle/issues/3604 | None | [woksin](https://github.com/woksin) | None | None | None |
@@ -292,11 +299,4 @@
 | Integration spec project matrix | https://github.com/Cratis/Chronicle/issues/2148 | None | [einari](https://github.com/einari) | None | 232 days, 1:40:18 | None |
 | ASP.NET Core is missing a dependency to the core Cratis.Chronicle client package | https://github.com/Cratis/Chronicle/issues/2091 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 31 days, 5:44:24 | None |
 | Investigate how we could be writing tests/specs for event sourcing in a better way | https://github.com/Cratis/Chronicle/issues/1980 | None | [einari](https://github.com/einari) | 335 days, 3:02:45 | 335 days, 3:02:46 | None |
-| Improve serialization when Appending events in the MongoDB Storage | https://github.com/Cratis/Chronicle/issues/1967 | None | [einari](https://github.com/einari) | None | None | None |
-| Add authorization on the Kernel side | https://github.com/Cratis/Chronicle/issues/1965 | None | [einari](https://github.com/einari) | None | None | None |
-| Add authentication & TLS for server and client | https://github.com/Cratis/Chronicle/issues/1964 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 103 days, 7:14:49 | None |
-| Add generate test events in workbench. Leveraging LLM | https://github.com/Cratis/Chronicle/issues/1960 | None | [einari](https://github.com/einari) | None | 308 days, 10:31:11 | None |
-| Support generational Projections with references to correct generation of ReadModel | https://github.com/Cratis/Chronicle/issues/1959 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 16 days, 18:27:52 | None |
-| Make event type storage generational within same document stored | https://github.com/Cratis/Chronicle/issues/1957 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 17 days, 14:15:20 | None |
-| Rename Schemas collection in MongoDB to be EventTypes | https://github.com/Cratis/Chronicle/issues/1948 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 31 days, 17:07:35 | None |
-| Integration Specs
+| Improve serialization when Appending events in the MongoDB
