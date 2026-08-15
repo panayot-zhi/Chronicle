@@ -2,18 +2,19 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 524 days, 21:22:08 | 531 days, 10:41:19 | 1266 days, 15:54:57 |
-| Time to close | 279 days, 12:50:13 | 69 days, 22:38:40 | 820 days, 5:14:41 |
+| Time to first response | 515 days, 19:09:03 | 498 days, 13:19:34 | 1257 days, 23:02:07 |
+| Time to close | 278 days, 10:13:17 | 69 days, 21:08:28 | 817 days, 23:45:38 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 146 |
-| Number of items closed | 854 |
+| Number of items that remain open | 141 |
+| Number of items closed | 859 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| [Subject]-carried read-model property never materializes; a null subject makes Release silently return ciphertext | https://github.com/Cratis/Chronicle/issues/3708 | None | [einari](https://github.com/einari) | 7:02:27 | 7:02:27 | None |
 | GetInstances returns materialized read models with PII still encrypted, while GetInstanceById releases | https://github.com/Cratis/Chronicle/issues/3703 | None | [einari](https://github.com/einari) | None | 0:24:47 | None |
 | Replaying a reactor reports success but does nothing, and can leave it Disconnected | https://github.com/Cratis/Chronicle/issues/3701 | None | [einari](https://github.com/einari) | None | None | None |
 | A deferred child projection key is dropped without the retry or the error a deferred root key gets | https://github.com/Cratis/Chronicle/issues/3700 | None | [woksin](https://github.com/woksin) | None | None | None |
@@ -51,7 +52,7 @@
 | Keep compliance-subject identifiers out of propagation and join logs | https://github.com/Cratis/Chronicle/issues/3647 | None | [woksin](https://github.com/woksin) | None | 0:00:39 | None |
 | Make client testing artifact discovery deterministic | https://github.com/Cratis/Chronicle/issues/3646 | None | [woksin](https://github.com/woksin) | None | 0:00:38 | None |
 | Surface projection-processing failures instead of returning an empty model | https://github.com/Cratis/Chronicle/issues/3645 | None | [woksin](https://github.com/woksin) | None | 0:00:38 | None |
-| stored read models cannot track PII owned by more than one subject | https://github.com/Cratis/Chronicle/issues/3644 | None | [woksin](https://github.com/woksin) | None | None | None |
+| stored read models cannot track PII owned by more than one subject | https://github.com/Cratis/Chronicle/issues/3644 | None | [woksin](https://github.com/woksin) | 3 days, 20:36:29 | 4 days, 5:44:00 | None |
 | reactors have no retry-aware idempotency seam beyond replay-only OnceOnly | https://github.com/Cratis/Chronicle/issues/3643 | None | [woksin](https://github.com/woksin) | None | None | None |
 | stream metadata attributes claim an EventType placement that does nothing | https://github.com/Cratis/Chronicle/issues/3642 | None | [woksin](https://github.com/woksin) | None | 1 day, 5:08:20 | None |
 | scalar clear declarations compile but silently leave stale projection values | https://github.com/Cratis/Chronicle/issues/3641 | None | [woksin](https://github.com/woksin) | None | 3 days, 2:37:32 | None |
@@ -123,7 +124,7 @@
 | Fix Coverage build problems | https://github.com/Cratis/Chronicle/issues/3407 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 3:02:19 | None |
 | Unable to find a datacollector with friendly name 'XPlat Code Coverage' | https://github.com/Cratis/Chronicle/issues/3405 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
 | Aspire: slim-image WithMongoDB silently requires a MongoDB replica set + directConnection — document and/or provide a provisioning helper | https://github.com/Cratis/Chronicle/issues/3400 | None | [woksin](https://github.com/woksin) | None | 49 days, 23:55:44 | None |
-| Missing paging in Event Types in workbench | https://github.com/Cratis/Chronicle/issues/3396 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Missing paging in Event Types in workbench | https://github.com/Cratis/Chronicle/issues/3396 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 59 days, 1:47:51 | None |
 | Add missing JsonConverters | https://github.com/Cratis/Chronicle/issues/3389 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 8:40:54 | None |
 | Roslyn warning/error if a Reactor returns event side effects but is not marked as OnceOnly | https://github.com/Cratis/Chronicle/issues/3382 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 6:15:47 | None |
 | Reactor side-effects needs to honor append result and fail if it fails | https://github.com/Cratis/Chronicle/issues/3381 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 9 days, 17:02:49 | None |
@@ -194,7 +195,7 @@
 | Performance: blocking async in AppendedEventSerializer (Orleans serialization hot path) | https://github.com/Cratis/Chronicle/issues/3168 | None | [einari](https://github.com/einari) | 88 days, 0:40:34 | 88 days, 0:40:35 | None |
 | Memory leak: CancellationTokenSource not disposed in JobStep on reactivation and Stop | https://github.com/Cratis/Chronicle/issues/3167 | None | [einari](https://github.com/einari) | None | 1:03:43 | None |
 | Memory leak: untracked Rx subscriptions in ProjectionEventContextExtensions | https://github.com/Cratis/Chronicle/issues/3166 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1:39:05 | None |
-| It would be nice to see what events affect which observers | https://github.com/Cratis/Chronicle/issues/3147 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | None | None |
+| It would be nice to see what events affect which observers | https://github.com/Cratis/Chronicle/issues/3147 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | 107 days, 8:08:43 | None |
 | Projection Simulation | https://github.com/Cratis/Chronicle/issues/3146 | None | [einari](https://github.com/einari) | None | None | None |
 | Support for setting / clearing single child object | https://github.com/Cratis/Chronicle/issues/3142 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | 37 days, 15:50:12 | None |
 | Content on redacted is not displaying everything in Workbench | https://github.com/Cratis/Chronicle/issues/3141 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 7:23:45 | None |
@@ -225,7 +226,7 @@
 | Infer Source event store when subscribing to inbox | https://github.com/Cratis/Chronicle/issues/2947 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 7 days, 17:04:11 | None |
 | Fix Observers view | https://github.com/Cratis/Chronicle/issues/2916 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2 days, 18:09:49 | None |
 | Simplify Kernel code | https://github.com/Cratis/Chronicle/issues/2909 | None | [einari](https://github.com/einari) | None | None | None |
-| Refactor to use Arc Commands, Queries and command->Event Hook up (Functional) | https://github.com/Cratis/Chronicle/issues/2908 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Refactor to use Arc Commands, Queries and command->Event Hook up (Functional) | https://github.com/Cratis/Chronicle/issues/2908 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 144 days, 8:04:14 | None |
 | MongoDB Storage Sink should follow MongoDB conventions for Id properties | https://github.com/Cratis/Chronicle/issues/2904 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 7 days, 0:01:14 | None |
 | Assembly version does not match the actual version of Chronicle | https://github.com/Cratis/Chronicle/issues/2902 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [woksin](https://github.com/woksin) | None | 2 days, 21:59:07 | None |
 | Projection Definition comparison might be wrong | https://github.com/Cratis/Chronicle/issues/2900 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 7 days, 20:03:19 | None |
@@ -297,5 +298,4 @@
 | Switch to NuGet trusted publishing | https://github.com/Cratis/Chronicle/issues/2260 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 81 days, 11:11:11 | None |
 | Add a way to include metadata in concurrency scope when appending from model bound commands | https://github.com/Cratis/Chronicle/issues/2210 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 0:49:30 | None |
 | Expand Command pipeline with Event metadata | https://github.com/Cratis/Chronicle/issues/2207 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1:05:15 | None |
-| Make the namespace resolver configurable for ASP.NET Core clients | https://github.com/Cratis/Chronicle/issues/2205 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 5:10:17 | None |
-| Introduce provider model for namespace resolution | https://github.com/Cratis/Chronicle/issues/2202 | [Copilot](https://github.com/Copilot) | [einari](https://github.
+| Make the namespace resolver configurable for ASP.NET Core clients | https://github.com
