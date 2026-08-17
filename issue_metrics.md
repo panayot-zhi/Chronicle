@@ -3,17 +3,18 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 515 days, 19:09:03 | 498 days, 13:19:34 | 1257 days, 23:02:07 |
-| Time to close | 275 days, 5:51:59 | 69 days, 5:51:36 | 815 days, 9:12:52 |
+| Time to close | 274 days, 15:42:17 | 69 days, 5:51:23 | 817 days, 2:22:01 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 138 |
-| Number of items closed | 862 |
+| Number of items that remain open | 139 |
+| Number of items closed | 861 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Keyed child added instead of updated (and RemovedWith no-op) after a read model gains a [ChildrenFrom] array without a kernel restart | https://github.com/Cratis/Chronicle/issues/3718 | None | [einari](https://github.com/einari) | None | None | None |
 | Flip CheckFirstAppendIntoAScope to true in the next major | https://github.com/Cratis/Chronicle/issues/3716 | None | [woksin](https://github.com/woksin) | None | None | None |
 | An older client registering a unique event type constraint crashes constraint registration on an upgraded kernel | https://github.com/Cratis/Chronicle/issues/3715 | None | [woksin](https://github.com/woksin) | None | None | None |
 | generate-protos.sh regenerates nothing and exits 0, so the checked-in .proto files drift from the contracts unnoticed | https://github.com/Cratis/Chronicle/issues/3712 | None | [woksin](https://github.com/woksin) | None | None | None |
@@ -297,5 +298,4 @@
 | Investigate ReadModels.Register() behavior for reactor-only applications | https://github.com/Cratis/Chronicle/issues/2290 | None | [einari](https://github.com/einari) | 248 days, 1:29:52 | 248 days, 1:29:54 | None |
 | Support of seeding a system with events | https://github.com/Cratis/Chronicle/issues/2278 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 17:49:05 | None |
 | Enable running integration specs for different setups | https://github.com/Cratis/Chronicle/issues/2268 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 198 days, 13:00:05 | None |
-| Authentication for connecting to Kernel | https://github.com/Cratis/Chronicle/issues/2263 | None | [einari](https://github.com/einari) | None | 80 days, 2:59:33 | None |
-| TLS for secure connection between client and server | https://github.com/Cratis/Chronicle/issues/
+| Authentication
