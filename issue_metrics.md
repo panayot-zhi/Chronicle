@@ -3,17 +3,31 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 515 days, 19:09:03 | 498 days, 13:19:34 | 1257 days, 23:02:07 |
-| Time to close | 274 days, 15:42:17 | 69 days, 5:51:23 | 817 days, 2:22:01 |
+| Time to close | 263 days, 23:34:39 | 60 days, 6:05:20 | 784 days, 18:30:04 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 139 |
-| Number of items closed | 861 |
+| Number of items that remain open | 148 |
+| Number of items closed | 852 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Encryption key GetOrAddFor is non-atomic on Vault and Azure Key Vault; SQL can return a never-persisted key | https://github.com/Cratis/Chronicle/issues/3745 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Unique constraints are only actually enforced on MongoDB — SQL creates a non-unique index, InMemory enforces nothing | https://github.com/Cratis/Chronicle/issues/3744 | None | [woksin](https://github.com/woksin) | None | None | None |
+| GetNextSequenceNumberGreaterOrEqualThan returns the highest match on MongoDB, so failed-partition retry skips events | https://github.com/Cratis/Chronicle/issues/3743 | None | [woksin](https://github.com/woksin) | None | None | None |
+| benchmarks.yml has failed 11 consecutive runs: commit step dies on pull --rebase with unstaged changes | https://github.com/Cratis/Chronicle/issues/3742 | None | [woksin](https://github.com/woksin) | None | None | None |
+| GetInstances pages sinks without an ORDER BY, risking dropped or duplicated rows across pages | https://github.com/Cratis/Chronicle/issues/3741 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Storage.AzureKeyVault.Specs never runs in CI and fails against the Key Vault emulator's untrusted root CA | https://github.com/Cratis/Chronicle/issues/3739 | None | [woksin](https://github.com/woksin) | None | None | None |
+| XUnit.Integration.Specs never runs in CI; packaging-closure spec false positive blocks adding it | https://github.com/Cratis/Chronicle/issues/3738 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Track and show an observer's last-seen (disconnected-since) timestamp | https://github.com/Cratis/Chronicle/issues/3732 | None | [einari](https://github.com/einari) | None | None | None |
+| Event Store Dashboard | https://github.com/Cratis/Chronicle/issues/3731 | None | [einari](https://github.com/einari) | None | None | None |
+| Failed-partitions listing crashes with duplicate-key ArgumentException when two observers fail on the same partition id | https://github.com/Cratis/Chronicle/issues/3727 | None | [einari](https://github.com/einari) | None | 1:23:59 | None |
+| Projections a client no longer registers are never retired — orphaned definitions keep consuming events, and a renamed read model races its successor on the same container (source of every remaining failed partition in prod) | https://github.com/Cratis/Chronicle/issues/3725 | None | [einari](https://github.com/einari) | None | 1:16:52 | None |
+| ConcurrencyValidator logs 'Skipping the concurrency check' at Warning for every first append into a new event source (default behaviour) — 130+ lines/second under a burst | https://github.com/Cratis/Chronicle/issues/3724 | None | [einari](https://github.com/einari) | None | 0:45:42 | None |
+| KeyResolvers.FromParentHierarchy re-resolves and rejects the same child creation event on every later event — Warning flood + redundant sequence lookups | https://github.com/Cratis/Chronicle/issues/3723 | None | [einari](https://github.com/einari) | None | 1:50:05 | None |
+| Removing a child collection from a read model leaves the stale projection definition in place — ProjectionObserverSubscriber then fails to activate with KeyNotFoundException forever | https://github.com/Cratis/Chronicle/issues/3722 | None | [einari](https://github.com/einari) | None | 1:28:48 | None |
 | Keyed child added instead of updated (and RemovedWith no-op) after a read model gains a [ChildrenFrom] array without a kernel restart | https://github.com/Cratis/Chronicle/issues/3718 | None | [einari](https://github.com/einari) | None | None | None |
 | Flip CheckFirstAppendIntoAScope to true in the next major | https://github.com/Cratis/Chronicle/issues/3716 | None | [woksin](https://github.com/woksin) | None | None | None |
 | An older client registering a unique event type constraint crashes constraint registration on an upgraded kernel | https://github.com/Cratis/Chronicle/issues/3715 | None | [woksin](https://github.com/woksin) | None | None | None |
@@ -59,8 +73,8 @@
 | Surface projection-processing failures instead of returning an empty model | https://github.com/Cratis/Chronicle/issues/3645 | None | [woksin](https://github.com/woksin) | None | 0:00:38 | None |
 | stored read models cannot track PII owned by more than one subject | https://github.com/Cratis/Chronicle/issues/3644 | None | [woksin](https://github.com/woksin) | 3 days, 20:36:29 | 4 days, 5:44:00 | None |
 | reactors have no retry-aware idempotency seam beyond replay-only OnceOnly | https://github.com/Cratis/Chronicle/issues/3643 | None | [woksin](https://github.com/woksin) | None | 5 days, 13:55:21 | None |
-| stream metadata attributes claim an EventType placement that does nothing | https://github.com/Cratis/Chronicle/issues/3642 | None | [woksin](https://github.com/woksin) | None | 1 day, 5:08:20 | None |
 | scalar clear declarations compile but silently leave stale projection values | https://github.com/Cratis/Chronicle/issues/3641 | None | [woksin](https://github.com/woksin) | None | 3 days, 2:37:32 | None |
+| stream metadata attributes claim an EventType placement that does nothing | https://github.com/Cratis/Chronicle/issues/3642 | None | [woksin](https://github.com/woksin) | None | 1 day, 5:08:20 | None |
 | CHR0038 catches only the [Join] spelling of a cross-subject [PII] copy; the cross-stream key-redirection form reaches the same read model unmechanized | https://github.com/Cratis/Chronicle/issues/3640 | None | [woksin](https://github.com/woksin) | None | 1:08:20 | None |
 | CompositeEncryptionKeyStorage ships in Chronicle and is constructed nowhere; wiring it behind config turns a dangerous key-store migration into a self-healing cutover | https://github.com/Cratis/Chronicle/issues/3639 | None | [woksin](https://github.com/woksin) | None | 9:34:09 | None |
 | a [Join]-populated property cannot be cleared by a From block, and nothing documents the precedence | https://github.com/Cratis/Chronicle/issues/3638 | None | [woksin](https://github.com/woksin) | None | 1 day, 8:25:16 | None |
@@ -283,19 +297,4 @@
 | Generate TypeScript gRPC package | https://github.com/Cratis/Chronicle/issues/2437 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 70 days, 0:08:51 | None |
 | Add events in sequences page | https://github.com/Cratis/Chronicle/issues/2435 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 69 days, 21:05:03 | None |
 | Improve seed data and add editor | https://github.com/Cratis/Chronicle/issues/2433 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 69 days, 21:08:28 | None |
-| Throttling for job system | https://github.com/Cratis/Chronicle/issues/2431 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 30 days, 3:18:10 | None |
-| Simplify TLS | https://github.com/Cratis/Chronicle/issues/2429 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 31 days, 3:29:20 | None |
-| Performance benchmarks | https://github.com/Cratis/Chronicle/issues/2427 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 62 days, 17:58:26 | None |
-| Build statistics | https://github.com/Cratis/Chronicle/issues/2425 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 12 days, 18:37:18 | None |
-| Introduce tags support and wire up for event | https://github.com/Cratis/Chronicle/issues/2423 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 30 days, 4:03:07 | None |
-| Synchronization of CoPilot instructions | https://github.com/Cratis/Chronicle/issues/2421 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 68 days, 11:46:50 | None |
-| Introduce Read Model and Event Type management in Workbench | https://github.com/Cratis/Chronicle/issues/2381 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 43 days, 1:20:41 | None |
-| Introduce user and client credentials management | https://github.com/Cratis/Chronicle/issues/2379 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 45 days, 3:12:11 | None |
-| Bulk update on replay of projections or reducers for sinks | https://github.com/Cratis/Chronicle/issues/2364 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 46 days, 11:27:28 | None |
-| Add a way to immediately query projections and get a collection of snapshots per CorrelationId | https://github.com/Cratis/Chronicle/issues/2311 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 5 days, 4:27:14 | None |
-| AppendedEvent in the .NET Client should hold the actual deserialized ready to go event instead of an ExpandoObject | https://github.com/Cratis/Chronicle/issues/2303 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 62 days, 9:35:24 | None |
-| Improve Read Model APIs and consistency between Reducers and Projections | https://github.com/Cratis/Chronicle/issues/2301 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 62 days, 10:54:47 | None |
-| Investigate ReadModels.Register() behavior for reactor-only applications | https://github.com/Cratis/Chronicle/issues/2290 | None | [einari](https://github.com/einari) | 248 days, 1:29:52 | 248 days, 1:29:54 | None |
-| Support of seeding a system with events | https://github.com/Cratis/Chronicle/issues/2278 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 17:49:05 | None |
-| Enable running integration specs for different setups | https://github.com/Cratis/Chronicle/issues/2268 | [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 198 days, 13:00:05 | None |
-| Authentication
+| Throttling for job system | https://github.com/Cratis/Chronicle/issues/2431 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 30
