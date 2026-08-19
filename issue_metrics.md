@@ -3,17 +3,22 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 515 days, 19:09:03 | 498 days, 13:19:34 | 1257 days, 23:02:07 |
-| Time to close | 263 days, 23:34:39 | 60 days, 6:05:20 | 784 days, 18:30:04 |
+| Time to close | 264 days, 8:23:08 | 60 days, 10:47:03 | 783 days, 5:33:07 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 148 |
-| Number of items closed | 852 |
+| Number of items that remain open | 153 |
+| Number of items closed | 847 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| No spec covers CatchingUpInFlight quarantining the observer when a catch-up job fails to start | https://github.com/Cratis/Chronicle/issues/3777 | None | [woksin](https://github.com/woksin) | None | None | None |
+| No bounded or paged read of an event sequence | https://github.com/Cratis/Chronicle/issues/3772 | None | [einari](https://github.com/einari) | None | None | None |
+| No production cratis/chronicle image has been published since 16.35.3 — six releases including 16.36.0 ship only the -development variants | https://github.com/Cratis/Chronicle/issues/3770 | None | [woksin](https://github.com/woksin) | None | None | None |
+| [Passive] mints a phantom empty model-bound projection that captures the read model, so the whole event log is replayed into a projection that maps nothing | https://github.com/Cratis/Chronicle/issues/3757 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Switch to Orleans new Distributed Grain Directory | https://github.com/Cratis/Chronicle/issues/3746 | None | [einari](https://github.com/einari) | None | None | None |
 | Encryption key GetOrAddFor is non-atomic on Vault and Azure Key Vault; SQL can return a never-persisted key | https://github.com/Cratis/Chronicle/issues/3745 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Unique constraints are only actually enforced on MongoDB — SQL creates a non-unique index, InMemory enforces nothing | https://github.com/Cratis/Chronicle/issues/3744 | None | [woksin](https://github.com/woksin) | None | None | None |
 | GetNextSequenceNumberGreaterOrEqualThan returns the highest match on MongoDB, so failed-partition retry skips events | https://github.com/Cratis/Chronicle/issues/3743 | None | [woksin](https://github.com/woksin) | None | None | None |
@@ -293,8 +298,4 @@
 | Ensure Monaco Language service has full support for the Projection Definition Language | https://github.com/Cratis/Chronicle/issues/2505 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 16 days, 23:46:07 | None |
 | Change password on first login | https://github.com/Cratis/Chronicle/issues/2503 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 17 days, 0:26:03 | None |
 | Versioning information | https://github.com/Cratis/Chronicle/issues/2501 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 16 days, 20:56:17 | None |
-| All and Dictionaries | https://github.com/Cratis/Chronicle/issues/2464 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
-| Generate TypeScript gRPC package | https://github.com/Cratis/Chronicle/issues/2437 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 70 days, 0:08:51 | None |
-| Add events in sequences page | https://github.com/Cratis/Chronicle/issues/2435 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 69 days, 21:05:03 | None |
-| Improve seed data and add editor | https://github.com/Cratis/Chronicle/issues/2433 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 69 days, 21:08:28 | None |
-| Throttling for job system | https://github.com/Cratis/Chronicle/issues/2431 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 30
+| All and Dictionaries | https://
