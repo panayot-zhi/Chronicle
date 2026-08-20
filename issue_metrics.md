@@ -3,17 +3,24 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 515 days, 19:09:03 | 498 days, 13:19:34 | 1257 days, 23:02:07 |
-| Time to close | 264 days, 8:23:08 | 60 days, 10:47:03 | 783 days, 5:33:07 |
+| Time to close | 261 days, 18:44:59 | 60 days, 6:05:20 | 779 days, 21:13:32 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 153 |
-| Number of items closed | 847 |
+| Number of items that remain open | 160 |
+| Number of items closed | 840 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Flaky spec: WaitUntilSubscribed times out under CI load in and_subscription_is_ready | https://github.com/Cratis/Chronicle/issues/3787 | None | [woksin](https://github.com/woksin) | None | None | None |
+| A root-level [Join] event turn writes the compliance subject with an EMPTY MongoDB filter, silently restamping one arbitrary unrelated document | https://github.com/Cratis/Chronicle/issues/3784 | None | [woksin](https://github.com/woksin) | None | None | None |
+| A root-level [Join] backfilling at row creation writes a CLR default over a property the creating event set — but only when the read model carries compliance metadata | https://github.com/Cratis/Chronicle/issues/3783 | None | [woksin](https://github.com/woksin) | None | None | None |
+| CI: Propagate Copilot Instructions failing repeatedly | https://github.com/Cratis/Chronicle/issues/3782 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
+| CI: Integration Specs failing repeatedly | https://github.com/Cratis/Chronicle/issues/3781 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
+| CI: Benchmarks failing repeatedly | https://github.com/Cratis/Chronicle/issues/3780 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
+| Observer RunningState transiently reports Unknown while routing, and the transient value escapes to consumers | https://github.com/Cratis/Chronicle/issues/3778 | None | [woksin](https://github.com/woksin) | None | None | None |
 | No spec covers CatchingUpInFlight quarantining the observer when a catch-up job fails to start | https://github.com/Cratis/Chronicle/issues/3777 | None | [woksin](https://github.com/woksin) | None | None | None |
 | No bounded or paged read of an event sequence | https://github.com/Cratis/Chronicle/issues/3772 | None | [einari](https://github.com/einari) | None | None | None |
 | No production cratis/chronicle image has been published since 16.35.3 — six releases including 16.36.0 ship only the -development variants | https://github.com/Cratis/Chronicle/issues/3770 | None | [woksin](https://github.com/woksin) | None | None | None |
@@ -291,11 +298,4 @@
 | Agentic Event Sourcing | https://github.com/Cratis/Chronicle/issues/2600 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 81 days, 12:10:49 | None |
 | Handle Keys properly with metadata and make ExpandoObjectConverter honor this | https://github.com/Cratis/Chronicle/issues/2586 | None | [einari](https://github.com/einari) | 178 days, 7:33:03 | None | None |
 | Authorization + Workbench for Webhooks | https://github.com/Cratis/Chronicle/issues/2573 | None | [einari](https://github.com/einari) | None | 9 days, 8:31:59 | None |
-| Cratis.Chronicle 15.0.0 not published in NuGet Gallery | https://github.com/Cratis/Chronicle/issues/2572 | None | [leicht-io](https://github.com/leicht-io) | 10:36:35 | 10:36:35 | None |
-| Add static code analysis | https://github.com/Cratis/Chronicle/issues/2558 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 5 days, 5:58:08 | None |
-| Add events for user and applications authenticated | https://github.com/Cratis/Chronicle/issues/2556 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 6 days, 7:11:53 | None |
-| Change behavior for default Admin user | https://github.com/Cratis/Chronicle/issues/2537 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 12 days, 2:20:16 | None |
-| Ensure Monaco Language service has full support for the Projection Definition Language | https://github.com/Cratis/Chronicle/issues/2505 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 16 days, 23:46:07 | None |
-| Change password on first login | https://github.com/Cratis/Chronicle/issues/2503 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 17 days, 0:26:03 | None |
-| Versioning information | https://github.com/Cratis/Chronicle/issues/2501 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 16 days, 20:56:17 | None |
-| All and Dictionaries | https://
+| Cratis.Chronicle 15.0.0 not published in NuGet Gallery | https://github.com/Cratis/Chronicle/issues/2572 | None | [leicht-io](https://
