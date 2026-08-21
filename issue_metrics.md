@@ -2,18 +2,23 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 515 days, 19:09:03 | 498 days, 13:19:34 | 1257 days, 23:02:07 |
-| Time to close | 261 days, 18:44:59 | 60 days, 6:05:20 | 779 days, 21:13:32 |
+| Time to first response | 520 days, 7:42:12 | 515 days, 0:00:26 | 1262 days, 7:28:32 |
+| Time to close | 258 days, 16:51:54 | 58 days, 21:52:48 | 772 days, 9:45:44 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 160 |
-| Number of items closed | 840 |
+| Number of items that remain open | 161 |
+| Number of items closed | 839 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| PII Secrets view in Workbench | https://github.com/Cratis/Chronicle/issues/3793 | None | [einari](https://github.com/einari) | None | None | None |
+| The 'started successfully - ready and listening' message is logged ~0.6s before Kestrel binds the port | https://github.com/Cratis/Chronicle/issues/3792 | None | [einari](https://github.com/einari) | None | 1:52:03 | None |
+| First client connect spends 1.9-3.7s acquiring an OAuth token, almost all of it cold-start of the kernel's /connect/token pipeline | https://github.com/Cratis/Chronicle/issues/3791 | None | [einari](https://github.com/einari) | None | 1:52:20 | None |
+| Every client connect waits a full keep-alive interval: the server withholds the first heartbeat, and Connect() blocks on it | https://github.com/Cratis/Chronicle/issues/3790 | None | [einari](https://github.com/einari) | None | 1:53:34 | None |
+| Generated gRPC contracts cannot serialize DateTimeOffset responses | https://github.com/Cratis/Chronicle/issues/3788 | None | [woksin](https://github.com/woksin) | None | 0:38:13 | None |
 | Flaky spec: WaitUntilSubscribed times out under CI load in and_subscription_is_ready | https://github.com/Cratis/Chronicle/issues/3787 | None | [woksin](https://github.com/woksin) | None | None | None |
 | A root-level [Join] event turn writes the compliance subject with an EMPTY MongoDB filter, silently restamping one arbitrary unrelated document | https://github.com/Cratis/Chronicle/issues/3784 | None | [woksin](https://github.com/woksin) | None | None | None |
 | A root-level [Join] backfilling at row creation writes a CLR default over a property the creating event set — but only when the read model carries compliance metadata | https://github.com/Cratis/Chronicle/issues/3783 | None | [woksin](https://github.com/woksin) | None | None | None |
@@ -293,9 +298,4 @@
 | Implement compensation support | https://github.com/Cratis/Chronicle/issues/2642 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 31 days, 4:29:35 | None |
 | Hook up redaction from Workbench | https://github.com/Cratis/Chronicle/issues/2640 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 29 days, 3:11:18 | None |
 | Compatibility checks for clients when connecting to server | https://github.com/Cratis/Chronicle/issues/2638 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 31 days, 5:40:08 | None |
-| Consolidate projects in Kernel | https://github.com/Cratis/Chronicle/issues/2632 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 3 days, 19:00:49 | None |
-| Code generators not working as expected | https://github.com/Cratis/Chronicle/issues/2622 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 12:27:32 | None |
-| Agentic Event Sourcing | https://github.com/Cratis/Chronicle/issues/2600 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 81 days, 12:10:49 | None |
-| Handle Keys properly with metadata and make ExpandoObjectConverter honor this | https://github.com/Cratis/Chronicle/issues/2586 | None | [einari](https://github.com/einari) | 178 days, 7:33:03 | None | None |
-| Authorization + Workbench for Webhooks | https://github.com/Cratis/Chronicle/issues/2573 | None | [einari](https://github.com/einari) | None | 9 days, 8:31:59 | None |
-| Cratis.Chronicle 15.0.0 not published in NuGet Gallery | https://github.com/Cratis/Chronicle/issues/2572 | None | [leicht-io](https://
+| Consolidate projects in Kernel | https://github.com/Cratis/Chronicle/issues/2632 | [einari](https://github.com/einari), [Copilot](https://github.com/Co
