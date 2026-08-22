@@ -2,19 +2,24 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 520 days, 7:42:12 | 515 days, 0:00:26 | 1262 days, 7:28:32 |
-| Time to close | 258 days, 16:51:54 | 58 days, 21:52:48 | 772 days, 9:45:44 |
+| Time to first response | 516 days, 5:40:05 | 450 days, 11:59:04 | 1244 days, 21:42:51 |
+| Time to close | 258 days, 23:20:59 | 59 days, 1:47:51 | 769 days, 20:26:05 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 161 |
-| Number of items closed | 839 |
+| Number of items that remain open | 165 |
+| Number of items closed | 835 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
-| PII Secrets view in Workbench | https://github.com/Cratis/Chronicle/issues/3793 | None | [einari](https://github.com/einari) | None | None | None |
+| Broaden Chronicle compliance beyond GDPR-specific PII handling | https://github.com/Cratis/Chronicle/issues/3802 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Document HIPAA, SOX, PCI DSS, and cross-border data control mappings | https://github.com/Cratis/Chronicle/issues/3801 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Investigate tamper-evident verification and evidence export for event sequences | https://github.com/Cratis/Chronicle/issues/3799 | None | [woksin](https://github.com/woksin) | None | 1:08:18 | None |
+| Add legal holds and compliance-grade retention semantics to event sequences | https://github.com/Cratis/Chronicle/issues/3798 | None | [woksin](https://github.com/woksin) | None | None | None |
+| A local build tags cratis/chronicle:latest-development, shadowing the published image for everything on the machine | https://github.com/Cratis/Chronicle/issues/3795 | None | [einari](https://github.com/einari) | None | None | None |
+| PII Secrets view in Workbench | https://github.com/Cratis/Chronicle/issues/3793 | None | [einari](https://github.com/einari) | 1 day, 5:04:44 | None | None |
 | The 'started successfully - ready and listening' message is logged ~0.6s before Kestrel binds the port | https://github.com/Cratis/Chronicle/issues/3792 | None | [einari](https://github.com/einari) | None | 1:52:03 | None |
 | First client connect spends 1.9-3.7s acquiring an OAuth token, almost all of it cold-start of the kernel's /connect/token pipeline | https://github.com/Cratis/Chronicle/issues/3791 | None | [einari](https://github.com/einari) | None | 1:52:20 | None |
 | Every client connect waits a full keep-alive interval: the server withholds the first heartbeat, and Connect() blocks on it | https://github.com/Cratis/Chronicle/issues/3790 | None | [einari](https://github.com/einari) | None | 1:53:34 | None |
@@ -232,7 +237,7 @@
 | Memory leak: CancellationTokenSource not disposed in JobStep on reactivation and Stop | https://github.com/Cratis/Chronicle/issues/3167 | None | [einari](https://github.com/einari) | None | 1:03:43 | None |
 | Memory leak: untracked Rx subscriptions in ProjectionEventContextExtensions | https://github.com/Cratis/Chronicle/issues/3166 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1:39:05 | None |
 | It would be nice to see what events affect which observers | https://github.com/Cratis/Chronicle/issues/3147 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | 107 days, 8:08:43 | None |
-| Projection Simulation | https://github.com/Cratis/Chronicle/issues/3146 | None | [einari](https://github.com/einari) | None | None | None |
+| Projection Simulation | https://github.com/Cratis/Chronicle/issues/3146 | None | [einari](https://github.com/einari) | 115 days, 2:20:27 | None | None |
 | Support for setting / clearing single child object | https://github.com/Cratis/Chronicle/issues/3142 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | 37 days, 15:50:12 | None |
 | Content on redacted is not displaying everything in Workbench | https://github.com/Cratis/Chronicle/issues/3141 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 7:23:45 | None |
 | Clean stopping the client when application is closing | https://github.com/Cratis/Chronicle/issues/3140 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 27 days, 3:20:59 | None |
@@ -294,8 +299,4 @@
 | Version 15.2.4 not published to NuGet Gallery | https://github.com/Cratis/Chronicle/issues/2660 | None | [CLE-ChristianLeicht](https://github.com/CLE-ChristianLeicht) | 0:11:36 | 0:11:41 | None |
 | Validate gRPC API surface for breaking changes | https://github.com/Cratis/Chronicle/issues/2651 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 30 days, 1:51:37 | None |
 | Make the Chronicle Artifacts registration story more consistent | https://github.com/Cratis/Chronicle/issues/2649 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [woksin](https://github.com/woksin) | None | 8 days, 1:51:20 | None |
-| Add the ability to add events directly in the Event Sequence editor / page in Workbench | https://github.com/Cratis/Chronicle/issues/2644 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 31 days, 3:54:15 | None |
-| Implement compensation support | https://github.com/Cratis/Chronicle/issues/2642 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 31 days, 4:29:35 | None |
-| Hook up redaction from Workbench | https://github.com/Cratis/Chronicle/issues/2640 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 29 days, 3:11:18 | None |
-| Compatibility checks for clients when connecting to server | https://github.com/Cratis/Chronicle/issues/2638 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 31 days, 5:40:08 | None |
-| Consolidate projects in Kernel | https://github.com/Cratis/Chronicle/issues/2632 | [einari](https://github.com/einari), [Copilot](https://github.com/Co
+| Add the ability to add events directly in the Event Sequence editor / page in Workbench | https://github.com/Cratis/Chronicle/issues/2644 
