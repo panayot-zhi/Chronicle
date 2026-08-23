@@ -3,17 +3,20 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 516 days, 5:40:05 | 450 days, 11:59:04 | 1244 days, 21:42:51 |
-| Time to close | 258 days, 23:20:59 | 59 days, 1:47:51 | 769 days, 20:26:05 |
+| Time to close | 257 days, 3:55:49 | 56 days, 6:11:33 | 768 days, 2:53:22 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 165 |
-| Number of items closed | 835 |
+| Number of items that remain open | 163 |
+| Number of items closed | 837 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Establish a governed operation boundary for Chronicle mutations | https://github.com/Cratis/Chronicle/issues/3812 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Publish generated Chronicle contracts for Python | https://github.com/Cratis/Chronicle/issues/3806 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Data Protection ignores GrainBasedXmlRepository while rotation diagnostics inspect it | https://github.com/Cratis/Chronicle/issues/3803 | None | [woksin](https://github.com/woksin) | None | 4:45:05 | None |
 | Broaden Chronicle compliance beyond GDPR-specific PII handling | https://github.com/Cratis/Chronicle/issues/3802 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Document HIPAA, SOX, PCI DSS, and cross-border data control mappings | https://github.com/Cratis/Chronicle/issues/3801 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Investigate tamper-evident verification and evidence export for event sequences | https://github.com/Cratis/Chronicle/issues/3799 | None | [woksin](https://github.com/woksin) | None | 1:08:18 | None |
@@ -25,16 +28,15 @@
 | Every client connect waits a full keep-alive interval: the server withholds the first heartbeat, and Connect() blocks on it | https://github.com/Cratis/Chronicle/issues/3790 | None | [einari](https://github.com/einari) | None | 1:53:34 | None |
 | Generated gRPC contracts cannot serialize DateTimeOffset responses | https://github.com/Cratis/Chronicle/issues/3788 | None | [woksin](https://github.com/woksin) | None | 0:38:13 | None |
 | Flaky spec: WaitUntilSubscribed times out under CI load in and_subscription_is_ready | https://github.com/Cratis/Chronicle/issues/3787 | None | [woksin](https://github.com/woksin) | None | None | None |
-| A root-level [Join] event turn writes the compliance subject with an EMPTY MongoDB filter, silently restamping one arbitrary unrelated document | https://github.com/Cratis/Chronicle/issues/3784 | None | [woksin](https://github.com/woksin) | None | None | None |
-| A root-level [Join] backfilling at row creation writes a CLR default over a property the creating event set — but only when the read model carries compliance metadata | https://github.com/Cratis/Chronicle/issues/3783 | None | [woksin](https://github.com/woksin) | None | None | None |
+| A root-level [Join] event turn writes the compliance subject with an EMPTY MongoDB filter, silently restamping one arbitrary unrelated document | https://github.com/Cratis/Chronicle/issues/3784 | None | [woksin](https://github.com/woksin) | None | 3 days, 7:39:46 | None |
 | CI: Propagate Copilot Instructions failing repeatedly | https://github.com/Cratis/Chronicle/issues/3782 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
 | CI: Integration Specs failing repeatedly | https://github.com/Cratis/Chronicle/issues/3781 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
 | CI: Benchmarks failing repeatedly | https://github.com/Cratis/Chronicle/issues/3780 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
 | Observer RunningState transiently reports Unknown while routing, and the transient value escapes to consumers | https://github.com/Cratis/Chronicle/issues/3778 | None | [woksin](https://github.com/woksin) | None | None | None |
 | No spec covers CatchingUpInFlight quarantining the observer when a catch-up job fails to start | https://github.com/Cratis/Chronicle/issues/3777 | None | [woksin](https://github.com/woksin) | None | None | None |
 | No bounded or paged read of an event sequence | https://github.com/Cratis/Chronicle/issues/3772 | None | [einari](https://github.com/einari) | None | None | None |
-| No production cratis/chronicle image has been published since 16.35.3 — six releases including 16.36.0 ship only the -development variants | https://github.com/Cratis/Chronicle/issues/3770 | None | [woksin](https://github.com/woksin) | None | None | None |
-| [Passive] mints a phantom empty model-bound projection that captures the read model, so the whole event log is replayed into a projection that maps nothing | https://github.com/Cratis/Chronicle/issues/3757 | None | [woksin](https://github.com/woksin) | None | None | None |
+| No production cratis/chronicle image has been published since 16.35.3 — six releases including 16.36.0 ship only the -development variants | https://github.com/Cratis/Chronicle/issues/3770 | None | [woksin](https://github.com/woksin) | None | 3 days, 22:55:05 | None |
+| [Passive] mints a phantom empty model-bound projection that captures the read model, so the whole event log is replayed into a projection that maps nothing | https://github.com/Cratis/Chronicle/issues/3757 | None | [woksin](https://github.com/woksin) | None | 4 days, 3:20:27 | None |
 | Switch to Orleans new Distributed Grain Directory | https://github.com/Cratis/Chronicle/issues/3746 | None | [einari](https://github.com/einari) | None | None | None |
 | Encryption key GetOrAddFor is non-atomic on Vault and Azure Key Vault; SQL can return a never-persisted key | https://github.com/Cratis/Chronicle/issues/3745 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Unique constraints are only actually enforced on MongoDB — SQL creates a non-unique index, InMemory enforces nothing | https://github.com/Cratis/Chronicle/issues/3744 | None | [woksin](https://github.com/woksin) | None | None | None |
@@ -94,27 +96,27 @@
 | Make client testing artifact discovery deterministic | https://github.com/Cratis/Chronicle/issues/3646 | None | [woksin](https://github.com/woksin) | None | 0:00:38 | None |
 | Surface projection-processing failures instead of returning an empty model | https://github.com/Cratis/Chronicle/issues/3645 | None | [woksin](https://github.com/woksin) | None | 0:00:38 | None |
 | stored read models cannot track PII owned by more than one subject | https://github.com/Cratis/Chronicle/issues/3644 | None | [woksin](https://github.com/woksin) | 3 days, 20:36:29 | 4 days, 5:44:00 | None |
-| reactors have no retry-aware idempotency seam beyond replay-only OnceOnly | https://github.com/Cratis/Chronicle/issues/3643 | None | [woksin](https://github.com/woksin) | None | 5 days, 13:55:21 | None |
+| [Resolved in Chronicle v16.34.0] Reactor delivery identity for retry-aware idempotency | https://github.com/Cratis/Chronicle/issues/3643 | None | [woksin](https://github.com/woksin) | None | 5 days, 13:55:21 | None |
 | scalar clear declarations compile but silently leave stale projection values | https://github.com/Cratis/Chronicle/issues/3641 | None | [woksin](https://github.com/woksin) | None | 3 days, 2:37:32 | None |
 | stream metadata attributes claim an EventType placement that does nothing | https://github.com/Cratis/Chronicle/issues/3642 | None | [woksin](https://github.com/woksin) | None | 1 day, 5:08:20 | None |
-| CHR0038 catches only the [Join] spelling of a cross-subject [PII] copy; the cross-stream key-redirection form reaches the same read model unmechanized | https://github.com/Cratis/Chronicle/issues/3640 | None | [woksin](https://github.com/woksin) | None | 1:08:20 | None |
-| CompositeEncryptionKeyStorage ships in Chronicle and is constructed nowhere; wiring it behind config turns a dangerous key-store migration into a self-healing cutover | https://github.com/Cratis/Chronicle/issues/3639 | None | [woksin](https://github.com/woksin) | None | 9:34:09 | None |
-| a [Join]-populated property cannot be cleared by a From block, and nothing documents the precedence | https://github.com/Cratis/Chronicle/issues/3638 | None | [woksin](https://github.com/woksin) | None | 1 day, 8:25:16 | None |
-| a consumer that needs "absent means empty" has to reach past Chronicle to the MongoDB driver, and the obvious in-language fix is silently dead | https://github.com/Cratis/Chronicle/issues/3637 | None | [woksin](https://github.com/woksin) | None | 1 day, 8:25:15 | None |
-| registration has no observable outcome, so a consumer that needs to know whether its read side came up has to re-drive Discover()/Register() and catch | https://github.com/Cratis/Chronicle/issues/3636 | None | [woksin](https://github.com/woksin) | None | 1 day, 8:25:14 | None |
+| [Resolved in Chronicle 16.20.0; superseded by CHR0043 in 16.32.0] Key-redirection PII analyzer coverage | https://github.com/Cratis/Chronicle/issues/3640 | None | [woksin](https://github.com/woksin) | None | 1:08:20 | None |
+| [Resolved in Chronicle 16.22.0] Configure composite encryption-key storage for cutover | https://github.com/Cratis/Chronicle/issues/3639 | None | [woksin](https://github.com/woksin) | None | 9:34:09 | None |
+| [Resolved] Join precedence over local From writes is documented and diagnosed | https://github.com/Cratis/Chronicle/issues/3638 | None | [woksin](https://github.com/woksin) | None | 1 day, 8:25:16 | None |
+| Resolved: materialize absent declared collections as empty when reading a read model | https://github.com/Cratis/Chronicle/issues/3637 | None | [woksin](https://github.com/woksin) | None | 1 day, 8:25:15 | None |
+| [Resolved] Surface artifact-registration outcome on IEventStore | https://github.com/Cratis/Chronicle/issues/3636 | None | [woksin](https://github.com/woksin) | None | 1 day, 8:25:14 | None |
 | the shipped optimistic strategy produces the exact scope state the kernel classifies as a caller bug, so the first append into any narrowed scope is never checked | https://github.com/Cratis/Chronicle/issues/3635 | None | [woksin](https://github.com/woksin) | None | 5 days, 14:02:55 | None |
-| CHR0025 recommends [NoAutoMap] on child and nested records, where the attribute is inert, and the attribute's own docs promise the same | https://github.com/Cratis/Chronicle/issues/3634 | None | [woksin](https://github.com/woksin) | None | 1 day, 8:25:29 | None |
-| a spec cannot ask Cratis which artifacts it registered, so every consumer re-derives the registry by reflection | https://github.com/Cratis/Chronicle/issues/3633 | None | [woksin](https://github.com/woksin) | None | 1 day, 8:25:28 | None |
-| widen CHR0039: a discarded Task-returning assertion is a silent no-op, and the rule's own namespace gate skips Chronicle's own assertions | https://github.com/Cratis/Chronicle/issues/3631 | None | [woksin](https://github.com/woksin) | None | 1 day, 8:25:27 | None |
-| the default unique-constraint violation message interpolates the offending value into a client-visible result | https://github.com/Cratis/Chronicle/issues/3632 | None | [woksin](https://github.com/woksin) | None | 5 days, 14:02:44 | None |
+| RESOLVED: [NoAutoMap] now works on child and nested projections (Chronicle 16.16.0) | https://github.com/Cratis/Chronicle/issues/3634 | None | [woksin](https://github.com/woksin) | None | 1 day, 8:25:29 | None |
+| [Historical, fixed in Chronicle 16.16.0] Expose the registered client-artifacts provider from ReadModelScenario | https://github.com/Cratis/Chronicle/issues/3633 | None | [woksin](https://github.com/woksin) | None | 1 day, 8:25:28 | None |
+| [Resolved in v16.16.0] CHR0039 missed discarded awaitable assertions in the XUnit integration surface | https://github.com/Cratis/Chronicle/issues/3631 | None | [woksin](https://github.com/woksin) | None | 1 day, 8:25:27 | None |
+| Resolved: default unique-constraint violation messages exposed client-visible identifiers | https://github.com/Cratis/Chronicle/issues/3632 | None | [woksin](https://github.com/woksin) | None | 5 days, 14:02:44 | None |
 | the reactor side-effect handlers and the event serializer are [Singleton] while the IEventTypes they consume is scoped per event store, so a host that validates scopes cannot run reactors at all | https://github.com/Cratis/Chronicle/issues/3629 | None | [woksin](https://github.com/woksin) | None | 1:08:42 | None |
-| a root-level [Join] filters on the raw event-source-id string, so it silently never matches a non-string-keyed column | https://github.com/Cratis/Chronicle/issues/3628 | None | [woksin](https://github.com/woksin) | None | 1:08:39 | None |
+| [Resolved in 16.20.0] Root-level [Join] previously filtered on the raw event-source-id string and missed non-string-keyed columns | https://github.com/Cratis/Chronicle/issues/3628 | None | [woksin](https://github.com/woksin) | None | 1:08:39 | None |
 | three attribute docstrings promise projections filter on event metadata; nothing anywhere does | https://github.com/Cratis/Chronicle/issues/3627 | None | [woksin](https://github.com/woksin) | None | 1 day, 1:32:06 | None |
 | two [SetFromContext<T>] for the same event type on one property silently discard all but the last | https://github.com/Cratis/Chronicle/issues/3626 | None | [woksin](https://github.com/woksin) | None | 1 day, 5:16:08 | None |
 | a message: on a property-level [Unique] is silently discarded | https://github.com/Cratis/Chronicle/issues/3625 | None | [woksin](https://github.com/woksin) | None | 1 day, 1:27:07 | None |
 | [NoAutoMap] is silently ignored on [ChildrenFrom] child and [Nested] members | https://github.com/Cratis/Chronicle/issues/3624 | None | [woksin](https://github.com/woksin) | None | 1:08:56 | None |
 | a projection replay rewrites every stored child whole, defaulting every unset member | https://github.com/Cratis/Chronicle/issues/3622 | None | [woksin](https://github.com/woksin) | None | 1 day, 3:20:21 | None |
-| three Cratis.Chronicle.CodeAnalysis false positives | https://github.com/Cratis/Chronicle/issues/3623 | None | [woksin](https://github.com/woksin) | None | 1 day, 1:25:49 | None |
+| [Resolved] Three Cratis.Chronicle.CodeAnalysis false positives | https://github.com/Cratis/Chronicle/issues/3623 | None | [woksin](https://github.com/woksin) | None | 1 day, 1:25:49 | None |
 | Cratis.Chronicle.XUnit.Integration's nuspec omits the embedded kernel's runtime dependencies | https://github.com/Cratis/Chronicle/issues/3621 | None | [woksin](https://github.com/woksin) | None | 1 day, 1:50:39 | None |
 | one unregistered event type named in a model-bound projection attribute aborts discovery for EVERY projection | https://github.com/Cratis/Chronicle/issues/3620 | None | [woksin](https://github.com/woksin) | None | 1 day, 1:50:38 | None |
 | the testing harness materializes an empty child collection as [] while the live sink omits it, so no spec at any tier can catch the divergence | https://github.com/Cratis/Chronicle/issues/3619 | None | [woksin](https://github.com/woksin) | None | 1 day, 3:20:26 | None |
@@ -132,8 +134,8 @@
 | Support materialized read models through IReadModel | https://github.com/Cratis/Chronicle/issues/3605 | None | [einari](https://github.com/einari) | None | 2 days, 5:44:36 | None |
 | Add an opt-in health-only dedicated listener | https://github.com/Cratis/Chronicle/issues/3604 | None | [woksin](https://github.com/woksin) | None | 3 days, 22:46:13 | None |
 | Allow PII value objects to contain enum members during append | https://github.com/Cratis/Chronicle/issues/3603 | None | [woksin](https://github.com/woksin) | None | 21:06:58 | None |
-| Should a release-exempt PII marker exist, and where should [ReleaseUnder] on a stored read model be refused? | https://github.com/Cratis/Chronicle/issues/3601 | None | [woksin](https://github.com/woksin) | 5 days, 15:33:59 | 5 days, 17:06:10 | None |
-| Is erasing a subject's encryption key a permanent refusal, or only removal of the key that exists now? | https://github.com/Cratis/Chronicle/issues/3600 | None | [woksin](https://github.com/woksin) | None | 8 days, 8:47:06 | None |
+| Resolved: follow-up design questions on per-property PII subject ownership | https://github.com/Cratis/Chronicle/issues/3601 | None | [woksin](https://github.com/woksin) | 5 days, 15:33:59 | 5 days, 17:06:10 | None |
+| [Resolved in Chronicle v16.34.0] Cross-store key erasure could be resurrected by subscription forwarding | https://github.com/Cratis/Chronicle/issues/3600 | None | [woksin](https://github.com/woksin) | None | 8 days, 8:47:06 | None |
 | Cratis.Chronicle.Testing bakes in Cratis.Screenplay.Secrets types, so every spec fails against Screenplay 2.0.0 | https://github.com/Cratis/Chronicle/issues/3598 | None | [woksin](https://github.com/woksin) | None | 2 days, 23:48:11 | None |
 | Cross-store outbox subscription never delivers the first-ever event of a new event type on a low-traffic sequence | https://github.com/Cratis/Chronicle/issues/3591 | None | [einari](https://github.com/einari) | None | 1:38:58 | None |
 | Constraint release is not visible within the same AppendMany batch | https://github.com/Cratis/Chronicle/issues/3590 | None | [woksin](https://github.com/woksin) | None | None | None |
@@ -299,4 +301,4 @@
 | Version 15.2.4 not published to NuGet Gallery | https://github.com/Cratis/Chronicle/issues/2660 | None | [CLE-ChristianLeicht](https://github.com/CLE-ChristianLeicht) | 0:11:36 | 0:11:41 | None |
 | Validate gRPC API surface for breaking changes | https://github.com/Cratis/Chronicle/issues/2651 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 30 days, 1:51:37 | None |
 | Make the Chronicle Artifacts registration story more consistent | https://github.com/Cratis/Chronicle/issues/2649 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [woksin](https://github.com/woksin) | None | 8 days, 1:51:20 | None |
-| Add the ability to add events directly in the Event Sequence editor / page in Workbench | https://github.com/Cratis/Chronicle/issues/2644 
+| Add the ability to add events directly in the Event Sequence editor / page in Workbench | https://github.com/Cratis/Chronicle/issues/2644 | [einari](https://github.com/einari), [Copilot](https://git
