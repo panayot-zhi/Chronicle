@@ -2,18 +2,24 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 516 days, 5:40:05 | 450 days, 11:59:04 | 1244 days, 21:42:51 |
-| Time to close | 257 days, 3:55:49 | 56 days, 6:11:33 | 768 days, 2:53:22 |
+| Time to first response | 507 days, 16:08:39 | 402 days, 10:38:34 | 1212 days, 15:06:12 |
+| Time to close | 255 days, 0:09:30 | 54 days, 8:55:31 | 767 days, 21:57:06 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 163 |
-| Number of items closed | 837 |
+| Number of items that remain open | 166 |
+| Number of items closed | 834 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Event hash is not updated (Mongo) / not persisted at all (SQL) when an event is revised | https://github.com/Cratis/Chronicle/issues/3820 | None | [einari](https://github.com/einari) | None | None | None |
+| Cross-language Client Compliance Harness | https://github.com/Cratis/Chronicle/issues/3819 | None | [einari](https://github.com/einari) | None | None | None |
+| Design: in-process Chronicle Kernel in the .NET client (no second package, no gRPC, Arc/Orleans version-independent) | https://github.com/Cratis/Chronicle/issues/3817 | None | [einari](https://github.com/einari) | None | None | None |
+| Problems with migrations | https://github.com/Cratis/Chronicle/issues/3816 | None | [einari](https://github.com/einari) | None | 6:41:29 | None |
+| Introduce EventTypeGenerationFor attribute | https://github.com/Cratis/Chronicle/issues/3815 | None | [einari](https://github.com/einari) | None | 7:46:16 | None |
+| Development container image is published as an unoptimized Debug build | https://github.com/Cratis/Chronicle/issues/3813 | None | [einari](https://github.com/einari) | None | None | None |
 | Establish a governed operation boundary for Chronicle mutations | https://github.com/Cratis/Chronicle/issues/3812 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Publish generated Chronicle contracts for Python | https://github.com/Cratis/Chronicle/issues/3806 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Data Protection ignores GrainBasedXmlRepository while rotation diagnostics inspect it | https://github.com/Cratis/Chronicle/issues/3803 | None | [woksin](https://github.com/woksin) | None | 4:45:05 | None |
@@ -97,10 +103,10 @@
 | Surface projection-processing failures instead of returning an empty model | https://github.com/Cratis/Chronicle/issues/3645 | None | [woksin](https://github.com/woksin) | None | 0:00:38 | None |
 | stored read models cannot track PII owned by more than one subject | https://github.com/Cratis/Chronicle/issues/3644 | None | [woksin](https://github.com/woksin) | 3 days, 20:36:29 | 4 days, 5:44:00 | None |
 | [Resolved in Chronicle v16.34.0] Reactor delivery identity for retry-aware idempotency | https://github.com/Cratis/Chronicle/issues/3643 | None | [woksin](https://github.com/woksin) | None | 5 days, 13:55:21 | None |
-| scalar clear declarations compile but silently leave stale projection values | https://github.com/Cratis/Chronicle/issues/3641 | None | [woksin](https://github.com/woksin) | None | 3 days, 2:37:32 | None |
 | stream metadata attributes claim an EventType placement that does nothing | https://github.com/Cratis/Chronicle/issues/3642 | None | [woksin](https://github.com/woksin) | None | 1 day, 5:08:20 | None |
-| [Resolved in Chronicle 16.20.0; superseded by CHR0043 in 16.32.0] Key-redirection PII analyzer coverage | https://github.com/Cratis/Chronicle/issues/3640 | None | [woksin](https://github.com/woksin) | None | 1:08:20 | None |
+| scalar clear declarations compile but silently leave stale projection values | https://github.com/Cratis/Chronicle/issues/3641 | None | [woksin](https://github.com/woksin) | None | 3 days, 2:37:32 | None |
 | [Resolved in Chronicle 16.22.0] Configure composite encryption-key storage for cutover | https://github.com/Cratis/Chronicle/issues/3639 | None | [woksin](https://github.com/woksin) | None | 9:34:09 | None |
+| [Resolved in Chronicle 16.20.0; superseded by CHR0043 in 16.32.0] Key-redirection PII analyzer coverage | https://github.com/Cratis/Chronicle/issues/3640 | None | [woksin](https://github.com/woksin) | None | 1:08:20 | None |
 | [Resolved] Join precedence over local From writes is documented and diagnosed | https://github.com/Cratis/Chronicle/issues/3638 | None | [woksin](https://github.com/woksin) | None | 1 day, 8:25:16 | None |
 | Resolved: materialize absent declared collections as empty when reading a read model | https://github.com/Cratis/Chronicle/issues/3637 | None | [woksin](https://github.com/woksin) | None | 1 day, 8:25:15 | None |
 | [Resolved] Surface artifact-registration outcome on IEventStore | https://github.com/Cratis/Chronicle/issues/3636 | None | [woksin](https://github.com/woksin) | None | 1 day, 8:25:14 | None |
@@ -115,8 +121,8 @@
 | two [SetFromContext<T>] for the same event type on one property silently discard all but the last | https://github.com/Cratis/Chronicle/issues/3626 | None | [woksin](https://github.com/woksin) | None | 1 day, 5:16:08 | None |
 | a message: on a property-level [Unique] is silently discarded | https://github.com/Cratis/Chronicle/issues/3625 | None | [woksin](https://github.com/woksin) | None | 1 day, 1:27:07 | None |
 | [NoAutoMap] is silently ignored on [ChildrenFrom] child and [Nested] members | https://github.com/Cratis/Chronicle/issues/3624 | None | [woksin](https://github.com/woksin) | None | 1:08:56 | None |
-| a projection replay rewrites every stored child whole, defaulting every unset member | https://github.com/Cratis/Chronicle/issues/3622 | None | [woksin](https://github.com/woksin) | None | 1 day, 3:20:21 | None |
 | [Resolved] Three Cratis.Chronicle.CodeAnalysis false positives | https://github.com/Cratis/Chronicle/issues/3623 | None | [woksin](https://github.com/woksin) | None | 1 day, 1:25:49 | None |
+| a projection replay rewrites every stored child whole, defaulting every unset member | https://github.com/Cratis/Chronicle/issues/3622 | None | [woksin](https://github.com/woksin) | None | 1 day, 3:20:21 | None |
 | Cratis.Chronicle.XUnit.Integration's nuspec omits the embedded kernel's runtime dependencies | https://github.com/Cratis/Chronicle/issues/3621 | None | [woksin](https://github.com/woksin) | None | 1 day, 1:50:39 | None |
 | one unregistered event type named in a model-bound projection attribute aborts discovery for EVERY projection | https://github.com/Cratis/Chronicle/issues/3620 | None | [woksin](https://github.com/woksin) | None | 1 day, 1:50:38 | None |
 | the testing harness materializes an empty child collection as [] while the live sink omits it, so no spec at any tier can catch the divergence | https://github.com/Cratis/Chronicle/issues/3619 | None | [woksin](https://github.com/woksin) | None | 1 day, 3:20:26 | None |
@@ -297,8 +303,4 @@
 | Swap out custom components for our standardized ones | https://github.com/Cratis/Chronicle/issues/2694 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 18 days, 0:46:11 | None |
 | Switch out components in Workbench | https://github.com/Cratis/Chronicle/issues/2681 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 19 days, 4:56:46 | None |
 | Information Logging Chroincle | https://github.com/Cratis/Chronicle/issues/2670 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [woksin](https://github.com/woksin) | None | 22 days, 4:15:13 | None |
-| Error starting up version 15.2.18 after having previouly been running previous versions (before migration patch system) | https://github.com/Cratis/Chronicle/issues/2668 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 9:09:06 | None |
-| Version 15.2.4 not published to NuGet Gallery | https://github.com/Cratis/Chronicle/issues/2660 | None | [CLE-ChristianLeicht](https://github.com/CLE-ChristianLeicht) | 0:11:36 | 0:11:41 | None |
-| Validate gRPC API surface for breaking changes | https://github.com/Cratis/Chronicle/issues/2651 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 30 days, 1:51:37 | None |
-| Make the Chronicle Artifacts registration story more consistent | https://github.com/Cratis/Chronicle/issues/2649 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [woksin](https://github.com/woksin) | None | 8 days, 1:51:20 | None |
-| Add the ability to add events directly in the Event Sequence editor / page in Workbench | https://github.com/Cratis/Chronicle/issues/2644 | [einari](https://github.com/einari), [Copilot](https://git
+| Error starting up version 15.2.18 after having previouly been running p
