@@ -2,18 +2,19 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 507 days, 16:08:39 | 402 days, 10:38:34 | 1212 days, 15:06:12 |
-| Time to close | 255 days, 0:09:30 | 54 days, 8:55:31 | 767 days, 21:57:06 |
+| Time to first response | 649 days, 3:35:27 | 697 days, 7:45:47 | 1294 days, 2:45:32 |
+| Time to close | 254 days, 10:44:17 | 54 days, 8:55:31 | 767 days, 21:49:44 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 166 |
-| Number of items closed | 834 |
+| Number of items that remain open | 162 |
+| Number of items closed | 838 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| GH Python workflow security | https://github.com/Cratis/Chronicle/issues/3824 | None | [Midnighter](https://github.com/Midnighter) | None | None | None |
 | Event hash is not updated (Mongo) / not persisted at all (SQL) when an event is revised | https://github.com/Cratis/Chronicle/issues/3820 | None | [einari](https://github.com/einari) | None | None | None |
 | Cross-language Client Compliance Harness | https://github.com/Cratis/Chronicle/issues/3819 | None | [einari](https://github.com/einari) | None | None | None |
 | Design: in-process Chronicle Kernel in the .NET client (no second package, no gRPC, Arc/Orleans version-independent) | https://github.com/Cratis/Chronicle/issues/3817 | None | [einari](https://github.com/einari) | None | None | None |
@@ -46,7 +47,7 @@
 | Switch to Orleans new Distributed Grain Directory | https://github.com/Cratis/Chronicle/issues/3746 | None | [einari](https://github.com/einari) | None | None | None |
 | Encryption key GetOrAddFor is non-atomic on Vault and Azure Key Vault; SQL can return a never-persisted key | https://github.com/Cratis/Chronicle/issues/3745 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Unique constraints are only actually enforced on MongoDB — SQL creates a non-unique index, InMemory enforces nothing | https://github.com/Cratis/Chronicle/issues/3744 | None | [woksin](https://github.com/woksin) | None | None | None |
-| GetNextSequenceNumberGreaterOrEqualThan returns the highest match on MongoDB, so failed-partition retry skips events | https://github.com/Cratis/Chronicle/issues/3743 | None | [woksin](https://github.com/woksin) | None | None | None |
+| GetNextSequenceNumberGreaterOrEqualThan returns the highest match on MongoDB, so failed-partition retry skips events | https://github.com/Cratis/Chronicle/issues/3743 | None | [woksin](https://github.com/woksin) | None | 6 days, 18:42:00 | None |
 | benchmarks.yml has failed 11 consecutive runs: commit step dies on pull --rebase with unstaged changes | https://github.com/Cratis/Chronicle/issues/3742 | None | [woksin](https://github.com/woksin) | None | None | None |
 | GetInstances pages sinks without an ORDER BY, risking dropped or duplicated rows across pages | https://github.com/Cratis/Chronicle/issues/3741 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Storage.AzureKeyVault.Specs never runs in CI and fails against the Key Vault emulator's untrusted root CA | https://github.com/Cratis/Chronicle/issues/3739 | None | [woksin](https://github.com/woksin) | None | None | None |
@@ -80,7 +81,7 @@
 | Tls:Enabled=false still refuses to start without a certificate, contradicting its own documentation | https://github.com/Cratis/Chronicle/issues/3681 | None | [woksin](https://github.com/woksin) | None | None | None |
 | The client certificate loader cannot read a password-less PKCS#12, latent behind the net8 target | https://github.com/Cratis/Chronicle/issues/3680 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Integration/Client and Integration/Api race on Source/Kernel/Server/out, causing intermittent MSB3231 | https://github.com/Cratis/Chronicle/issues/3676 | None | [woksin](https://github.com/woksin) | None | None | None |
-| Four spec projects are missing from Chronicle.slnx and never run in CI | https://github.com/Cratis/Chronicle/issues/3675 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Four spec projects are missing from Chronicle.slnx and never run in CI | https://github.com/Cratis/Chronicle/issues/3675 | None | [woksin](https://github.com/woksin) | None | 13 days, 0:22:58 | None |
 | Azure Key Vault erasure soft-deletes the encryption key instead of purging it | https://github.com/Cratis/Chronicle/issues/3674 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Compliance walk throws CompliancePropertyNotFoundInSchema on geospatial Point leaf schemas (read model with [PII] + Point) | https://github.com/Cratis/Chronicle/issues/3673 | None | [Petteroe](https://github.com/Petteroe) | 3:46:20 | 3:46:21 | None |
 | OAuth token issuance fails: scoped IMongoDatabase injected into singleton security storage | https://github.com/Cratis/Chronicle/issues/3671 | None | [einari](https://github.com/einari) | None | 0:48:16 | None |
@@ -171,7 +172,7 @@
 | [RemovedWith] attribute does not work with empty removal events using implicit EventSourceId resolution | https://github.com/Cratis/Chronicle/issues/3421 | None | [einari](https://github.com/einari) | 36 days, 22:02:14 | 36 days, 22:02:15 | None |
 | Read model reactors: reliable Added/Modified change type for reducer-backed and replayed changes | https://github.com/Cratis/Chronicle/issues/3418 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Fix Coverage build problems | https://github.com/Cratis/Chronicle/issues/3407 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 3:02:19 | None |
-| Unable to find a datacollector with friendly name 'XPlat Code Coverage' | https://github.com/Cratis/Chronicle/issues/3405 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
+| Unable to find a datacollector with friendly name 'XPlat Code Coverage' | https://github.com/Cratis/Chronicle/issues/3405 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | 68 days, 7:11:10 | 68 days, 7:11:11 | None |
 | Aspire: slim-image WithMongoDB silently requires a MongoDB replica set + directConnection — document and/or provide a provisioning helper | https://github.com/Cratis/Chronicle/issues/3400 | None | [woksin](https://github.com/woksin) | None | 49 days, 23:55:44 | None |
 | Missing paging in Event Types in workbench | https://github.com/Cratis/Chronicle/issues/3396 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 59 days, 1:47:51 | None |
 | Add missing JsonConverters | https://github.com/Cratis/Chronicle/issues/3389 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 8:40:54 | None |
@@ -302,5 +303,4 @@
 | Add more dimensions and filters | https://github.com/Cratis/Chronicle/issues/2723 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 9:28:46 | None |
 | Swap out custom components for our standardized ones | https://github.com/Cratis/Chronicle/issues/2694 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 18 days, 0:46:11 | None |
 | Switch out components in Workbench | https://github.com/Cratis/Chronicle/issues/2681 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 19 days, 4:56:46 | None |
-| Information Logging Chroincle | https://github.com/Cratis/Chronicle/issues/2670 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [woksin](https://github.com/woksin) | None | 22 days, 4:15:13 | None |
-| Error starting up version 15.2.18 after having previouly been running p
+| Information Logging Chroincle | https://github.com/Cratis/Chronicle/issues/2670 | [woksin](https://gi
