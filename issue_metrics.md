@@ -3,17 +3,19 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 649 days, 3:35:27 | 697 days, 7:45:47 | 1294 days, 2:45:32 |
-| Time to close | 254 days, 10:44:17 | 54 days, 8:55:31 | 767 days, 21:49:44 |
+| Time to close | 253 days, 5:45:55 | 54 days, 3:41:08 | 762 days, 22:14:22 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 162 |
-| Number of items closed | 838 |
+| Number of items that remain open | 164 |
+| Number of items closed | 836 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Document issue-label conventions: taxonomy axes and the idea/investigate staleness exemption | https://github.com/Cratis/Chronicle/issues/3827 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Epic: shared storage-contract spec suite across MongoDB, SQL, InMemory, and key vaults | https://github.com/Cratis/Chronicle/issues/3826 | None | [woksin](https://github.com/woksin) | None | None | None |
 | GH Python workflow security | https://github.com/Cratis/Chronicle/issues/3824 | None | [Midnighter](https://github.com/Midnighter) | None | None | None |
 | Event hash is not updated (Mongo) / not persisted at all (SQL) when an event is revised | https://github.com/Cratis/Chronicle/issues/3820 | None | [einari](https://github.com/einari) | None | None | None |
 | Cross-language Client Compliance Harness | https://github.com/Cratis/Chronicle/issues/3819 | None | [einari](https://github.com/einari) | None | None | None |
@@ -301,6 +303,4 @@
 | When removing WebHooks they don't really get removed from the storage | https://github.com/Cratis/Chronicle/issues/2727 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 11 days, 20:58:07 | None |
 | Adding a new event store does not carry over events marked as AllEventStores | https://github.com/Cratis/Chronicle/issues/2725 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 13 days, 22:27:44 | None |
 | Add more dimensions and filters | https://github.com/Cratis/Chronicle/issues/2723 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 9:28:46 | None |
-| Swap out custom components for our standardized ones | https://github.com/Cratis/Chronicle/issues/2694 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 18 days, 0:46:11 | None |
-| Switch out components in Workbench | https://github.com/Cratis/Chronicle/issues/2681 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 19 days, 4:56:46 | None |
-| Information Logging Chroincle | https://github.com/Cratis/Chronicle/issues/2670 | [woksin](https://gi
+| Swap out custom components for our standardized ones | https://github.com/Cratis/Chronicle/issues/2694 | [einari](https://github.com/einari), [Copilot](https://github.com/Cop
