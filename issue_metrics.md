@@ -3,17 +3,19 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 649 days, 3:35:27 | 697 days, 7:45:47 | 1294 days, 2:45:32 |
-| Time to close | 253 days, 5:45:55 | 54 days, 3:41:08 | 762 days, 22:14:22 |
+| Time to close | 251 days, 17:51:18 | 53 days, 23:29:34 | 757 days, 16:13:12 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 164 |
-| Number of items closed | 836 |
+| Number of items that remain open | 166 |
+| Number of items closed | 834 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Complete the v17.0.0 accident cleanup: npm ghost blocks all client publishes (72h deadline) | https://github.com/Cratis/Chronicle/issues/3842 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Integration legs are fail-open on binary-cache eviction — reruns of failed jobs can never succeed | https://github.com/Cratis/Chronicle/issues/3838 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Document issue-label conventions: taxonomy axes and the idea/investigate staleness exemption | https://github.com/Cratis/Chronicle/issues/3827 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Epic: shared storage-contract spec suite across MongoDB, SQL, InMemory, and key vaults | https://github.com/Cratis/Chronicle/issues/3826 | None | [woksin](https://github.com/woksin) | None | None | None |
 | GH Python workflow security | https://github.com/Cratis/Chronicle/issues/3824 | None | [Midnighter](https://github.com/Midnighter) | None | None | None |
@@ -301,6 +303,4 @@
 | Add test and verification validator for adding WebHook | https://github.com/Cratis/Chronicle/issues/2731 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 11 days, 8:39:34 | None |
 | Make it possible to override Occurred | https://github.com/Cratis/Chronicle/issues/2729 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 13 days, 19:56:37 | None |
 | When removing WebHooks they don't really get removed from the storage | https://github.com/Cratis/Chronicle/issues/2727 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 11 days, 20:58:07 | None |
-| Adding a new event store does not carry over events marked as AllEventStores | https://github.com/Cratis/Chronicle/issues/2725 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 13 days, 22:27:44 | None |
-| Add more dimensions and filters | https://github.com/Cratis/Chronicle/issues/2723 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 9:28:46 | None |
-| Swap out custom components for our standardized ones | https://github.com/Cratis/Chronicle/issues/2694 | [einari](https://github.com/einari), [Copilot](https://github.com/Cop
+| Adding a new event store does not carry over events marked as AllEventStores | https://github.com/Cratis/Chronicle/issues/2725 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | Non
