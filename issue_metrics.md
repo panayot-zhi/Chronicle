@@ -2,18 +2,25 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 649 days, 3:35:27 | 697 days, 7:45:47 | 1294 days, 2:45:32 |
-| Time to close | 251 days, 17:51:18 | 53 days, 23:29:34 | 757 days, 16:13:12 |
+| Time to first response | 643 days, 23:37:00 | 696 days, 20:14:40 | 1294 days, 2:35:57 |
+| Time to close | 247 days, 0:03:04 | 50 days, 2:09:12 | 755 days, 11:51:56 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 166 |
-| Number of items closed | 834 |
+| Number of items that remain open | 168 |
+| Number of items closed | 832 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| The "Verify Semver Label" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle... | https://github.com/Cratis/Chronicle/issues/3855 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
+| IObserver.Ensure() still queues behind unrelated grain work and terminates the silo on startup (residual #3848, on 16.38.5) | https://github.com/Cratis/Chronicle/issues/3852 | None | [einari](https://github.com/einari) | None | None | None |
+| Silo startup's own IProjectionsManager.Ensure() call still crashes the host under a rolling multi-service redeploy (recurrence after #3666) | https://github.com/Cratis/Chronicle/issues/3848 | None | [einari](https://github.com/einari) | None | 2:06:13 | None |
+| Defaulted nullable ConceptAs<T>/EventSourceId<T> read-model property silently returns null via GetInstanceById | https://github.com/Cratis/Chronicle/issues/3847 | None | [einari](https://github.com/einari) | None | None | None |
+| Passive read model GetInstanceById throws ProjectionDefinitionNotSet instead of returning null when its event type has zero events anywhere in the store | https://github.com/Cratis/Chronicle/issues/3846 | None | [einari](https://github.com/einari) | None | 4:27:37 | None |
+| Regression: string-keyed (ConceptAs<string>) read-model partition key raises 'Unrecognized Guid format' after 16.32.0 -> 16.38.2 | https://github.com/Cratis/Chronicle/issues/3844 | None | [einari](https://github.com/einari) | None | 13:07:40 | None |
+| AutoMap silently applies to every property of an event referenced anywhere at the root, not just the referencing property | https://github.com/Cratis/Chronicle/issues/3843 | None | [einari](https://github.com/einari) | None | 18:51:45 | None |
 | Complete the v17.0.0 accident cleanup: npm ghost blocks all client publishes (72h deadline) | https://github.com/Cratis/Chronicle/issues/3842 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Integration legs are fail-open on binary-cache eviction — reruns of failed jobs can never succeed | https://github.com/Cratis/Chronicle/issues/3838 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Document issue-label conventions: taxonomy axes and the idea/investigate staleness exemption | https://github.com/Cratis/Chronicle/issues/3827 | None | [woksin](https://github.com/woksin) | None | None | None |
@@ -296,11 +303,4 @@
 | Move AddCratisChronicle from AspNetCore to DotNET client, target IHostApplicationBuilder | https://github.com/Cratis/Chronicle/issues/2755 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2:36:04 | None |
 | Separate structural dependencies from runtime configuration in ChronicleOptions | https://github.com/Cratis/Chronicle/issues/2753 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 6:49:57 | None |
 | Get rid of Polly in favor of Microsoft Resilience | https://github.com/Cratis/Chronicle/issues/2743 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2:12:48 | None |
-| Raise conditions with seeded events / events produced while kernel is starting | https://github.com/Cratis/Chronicle/issues/2741 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 10 days, 3:28:24 | None |
-| Bundle Monaco Editor | https://github.com/Cratis/Chronicle/issues/2739 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 10 days, 3:43:08 | None |
-| Support for Constant key in Projections | https://github.com/Cratis/Chronicle/issues/2737 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 10 days, 5:32:03 | None |
-| Investigate and potentially fix projection functions (count, increment, decrement) | https://github.com/Cratis/Chronicle/issues/2735 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 12 days, 9:26:11 | None |
-| Add test and verification validator for adding WebHook | https://github.com/Cratis/Chronicle/issues/2731 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 11 days, 8:39:34 | None |
-| Make it possible to override Occurred | https://github.com/Cratis/Chronicle/issues/2729 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 13 days, 19:56:37 | None |
-| When removing WebHooks they don't really get removed from the storage | https://github.com/Cratis/Chronicle/issues/2727 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 11 days, 20:58:07 | None |
-| Adding a new event store does not carry over events marked as AllEventStores | https://github.com/Cratis/Chronicle/issues/2725 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | Non
+| Raise conditions with seeded events / events produced while kernel is starting | https://github.com/Cratis/Chronicle/issues/2741 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 10 days, 3:2
