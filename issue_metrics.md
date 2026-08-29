@@ -3,17 +3,20 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 643 days, 23:37:00 | 696 days, 20:14:40 | 1294 days, 2:35:57 |
-| Time to close | 247 days, 0:03:04 | 50 days, 2:09:12 | 755 days, 11:51:56 |
+| Time to close | 246 days, 16:40:59 | 50 days, 2:09:12 | 755 days, 21:41:58 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 168 |
-| Number of items closed | 832 |
+| Number of items that remain open | 170 |
+| Number of items closed | 830 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Bring Chronicle's Arc artifacts up to the contracts Arc 22.6 analyzers enforce | https://github.com/Cratis/Chronicle/issues/3862 | None | [einari](https://github.com/einari) | None | None | None |
+| Improve client connection-failure diagnostics: clear connection error instead of ObjectDisposedException when the server is unreachable | https://github.com/Cratis/Chronicle/issues/3859 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Pattern detection | https://github.com/Cratis/Chronicle/issues/3857 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | None | None |
 | The "Verify Semver Label" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle... | https://github.com/Cratis/Chronicle/issues/3855 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
 | IObserver.Ensure() still queues behind unrelated grain work and terminates the silo on startup (residual #3848, on 16.38.5) | https://github.com/Cratis/Chronicle/issues/3852 | None | [einari](https://github.com/einari) | None | None | None |
 | Silo startup's own IProjectionsManager.Ensure() call still crashes the host under a rolling multi-service redeploy (recurrence after #3666) | https://github.com/Cratis/Chronicle/issues/3848 | None | [einari](https://github.com/einari) | None | 2:06:13 | None |
@@ -301,6 +304,4 @@
 | Specify Admin password in development image as config option | https://github.com/Cratis/Chronicle/issues/2793 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 4 days, 7:55:17 | None |
 | Support projecting without specifying a read model - infer it | https://github.com/Cratis/Chronicle/issues/2764 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 5 days, 10:02:43 | None |
 | Move AddCratisChronicle from AspNetCore to DotNET client, target IHostApplicationBuilder | https://github.com/Cratis/Chronicle/issues/2755 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2:36:04 | None |
-| Separate structural dependencies from runtime configuration in ChronicleOptions | https://github.com/Cratis/Chronicle/issues/2753 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 6:49:57 | None |
-| Get rid of Polly in favor of Microsoft Resilience | https://github.com/Cratis/Chronicle/issues/2743 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2:12:48 | None |
-| Raise conditions with seeded events / events produced while kernel is starting | https://github.com/Cratis/Chronicle/issues/2741 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 10 days, 3:2
+| Separate structural dependencies from runtime configuration in ChronicleOptions | https://github.com/Cratis/Chronicle/issues/2753 | [einari](https://github.
