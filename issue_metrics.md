@@ -2,22 +2,30 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 643 days, 23:37:00 | 696 days, 20:14:40 | 1294 days, 2:35:57 |
-| Time to close | 246 days, 16:40:59 | 50 days, 2:09:12 | 755 days, 21:41:58 |
+| Time to first response | 640 days, 4:11:54 | 696 days, 8:43:34 | 1294 days, 2:34:42 |
+| Time to close | 243 days, 4:32:52 | 46 days, 16:47:49 | 746 days, 2:34:08 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 170 |
-| Number of items closed | 830 |
+| Number of items that remain open | 171 |
+| Number of items closed | 829 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
-| Bring Chronicle's Arc artifacts up to the contracts Arc 22.6 analyzers enforce | https://github.com/Cratis/Chronicle/issues/3862 | None | [einari](https://github.com/einari) | None | None | None |
+| Bring back Wire compatibility checker | https://github.com/Cratis/Chronicle/issues/3873 | None | [einari](https://github.com/einari) | None | None | None |
+| Asking what usually happens in a context cannot return the action | https://github.com/Cratis/Chronicle/issues/3872 | None | [einari](https://github.com/einari) | None | None | None |
+| Reactor dispatch matches any instance method by first-parameter type, not just public ones | https://github.com/Cratis/Chronicle/issues/3870 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | 5:54:26 | 8:57:17 | None |
+| A new projection over a large event log can congestion-collapse the kernel and take the client down | https://github.com/Cratis/Chronicle/issues/3869 | None | [einari](https://github.com/einari) | None | 12:42:57 | None |
+| Unique constraint not enforced on reactor appends when another observer is present | https://github.com/Cratis/Chronicle/issues/3868 | None | [einari](https://github.com/einari) | None | 2:27:39 | None |
+| Pattern capture never subscribes on a store whose clients connect after the server starts | https://github.com/Cratis/Chronicle/issues/3867 | None | [einari](https://github.com/einari) | None | 4:33:41 | None |
+| CI: Update Packages failing repeatedly | https://github.com/Cratis/Chronicle/issues/3865 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
+| The ".NET Build & Integration" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chro... | https://github.com/Cratis/Chronicle/issues/3864 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | 19:29:00 | None |
+| Bring Chronicle's Arc artifacts up to the contracts Arc 22.6 analyzers enforce | https://github.com/Cratis/Chronicle/issues/3862 | None | [einari](https://github.com/einari) | None | 0:47:03 | None |
 | Improve client connection-failure diagnostics: clear connection error instead of ObjectDisposedException when the server is unreachable | https://github.com/Cratis/Chronicle/issues/3859 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Pattern detection | https://github.com/Cratis/Chronicle/issues/3857 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | None | None |
-| The "Verify Semver Label" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle... | https://github.com/Cratis/Chronicle/issues/3855 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
+| The "Verify Semver Label" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle... | https://github.com/Cratis/Chronicle/issues/3855 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | 1 day, 17:53:07 | None |
 | IObserver.Ensure() still queues behind unrelated grain work and terminates the silo on startup (residual #3848, on 16.38.5) | https://github.com/Cratis/Chronicle/issues/3852 | None | [einari](https://github.com/einari) | None | None | None |
 | Silo startup's own IProjectionsManager.Ensure() call still crashes the host under a rolling multi-service redeploy (recurrence after #3666) | https://github.com/Cratis/Chronicle/issues/3848 | None | [einari](https://github.com/einari) | None | 2:06:13 | None |
 | Defaulted nullable ConceptAs<T>/EventSourceId<T> read-model property silently returns null via GetInstanceById | https://github.com/Cratis/Chronicle/issues/3847 | None | [einari](https://github.com/einari) | None | None | None |
@@ -297,11 +305,4 @@
 | Raise Conditions between seeded events and projections at startup | https://github.com/Cratis/Chronicle/issues/2898 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 1:34:10 | None |
 | gRPC Code Generation from Arc based artifacts | https://github.com/Cratis/Chronicle/issues/2884 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 8 days, 21:13:01 | None |
 | Add specific specs for the entire auth flow for both users and clients | https://github.com/Cratis/Chronicle/issues/2879 | None | [einari](https://github.com/einari) | 139 days, 4:43:21 | None | None |
-| Move NamingPolicy from ChronicleOptions | https://github.com/Cratis/Chronicle/issues/2868 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 22:54:20 | None |
-| Event Type Generation validation | https://github.com/Cratis/Chronicle/issues/2866 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 23:34:03 | None |
-| Outbox - inbox pattern for events | https://github.com/Cratis/Chronicle/issues/2831 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2 days, 2:15:10 | None |
-| Add support for Aspire | https://github.com/Cratis/Chronicle/issues/2798 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 3 days, 3:00:58 | None |
-| Specify Admin password in development image as config option | https://github.com/Cratis/Chronicle/issues/2793 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 4 days, 7:55:17 | None |
-| Support projecting without specifying a read model - infer it | https://github.com/Cratis/Chronicle/issues/2764 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 5 days, 10:02:43 | None |
-| Move AddCratisChronicle from AspNetCore to DotNET client, target IHostApplicationBuilder | https://github.com/Cratis/Chronicle/issues/2755 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2:36:04 | None |
-| Separate structural dependencies from runtime configuration in ChronicleOptions | https://github.com/Cratis/Chronicle/issues/2753 | [einari](https://github.
+| Move NamingPolicy from ChronicleOptions | https://github.com/Cratis/Chronicle/issues/2868 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](h
