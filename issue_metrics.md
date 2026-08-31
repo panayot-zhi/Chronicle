@@ -2,20 +2,40 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 640 days, 4:11:54 | 696 days, 8:43:34 | 1294 days, 2:34:42 |
-| Time to close | 243 days, 4:32:52 | 46 days, 16:47:49 | 746 days, 2:34:08 |
+| Time to first response | 636 days, 10:19:35 | 695 days, 11:57:02 | 1294 days, 2:33:26 |
+| Time to close | 239 days, 9:09:44 | 44 days, 9:57:10 | 734 days, 21:55:19 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 171 |
-| Number of items closed | 829 |
+| Number of items that remain open | 189 |
+| Number of items closed | 811 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Reactors cannot distinguish catch-up from live delivery - [Replay] guards are inert after a restart | https://github.com/Cratis/Chronicle/issues/3901 | None | [einari](https://github.com/einari) | None | None | None |
+| Retained RetryFailedPartition jobs saturate JobsManager and permanently wedge a store's observers | https://github.com/Cratis/Chronicle/issues/3900 | None | [einari](https://github.com/einari) | None | None | None |
+| Observer wedges permanently when a reactor Handle() call never returns - no timeout, no quarantine, no failed partition | https://github.com/Cratis/Chronicle/issues/3899 | None | [einari](https://github.com/einari) | None | None | None |
+| The "Hot Core Gate" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/actio... | https://github.com/Cratis/Chronicle/issues/3898 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
+| The "Python Contracts" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/ac... | https://github.com/Cratis/Chronicle/issues/3897 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | 0:07:50 | None |
+| Hot Core Gate on PR #3891 fails: Cratis.Arc pinned to unpublished version 22.6.3-conceptrules.1 | https://github.com/Cratis/Chronicle/issues/3894 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
+| The "Hot Core Gate" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/actio... | https://github.com/Cratis/Chronicle/issues/3893 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
+| The "Verify Semver Label" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle... | https://github.com/Cratis/Chronicle/issues/3892 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
+| The "Client Snippet Verification" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/C... | https://github.com/Cratis/Chronicle/issues/3888 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
+| The "Hot Core Gate" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/actio... | https://github.com/Cratis/Chronicle/issues/3887 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
+| The "Python Contracts" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/ac... | https://github.com/Cratis/Chronicle/issues/3886 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
+| The "Hot Core Gate" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/actio... | https://github.com/Cratis/Chronicle/issues/3884 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
+| The "Client Snippet Verification" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/C... | https://github.com/Cratis/Chronicle/issues/3883 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
+| The ".NET Build & Integration" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chro... | https://github.com/Cratis/Chronicle/issues/3882 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
+| The "Python Contracts" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/ac... | https://github.com/Cratis/Chronicle/issues/3881 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
+| Explicit event subjects are dropped from .NET client EventContext notifications and readback | https://github.com/Cratis/Chronicle/issues/3880 | None | [woksin](https://github.com/woksin) | None | None | None |
+| .NET Build & Integration failing on PR #3768: WIRE_BASELINE_FLOOR needs to move to 16.42.0 | https://github.com/Cratis/Chronicle/issues/3879 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
+| The ".NET Build & Integration" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chro... | https://github.com/Cratis/Chronicle/issues/3877 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
+| The "Python Contracts" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/ac... | https://github.com/Cratis/Chronicle/issues/3876 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
+| NuGet Package landing page looks bad | https://github.com/Cratis/Chronicle/issues/3874 | None | [einari](https://github.com/einari) | None | None | None |
 | Bring back Wire compatibility checker | https://github.com/Cratis/Chronicle/issues/3873 | None | [einari](https://github.com/einari) | None | None | None |
-| Asking what usually happens in a context cannot return the action | https://github.com/Cratis/Chronicle/issues/3872 | None | [einari](https://github.com/einari) | None | None | None |
+| Asking what usually happens in a context cannot return the action | https://github.com/Cratis/Chronicle/issues/3872 | None | [einari](https://github.com/einari) | None | 4:24:00 | None |
 | Reactor dispatch matches any instance method by first-parameter type, not just public ones | https://github.com/Cratis/Chronicle/issues/3870 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | 5:54:26 | 8:57:17 | None |
 | A new projection over a large event log can congestion-collapse the kernel and take the client down | https://github.com/Cratis/Chronicle/issues/3869 | None | [einari](https://github.com/einari) | None | 12:42:57 | None |
 | Unique constraint not enforced on reactor appends when another observer is present | https://github.com/Cratis/Chronicle/issues/3868 | None | [einari](https://github.com/einari) | None | 2:27:39 | None |
@@ -32,7 +52,7 @@
 | Passive read model GetInstanceById throws ProjectionDefinitionNotSet instead of returning null when its event type has zero events anywhere in the store | https://github.com/Cratis/Chronicle/issues/3846 | None | [einari](https://github.com/einari) | None | 4:27:37 | None |
 | Regression: string-keyed (ConceptAs<string>) read-model partition key raises 'Unrecognized Guid format' after 16.32.0 -> 16.38.2 | https://github.com/Cratis/Chronicle/issues/3844 | None | [einari](https://github.com/einari) | None | 13:07:40 | None |
 | AutoMap silently applies to every property of an event referenced anywhere at the root, not just the referencing property | https://github.com/Cratis/Chronicle/issues/3843 | None | [einari](https://github.com/einari) | None | 18:51:45 | None |
-| Complete the v17.0.0 accident cleanup: npm ghost blocks all client publishes (72h deadline) | https://github.com/Cratis/Chronicle/issues/3842 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Complete the v17.0.0 accident cleanup: npm ghost blocks all client publishes (72h deadline) | https://github.com/Cratis/Chronicle/issues/3842 | None | [woksin](https://github.com/woksin) | 3 days, 13:57:09 | None | None |
 | Integration legs are fail-open on binary-cache eviction — reruns of failed jobs can never succeed | https://github.com/Cratis/Chronicle/issues/3838 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Document issue-label conventions: taxonomy axes and the idea/investigate staleness exemption | https://github.com/Cratis/Chronicle/issues/3827 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Epic: shared storage-contract spec suite across MongoDB, SQL, InMemory, and key vaults | https://github.com/Cratis/Chronicle/issues/3826 | None | [woksin](https://github.com/woksin) | None | None | None |
@@ -42,7 +62,7 @@
 | Design: in-process Chronicle Kernel in the .NET client (no second package, no gRPC, Arc/Orleans version-independent) | https://github.com/Cratis/Chronicle/issues/3817 | None | [einari](https://github.com/einari) | None | None | None |
 | Problems with migrations | https://github.com/Cratis/Chronicle/issues/3816 | None | [einari](https://github.com/einari) | None | 6:41:29 | None |
 | Introduce EventTypeGenerationFor attribute | https://github.com/Cratis/Chronicle/issues/3815 | None | [einari](https://github.com/einari) | None | 7:46:16 | None |
-| Development container image is published as an unoptimized Debug build | https://github.com/Cratis/Chronicle/issues/3813 | None | [einari](https://github.com/einari) | None | None | None |
+| Development container image is published as an unoptimized Debug build | https://github.com/Cratis/Chronicle/issues/3813 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | None | None |
 | Establish a governed operation boundary for Chronicle mutations | https://github.com/Cratis/Chronicle/issues/3812 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Publish generated Chronicle contracts for Python | https://github.com/Cratis/Chronicle/issues/3806 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Data Protection ignores GrainBasedXmlRepository while rotation diagnostics inspect it | https://github.com/Cratis/Chronicle/issues/3803 | None | [woksin](https://github.com/woksin) | None | 4:45:05 | None |
@@ -99,7 +119,7 @@
 | ApplicationAuthenticated cannot be appended after ResetKernelState: MissingEventSchemaForEventType | https://github.com/Cratis/Chronicle/issues/3687 | None | [einari](https://github.com/einari) | None | 9:00:14 | None |
 | The Aspire production/development discriminator is the wrong signal | https://github.com/Cratis/Chronicle/issues/3686 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Allow a unit of work to enroll ordered events with exact concurrency scopes | https://github.com/Cratis/Chronicle/issues/3683 | None | [woksin](https://github.com/woksin) | None | 2:31:42 | None |
-| A container whose startup threw stays Running with a dead process | https://github.com/Cratis/Chronicle/issues/3682 | None | [woksin](https://github.com/woksin) | None | None | None |
+| A container whose startup threw stays Running with a dead process | https://github.com/Cratis/Chronicle/issues/3682 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Tls:Enabled=false still refuses to start without a certificate, contradicting its own documentation | https://github.com/Cratis/Chronicle/issues/3681 | None | [woksin](https://github.com/woksin) | None | None | None |
 | The client certificate loader cannot read a password-less PKCS#12, latent behind the net8 target | https://github.com/Cratis/Chronicle/issues/3680 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Integration/Client and Integration/Api race on Source/Kernel/Server/out, causing intermittent MSB3231 | https://github.com/Cratis/Chronicle/issues/3676 | None | [woksin](https://github.com/woksin) | None | None | None |
@@ -189,7 +209,7 @@
 | Non-passive model-bound [ChildrenFrom] child-collection projection does not materialize in the out-of-process kernel | https://github.com/Cratis/Chronicle/issues/3463 | None | [woksin](https://github.com/woksin) | None | 19 days, 11:29:46 | None |
 | Model-bound projection: explicit property source overwritten by name-based AutoMap from a coincidentally same-named event | https://github.com/Cratis/Chronicle/issues/3444 | None | [woksin](https://github.com/woksin) | None | 6 days, 10:26:17 | None |
 | Flaky integration test: when_projecting_with_watcher.should_receive_same_model times out | https://github.com/Cratis/Chronicle/issues/3435 | None | [einari](https://github.com/einari) | None | None | None |
-| Consolidate the Testing client's in-memory storage doubles onto Storage.InMemory | https://github.com/Cratis/Chronicle/issues/3434 | None | [einari](https://github.com/einari) | None | None | None |
+| Consolidate the Testing client's in-memory storage doubles onto Storage.InMemory | https://github.com/Cratis/Chronicle/issues/3434 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | None | None |
 | Constraint index does not need the actual data | https://github.com/Cratis/Chronicle/issues/3430 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | 32 days, 23:02:04 | 32 days, 23:02:05 | None |
 | [RemovedWith] attribute does not work with empty removal events using implicit EventSourceId resolution | https://github.com/Cratis/Chronicle/issues/3421 | None | [einari](https://github.com/einari) | 36 days, 22:02:14 | 36 days, 22:02:15 | None |
 | Read model reactors: reliable Added/Modified change type for reducer-backed and replayed changes | https://github.com/Cratis/Chronicle/issues/3418 | None | [woksin](https://github.com/woksin) | None | None | None |
@@ -284,25 +304,4 @@
 | Constraint violation on nullable types when appending event | https://github.com/Cratis/Chronicle/issues/3086 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 4:47:51 | None |
 | Identity chain can have duplicates | https://github.com/Cratis/Chronicle/issues/3052 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 3 days, 16:52:23 | None |
 | Add support for parent key for model bound FromEvent | https://github.com/Cratis/Chronicle/issues/3042 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2:21:40 | None |
-| Constraints need scoping | https://github.com/Cratis/Chronicle/issues/3039 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 10:11:53 | None |
-| Improve Integration Specs performance | https://github.com/Cratis/Chronicle/issues/3037 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 13 days, 5:21:58 | None |
-| Consoliate storage implementations in Testing | https://github.com/Cratis/Chronicle/issues/3034 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 12:33:27 | None |
-| ContentHashes are not being produced when events are appended | https://github.com/Cratis/Chronicle/issues/3032 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 0:13:02 | None |
-| Observe based on EventSourceType, EventStreamType and tags | https://github.com/Cratis/Chronicle/issues/3021 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2 days, 5:11:36 | None |
-| Documentation for EventSequence attribute | https://github.com/Cratis/Chronicle/issues/3004 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 6:47:13 | None |
-| Fix Constraint documentation | https://github.com/Cratis/Chronicle/issues/2984 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 0:15:33 | None |
-| Testing EventSequence without having to do integration tests | https://github.com/Cratis/Chronicle/issues/2982 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 8:00:23 | None |
-| Allow EventStore to be assembly level attribute | https://github.com/Cratis/Chronicle/issues/2972 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1:38:24 | None |
-| Static code analysis for checking reactors, reducers, projections for multiple event stores for events | https://github.com/Cratis/Chronicle/issues/2970 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 13:26:01 | None |
-| Testing read models created by reducers or projections without having to do integration testing | https://github.com/Cratis/Chronicle/issues/2949 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 6 days, 17:44:54 | None |
-| Infer Source event store when subscribing to inbox | https://github.com/Cratis/Chronicle/issues/2947 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 7 days, 17:04:11 | None |
-| Fix Observers view | https://github.com/Cratis/Chronicle/issues/2916 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2 days, 18:09:49 | None |
-| Simplify Kernel code | https://github.com/Cratis/Chronicle/issues/2909 | None | [einari](https://github.com/einari) | None | None | None |
-| Refactor to use Arc Commands, Queries and command->Event Hook up (Functional) | https://github.com/Cratis/Chronicle/issues/2908 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 144 days, 8:04:14 | None |
-| MongoDB Storage Sink should follow MongoDB conventions for Id properties | https://github.com/Cratis/Chronicle/issues/2904 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 7 days, 0:01:14 | None |
-| Assembly version does not match the actual version of Chronicle | https://github.com/Cratis/Chronicle/issues/2902 | [woksin](https://github.com/woksin), [Copilot](https://github.com/Copilot) | [woksin](https://github.com/woksin) | None | 2 days, 21:59:07 | None |
-| Projection Definition comparison might be wrong | https://github.com/Cratis/Chronicle/issues/2900 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 7 days, 20:03:19 | None |
-| Raise Conditions between seeded events and projections at startup | https://github.com/Cratis/Chronicle/issues/2898 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 1:34:10 | None |
-| gRPC Code Generation from Arc based artifacts | https://github.com/Cratis/Chronicle/issues/2884 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 8 days, 21:13:01 | None |
-| Add specific specs for the entire auth flow for both users and clients | https://github.com/Cratis/Chronicle/issues/2879 | None | [einari](https://github.com/einari) | 139 days, 4:43:21 | None | None |
-| Move NamingPolicy from ChronicleOptions | https://github.com/Cratis/Chronicle/issues/2868 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](h
+| Constraints need scoping | https://github.com/Cratis/Chronicle/issues/3039 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einar
