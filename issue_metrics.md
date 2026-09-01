@@ -3,17 +3,24 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 636 days, 10:19:35 | 695 days, 11:57:02 | 1294 days, 2:33:26 |
-| Time to close | 239 days, 9:09:44 | 44 days, 9:57:10 | 734 days, 21:55:19 |
+| Time to close | 234 days, 2:53:54 | 41 days, 17:36:00 | 709 days, 16:13:45 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 189 |
-| Number of items closed | 811 |
+| Number of items that remain open | 195 |
+| Number of items closed | 805 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| ReactorScenario silently skips a reactor handler when its read-model dependency isn't pre-seeded | https://github.com/Cratis/Chronicle/issues/3912 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
+| Reducer dispatch silently stops after the first event when a handler's 'current' parameter is non-nullable | https://github.com/Cratis/Chronicle/issues/3911 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
+| Expose coordinated read-model checkpoints and revision barriers | https://github.com/Cratis/Chronicle/issues/3910 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| The .NET client can inspect a reactor’s failed partitions but cannot retry one | https://github.com/Cratis/Chronicle/issues/3909 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Let's get all the clients on par with the latest changes in the base .NET/C# client in the Chronicle repository. Get ... | https://github.com/Cratis/Chronicle/issues/3907 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
+| The "Verify Semver Label" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle... | https://github.com/Cratis/Chronicle/issues/3906 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | 0:02:28 | None |
+| Behavior-pattern capture needs an explicit disable and subject lifecycle controls | https://github.com/Cratis/Chronicle/issues/3904 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Reactors cannot distinguish catch-up from live delivery - [Replay] guards are inert after a restart | https://github.com/Cratis/Chronicle/issues/3901 | None | [einari](https://github.com/einari) | None | None | None |
 | Retained RetryFailedPartition jobs saturate JobsManager and permanently wedge a store's observers | https://github.com/Cratis/Chronicle/issues/3900 | None | [einari](https://github.com/einari) | None | None | None |
 | Observer wedges permanently when a reactor Handle() call never returns - no timeout, no quarantine, no failed partition | https://github.com/Cratis/Chronicle/issues/3899 | None | [einari](https://github.com/einari) | None | None | None |
@@ -297,11 +304,4 @@
 | Time Traveling debugging | https://github.com/Cratis/Chronicle/issues/3118 | None | [einari](https://github.com/einari) | None | None | None |
 | Nested ChildrenFrom Collections Not Auto-initialized in Read Models | https://github.com/Cratis/Chronicle/issues/3114 | None | [einari](https://github.com/einari) | None | 8 days, 17:00:17 | None |
 | Configurable Admin user with credentials | https://github.com/Cratis/Chronicle/issues/3106 | None | [einari](https://github.com/einari) | None | 0:45:24 | None |
-| Make TLS more flexible | https://github.com/Cratis/Chronicle/issues/3104 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1:04:45 | None |
-| Read Model hookup for Testing scenarios | https://github.com/Cratis/Chronicle/issues/3101 | None | [einari](https://github.com/einari) | None | 25 days, 10:05:40 | None |
-| Preview of Projections from Workbench doesn't do anything | https://github.com/Cratis/Chronicle/issues/3099 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 11 days, 4:00:31 | None |
-| Production TLS Hardening: Workbench-specific TLS config, gRPC enforcement, and Client bootstrap config | https://github.com/Cratis/Chronicle/issues/3088 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2:47:59 | None |
-| Constraint violation on nullable types when appending event | https://github.com/Cratis/Chronicle/issues/3086 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 4:47:51 | None |
-| Identity chain can have duplicates | https://github.com/Cratis/Chronicle/issues/3052 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 3 days, 16:52:23 | None |
-| Add support for parent key for model bound FromEvent | https://github.com/Cratis/Chronicle/issues/3042 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2:21:40 | None |
-| Constraints need scoping | https://github.com/Cratis/Chronicle/issues/3039 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einar
+| Make TLS more flexible | https://github.com/Cratis/Chronicle/issues/3104 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1:04:
