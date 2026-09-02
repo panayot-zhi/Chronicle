@@ -2,23 +2,31 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 636 days, 10:19:35 | 695 days, 11:57:02 | 1294 days, 2:33:26 |
-| Time to close | 234 days, 2:53:54 | 41 days, 17:36:00 | 709 days, 16:13:45 |
+| Time to first response | 632 days, 17:06:32 | 694 days, 15:10:31 | 1294 days, 2:32:11 |
+| Time to close | 229 days, 21:31:03 | 39 days, 21:46:39 | 700 days, 15:27:08 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 195 |
-| Number of items closed | 805 |
+| Number of items that remain open | 200 |
+| Number of items closed | 800 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Watching a read model that has no instances yet throws NullReferenceException | https://github.com/Cratis/Chronicle/issues/3925 | None | [einari](https://github.com/einari) | None | None | None |
+| Projections never key their read model instances, so every instance collapses onto one empty key | https://github.com/Cratis/Chronicle/issues/3924 | None | [einari](https://github.com/einari) | None | None | None |
+| A keyed-child projection fails its first post-replay update because $eventSourceId is emitted as a MongoDB operator | https://github.com/Cratis/Chronicle/issues/3922 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Capture immutable read-model payloads exactly at an event-sequence cut | https://github.com/Cratis/Chronicle/issues/3921 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Fence and recover event-sequence content mutations | https://github.com/Cratis/Chronicle/issues/3920 | None | [woksin](https://github.com/woksin) | None | None | None |
+| The "Verify Semver Label" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle... | https://github.com/Cratis/Chronicle/issues/3919 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | 5:23:47 | None |
+| The "Verify Semver Label" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle... | https://github.com/Cratis/Chronicle/issues/3917 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | 0:24:55 | None |
+| The "Verify Semver Label" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle... | https://github.com/Cratis/Chronicle/issues/3914 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | 0:04:25 | None |
 | ReactorScenario silently skips a reactor handler when its read-model dependency isn't pre-seeded | https://github.com/Cratis/Chronicle/issues/3912 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
 | Reducer dispatch silently stops after the first event when a handler's 'current' parameter is non-nullable | https://github.com/Cratis/Chronicle/issues/3911 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
 | Expose coordinated read-model checkpoints and revision barriers | https://github.com/Cratis/Chronicle/issues/3910 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | The .NET client can inspect a reactor’s failed partitions but cannot retry one | https://github.com/Cratis/Chronicle/issues/3909 | None | [woksin](https://github.com/woksin) | None | None | None |
-| Let's get all the clients on par with the latest changes in the base .NET/C# client in the Chronicle repository. Get ... | https://github.com/Cratis/Chronicle/issues/3907 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
+| Let's get all the clients on par with the latest changes in the base .NET/C# client in the Chronicle repository. Get ... | https://github.com/Cratis/Chronicle/issues/3907 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | 18:07:38 | None | None |
 | The "Verify Semver Label" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle... | https://github.com/Cratis/Chronicle/issues/3906 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | 0:02:28 | None |
 | Behavior-pattern capture needs an explicit disable and subject lifecycle controls | https://github.com/Cratis/Chronicle/issues/3904 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Reactors cannot distinguish catch-up from live delivery - [Replay] guards are inert after a restart | https://github.com/Cratis/Chronicle/issues/3901 | None | [einari](https://github.com/einari) | None | None | None |
@@ -295,13 +303,4 @@
 | Memory leak: CancellationTokenSource not disposed in JobStep on reactivation and Stop | https://github.com/Cratis/Chronicle/issues/3167 | None | [einari](https://github.com/einari) | None | 1:03:43 | None |
 | Memory leak: untracked Rx subscriptions in ProjectionEventContextExtensions | https://github.com/Cratis/Chronicle/issues/3166 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1:39:05 | None |
 | It would be nice to see what events affect which observers | https://github.com/Cratis/Chronicle/issues/3147 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | 107 days, 8:08:43 | None |
-| Projection Simulation | https://github.com/Cratis/Chronicle/issues/3146 | None | [einari](https://github.com/einari) | 115 days, 2:20:27 | None | None |
-| Support for setting / clearing single child object | https://github.com/Cratis/Chronicle/issues/3142 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | 37 days, 15:50:12 | None |
-| Content on redacted is not displaying everything in Workbench | https://github.com/Cratis/Chronicle/issues/3141 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 7:23:45 | None |
-| Clean stopping the client when application is closing | https://github.com/Cratis/Chronicle/issues/3140 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 27 days, 3:20:59 | None |
-| Collection of issues | https://github.com/Cratis/Chronicle/issues/3134 | None | [einari](https://github.com/einari) | None | 3 days, 23:48:05 | None |
-| Compliance - PII | https://github.com/Cratis/Chronicle/issues/3120 | None | [einari](https://github.com/einari) | None | 14 days, 0:21:31 | None |
-| Time Traveling debugging | https://github.com/Cratis/Chronicle/issues/3118 | None | [einari](https://github.com/einari) | None | None | None |
-| Nested ChildrenFrom Collections Not Auto-initialized in Read Models | https://github.com/Cratis/Chronicle/issues/3114 | None | [einari](https://github.com/einari) | None | 8 days, 17:00:17 | None |
-| Configurable Admin user with credentials | https://github.com/Cratis/Chronicle/issues/3106 | None | [einari](https://github.com/einari) | None | 0:45:24 | None |
-| Make TLS more flexible | https://github.com/Cratis/Chronicle/issues/3104 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1:04:
+| Projection Simulation | https://github.com/Cratis/Chronicle/i
