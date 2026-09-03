@@ -2,18 +2,21 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 632 days, 17:06:32 | 694 days, 15:10:31 | 1294 days, 2:32:11 |
-| Time to close | 229 days, 21:31:03 | 39 days, 21:46:39 | 700 days, 15:27:08 |
+| Time to first response | 627 days, 23:57:34 | 694 days, 12:12:35 | 1281 days, 1:29:16 |
+| Time to close | 227 days, 19:52:08 | 37 days, 18:07:19 | 693 days, 19:24:50 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 200 |
-| Number of items closed | 800 |
+| Number of items that remain open | 203 |
+| Number of items closed | 797 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| In-memory event sequence storage hardcodes CausedBy to Identity.System, so no in-process scenario can assert event attribution | https://github.com/Cratis/Chronicle/issues/3928 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
+| ReadModelScenario cannot express "the instance does not exist" - GetInstanceById throws instead of returning null | https://github.com/Cratis/Chronicle/issues/3927 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
+| Schema comparison includes the JSON Schema title, so renaming an [EventType] record breaks registration even when the identifier is pinned | https://github.com/Cratis/Chronicle/issues/3926 | None | [einari](https://github.com/einari) | None | None | None |
 | Watching a read model that has no instances yet throws NullReferenceException | https://github.com/Cratis/Chronicle/issues/3925 | None | [einari](https://github.com/einari) | None | None | None |
 | Projections never key their read model instances, so every instance collapses onto one empty key | https://github.com/Cratis/Chronicle/issues/3924 | None | [einari](https://github.com/einari) | None | None | None |
 | A keyed-child projection fails its first post-replay update because $eventSourceId is emitted as a MongoDB operator | https://github.com/Cratis/Chronicle/issues/3922 | None | [woksin](https://github.com/woksin) | None | None | None |
@@ -299,8 +302,4 @@
 | Bug: race condition in AppendedEventsQueue.Unsubscribe — subscriptions can be silently lost | https://github.com/Cratis/Chronicle/issues/3171 | None | [einari](https://github.com/einari) | None | 1:02:46 | None |
 | Performance: IEnumerable<AppendedEvent> enumerated multiple times in AppendedEventsQueue | https://github.com/Cratis/Chronicle/issues/3170 | None | [einari](https://github.com/einari) | None | 1:03:02 | None |
 | Performance: multiple blocking .GetAwaiter().GetResult() calls in service and Rx pipeline code | https://github.com/Cratis/Chronicle/issues/3169 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 8:51:29 | None |
-| Performance: blocking async in AppendedEventSerializer (Orleans serialization hot path) | https://github.com/Cratis/Chronicle/issues/3168 | None | [einari](https://github.com/einari) | 88 days, 0:40:34 | 88 days, 0:40:35 | None |
-| Memory leak: CancellationTokenSource not disposed in JobStep on reactivation and Stop | https://github.com/Cratis/Chronicle/issues/3167 | None | [einari](https://github.com/einari) | None | 1:03:43 | None |
-| Memory leak: untracked Rx subscriptions in ProjectionEventContextExtensions | https://github.com/Cratis/Chronicle/issues/3166 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1:39:05 | None |
-| It would be nice to see what events affect which observers | https://github.com/Cratis/Chronicle/issues/3147 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | 107 days, 8:08:43 | None |
-| Projection Simulation | https://github.com/Cratis/Chronicle/i
+| Performance: blocking async in AppendedEventSerializer (Orleans serialization hot path) | https://github.com/Cratis/Chronicle/issues/3168 | None | [einari](https://github.com/einari) | 88 days, 
