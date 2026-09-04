@@ -2,18 +2,21 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 627 days, 23:57:34 | 694 days, 12:12:35 | 1281 days, 1:29:16 |
-| Time to close | 227 days, 19:52:08 | 37 days, 18:07:19 | 693 days, 19:24:50 |
+| Time to first response | 623 days, 7:07:02 | 694 days, 9:14:39 | 1276 days, 5:10:42 |
+| Time to close | 226 days, 11:34:11 | 37 days, 15:50:12 | 689 days, 13:41:11 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 203 |
-| Number of items closed | 797 |
+| Number of items that remain open | 205 |
+| Number of items closed | 795 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| ReactorScenario swallows what a reactor handler throws, so a throwing reactor cannot be specced | https://github.com/Cratis/Chronicle/issues/3933 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
+| The "Claude Assistant" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/ac... | https://github.com/Cratis/Chronicle/issues/3932 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | 0:07:23 | None |
+| The gRPC wire-contract check reports breaking changes without failing the build | https://github.com/Cratis/Chronicle/issues/3930 | None | [woksin](https://github.com/woksin) | None | None | None |
 | In-memory event sequence storage hardcodes CausedBy to Identity.System, so no in-process scenario can assert event attribution | https://github.com/Cratis/Chronicle/issues/3928 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
 | ReadModelScenario cannot express "the instance does not exist" - GetInstanceById throws instead of returning null | https://github.com/Cratis/Chronicle/issues/3927 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
 | Schema comparison includes the JSON Schema title, so renaming an [EventType] record breaks registration even when the identifier is pinned | https://github.com/Cratis/Chronicle/issues/3926 | None | [einari](https://github.com/einari) | None | None | None |
@@ -299,7 +302,4 @@
 | Observer: CatchUpObserver retries already-failed partitions causing CPU spin | https://github.com/Cratis/Chronicle/issues/3179 | None | [einari](https://github.com/einari) | None | 9 days, 8:40:27 | None |
 | Observer.Subscribe() blocks for 27+ seconds preventing interleaved calls from completing | https://github.com/Cratis/Chronicle/issues/3177 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 7:04:13 | None |
 | Bug: faulted GetDefinition() in Reducers hangs client observable indefinitely | https://github.com/Cratis/Chronicle/issues/3172 | None | [einari](https://github.com/einari) | None | 1:02:31 | None |
-| Bug: race condition in AppendedEventsQueue.Unsubscribe — subscriptions can be silently lost | https://github.com/Cratis/Chronicle/issues/3171 | None | [einari](https://github.com/einari) | None | 1:02:46 | None |
-| Performance: IEnumerable<AppendedEvent> enumerated multiple times in AppendedEventsQueue | https://github.com/Cratis/Chronicle/issues/3170 | None | [einari](https://github.com/einari) | None | 1:03:02 | None |
-| Performance: multiple blocking .GetAwaiter().GetResult() calls in service and Rx pipeline code | https://github.com/Cratis/Chronicle/issues/3169 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 8:51:29 | None |
-| Performance: blocking async in AppendedEventSerializer (Orleans serialization hot path) | https://github.com/Cratis/Chronicle/issues/3168 | None | [einari](https://github.com/einari) | 88 days, 
+| Bug: race condition in AppendedEventsQueue.Unsubscribe — subscriptions can be silently lost | https://github.com/Cratis/Chronicle/issues/3171 | None | [einari](https://github.com/einari) | No
