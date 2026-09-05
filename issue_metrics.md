@@ -2,8 +2,8 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 623 days, 7:07:02 | 694 days, 9:14:39 | 1276 days, 5:10:42 |
-| Time to close | 226 days, 11:34:11 | 37 days, 15:50:12 | 689 days, 13:41:11 |
+| Time to first response | 607 days, 17:11:30 | 692 days, 6:27:28 | 1263 days, 2:27:04 |
+| Time to close | 223 days, 8:14:24 | 33 days, 21:36:27 | 684 days, 18:24:18 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
@@ -14,11 +14,17 @@
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
-| ReactorScenario swallows what a reactor handler throws, so a throwing reactor cannot be specced | https://github.com/Cratis/Chronicle/issues/3933 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
+| EventTypeMigration: ReadModelScenario doesn't apply migrations; typed DefaultValue produces wrong JSON for ConceptAs<T> properties | https://github.com/Cratis/Chronicle/issues/3941 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
+| [AddFrom<T>] inside [ChildrenFrom<T>] double-counts the event that creates a child entry | https://github.com/Cratis/Chronicle/issues/3940 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
+| The "Timing Coupling Ratchet" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chron... | https://github.com/Cratis/Chronicle/issues/3939 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
+| Shutdown during startup crashes the kernel with an unhandled TaskCanceledException instead of stopping gracefully | https://github.com/Cratis/Chronicle/issues/3936 | None | [einari](https://github.com/einari) | None | 22:05:12 | None |
+| Client stops retrying artifact registration after a kernel restart, leaving observers Disconnected indefinitely | https://github.com/Cratis/Chronicle/issues/3935 | None | [einari](https://github.com/einari) | None | 22:05:52 | None |
+| GetDefinition() throws NullReferenceException for an unset projection definition, failing ProjectionObserverSubscriber activation | https://github.com/Cratis/Chronicle/issues/3934 | None | [einari](https://github.com/einari) | None | 22:43:08 | None |
+| ReactorScenario swallows what a reactor handler throws, so a throwing reactor cannot be specced | https://github.com/Cratis/Chronicle/issues/3933 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | 17:54:01 | 1 day, 8:13:14 | None |
 | The "Claude Assistant" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/ac... | https://github.com/Cratis/Chronicle/issues/3932 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | 0:07:23 | None |
 | The gRPC wire-contract check reports breaking changes without failing the build | https://github.com/Cratis/Chronicle/issues/3930 | None | [woksin](https://github.com/woksin) | None | None | None |
-| In-memory event sequence storage hardcodes CausedBy to Identity.System, so no in-process scenario can assert event attribution | https://github.com/Cratis/Chronicle/issues/3928 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
-| ReadModelScenario cannot express "the instance does not exist" - GetInstanceById throws instead of returning null | https://github.com/Cratis/Chronicle/issues/3927 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | None | None | None |
+| In-memory event sequence storage hardcodes CausedBy to Identity.System, so no in-process scenario can assert event attribution | https://github.com/Cratis/Chronicle/issues/3928 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | 1 day, 18:14:25 | 2 days, 8:33:39 | None |
+| ReadModelScenario cannot express "the instance does not exist" - GetInstanceById throws instead of returning null | https://github.com/Cratis/Chronicle/issues/3927 | None | [cratis-stagehand[bot]](https://github.com/cratis-stagehand[bot]) | 1 day, 22:00:03 | 2 days, 12:19:19 | None |
 | Schema comparison includes the JSON Schema title, so renaming an [EventType] record breaks registration even when the identifier is pinned | https://github.com/Cratis/Chronicle/issues/3926 | None | [einari](https://github.com/einari) | None | None | None |
 | Watching a read model that has no instances yet throws NullReferenceException | https://github.com/Cratis/Chronicle/issues/3925 | None | [einari](https://github.com/einari) | None | None | None |
 | Projections never key their read model instances, so every instance collapses onto one empty key | https://github.com/Cratis/Chronicle/issues/3924 | None | [einari](https://github.com/einari) | None | None | None |
@@ -295,11 +301,4 @@
 | Observer: Parallel.ForEachAsync in CatchUpObserver has no MaxDegreeOfParallelism | https://github.com/Cratis/Chronicle/issues/3186 | None | [einari](https://github.com/einari) | None | 11 days, 19:08:14 | None |
 | Observer: No timeout on gRPC OnNext/OnCompleted writes to client | https://github.com/Cratis/Chronicle/issues/3185 | None | [einari](https://github.com/einari) | None | 9 days, 4:47:11 | None |
 | Observer: No circuit breaker or backoff for consistently failing partitions | https://github.com/Cratis/Chronicle/issues/3184 | None | [einari](https://github.com/einari) | None | 9 days, 4:47:25 | None |
-| Observer: FailedPartitions dictionary grows without bound causing memory leak | https://github.com/Cratis/Chronicle/issues/3183 | None | [einari](https://github.com/einari) | None | 9 days, 4:47:42 | None |
-| Observer: Failed partitions can become permanently stuck with no recovery path | https://github.com/Cratis/Chronicle/issues/3182 | None | [einari](https://github.com/einari) | None | 9 days, 4:47:55 | None |
-| Observer: RetryFailedPartition can double-call Complete causing job state corruption | https://github.com/Cratis/Chronicle/issues/3181 | None | [einari](https://github.com/einari) | None | 11 days, 19:05:17 | None |
-| Observer: Race condition in DecryptEvents on State.Subject null check | https://github.com/Cratis/Chronicle/issues/3180 | None | [einari](https://github.com/einari) | None | 9 days, 8:40:45 | None |
-| Observer: CatchUpObserver retries already-failed partitions causing CPU spin | https://github.com/Cratis/Chronicle/issues/3179 | None | [einari](https://github.com/einari) | None | 9 days, 8:40:27 | None |
-| Observer.Subscribe() blocks for 27+ seconds preventing interleaved calls from completing | https://github.com/Cratis/Chronicle/issues/3177 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 7:04:13 | None |
-| Bug: faulted GetDefinition() in Reducers hangs client observable indefinitely | https://github.com/Cratis/Chronicle/issues/3172 | None | [einari](https://github.com/einari) | None | 1:02:31 | None |
-| Bug: race condition in AppendedEventsQueue.Unsubscribe — subscriptions can be silently lost | https://github.com/Cratis/Chronicle/issues/3171 | None | [einari](https://github.com/einari) | No
+| Observer: FailedPartitions dictionary grows without bound causing memory leak | https://github.com/Cratis/Chronicle/issues/3183 | None | [eina
