@@ -2,26 +2,41 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 591 days, 14:13:12 | 679 days, 9:01:15 | 1231 days, 20:23:35 |
-| Time to close | 217 days, 2:45:28 | 32 days, 18:17:54 | 678 days, 13:19:12 |
+| Time to first response | 582 days, 2:15:14 | 679 days, 7:52:28 | 1200 days, 1:43:11 |
+| Time to close | 209 days, 11:39:36 | 31 days, 3:54:15 | 663 days, 3:54:23 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 211 |
-| Number of items closed | 789 |
+| Number of items that remain open | 215 |
+| Number of items closed | 785 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Kernel restart cascades into cluster-wide recovery storm and a permanent, watchdog-unrecoverable observer wedge | https://github.com/Cratis/Chronicle/issues/3997 | None | [einari](https://github.com/einari) | None | None | None |
+| Projection event-value conversion turns dictionary properties into key/value lists | https://github.com/Cratis/Chronicle/issues/3995 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Publish completed client artifact discovery atomically and retry failed initialization | https://github.com/Cratis/Chronicle/issues/3994 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| ReadModelScenario stack overflows on events containing nonempty JsonObject payloads | https://github.com/Cratis/Chronicle/issues/3993 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Reuse filter type | https://github.com/Cratis/Chronicle/issues/3991 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | None | None |
+| Do not create databases if not needed | https://github.com/Cratis/Chronicle/issues/3990 | None | [einari](https://github.com/einari) | None | None | None |
+| Deletion of jobs and ignoring of recommendations in Workbench | https://github.com/Cratis/Chronicle/issues/3986 | None | [einari](https://github.com/einari) | None | None | None |
+| Displaying data in Projection editor or Read Models should decrypt PII data | https://github.com/Cratis/Chronicle/issues/3983 | None | [einari](https://github.com/einari) | None | None | None |
+| Server view | https://github.com/Cratis/Chronicle/issues/3982 | None | [einari](https://github.com/einari) | None | None | None |
+| Switching namespace in workbench should always refresh the current view | https://github.com/Cratis/Chronicle/issues/3981 | None | [einari](https://github.com/einari) | None | None | None |
+| Navigation is flaky | https://github.com/Cratis/Chronicle/issues/3980 | None | [einari](https://github.com/einari) | None | None | None |
+| Improve pattern heatmap text | https://github.com/Cratis/Chronicle/issues/3979 | None | [einari](https://github.com/einari) | None | None | None |
+| Not possible to scroll projections in the list | https://github.com/Cratis/Chronicle/issues/3978 | None | [einari](https://github.com/einari) | None | None | None |
+| Selecting seed data in general also  highlights the namespace seed data | https://github.com/Cratis/Chronicle/issues/3977 | None | [einari](https://github.com/einari) | None | None | None |
+| CI: Publish failing repeatedly | https://github.com/Cratis/Chronicle/issues/3976 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
 | Testing: isolate kernel in-process command scopes from consumer discovery | https://github.com/Cratis/Chronicle/issues/3973 | None | [woksin](https://github.com/woksin) | None | 6:28:22 | None |
 | The "Publish" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/actions/run... | https://github.com/Cratis/Chronicle/issues/3970 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | None | None |
 | Testing and XUnit.Integration omit the Compatibility runtime assembly | https://github.com/Cratis/Chronicle/issues/3968 | None | [woksin](https://github.com/woksin) | None | 1:09:12 | None |
 | A silo's startup task hard-crashes the process on a transient SiloUnavailableException from a sibling silo mid-restart, instead of retrying | https://github.com/Cratis/Chronicle/issues/3967 | None | [einari](https://github.com/einari) | None | None | None |
-| The "PR Prerelase" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/action... | https://github.com/Cratis/Chronicle/issues/3964 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | None | None |
-| The "PR Prerelase" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/action... | https://github.com/Cratis/Chronicle/issues/3963 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | None | None |
+| The "PR Prerelase" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/action... | https://github.com/Cratis/Chronicle/issues/3964 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | 1 day, 3:42:31 | None |
+| The "PR Prerelase" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/action... | https://github.com/Cratis/Chronicle/issues/3963 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | 1 day, 3:43:16 | None |
 | 16.45.2 migration-property validator rejects a concept-typed DefaultValue that 16.44.1 accepted, crash-looping registration | https://github.com/Cratis/Chronicle/issues/3961 | None | [einari](https://github.com/einari) | None | None | None |
-| AddCratisChronicle offers no way to substitute a custom Chronicle health check implementation | https://github.com/Cratis/Chronicle/issues/3958 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | None | None |
+| AddCratisChronicle offers no way to substitute a custom Chronicle health check implementation | https://github.com/Cratis/Chronicle/issues/3958 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | 1 day, 7:40:30 | None |
 | Read Model Variations | https://github.com/Cratis/Chronicle/issues/3956 | None | [einari](https://github.com/einari) | None | None | None |
 | [Index] on a record's positional parameter is silently discarded - no index is ever created | https://github.com/Cratis/Chronicle/issues/3954 | None | [einari](https://github.com/einari) | None | 0:50:43 | None |
 | Tags cannot carry a name and a value, so runtime-valued tags are neither expressible nor indexable | https://github.com/Cratis/Chronicle/issues/3953 | None | [einari](https://github.com/einari) | None | None | None |
@@ -36,13 +51,13 @@
 | Add documentation for the Index attribute and usage | https://github.com/Cratis/Chronicle/issues/3942 | None | [einari](https://github.com/einari) | None | 23:52:38 | None |
 | EventTypeMigration: ReadModelScenario doesn't apply migrations; typed DefaultValue produces wrong JSON for ConceptAs<T> properties | https://github.com/Cratis/Chronicle/issues/3941 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | None | None |
 | [AddFrom<T>] inside [ChildrenFrom<T>] double-counts the event that creates a child entry | https://github.com/Cratis/Chronicle/issues/3940 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | 1 day, 9:28:44 | 1 day, 9:28:45 | None |
-| The "Timing Coupling Ratchet" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chron... | https://github.com/Cratis/Chronicle/issues/3939 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | None | None |
+| The "Timing Coupling Ratchet" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chron... | https://github.com/Cratis/Chronicle/issues/3939 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | 2 days, 20:51:20 | None |
 | Shutdown during startup crashes the kernel with an unhandled TaskCanceledException instead of stopping gracefully | https://github.com/Cratis/Chronicle/issues/3936 | None | [einari](https://github.com/einari) | None | 22:05:12 | None |
 | Client stops retrying artifact registration after a kernel restart, leaving observers Disconnected indefinitely | https://github.com/Cratis/Chronicle/issues/3935 | None | [einari](https://github.com/einari) | None | 22:05:52 | None |
 | GetDefinition() throws NullReferenceException for an unset projection definition, failing ProjectionObserverSubscriber activation | https://github.com/Cratis/Chronicle/issues/3934 | None | [einari](https://github.com/einari) | None | 22:43:08 | None |
 | ReactorScenario swallows what a reactor handler throws, so a throwing reactor cannot be specced | https://github.com/Cratis/Chronicle/issues/3933 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | 17:54:01 | 1 day, 8:13:14 | None |
 | The "Claude Assistant" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/ac... | https://github.com/Cratis/Chronicle/issues/3932 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | 0:07:23 | None |
-| The gRPC wire-contract check reports breaking changes without failing the build | https://github.com/Cratis/Chronicle/issues/3930 | None | [woksin](https://github.com/woksin) | None | None | None |
+| The gRPC wire-contract check reports breaking changes without failing the build | https://github.com/Cratis/Chronicle/issues/3930 | None | [woksin](https://github.com/woksin) | None | 4 days, 5:25:04 | None |
 | In-memory event sequence storage hardcodes CausedBy to Identity.System, so no in-process scenario can assert event attribution | https://github.com/Cratis/Chronicle/issues/3928 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | 1 day, 18:14:25 | 2 days, 8:33:39 | None |
 | ReadModelScenario cannot express "the instance does not exist" - GetInstanceById throws instead of returning null | https://github.com/Cratis/Chronicle/issues/3927 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | 1 day, 22:00:03 | 2 days, 12:19:19 | None |
 | Schema comparison includes the JSON Schema title, so renaming an [EventType] record breaks registration even when the identifier is pinned | https://github.com/Cratis/Chronicle/issues/3926 | None | [einari](https://github.com/einari) | None | 3 days, 18:37:04 | None |
@@ -60,7 +75,7 @@
 | The .NET client can inspect a reactor’s failed partitions but cannot retry one | https://github.com/Cratis/Chronicle/issues/3909 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Let's get all the clients on par with the latest changes in the base .NET/C# client in the Chronicle repository. Get ... | https://github.com/Cratis/Chronicle/issues/3907 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | 18:07:38 | None | None |
 | The "Verify Semver Label" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle... | https://github.com/Cratis/Chronicle/issues/3906 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | 0:02:28 | None |
-| Behavior-pattern capture needs an explicit disable and subject lifecycle controls | https://github.com/Cratis/Chronicle/issues/3904 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Behavior-pattern capture needs an explicit disable and subject lifecycle controls | https://github.com/Cratis/Chronicle/issues/3904 | None | [woksin](https://github.com/woksin) | None | 7 days, 4:09:16 | None |
 | Reactors cannot distinguish catch-up from live delivery - [Replay] guards are inert after a restart | https://github.com/Cratis/Chronicle/issues/3901 | None | [einari](https://github.com/einari) | None | None | None |
 | Retained RetryFailedPartition jobs saturate JobsManager and permanently wedge a store's observers | https://github.com/Cratis/Chronicle/issues/3900 | None | [einari](https://github.com/einari) | None | None | None |
 | Observer wedges permanently when a reactor Handle() call never returns - no timeout, no quarantine, no failed partition | https://github.com/Cratis/Chronicle/issues/3899 | None | [einari](https://github.com/einari) | None | None | None |
@@ -99,7 +114,7 @@
 | Passive read model GetInstanceById throws ProjectionDefinitionNotSet instead of returning null when its event type has zero events anywhere in the store | https://github.com/Cratis/Chronicle/issues/3846 | None | [einari](https://github.com/einari) | None | 4:27:37 | None |
 | Regression: string-keyed (ConceptAs<string>) read-model partition key raises 'Unrecognized Guid format' after 16.32.0 -> 16.38.2 | https://github.com/Cratis/Chronicle/issues/3844 | None | [einari](https://github.com/einari) | None | 13:07:40 | None |
 | AutoMap silently applies to every property of an event referenced anywhere at the root, not just the referencing property | https://github.com/Cratis/Chronicle/issues/3843 | None | [einari](https://github.com/einari) | None | 18:51:45 | None |
-| Complete the v17.0.0 accident cleanup: npm ghost blocks all client publishes (72h deadline) | https://github.com/Cratis/Chronicle/issues/3842 | None | [woksin](https://github.com/woksin) | 3 days, 13:57:09 | None | None |
+| Complete the v17.0.0 accident cleanup: npm ghost blocks all client publishes (72h deadline) | https://github.com/Cratis/Chronicle/issues/3842 | None | [woksin](https://github.com/woksin) | 3 days, 13:57:09 | 11 days, 21:33:40 | None |
 | Integration legs are fail-open on binary-cache eviction — reruns of failed jobs can never succeed | https://github.com/Cratis/Chronicle/issues/3838 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Document issue-label conventions: taxonomy axes and the idea/investigate staleness exemption | https://github.com/Cratis/Chronicle/issues/3827 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Epic: shared storage-contract spec suite across MongoDB, SQL, InMemory, and key vaults | https://github.com/Cratis/Chronicle/issues/3826 | None | [woksin](https://github.com/woksin) | None | None | None |
@@ -291,16 +306,4 @@
 | MongoDBOptions.DirectConnection clobbers ?directConnection=true from connection string | https://github.com/Cratis/Chronicle/issues/3284 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1:29:36 | None |
 | Only suggest replay if there are instances of the event type already in the sequence for projections | https://github.com/Cratis/Chronicle/issues/3282 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 15:30:37 | None |
 | Only replay the projection / reducer that was affected - not everything | https://github.com/Cratis/Chronicle/issues/3280 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2:04:41 | None |
-| [SetValue<TEvent>] on child record constructor parameters is not applied in ChildrenFrom projections | https://github.com/Cratis/Chronicle/issues/3275 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2:46:20 | None |
-| Onboarding: Improve Learning / getting started paths | https://github.com/Cratis/Chronicle/issues/3274 | None | [einari](https://github.com/einari) | None | None | None |
-| Issues with slim image | https://github.com/Cratis/Chronicle/issues/3272 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 0:14:04 | None |
-| Introduce a development slim image | https://github.com/Cratis/Chronicle/issues/3264 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 0:52:48 | None |
-| Docker image cratis/chronicle:latest-development fails to start Chronicle server | https://github.com/Cratis/Chronicle/issues/3250 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 0:23:09 | None |
-| Capture Declaration Language (CDL) — Change Data Capture DSL | https://github.com/Cratis/Chronicle/issues/3248 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | None | None |
-| Decrypt read models and appended events | https://github.com/Cratis/Chronicle/issues/3246 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2:18:52 | None |
-| Make the server compile with proper AOT | https://github.com/Cratis/Chronicle/issues/3243 | None | [einari](https://github.com/einari) | None | None | None |
-| __subject missing on Projected read models | https://github.com/Cratis/Chronicle/issues/3235 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 16:58:53 | None |
-| Improve projection/reducer registration diagnostics and key schema validation | https://github.com/Cratis/Chronicle/issues/3233 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 17:33:03 | None |
-| Potential bug for Constraints when using deep property paths | https://github.com/Cratis/Chronicle/issues/3222 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2 days, 20:31:49 | None |
-| Connection String breaking change fix | https://github.com/Cratis/Chronicle/issues/3220 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 22:26:14 | None |
-| Subject key must follow between event stores | https://github.com/Cratis/Chronicle/issues/3216 | [einari](https://github.com/einari), [Copilot](https:/
+| [SetValue<TEvent>] on child record constructor parameters is not applied in ChildrenFrom projections | https://github.com/Cr
