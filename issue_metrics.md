@@ -2,40 +2,45 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 582 days, 2:15:14 | 679 days, 7:52:28 | 1200 days, 1:43:11 |
-| Time to close | 209 days, 11:39:36 | 31 days, 3:54:15 | 663 days, 3:54:23 |
+| Time to first response | 572 days, 14:13:34 | 678 days, 8:12:24 | 1191 days, 9:11:14 |
+| Time to close | 201 days, 9:09:50 | 27 days, 0:27:24 | 654 days, 7:25:12 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 215 |
-| Number of items closed | 785 |
+| Number of items that remain open | 206 |
+| Number of items closed | 794 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
-| Kernel restart cascades into cluster-wide recovery storm and a permanent, watchdog-unrecoverable observer wedge | https://github.com/Cratis/Chronicle/issues/3997 | None | [einari](https://github.com/einari) | None | None | None |
+| GetObserverInformation reports IsSubscribed=false for every observer that is actively receiving events | https://github.com/Cratis/Chronicle/issues/4007 | None | [einari](https://github.com/einari) | None | None | None |
+| Partition key containing '#' is parsed as a SiloAddress in ConnectedObserverPlacementDirector, permanently failing the partition | https://github.com/Cratis/Chronicle/issues/4006 | None | [einari](https://github.com/einari) | None | None | None |
+| Become event sourced internally | https://github.com/Cratis/Chronicle/issues/4005 | None | [einari](https://github.com/einari) | None | None | None |
+| Event append is completely broken: protobuf-net cannot serialize JsonObject content on the wire | https://github.com/Cratis/Chronicle/issues/4003 | None | [einari](https://github.com/einari) | None | 2:27:24 | None |
+| Client reads the static type-universe snapshot instead of the current one | https://github.com/Cratis/Chronicle/issues/3998 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Kernel restart cascades into cluster-wide recovery storm and a permanent, watchdog-unrecoverable observer wedge | https://github.com/Cratis/Chronicle/issues/3997 | None | [einari](https://github.com/einari) | None | 8:48:12 | None |
 | Projection event-value conversion turns dictionary properties into key/value lists | https://github.com/Cratis/Chronicle/issues/3995 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Publish completed client artifact discovery atomically and retry failed initialization | https://github.com/Cratis/Chronicle/issues/3994 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | ReadModelScenario stack overflows on events containing nonempty JsonObject payloads | https://github.com/Cratis/Chronicle/issues/3993 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Reuse filter type | https://github.com/Cratis/Chronicle/issues/3991 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | None | None |
-| Do not create databases if not needed | https://github.com/Cratis/Chronicle/issues/3990 | None | [einari](https://github.com/einari) | None | None | None |
-| Deletion of jobs and ignoring of recommendations in Workbench | https://github.com/Cratis/Chronicle/issues/3986 | None | [einari](https://github.com/einari) | None | None | None |
-| Displaying data in Projection editor or Read Models should decrypt PII data | https://github.com/Cratis/Chronicle/issues/3983 | None | [einari](https://github.com/einari) | None | None | None |
-| Server view | https://github.com/Cratis/Chronicle/issues/3982 | None | [einari](https://github.com/einari) | None | None | None |
-| Switching namespace in workbench should always refresh the current view | https://github.com/Cratis/Chronicle/issues/3981 | None | [einari](https://github.com/einari) | None | None | None |
-| Navigation is flaky | https://github.com/Cratis/Chronicle/issues/3980 | None | [einari](https://github.com/einari) | None | None | None |
-| Improve pattern heatmap text | https://github.com/Cratis/Chronicle/issues/3979 | None | [einari](https://github.com/einari) | None | None | None |
-| Not possible to scroll projections in the list | https://github.com/Cratis/Chronicle/issues/3978 | None | [einari](https://github.com/einari) | None | None | None |
-| Selecting seed data in general also  highlights the namespace seed data | https://github.com/Cratis/Chronicle/issues/3977 | None | [einari](https://github.com/einari) | None | None | None |
+| Do not create databases if not needed | https://github.com/Cratis/Chronicle/issues/3990 | None | [einari](https://github.com/einari) | None | 19:22:33 | None |
+| Deletion of jobs and ignoring of recommendations in Workbench | https://github.com/Cratis/Chronicle/issues/3986 | None | [einari](https://github.com/einari) | None | 19:44:54 | None |
+| Displaying data in Projection editor or Read Models should decrypt PII data | https://github.com/Cratis/Chronicle/issues/3983 | None | [einari](https://github.com/einari) | None | 21:16:51 | None |
+| Server view | https://github.com/Cratis/Chronicle/issues/3982 | None | [einari](https://github.com/einari) | None | 21:30:34 | None |
+| Switching namespace in workbench should always refresh the current view | https://github.com/Cratis/Chronicle/issues/3981 | None | [einari](https://github.com/einari) | None | 21:43:43 | None |
+| Navigation is flaky | https://github.com/Cratis/Chronicle/issues/3980 | None | [einari](https://github.com/einari) | None | 21:58:42 | None |
+| Improve pattern heatmap text | https://github.com/Cratis/Chronicle/issues/3979 | None | [einari](https://github.com/einari) | None | 22:00:51 | None |
+| Not possible to scroll projections in the list | https://github.com/Cratis/Chronicle/issues/3978 | None | [einari](https://github.com/einari) | None | 22:09:36 | None |
+| Selecting seed data in general also  highlights the namespace seed data | https://github.com/Cratis/Chronicle/issues/3977 | None | [einari](https://github.com/einari) | None | 22:17:03 | None |
 | CI: Publish failing repeatedly | https://github.com/Cratis/Chronicle/issues/3976 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
 | Testing: isolate kernel in-process command scopes from consumer discovery | https://github.com/Cratis/Chronicle/issues/3973 | None | [woksin](https://github.com/woksin) | None | 6:28:22 | None |
 | The "Publish" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/actions/run... | https://github.com/Cratis/Chronicle/issues/3970 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | None | None |
 | Testing and XUnit.Integration omit the Compatibility runtime assembly | https://github.com/Cratis/Chronicle/issues/3968 | None | [woksin](https://github.com/woksin) | None | 1:09:12 | None |
-| A silo's startup task hard-crashes the process on a transient SiloUnavailableException from a sibling silo mid-restart, instead of retrying | https://github.com/Cratis/Chronicle/issues/3967 | None | [einari](https://github.com/einari) | None | None | None |
+| A silo's startup task hard-crashes the process on a transient SiloUnavailableException from a sibling silo mid-restart, instead of retrying | https://github.com/Cratis/Chronicle/issues/3967 | None | [einari](https://github.com/einari) | None | 1 day, 18:24:48 | None |
 | The "PR Prerelase" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/action... | https://github.com/Cratis/Chronicle/issues/3964 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | 1 day, 3:42:31 | None |
 | The "PR Prerelase" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/action... | https://github.com/Cratis/Chronicle/issues/3963 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | 1 day, 3:43:16 | None |
-| 16.45.2 migration-property validator rejects a concept-typed DefaultValue that 16.44.1 accepted, crash-looping registration | https://github.com/Cratis/Chronicle/issues/3961 | None | [einari](https://github.com/einari) | None | None | None |
+| 16.45.2 migration-property validator rejects a concept-typed DefaultValue that 16.44.1 accepted, crash-looping registration | https://github.com/Cratis/Chronicle/issues/3961 | None | [einari](https://github.com/einari) | None | 1 day, 21:08:43 | None |
 | AddCratisChronicle offers no way to substitute a custom Chronicle health check implementation | https://github.com/Cratis/Chronicle/issues/3958 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | 1 day, 7:40:30 | None |
 | Read Model Variations | https://github.com/Cratis/Chronicle/issues/3956 | None | [einari](https://github.com/einari) | None | None | None |
 | [Index] on a record's positional parameter is silently discarded - no index is ever created | https://github.com/Cratis/Chronicle/issues/3954 | None | [einari](https://github.com/einari) | None | 0:50:43 | None |
@@ -302,8 +307,4 @@
 | Regression with getting instance by Id for ReadModels created by Reducers | https://github.com/Cratis/Chronicle/issues/3305 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 20:48:02 | None |
 | Multi-[SetValue<T>] on a projected property only applies the first attribute | https://github.com/Cratis/Chronicle/issues/3297 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 4 days, 20:18:21 | None |
 | Default values for EventSequence gRPC surface | https://github.com/Cratis/Chronicle/issues/3295 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 17:18:54 | None |
-| Orleans MongoDB client in WithMongoDB does not honor DirectConnection — Orleans reminders fail against single-node rs | https://github.com/Cratis/Chronicle/issues/3287 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 8:18:03 | None |
-| MongoDBOptions.DirectConnection clobbers ?directConnection=true from connection string | https://github.com/Cratis/Chronicle/issues/3284 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1:29:36 | None |
-| Only suggest replay if there are instances of the event type already in the sequence for projections | https://github.com/Cratis/Chronicle/issues/3282 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 15:30:37 | None |
-| Only replay the projection / reducer that was affected - not everything | https://github.com/Cratis/Chronicle/issues/3280 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 2:04:41 | None |
-| [SetValue<TEvent>] on child record constructor parameters is not applied in ChildrenFrom projections | https://github.com/Cr
+| Orleans MongoDB client in WithMongoDB does not honor DirectConnection — Orleans reminders fail against single-node rs | https://github.com/Cratis/Chronicle/issues/3287 | [einari
