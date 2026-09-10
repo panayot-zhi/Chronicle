@@ -3,17 +3,19 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 572 days, 14:13:34 | 678 days, 8:12:24 | 1191 days, 9:11:14 |
-| Time to close | 201 days, 9:09:50 | 27 days, 0:27:24 | 654 days, 7:25:12 |
+| Time to close | 200 days, 5:57:36 | 27 days, 0:27:24 | 652 days, 8:11:46 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 206 |
-| Number of items closed | 794 |
+| Number of items that remain open | 208 |
+| Number of items closed | 792 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Support native event-history migration from existing systems | https://github.com/Cratis/Chronicle/issues/4011 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Switch away from Polly to Microsoft resilience library | https://github.com/Cratis/Chronicle/issues/4010 | None | [einari](https://github.com/einari) | None | None | None |
 | GetObserverInformation reports IsSubscribed=false for every observer that is actively receiving events | https://github.com/Cratis/Chronicle/issues/4007 | None | [einari](https://github.com/einari) | None | None | None |
 | Partition key containing '#' is parsed as a SiloAddress in ConnectedObserverPlacementDirector, permanently failing the partition | https://github.com/Cratis/Chronicle/issues/4006 | None | [einari](https://github.com/einari) | None | None | None |
 | Become event sourced internally | https://github.com/Cratis/Chronicle/issues/4005 | None | [einari](https://github.com/einari) | None | None | None |
@@ -306,5 +308,4 @@
 | Add ability to return "side effects" from Reactors | https://github.com/Cratis/Chronicle/issues/3307 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 11 days, 14:32:56 | None |
 | Regression with getting instance by Id for ReadModels created by Reducers | https://github.com/Cratis/Chronicle/issues/3305 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 20:48:02 | None |
 | Multi-[SetValue<T>] on a projected property only applies the first attribute | https://github.com/Cratis/Chronicle/issues/3297 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 4 days, 20:18:21 | None |
-| Default values for EventSequence gRPC surface | https://github.com/Cratis/Chronicle/issues/3295 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 17:18:54 | None |
-| Orleans MongoDB client in WithMongoDB does not honor DirectConnection — Orleans reminders fail against single-node rs | https://github.com/Cratis/Chronicle/issues/3287 | [einari
+| Default values for EventSequence gRPC surface | https://github.com/C
