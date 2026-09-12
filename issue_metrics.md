@@ -2,8 +2,8 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 572 days, 14:13:34 | 678 days, 8:12:24 | 1191 days, 9:11:14 |
-| Time to close | 200 days, 17:01:34 | 27 days, 0:27:24 | 653 days, 4:53:11 |
+| Time to first response | 567 days, 17:35:12 | 674 days, 6:11:39 | 1185 days, 14:28:10 |
+| Time to close | 200 days, 17:01:18 | 27 days, 0:27:24 | 653 days, 4:53:11 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
@@ -14,6 +14,8 @@
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Improving projection and reducers replayability | https://github.com/Cratis/Chronicle/issues/4027 | None | [einari](https://github.com/einari) | None | None | None |
+| Empty event history throws after successful protobuf query round-trip | https://github.com/Cratis/Chronicle/issues/4025 | None | [woksin](https://github.com/woksin) | None | 1:04:03 | None |
 | Add an Operating Chronicle documentation path and complete navigation grouping | https://github.com/Cratis/Chronicle/issues/4021 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Consolidate event migration documentation across all Chronicle clients | https://github.com/Cratis/Chronicle/issues/4020 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Support native event-history migration from existing systems | https://github.com/Cratis/Chronicle/issues/4011 | None | [woksin](https://github.com/woksin) | None | None | None |
@@ -307,5 +309,4 @@
 | Roslyn Analyzer: Domain Model Integrity (CHR-A011..A015) | https://github.com/Cratis/Chronicle/issues/3311 | None | [einari](https://github.com/einari) | None | 4:42:45 | None |
 | @cratis/chronicle.contracts: forceLong=bigint change in fda71e5 is unreleased; latest npm artifact still ships number | https://github.com/Cratis/Chronicle/issues/3310 | None | [einari](https://github.com/einari) | None | 0:04:44 | None |
 | ts-proto decoders throw on EventSequenceNumber sentinel (ulong.MaxValue) over the wire | https://github.com/Cratis/Chronicle/issues/3308 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 3:52:32 | None |
-| Add ability to return "side effects" from Reactors | https://github.com/Cratis/Chronicle/issues/3307 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 11 days, 14:32:56 | None |
-| Regression with getting instance by Id for ReadModels created by Reducers | https://github.com/Cratis/Chronicle/issues/3305 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://gith
+| Add ability to return "side effects" from Reactors | https://github.com/Cratis/Chronicle/issues/3307 | [einari](http
