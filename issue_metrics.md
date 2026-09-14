@@ -3,17 +3,18 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 567 days, 17:35:12 | 674 days, 6:11:39 | 1185 days, 14:28:10 |
-| Time to close | 200 days, 5:33:21 | 26 days, 21:33:48 | 653 days, 9:18:31 |
+| Time to close | 200 days, 11:39:14 | 27 days, 0:27:24 | 653 days, 13:43:52 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 211 |
-| Number of items closed | 789 |
+| Number of items that remain open | 212 |
+| Number of items closed | 788 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Client 18.1.5 cannot deserialize an 18.1.4 kernel's GetForEventSourceIdAndEventTypes response | https://github.com/Cratis/Chronicle/issues/4037 | None | [einari](https://github.com/einari) | None | None | None |
 | CI: Dependabot Updates failing repeatedly | https://github.com/Cratis/Chronicle/issues/4033 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
 | Improving projection and reducers replayability | https://github.com/Cratis/Chronicle/issues/4027 | None | [einari](https://github.com/einari) | None | None | None |
 | Empty event history throws after successful protobuf query round-trip | https://github.com/Cratis/Chronicle/issues/4025 | None | [woksin](https://github.com/woksin) | None | 1:04:03 | None |
@@ -308,5 +309,4 @@
 | Add integration specs for clustering | https://github.com/Cratis/Chronicle/issues/3324 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 49 days, 0:58:21 | None |
 | Roslyn Analyzer: Chronicle Command & Handler Enforcement (CHR-A023..A025) | https://github.com/Cratis/Chronicle/issues/3312 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 6:29:41 | None |
 | Roslyn Analyzer: Domain Model Integrity (CHR-A011..A015) | https://github.com/Cratis/Chronicle/issues/3311 | None | [einari](https://github.com/einari) | None | 4:42:45 | None |
-| @cratis/chronicle.contracts: forceLong=bigint change in fda71e5 is unreleased; latest npm artifact still ships number | https://github.com/Cratis/Chronicle/issues/3310 | None | [einari](https://github.com/einari) | None | 0:04:44 | None |
-| ts-proto decoders throw on EventSequenceNumber sentinel (ulong.MaxValue) over the wire | https://github.com/Cratis/Chronicle/issues/3308 | [einari](https://github.com/einari), [Copilot](https://github.com/Cop
+| @cratis/chronicle.contracts: forceLong=bigint change in fda71e5 is unreleased; latest npm artifact still ships number | https://github.com/Cratis/Chronicle/issues/3310 | None | [einari](https://github.com/einari) | None | 0:04:44 | No
