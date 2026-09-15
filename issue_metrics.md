@@ -3,17 +3,20 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 567 days, 17:35:12 | 674 days, 6:11:39 | 1185 days, 14:28:10 |
-| Time to close | 200 days, 11:39:14 | 27 days, 0:27:24 | 653 days, 13:43:52 |
+| Time to close | 198 days, 7:28:36 | 26 days, 0:57:12 | 644 days, 15:45:38 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 212 |
-| Number of items closed | 788 |
+| Number of items that remain open | 215 |
+| Number of items closed | 785 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| GetStateForModel fails when two callers read a projection's position at once, and a caller failing closed reads that as 'behind' | https://github.com/Cratis/Chronicle/issues/4043 | None | [einari](https://github.com/einari) | None | None | None |
+| Single-event Append no longer normalizes an unspecified EventSourceType to Default | https://github.com/Cratis/Chronicle/issues/4041 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| A silo joining a cluster with a replay backlog never binds, and its restart re-enters the same state | https://github.com/Cratis/Chronicle/issues/4040 | None | [einari](https://github.com/einari) | None | None | None |
 | Client 18.1.5 cannot deserialize an 18.1.4 kernel's GetForEventSourceIdAndEventTypes response | https://github.com/Cratis/Chronicle/issues/4037 | None | [einari](https://github.com/einari) | None | None | None |
 | CI: Dependabot Updates failing repeatedly | https://github.com/Cratis/Chronicle/issues/4033 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
 | Improving projection and reducers replayability | https://github.com/Cratis/Chronicle/issues/4027 | None | [einari](https://github.com/einari) | None | None | None |
@@ -306,7 +309,4 @@
 | Do not apply patches unless they should be applied | https://github.com/Cratis/Chronicle/issues/3339 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 3 days, 23:20:24 | None |
 | Self-referencing model-bound projections: remaining gaps after #3330 | https://github.com/Cratis/Chronicle/issues/3336 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 18:12:17 | None |
 | Model-bound projections: self-referencing children are flattened instead of nested | https://github.com/Cratis/Chronicle/issues/3329 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 4:52:11 | None |
-| Add integration specs for clustering | https://github.com/Cratis/Chronicle/issues/3324 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 49 days, 0:58:21 | None |
-| Roslyn Analyzer: Chronicle Command & Handler Enforcement (CHR-A023..A025) | https://github.com/Cratis/Chronicle/issues/3312 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 1 day, 6:29:41 | None |
-| Roslyn Analyzer: Domain Model Integrity (CHR-A011..A015) | https://github.com/Cratis/Chronicle/issues/3311 | None | [einari](https://github.com/einari) | None | 4:42:45 | None |
-| @cratis/chronicle.contracts: forceLong=bigint change in fda71e5 is unreleased; latest npm artifact still ships number | https://github.com/Cratis/Chronicle/issues/3310 | None | [einari](https://github.com/einari) | None | 0:04:44 | No
+| Add integration specs for clustering | https://github.com/Cratis/Chronicle/issues/3324 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 49 days, 0:58
