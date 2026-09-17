@@ -3,19 +3,21 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 567 days, 17:35:12 | 674 days, 6:11:39 | 1185 days, 14:28:10 |
-| Time to close | 198 days, 7:28:36 | 26 days, 0:57:12 | 644 days, 15:45:38 |
+| Time to close | 198 days, 12:38:58 | 26 days, 3:49:44 | 645 days, 1:15:59 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 215 |
-| Number of items closed | 785 |
+| Number of items that remain open | 216 |
+| Number of items closed | 784 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Integration kernel container intermittently fails to bind its own port 35000 | https://github.com/Cratis/Chronicle/issues/4048 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Prove production-image upgrade and recovery from 18.1.4 to 18.3.0 | https://github.com/Cratis/Chronicle/issues/4046 | None | [woksin](https://github.com/woksin) | None | None | None |
 | GetStateForModel fails when two callers read a projection's position at once, and a caller failing closed reads that as 'behind' | https://github.com/Cratis/Chronicle/issues/4043 | None | [einari](https://github.com/einari) | None | None | None |
-| Single-event Append no longer normalizes an unspecified EventSourceType to Default | https://github.com/Cratis/Chronicle/issues/4041 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Single-event Append no longer normalizes an unspecified EventSourceType to Default | https://github.com/Cratis/Chronicle/issues/4041 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2 days, 21:48:19 | None |
 | A silo joining a cluster with a replay backlog never binds, and its restart re-enters the same state | https://github.com/Cratis/Chronicle/issues/4040 | None | [einari](https://github.com/einari) | None | None | None |
 | Client 18.1.5 cannot deserialize an 18.1.4 kernel's GetForEventSourceIdAndEventTypes response | https://github.com/Cratis/Chronicle/issues/4037 | None | [einari](https://github.com/einari) | None | None | None |
 | CI: Dependabot Updates failing repeatedly | https://github.com/Cratis/Chronicle/issues/4033 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
@@ -308,5 +310,4 @@
 | «Why Event Sourcing» in documentation | https://github.com/Cratis/Chronicle/issues/3341 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 0:11:50 | None |
 | Do not apply patches unless they should be applied | https://github.com/Cratis/Chronicle/issues/3339 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 3 days, 23:20:24 | None |
 | Self-referencing model-bound projections: remaining gaps after #3330 | https://github.com/Cratis/Chronicle/issues/3336 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 18:12:17 | None |
-| Model-bound projections: self-referencing children are flattened instead of nested | https://github.com/Cratis/Chronicle/issues/3329 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 4:52:11 | None |
-| Add integration specs for clustering | https://github.com/Cratis/Chronicle/issues/3324 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 49 days, 0:58
+| Model-bound projections: self-referencing children are flattened instead of nested | https://github.com/C
