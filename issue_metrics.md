@@ -2,24 +2,31 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 567 days, 17:35:12 | 674 days, 6:11:39 | 1185 days, 14:28:10 |
-| Time to close | 198 days, 12:38:58 | 26 days, 3:49:44 | 645 days, 1:15:59 |
+| Time to first response | 563 days, 0:03:14 | 670 days, 4:10:54 | 1180 days, 14:50:16 |
+| Time to close | 197 days, 22:41:34 | 24 days, 4:33:26 | 645 days, 20:16:40 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 216 |
-| Number of items closed | 784 |
+| Number of items that remain open | 218 |
+| Number of items closed | 782 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
-| Integration kernel container intermittently fails to bind its own port 35000 | https://github.com/Cratis/Chronicle/issues/4048 | None | [woksin](https://github.com/woksin) | None | None | None |
+| A kernel rollout does not converge: unbounded cold-start storm, reactor streams deadlocked against a reconnecting client, and consumers left on stale endpoints | https://github.com/Cratis/Chronicle/issues/4068 | None | [einari](https://github.com/einari) | None | None | None |
+| A newer client refuses an older kernel: the connect-time compatibility check reads every added field as a removal | https://github.com/Cratis/Chronicle/issues/4058 | None | [einari](https://github.com/einari) | None | 3:09:58 | None |
+| Test retries re-run against the same wedged fixture, so they cannot recover | https://github.com/Cratis/Chronicle/issues/4057 | None | [woksin](https://github.com/woksin) | None | None | None |
+| CI: .NET Build & Integration failing repeatedly | https://github.com/Cratis/Chronicle/issues/4056 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
+| A projection can stay permanently unsubscribed: the activation resubscribe timer starves Register, and Register's unchanged-definition fast path never re-subscribes | https://github.com/Cratis/Chronicle/issues/4052 | None | [einari](https://github.com/einari) | None | None | None |
+| ChronicleServerStartupTask still hard-crashes on a sibling-silo timeout - two more call sites (PatternCapture.Subscribe, Reactors.Subscribe) beyond #3848/#3852/#3967 | https://github.com/Cratis/Chronicle/issues/4051 | None | [einari](https://github.com/einari) | None | None | None |
+| getForEventSourceIdAndEventTypes silently ignores the event source type filter | https://github.com/Cratis/Chronicle/issues/4049 | None | [woksin](https://github.com/woksin) | None | 5:10:34 | None |
+| Integration kernel container intermittently fails to bind its own port 35000 | https://github.com/Cratis/Chronicle/issues/4048 | None | [woksin](https://github.com/woksin) | None | 5:35:37 | None |
 | Prove production-image upgrade and recovery from 18.1.4 to 18.3.0 | https://github.com/Cratis/Chronicle/issues/4046 | None | [woksin](https://github.com/woksin) | None | None | None |
 | GetStateForModel fails when two callers read a projection's position at once, and a caller failing closed reads that as 'behind' | https://github.com/Cratis/Chronicle/issues/4043 | None | [einari](https://github.com/einari) | None | None | None |
 | Single-event Append no longer normalizes an unspecified EventSourceType to Default | https://github.com/Cratis/Chronicle/issues/4041 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2 days, 21:48:19 | None |
 | A silo joining a cluster with a replay backlog never binds, and its restart re-enters the same state | https://github.com/Cratis/Chronicle/issues/4040 | None | [einari](https://github.com/einari) | None | None | None |
-| Client 18.1.5 cannot deserialize an 18.1.4 kernel's GetForEventSourceIdAndEventTypes response | https://github.com/Cratis/Chronicle/issues/4037 | None | [einari](https://github.com/einari) | None | None | None |
+| Client 18.1.5 cannot deserialize an 18.1.4 kernel's GetForEventSourceIdAndEventTypes response | https://github.com/Cratis/Chronicle/issues/4037 | None | [einari](https://github.com/einari) | None | 4 days, 2:06:11 | None |
 | CI: Dependabot Updates failing repeatedly | https://github.com/Cratis/Chronicle/issues/4033 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
 | Improving projection and reducers replayability | https://github.com/Cratis/Chronicle/issues/4027 | None | [einari](https://github.com/einari) | None | None | None |
 | Empty event history throws after successful protobuf query round-trip | https://github.com/Cratis/Chronicle/issues/4025 | None | [woksin](https://github.com/woksin) | None | 1:04:03 | None |
@@ -303,11 +310,4 @@
 | Consolidate on port 35000 | https://github.com/Cratis/Chronicle/issues/3372 | None | [einari](https://github.com/einari) | 50 days, 4:22:39 | 50 days, 4:22:40 | None |
 | Add support for Geospatial Coordinate | https://github.com/Cratis/Chronicle/issues/3368 | None | [einari](https://github.com/einari) | None | 2 days, 1:52:13 | None |
 | React to read model changes. | https://github.com/Cratis/Chronicle/issues/3359 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | 54 days, 3:33:27 | 54 days, 3:33:28 | None |
-| Ability to take dependencies to read models in reactors | https://github.com/Cratis/Chronicle/issues/3358 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | 54 days, 3:48:46 | 54 days, 3:48:47 | None |
-| Expand read models interface | https://github.com/Cratis/Chronicle/issues/3350 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 4:55:48 | None |
-| MongoDB out-of-process: nested children replay drops feature/slice/event children when ChildrenFrom uses an event-property key | https://github.com/Cratis/Chronicle/issues/3345 | None | [einari](https://github.com/einari) | 65 days, 8:39:41 | None | None |
-| Compensating events | https://github.com/Cratis/Chronicle/issues/3343 | None | [einari](https://github.com/einari) | None | None | None |
-| «Why Event Sourcing» in documentation | https://github.com/Cratis/Chronicle/issues/3341 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 0:11:50 | None |
-| Do not apply patches unless they should be applied | https://github.com/Cratis/Chronicle/issues/3339 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 3 days, 23:20:24 | None |
-| Self-referencing model-bound projections: remaining gaps after #3330 | https://github.com/Cratis/Chronicle/issues/3336 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 18:12:17 | None |
-| Model-bound projections: self-referencing children are flattened instead of nested | https://github.com/C
+| Ability to
