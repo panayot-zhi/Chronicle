@@ -2,27 +2,28 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 563 days, 0:03:14 | 670 days, 4:10:54 | 1180 days, 14:50:16 |
-| Time to close | 197 days, 22:41:34 | 24 days, 4:33:26 | 645 days, 20:16:40 |
+| Time to first response | 506 days, 21:44:12 | 550 days, 21:29:10 | 1168 days, 20:28:20 |
+| Time to close | 192 days, 17:21:16 | 20 days, 18:03:58 | 619 days, 5:55:47 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 218 |
-| Number of items closed | 782 |
+| Number of items that remain open | 199 |
+| Number of items closed | 801 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| ReadModelScenario throws Guid FormatException for a restricted-property [FromEvent<T>(nameof(...))] attribute | https://github.com/Cratis/Chronicle/issues/4074 | None | [einari](https://github.com/einari) | None | None | None |
 | A kernel rollout does not converge: unbounded cold-start storm, reactor streams deadlocked against a reconnecting client, and consumers left on stale endpoints | https://github.com/Cratis/Chronicle/issues/4068 | None | [einari](https://github.com/einari) | None | None | None |
 | A newer client refuses an older kernel: the connect-time compatibility check reads every added field as a removal | https://github.com/Cratis/Chronicle/issues/4058 | None | [einari](https://github.com/einari) | None | 3:09:58 | None |
 | Test retries re-run against the same wedged fixture, so they cannot recover | https://github.com/Cratis/Chronicle/issues/4057 | None | [woksin](https://github.com/woksin) | None | None | None |
-| CI: .NET Build & Integration failing repeatedly | https://github.com/Cratis/Chronicle/issues/4056 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
+| CI: .NET Build & Integration failing repeatedly | https://github.com/Cratis/Chronicle/issues/4056 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | 1 day, 18:58:43 | 1 day, 18:58:44 | None |
 | A projection can stay permanently unsubscribed: the activation resubscribe timer starves Register, and Register's unchanged-definition fast path never re-subscribes | https://github.com/Cratis/Chronicle/issues/4052 | None | [einari](https://github.com/einari) | None | None | None |
 | ChronicleServerStartupTask still hard-crashes on a sibling-silo timeout - two more call sites (PatternCapture.Subscribe, Reactors.Subscribe) beyond #3848/#3852/#3967 | https://github.com/Cratis/Chronicle/issues/4051 | None | [einari](https://github.com/einari) | None | None | None |
 | getForEventSourceIdAndEventTypes silently ignores the event source type filter | https://github.com/Cratis/Chronicle/issues/4049 | None | [woksin](https://github.com/woksin) | None | 5:10:34 | None |
 | Integration kernel container intermittently fails to bind its own port 35000 | https://github.com/Cratis/Chronicle/issues/4048 | None | [woksin](https://github.com/woksin) | None | 5:35:37 | None |
-| Prove production-image upgrade and recovery from 18.1.4 to 18.3.0 | https://github.com/Cratis/Chronicle/issues/4046 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Prove production-image upgrade and recovery from 18.1.4 to 18.3.0 | https://github.com/Cratis/Chronicle/issues/4046 | None | [woksin](https://github.com/woksin) | None | 2 days, 11:26:16 | None |
 | GetStateForModel fails when two callers read a projection's position at once, and a caller failing closed reads that as 'behind' | https://github.com/Cratis/Chronicle/issues/4043 | None | [einari](https://github.com/einari) | None | None | None |
 | Single-event Append no longer normalizes an unspecified EventSourceType to Default | https://github.com/Cratis/Chronicle/issues/4041 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2 days, 21:48:19 | None |
 | A silo joining a cluster with a replay backlog never binds, and its restart re-enters the same state | https://github.com/Cratis/Chronicle/issues/4040 | None | [einari](https://github.com/einari) | None | None | None |
@@ -53,9 +54,9 @@
 | Improve pattern heatmap text | https://github.com/Cratis/Chronicle/issues/3979 | None | [einari](https://github.com/einari) | None | 22:00:51 | None |
 | Not possible to scroll projections in the list | https://github.com/Cratis/Chronicle/issues/3978 | None | [einari](https://github.com/einari) | None | 22:09:36 | None |
 | Selecting seed data in general also  highlights the namespace seed data | https://github.com/Cratis/Chronicle/issues/3977 | None | [einari](https://github.com/einari) | None | 22:17:03 | None |
-| CI: Publish failing repeatedly | https://github.com/Cratis/Chronicle/issues/3976 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
+| CI: Publish failing repeatedly | https://github.com/Cratis/Chronicle/issues/3976 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | 11 days, 18:08:16 | 11 days, 18:08:18 | None |
 | Testing: isolate kernel in-process command scopes from consumer discovery | https://github.com/Cratis/Chronicle/issues/3973 | None | [woksin](https://github.com/woksin) | None | 6:28:22 | None |
-| The "Publish" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/actions/run... | https://github.com/Cratis/Chronicle/issues/3970 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | None | None |
+| The "Publish" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/actions/run... | https://github.com/Cratis/Chronicle/issues/3970 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | 12 days, 7:12:54 | 12 days, 7:12:54 | None |
 | Testing and XUnit.Integration omit the Compatibility runtime assembly | https://github.com/Cratis/Chronicle/issues/3968 | None | [woksin](https://github.com/woksin) | None | 1:09:12 | None |
 | A silo's startup task hard-crashes the process on a transient SiloUnavailableException from a sibling silo mid-restart, instead of retrying | https://github.com/Cratis/Chronicle/issues/3967 | None | [einari](https://github.com/einari) | None | 1 day, 18:24:48 | None |
 | The "PR Prerelase" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/action... | https://github.com/Cratis/Chronicle/issues/3964 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | 1 day, 3:42:31 | None |
@@ -104,22 +105,22 @@
 | Reactors cannot distinguish catch-up from live delivery - [Replay] guards are inert after a restart | https://github.com/Cratis/Chronicle/issues/3901 | None | [einari](https://github.com/einari) | None | None | None |
 | Retained RetryFailedPartition jobs saturate JobsManager and permanently wedge a store's observers | https://github.com/Cratis/Chronicle/issues/3900 | None | [einari](https://github.com/einari) | None | None | None |
 | Observer wedges permanently when a reactor Handle() call never returns - no timeout, no quarantine, no failed partition | https://github.com/Cratis/Chronicle/issues/3899 | None | [einari](https://github.com/einari) | None | None | None |
-| The "Hot Core Gate" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/actio... | https://github.com/Cratis/Chronicle/issues/3898 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | None | None |
+| The "Hot Core Gate" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/actio... | https://github.com/Cratis/Chronicle/issues/3898 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | 19 days, 13:52:31 | 19 days, 13:52:32 | None |
 | The "Python Contracts" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/ac... | https://github.com/Cratis/Chronicle/issues/3897 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | 0:07:50 | None |
 | Hot Core Gate on PR #3891 fails: Cratis.Arc pinned to unpublished version 22.6.3-conceptrules.1 | https://github.com/Cratis/Chronicle/issues/3894 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | None | None |
-| The "Hot Core Gate" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/actio... | https://github.com/Cratis/Chronicle/issues/3893 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | None | None |
-| The "Verify Semver Label" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle... | https://github.com/Cratis/Chronicle/issues/3892 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | None | None |
-| The "Client Snippet Verification" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/C... | https://github.com/Cratis/Chronicle/issues/3888 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | None | None |
-| The "Hot Core Gate" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/actio... | https://github.com/Cratis/Chronicle/issues/3887 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | None | None |
-| The "Python Contracts" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/ac... | https://github.com/Cratis/Chronicle/issues/3886 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | None | None |
-| The "Hot Core Gate" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/actio... | https://github.com/Cratis/Chronicle/issues/3884 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | None | None |
-| The "Client Snippet Verification" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/C... | https://github.com/Cratis/Chronicle/issues/3883 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | None | None |
-| The ".NET Build & Integration" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chro... | https://github.com/Cratis/Chronicle/issues/3882 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | None | None |
-| The "Python Contracts" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/ac... | https://github.com/Cratis/Chronicle/issues/3881 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | None | None |
+| The "Hot Core Gate" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/actio... | https://github.com/Cratis/Chronicle/issues/3893 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | 19 days, 14:16:19 | 19 days, 14:16:19 | None |
+| The "Verify Semver Label" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle... | https://github.com/Cratis/Chronicle/issues/3892 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | 19 days, 14:17:20 | 19 days, 14:17:21 | None |
+| The "Client Snippet Verification" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/C... | https://github.com/Cratis/Chronicle/issues/3888 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | 19 days, 14:25:30 | 19 days, 14:25:31 | None |
+| The "Hot Core Gate" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/actio... | https://github.com/Cratis/Chronicle/issues/3887 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | 19 days, 14:37:36 | 19 days, 14:37:37 | None |
+| The "Python Contracts" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/ac... | https://github.com/Cratis/Chronicle/issues/3886 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | 19 days, 14:38:30 | 19 days, 14:38:31 | None |
+| The "Hot Core Gate" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/actio... | https://github.com/Cratis/Chronicle/issues/3884 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | 19 days, 14:55:39 | 19 days, 14:55:40 | None |
+| The "Client Snippet Verification" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/C... | https://github.com/Cratis/Chronicle/issues/3883 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | 19 days, 14:59:16 | 19 days, 14:59:17 | None |
+| The ".NET Build & Integration" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chro... | https://github.com/Cratis/Chronicle/issues/3882 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | 19 days, 15:01:13 | 19 days, 15:01:13 | None |
+| The "Python Contracts" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/ac... | https://github.com/Cratis/Chronicle/issues/3881 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | 19 days, 15:01:42 | 19 days, 15:01:42 | None |
 | Explicit event subjects are dropped from .NET client EventContext notifications and readback | https://github.com/Cratis/Chronicle/issues/3880 | None | [woksin](https://github.com/woksin) | None | None | None |
 | .NET Build & Integration failing on PR #3768: WIRE_BASELINE_FLOOR needs to move to 16.42.0 | https://github.com/Cratis/Chronicle/issues/3879 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | None | None |
-| The ".NET Build & Integration" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chro... | https://github.com/Cratis/Chronicle/issues/3877 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | None | None |
-| The "Python Contracts" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/ac... | https://github.com/Cratis/Chronicle/issues/3876 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | None | None |
+| The ".NET Build & Integration" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chro... | https://github.com/Cratis/Chronicle/issues/3877 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | 19 days, 19:38:23 | 19 days, 19:38:24 | None |
+| The "Python Contracts" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chronicle/ac... | https://github.com/Cratis/Chronicle/issues/3876 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | 19 days, 19:38:57 | 19 days, 19:38:59 | None |
 | NuGet Package landing page looks bad | https://github.com/Cratis/Chronicle/issues/3874 | None | [einari](https://github.com/einari) | None | None | None |
 | Bring back Wire compatibility checker | https://github.com/Cratis/Chronicle/issues/3873 | None | [einari](https://github.com/einari) | None | None | None |
 | Asking what usually happens in a context cannot return the action | https://github.com/Cratis/Chronicle/issues/3872 | None | [einari](https://github.com/einari) | None | 4:24:00 | None |
@@ -127,7 +128,7 @@
 | A new projection over a large event log can congestion-collapse the kernel and take the client down | https://github.com/Cratis/Chronicle/issues/3869 | None | [einari](https://github.com/einari) | None | 12:42:57 | None |
 | Unique constraint not enforced on reactor appends when another observer is present | https://github.com/Cratis/Chronicle/issues/3868 | None | [einari](https://github.com/einari) | None | 2:27:39 | None |
 | Pattern capture never subscribes on a store whose clients connect after the server starts | https://github.com/Cratis/Chronicle/issues/3867 | None | [einari](https://github.com/einari) | None | 4:33:41 | None |
-| CI: Update Packages failing repeatedly | https://github.com/Cratis/Chronicle/issues/3865 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
+| CI: Update Packages failing repeatedly | https://github.com/Cratis/Chronicle/issues/3865 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | 20 days, 18:03:57 | 20 days, 18:03:58 | None |
 | The ".NET Build & Integration" GitHub Actions workflow in Cratis/Chronicle is failing (https://github.com/Cratis/Chro... | https://github.com/Cratis/Chronicle/issues/3864 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | 19:29:00 | None |
 | Bring Chronicle's Arc artifacts up to the contracts Arc 22.6 analyzers enforce | https://github.com/Cratis/Chronicle/issues/3862 | None | [einari](https://github.com/einari) | None | 0:47:03 | None |
 | Improve client connection-failure diagnostics: clear connection error instead of ObjectDisposedException when the server is unreachable | https://github.com/Cratis/Chronicle/issues/3859 | None | [woksin](https://github.com/woksin) | None | None | None |
@@ -165,9 +166,9 @@
 | Generated gRPC contracts cannot serialize DateTimeOffset responses | https://github.com/Cratis/Chronicle/issues/3788 | None | [woksin](https://github.com/woksin) | None | 0:38:13 | None |
 | Flaky spec: WaitUntilSubscribed times out under CI load in and_subscription_is_ready | https://github.com/Cratis/Chronicle/issues/3787 | None | [woksin](https://github.com/woksin) | None | None | None |
 | A root-level [Join] event turn writes the compliance subject with an EMPTY MongoDB filter, silently restamping one arbitrary unrelated document | https://github.com/Cratis/Chronicle/issues/3784 | None | [woksin](https://github.com/woksin) | None | 3 days, 7:39:46 | None |
-| CI: Propagate Copilot Instructions failing repeatedly | https://github.com/Cratis/Chronicle/issues/3782 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
-| CI: Integration Specs failing repeatedly | https://github.com/Cratis/Chronicle/issues/3781 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
-| CI: Benchmarks failing repeatedly | https://github.com/Cratis/Chronicle/issues/3780 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
+| CI: Propagate Copilot Instructions failing repeatedly | https://github.com/Cratis/Chronicle/issues/3782 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | 30 days, 23:38:01 | 30 days, 23:38:02 | None |
+| CI: Integration Specs failing repeatedly | https://github.com/Cratis/Chronicle/issues/3781 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | 30 days, 23:38:07 | 30 days, 23:38:08 | None |
+| CI: Benchmarks failing repeatedly | https://github.com/Cratis/Chronicle/issues/3780 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | 30 days, 23:38:18 | 30 days, 23:38:19 | None |
 | Observer RunningState transiently reports Unknown while routing, and the transient value escapes to consumers | https://github.com/Cratis/Chronicle/issues/3778 | None | [woksin](https://github.com/woksin) | None | None | None |
 | No spec covers CatchingUpInFlight quarantining the observer when a catch-up job fails to start | https://github.com/Cratis/Chronicle/issues/3777 | None | [woksin](https://github.com/woksin) | None | None | None |
 | No bounded or paged read of an event sequence | https://github.com/Cratis/Chronicle/issues/3772 | None | [einari](https://github.com/einari) | None | None | None |
@@ -306,8 +307,4 @@
 | Missing paging in Event Types in workbench | https://github.com/Cratis/Chronicle/issues/3396 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 59 days, 1:47:51 | None |
 | Add missing JsonConverters | https://github.com/Cratis/Chronicle/issues/3389 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 8:40:54 | None |
 | Roslyn warning/error if a Reactor returns event side effects but is not marked as OnceOnly | https://github.com/Cratis/Chronicle/issues/3382 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 6:15:47 | None |
-| Reactor side-effects needs to honor append result and fail if it fails | https://github.com/Cratis/Chronicle/issues/3381 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 9 days, 17:02:49 | None |
-| Consolidate on port 35000 | https://github.com/Cratis/Chronicle/issues/3372 | None | [einari](https://github.com/einari) | 50 days, 4:22:39 | 50 days, 4:22:40 | None |
-| Add support for Geospatial Coordinate | https://github.com/Cratis/Chronicle/issues/3368 | None | [einari](https://github.com/einari) | None | 2 days, 1:52:13 | None |
-| React to read model changes. | https://github.com/Cratis/Chronicle/issues/3359 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | 54 days, 3:33:27 | 54 days, 3:33:28 | None |
-| Ability to
+| Reactor side-effects needs to honor append result and fail if it fails | https://github.com/Cr
