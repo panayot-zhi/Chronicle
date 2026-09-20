@@ -3,17 +3,19 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 506 days, 21:44:12 | 550 days, 21:29:10 | 1168 days, 20:28:20 |
-| Time to close | 192 days, 17:21:16 | 20 days, 18:03:58 | 619 days, 5:55:47 |
+| Time to close | 193 days, 4:55:47 | 20 days, 22:16:50 | 620 days, 23:38:10 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 199 |
-| Number of items closed | 801 |
+| Number of items that remain open | 201 |
+| Number of items closed | 799 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| CI: Integration Specs failing repeatedly | https://github.com/Cratis/Chronicle/issues/4076 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
+| CI: Publish failing repeatedly | https://github.com/Cratis/Chronicle/issues/4075 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
 | ReadModelScenario throws Guid FormatException for a restricted-property [FromEvent<T>(nameof(...))] attribute | https://github.com/Cratis/Chronicle/issues/4074 | None | [einari](https://github.com/einari) | None | None | None |
 | A kernel rollout does not converge: unbounded cold-start storm, reactor streams deadlocked against a reconnecting client, and consumers left on stale endpoints | https://github.com/Cratis/Chronicle/issues/4068 | None | [einari](https://github.com/einari) | None | None | None |
 | A newer client refuses an older kernel: the connect-time compatibility check reads every added field as a removal | https://github.com/Cratis/Chronicle/issues/4058 | None | [einari](https://github.com/einari) | None | 3:09:58 | None |
@@ -306,5 +308,4 @@
 | Aspire: slim-image WithMongoDB silently requires a MongoDB replica set + directConnection — document and/or provide a provisioning helper | https://github.com/Cratis/Chronicle/issues/3400 | None | [woksin](https://github.com/woksin) | None | 49 days, 23:55:44 | None |
 | Missing paging in Event Types in workbench | https://github.com/Cratis/Chronicle/issues/3396 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 59 days, 1:47:51 | None |
 | Add missing JsonConverters | https://github.com/Cratis/Chronicle/issues/3389 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 8:40:54 | None |
-| Roslyn warning/error if a Reactor returns event side effects but is not marked as OnceOnly | https://github.com/Cratis/Chronicle/issues/3382 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 6:15:47 | None |
-| Reactor side-effects needs to honor append result and fail if it fails | https://github.com/Cr
+| Roslyn warning
