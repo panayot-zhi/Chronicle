@@ -3,17 +3,18 @@
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
 | Time to first response | 506 days, 21:44:12 | 550 days, 21:29:10 | 1168 days, 20:28:20 |
-| Time to close | 193 days, 4:55:47 | 20 days, 22:16:50 | 620 days, 23:38:10 |
+| Time to close | 193 days, 9:12:44 | 20 days, 20:10:24 | 621 days, 20:29:22 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 201 |
-| Number of items closed | 799 |
+| Number of items that remain open | 202 |
+| Number of items closed | 798 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| A nullable property on a [Passive] read model is never populated by the kernel, while ReadModelScenario populates it | https://github.com/Cratis/Chronicle/issues/4081 | None | [einari](https://github.com/einari) | None | None | None |
 | CI: Integration Specs failing repeatedly | https://github.com/Cratis/Chronicle/issues/4076 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
 | CI: Publish failing repeatedly | https://github.com/Cratis/Chronicle/issues/4075 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
 | ReadModelScenario throws Guid FormatException for a restricted-property [FromEvent<T>(nameof(...))] attribute | https://github.com/Cratis/Chronicle/issues/4074 | None | [einari](https://github.com/einari) | None | None | None |
@@ -307,5 +308,3 @@
 | Unable to find a datacollector with friendly name 'XPlat Code Coverage' | https://github.com/Cratis/Chronicle/issues/3405 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | 68 days, 7:11:10 | 68 days, 7:11:11 | None |
 | Aspire: slim-image WithMongoDB silently requires a MongoDB replica set + directConnection — document and/or provide a provisioning helper | https://github.com/Cratis/Chronicle/issues/3400 | None | [woksin](https://github.com/woksin) | None | 49 days, 23:55:44 | None |
 | Missing paging in Event Types in workbench | https://github.com/Cratis/Chronicle/issues/3396 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 59 days, 1:47:51 | None |
-| Add missing JsonConverters | https://github.com/Cratis/Chronicle/issues/3389 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 8:40:54 | None |
-| Roslyn warning
