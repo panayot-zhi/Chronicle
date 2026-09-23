@@ -2,18 +2,23 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 506 days, 21:44:12 | 550 days, 21:29:10 | 1168 days, 20:28:20 |
-| Time to close | 193 days, 9:12:44 | 20 days, 20:10:24 | 621 days, 20:29:22 |
+| Time to first response | 499 days, 22:32:26 | 515 days, 19:12:05 | 1156 days, 4:04:25 |
+| Time to close | 192 days, 13:04:21 | 20 days, 22:16:50 | 618 days, 0:07:36 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 202 |
-| Number of items closed | 798 |
+| Number of items that remain open | 205 |
+| Number of items closed | 795 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Support encryption of values with managed keys, separate from PII compliance | https://github.com/Cratis/Chronicle/issues/4095 | None | [einari](https://github.com/einari) | None | None | None |
+| Kernel cannot cold-start once a store grows: unhandled TimeoutException in RegisterPersistedProjectionDefinitions kills the host permanently | https://github.com/Cratis/Chronicle/issues/4088 | None | [einari](https://github.com/einari) | None | None | None |
+| Support week-of-year (ISOWeek) as a declarative projection key/context accessor | https://github.com/Cratis/Chronicle/issues/4086 | None | [einari](https://github.com/einari) | None | 1:29:45 | None |
+| Make a missing client snippet visible instead of silently dropping its tab | https://github.com/Cratis/Chronicle/issues/4084 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Document where the clients differ, in one place | https://github.com/Cratis/Chronicle/issues/4083 | None | [woksin](https://github.com/woksin) | None | None | None |
 | A nullable property on a [Passive] read model is never populated by the kernel, while ReadModelScenario populates it | https://github.com/Cratis/Chronicle/issues/4081 | None | [einari](https://github.com/einari) | None | None | None |
 | CI: Integration Specs failing repeatedly | https://github.com/Cratis/Chronicle/issues/4076 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
 | CI: Publish failing repeatedly | https://github.com/Cratis/Chronicle/issues/4075 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
@@ -144,7 +149,7 @@
 | Regression: string-keyed (ConceptAs<string>) read-model partition key raises 'Unrecognized Guid format' after 16.32.0 -> 16.38.2 | https://github.com/Cratis/Chronicle/issues/3844 | None | [einari](https://github.com/einari) | None | 13:07:40 | None |
 | AutoMap silently applies to every property of an event referenced anywhere at the root, not just the referencing property | https://github.com/Cratis/Chronicle/issues/3843 | None | [einari](https://github.com/einari) | None | 18:51:45 | None |
 | Complete the v17.0.0 accident cleanup: npm ghost blocks all client publishes (72h deadline) | https://github.com/Cratis/Chronicle/issues/3842 | None | [woksin](https://github.com/woksin) | 3 days, 13:57:09 | 11 days, 21:33:40 | None |
-| Integration legs are fail-open on binary-cache eviction — reruns of failed jobs can never succeed | https://github.com/Cratis/Chronicle/issues/3838 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Integration legs are fail-open on binary-cache eviction — reruns of failed jobs can never succeed | https://github.com/Cratis/Chronicle/issues/3838 | None | [woksin](https://github.com/woksin) | 27 days, 18:33:44 | None | None |
 | Document issue-label conventions: taxonomy axes and the idea/investigate staleness exemption | https://github.com/Cratis/Chronicle/issues/3827 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Epic: shared storage-contract spec suite across MongoDB, SQL, InMemory, and key vaults | https://github.com/Cratis/Chronicle/issues/3826 | None | [woksin](https://github.com/woksin) | None | None | None |
 | GH Python workflow security | https://github.com/Cratis/Chronicle/issues/3824 | None | [Midnighter](https://github.com/Midnighter) | None | None | None |
@@ -303,8 +308,4 @@
 | Consolidate the Testing client's in-memory storage doubles onto Storage.InMemory | https://github.com/Cratis/Chronicle/issues/3434 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | 68 days, 16:35:41 | None | None |
 | Constraint index does not need the actual data | https://github.com/Cratis/Chronicle/issues/3430 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | 32 days, 23:02:04 | 32 days, 23:02:05 | None |
 | [RemovedWith] attribute does not work with empty removal events using implicit EventSourceId resolution | https://github.com/Cratis/Chronicle/issues/3421 | None | [einari](https://github.com/einari) | 36 days, 22:02:14 | 36 days, 22:02:15 | None |
-| Read model reactors: reliable Added/Modified change type for reducer-backed and replayed changes | https://github.com/Cratis/Chronicle/issues/3418 | None | [woksin](https://github.com/woksin) | None | None | None |
-| Fix Coverage build problems | https://github.com/Cratis/Chronicle/issues/3407 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 3:02:19 | None |
-| Unable to find a datacollector with friendly name 'XPlat Code Coverage' | https://github.com/Cratis/Chronicle/issues/3405 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | 68 days, 7:11:10 | 68 days, 7:11:11 | None |
-| Aspire: slim-image WithMongoDB silently requires a MongoDB replica set + directConnection — document and/or provide a provisioning helper | https://github.com/Cratis/Chronicle/issues/3400 | None | [woksin](https://github.com/woksin) | None | 49 days, 23:55:44 | None |
-| Missing paging in Event Types in workbench | https://github.com/Cratis/Chronicle/issues/3396 | [einari](https://github.com/einari), [Copilot](https://github.com/Copilot) | [einari](https://github.com/einari) | None | 59 days, 1:47:51 | None |
+| Read model reactors: reliable Added/Modified change type for reducer-backed and replayed changes | https://github.com/Cratis/Chronicle/issues/3418 | None | [woksin](https://github.com/woksin) | None | 
