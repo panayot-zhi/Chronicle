@@ -2,18 +2,33 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 176 days, 11:08:55 | 19 days, 14:31:33 | 692 days, 8:55:50 |
-| Time to close | 78 days, 0:47:41 | 4 days, 2:06:11 | 392 days, 12:37:43 |
+| Time to first response | 158 days, 6:14:59 | 19 days, 14:16:19 | 675 days, 1:47:48 |
+| Time to close | 72 days, 23:48:36 | 3 days, 19:00:49 | 340 days, 15:25:14 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 237 |
-| Number of items closed | 763 |
+| Number of items that remain open | 245 |
+| Number of items closed | 755 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Webhook authorization schemas are missing in non-System stores while AddWebhooks reports success | https://github.com/Cratis/Chronicle/issues/4567 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Protected projection Watch corrupts cipher-shaped plaintext and namespace confidentiality | https://github.com/Cratis/Chronicle/issues/4566 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Joining silo exits when a startup reactor subscribe exhausts its retries on a busy cluster | https://github.com/Cratis/Chronicle/issues/4565 | None | [einari](https://github.com/einari) | None | None | None |
+| Open-schema derived child joins fail projection registration with a null key property path | https://github.com/Cratis/Chronicle/issues/4564 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Honor mixed all-event subscriptions in projection replay and snapshot queries | https://github.com/Cratis/Chronicle/issues/4562 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Preserve protected-value subject lineage in projection replay and sessions | https://github.com/Cratis/Chronicle/issues/4561 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Observer unsubscribe stalls block reactor registration during reconnect storms | https://github.com/Cratis/Chronicle/issues/4559 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 7:45:33 | None |
+| Shared ObserverState.Empty partition sets let reactor catch-up drop live projection events | https://github.com/Cratis/Chronicle/issues/4558 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Projection child schema validation rejects legacy PascalCase property names | https://github.com/Cratis/Chronicle/issues/4556 | None | [einari](https://github.com/einari) | None | 1:10:06 | None |
+| Provide current canonical Python contracts as guarded release assets | https://github.com/Cratis/Chronicle/issues/4554 | None | [einari](https://github.com/einari) | None | 1:03:11 | None |
+| Reject reserved confidentiality identifiers at the PII write boundary | https://github.com/Cratis/Chronicle/issues/4553 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Classified collection-valued array elements bypass compliance and confidentiality handlers | https://github.com/Cratis/Chronicle/issues/4552 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Compliance metadata under additionalProperties is not applied to dictionary values | https://github.com/Cratis/Chronicle/issues/4551 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Protected numeric values release as JSON strings instead of their schema scalar kind | https://github.com/Cratis/Chronicle/issues/4550 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Global encrypted values cannot provision keys with MongoDB: reserved store name contains $ | https://github.com/Cratis/Chronicle/issues/4549 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Finishing catch-up job can strand a reactor behind a newly seeded partition | https://github.com/Cratis/Chronicle/issues/4548 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Stored global seeds are not applied to namespaces created after SeedEvents on 19.29.4 | https://github.com/Cratis/Chronicle/issues/4547 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Reject incompatible definition-derived guards in same-id batches | https://github.com/Cratis/Chronicle/issues/4545 | None | [einari](https://github.com/einari) | None | None | None |
@@ -281,19 +296,4 @@
 | Reading a property path creates and assigns null intermediates on the source object | https://github.com/Cratis/Chronicle/issues/4128 | None | [woksin](https://github.com/woksin) | 13:55:57 | 2 days, 22:24:44 | None |
 | Document hosting the kernel on Azure App Service and Container Apps | https://github.com/Cratis/Chronicle/issues/4127 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Let the MongoDB integration fixtures use an external connection string | https://github.com/Cratis/Chronicle/issues/4126 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Projection engine drops or double-applies constructs the declaration language accepts | https://github.com/Cratis/Chronicle/issues/4125 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | 14:15:05 | 4 days, 7:12:03 | None |
-| Literal mappings in projection declarations likely resolve to null at runtime | https://github.com/Cratis/Chronicle/issues/4124 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | 14:13:37 | 2 days, 2:10:44 | None |
-| Constraint index updates run after commit and fail silently | https://github.com/Cratis/Chronicle/issues/4123 | None | [woksin](https://github.com/woksin) | 14:33:31 | None | None |
-| Unique constraints claim the empty-string value when the constrained property is null | https://github.com/Cratis/Chronicle/issues/4122 | None | [woksin](https://github.com/woksin) | 14:33:32 | 2 days, 23:03:54 | None |
-| Reactors cannot return a handler-supported side effect synchronously | https://github.com/Cratis/Chronicle/issues/4121 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | 14:41:17 | 4 days, 12:42:13 | None |
-| Observing read-model instances fails on the SQL sink | https://github.com/Cratis/Chronicle/issues/4120 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | 14:57:12 | 2 days, 23:39:16 | None |
-| $causedBy in a projection declaration compiles but cannot be resolved at runtime | https://github.com/Cratis/Chronicle/issues/4119 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | 15:00:10 | 2 days, 23:45:26 | None |
-| Couple to the Screenplay compiler by diagnostic code and guard the pinned version | https://github.com/Cratis/Chronicle/issues/4118 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Projection editor help lists $eventContext.causationId, which does not exist | https://github.com/Cratis/Chronicle/issues/4117 | None | [woksin](https://github.com/woksin) | 15:01:46 | 2 days, 23:29:02 | None |
-| Generating a projection declaration drops nested blocks | https://github.com/Cratis/Chronicle/issues/4116 | None | [woksin](https://github.com/woksin) | 15:01:47 | 2 days, 23:29:01 | None |
-| Failed partition retry can be deferred by the 48-hour reminder period | https://github.com/Cratis/Chronicle/issues/4113 | None | [woksin](https://github.com/woksin) | None | 11:02:19 | None |
-| TEST_PERMISSION_PROBE_DO_NOT_KEEP | https://github.com/Cratis/Chronicle/issues/4110 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | 0:00:06 | None |
-| A 'variant' block in a projection declaration throws instead of reporting a compiler error | https://github.com/Cratis/Chronicle/issues/4109 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2 days, 8:23:21 | None |
-| A reactor that returns a value never completes in a host set up with AddCratisChronicle alone | https://github.com/Cratis/Chronicle/issues/4107 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 3 days, 0:31:41 | None |
-| ReadModelScenario and the kernel disagree on child property sets in constant-parent-key projections | https://github.com/Cratis/Chronicle/issues/4105 | None | [einari](https://github.com/einari) | None | 3:00:58 | None |
-| Getting-started command exposes development ports on all network interfaces | https://g
+|
