@@ -2,21 +2,23 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 158 days, 6:14:59 | 19 days, 14:16:19 | 675 days, 1:47:48 |
-| Time to close | 72 days, 23:48:36 | 3 days, 19:00:49 | 340 days, 15:25:14 |
+| Time to first response | 157 days, 6:54:00 | 19 days, 14:04:25 | 674 days, 6:11:39 |
+| Time to close | 72 days, 19:03:20 | 3 days, 18:53:12 | 340 days, 5:21:30 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 245 |
-| Number of items closed | 755 |
+| Number of items that remain open | 244 |
+| Number of items closed | 756 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Testing scenarios stamp events with local time instead of UTC | https://github.com/Cratis/Chronicle/issues/4571 | None | [einari](https://github.com/einari) | None | None | None |
+| Passive read model's constant-valued bool reads false through the single-instance fold, true through snapshots | https://github.com/Cratis/Chronicle/issues/4569 | None | [einari](https://github.com/einari) | None | 16:34:08 | None |
 | Webhook authorization schemas are missing in non-System stores while AddWebhooks reports success | https://github.com/Cratis/Chronicle/issues/4567 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Protected projection Watch corrupts cipher-shaped plaintext and namespace confidentiality | https://github.com/Cratis/Chronicle/issues/4566 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Joining silo exits when a startup reactor subscribe exhausts its retries on a busy cluster | https://github.com/Cratis/Chronicle/issues/4565 | None | [einari](https://github.com/einari) | None | None | None |
+| Joining silo exits when a startup reactor subscribe exhausts its retries on a busy cluster | https://github.com/Cratis/Chronicle/issues/4565 | None | [einari](https://github.com/einari) | None | 1 day, 6:56:38 | None |
 | Open-schema derived child joins fail projection registration with a null key property path | https://github.com/Cratis/Chronicle/issues/4564 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Honor mixed all-event subscriptions in projection replay and snapshot queries | https://github.com/Cratis/Chronicle/issues/4562 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Preserve protected-value subject lineage in projection replay and sessions | https://github.com/Cratis/Chronicle/issues/4561 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
@@ -169,7 +171,7 @@
 | PostgreSQL truncates long read model table names, so replay backups can overwrite each other or the live table | https://github.com/Cratis/Chronicle/issues/4340 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Passive (immediate) projection returns null for keys with many events after a failed fold | https://github.com/Cratis/Chronicle/issues/4337 | None | [einari](https://github.com/einari) | None | 4:21:26 | None |
 | Watermark-rejected projection writes are still saved as changesets and published | https://github.com/Cratis/Chronicle/issues/4336 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| A full reducer replay has no replay context and folds onto live documents | https://github.com/Cratis/Chronicle/issues/4335 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| A full reducer replay has no replay context and folds onto live documents | https://github.com/Cratis/Chronicle/issues/4335 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | 6 days, 11:41:42 | 6 days, 13:01:59 | None |
 | Partition rewinds (revise/redact) do not update existing read models | https://github.com/Cratis/Chronicle/issues/4334 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Release coverage statistics miss PR coverage once integration runs only on request | https://github.com/Cratis/Chronicle/issues/4333 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | TypeScript contracts: require() fails because the CommonJS build is loaded as ESM | https://github.com/Cratis/Chronicle/issues/4331 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 8:35:20 | None |
@@ -293,7 +295,4 @@
 | AppendResult.WaitForCompletion times out on observers that do not handle the appended event | https://github.com/Cratis/Chronicle/issues/4132 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | 12:44:13 | 2 days, 21:32:39 | None |
 | Composite unique constraints collide when a component contains the separator | https://github.com/Cratis/Chronicle/issues/4131 | None | [woksin](https://github.com/woksin) | 13:02:41 | None | None |
 | Prove Screenplay's semantic model lowers projections the way the definition visitor does | https://github.com/Cratis/Chronicle/issues/4130 | None | [woksin](https://github.com/woksin) | None | None | None |
-| Reading a property path creates and assigns null intermediates on the source object | https://github.com/Cratis/Chronicle/issues/4128 | None | [woksin](https://github.com/woksin) | 13:55:57 | 2 days, 22:24:44 | None |
-| Document hosting the kernel on Azure App Service and Container Apps | https://github.com/Cratis/Chronicle/issues/4127 | None | [woksin](https://github.com/woksin) | None | None | None |
-| Let the MongoDB integration fixtures use an external connection string | https://github.com/Cratis/Chronicle/issues/4126 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-|
+| Reading a property path creates and assigns null intermediates on the source object | https://github.com/Cratis/Chronicle/issues/4128 | None | [woksin](https://github.com/woksin) 
