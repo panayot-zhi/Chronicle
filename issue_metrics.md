@@ -2,18 +2,36 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 99 days, 22:39:39 | 4 days, 20:52:09 | 499 days, 12:21:32 |
-| Time to close | 60 days, 19:02:30 | 3 days, 4:31:49 | 232 days, 18:42:20 |
+| Time to first response | 86 days, 15:32:44 | 4 days, 4:49:32 | 402 days, 10:38:34 |
+| Time to close | 51 days, 10:50:54 | 3 days, 0:31:41 | 113 days, 11:25:59 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 242 |
-| Number of items closed | 758 |
+| Number of items that remain open | 255 |
+| Number of items closed | 745 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| ReadModelScenario does not apply nested-path Set from fluent projections | https://github.com/Cratis/Chronicle/issues/4652 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 0:00:06 | None |
+| EventSourceId<T> formats numeric and date identities with the current culture | https://github.com/Cratis/Chronicle/issues/4651 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| MongoDB Testcontainers wait strategy times out starting ChronicleConfigurableFixture's Mongo container | https://github.com/Cratis/Chronicle/issues/4650 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | None | None |
+| Same-length array change replaces the array with a single element in the read model | https://github.com/Cratis/Chronicle/issues/4648 | None | [einari](https://github.com/einari) | None | None | None |
+| Cross-store typed read of a [PII] event property intermittently returns corrupted '***'-prefixed content (19.25.2 good, 19.33.3 bad) | https://github.com/Cratis/Chronicle/issues/4645 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | None | None | None |
+| Statistics projection replay times out on a large partition, leaves jobs Running and floods the log on restart | https://github.com/Cratis/Chronicle/issues/4644 | None | [woksin](https://github.com/woksin) | None | None | None |
+| ObserverAlerts.RefreshHistory throws KeyNotFoundException for AlertRaised; alert state never reconciles | https://github.com/Cratis/Chronicle/issues/4643 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Event seeding cannot target an event stream type or stream id | https://github.com/Cratis/Chronicle/issues/4642 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Unique constraints that keep every value, not one per event source | https://github.com/Cratis/Chronicle/issues/4641 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Captures from events: translate public events in an inbox into private events | https://github.com/Cratis/Chronicle/issues/4640 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | None | None |
+| Public event types: declare them, and keep private events out of the outbox | https://github.com/Cratis/Chronicle/issues/4639 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | None | None |
+| Workbench: event store level Event Sequences page with statistics and retention configuration | https://github.com/Cratis/Chronicle/issues/4638 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | None | None |
+| Set an event sequence's retention policy through Kernel commands, gRPC and the client | https://github.com/Cratis/Chronicle/issues/4637 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | None | None |
+| Projection declaration language and Workbench: event types as projection targets | https://github.com/Cratis/Chronicle/issues/4636 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | None | None |
+| Client: projections and reducers for event types, appending to the outbox by convention | https://github.com/Cratis/Chronicle/issues/4635 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | None | None |
+| Projection and reducer engine: target a schema, not a read model, so event types can be targets | https://github.com/Cratis/Chronicle/issues/4634 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | None | None |
+| Protected decision reads scoped to one event stream | https://github.com/Cratis/Chronicle/issues/4633 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Silo shutdown logs one TaskCanceledException error per deactivating grain | https://github.com/Cratis/Chronicle/issues/4630 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Client reactor registration across namespaces can throw ArgumentNullException in ReactorDefinitionComparer | https://github.com/Cratis/Chronicle/issues/4626 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Derived children recreated by keyed updates lack _derivedTypeId and cannot be read back | https://github.com/Cratis/Chronicle/issues/4624 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Release protected values in every generation of GenerationalContent, not only the current content | https://github.com/Cratis/Chronicle/issues/4623 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
@@ -81,13 +99,13 @@
 | Reducer batch failure advances recovery beyond unpersisted folds | https://github.com/Cratis/Chronicle/issues/4540 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | 3 days, 9:12:20 | 3 days, 16:58:04 | None |
 | Projection Preview drops properties when inferring the read-model schema | https://github.com/Cratis/Chronicle/issues/4539 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | 3 days, 9:20:31 | 3 days, 11:22:09 | None |
 | MongoDB RemovedWithJoin does not translate child Id/id to _id | https://github.com/Cratis/Chronicle/issues/4538 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | 3 days, 10:05:27 | 3 days, 12:07:05 | None |
-| Reactor rejection followed by ConnectionKeepAlive Reading is already in progress failure | https://github.com/Cratis/Chronicle/issues/4537 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Reactor rejection followed by ConnectionKeepAlive Reading is already in progress failure | https://github.com/Cratis/Chronicle/issues/4537 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 4 days, 12:16:23 | None |
 | Read models lose their key when the identifier property is not spelled id or Id | https://github.com/Cratis/Chronicle/issues/4536 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 3 days, 13:20:23 | None |
 | Upgrade to Cratis.Orleans 1.15.0 for bounded terminal-job retention | https://github.com/Cratis/Chronicle/issues/4534 | None | [einari](https://github.com/einari) | None | 1:36:20 | None |
-| Publish open alert incident gauges | https://github.com/Cratis/Chronicle/issues/4533 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Publish open alert incident gauges | https://github.com/Cratis/Chronicle/issues/4533 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 5 days, 12:39:50 | None |
 | In-memory sink replaces the root document on a child join | https://github.com/Cratis/Chronicle/issues/4531 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Child joins use the resolved join key as the root document key | https://github.com/Cratis/Chronicle/issues/4530 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Tag-filtered reactors receive excluded events during historical catch-up | https://github.com/Cratis/Chronicle/issues/4529 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Tag-filtered reactors receive excluded events during historical catch-up | https://github.com/Cratis/Chronicle/issues/4529 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 5 days, 14:07:22 | None |
 | Expose the applied or rejected outcome of asynchronous event revision requests | https://github.com/Cratis/Chronicle/issues/4526 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Apply event compliance before persisting revision content and revision requests | https://github.com/Cratis/Chronicle/issues/4525 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 3 days, 22:33:54 | None |
 | Child [FromAll] mappings are not applied to children without a root all-event subscription | https://github.com/Cratis/Chronicle/issues/4524 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
@@ -143,7 +161,7 @@
 | A full projection replay loses children written from other partitions (MongoDB: path must exist to apply array updates) | https://github.com/Cratis/Chronicle/issues/4448 | None | [einari](https://github.com/einari) | None | None | None |
 | Reactivating a replaying observer nobody is subscribed to can start its replay with no event types | https://github.com/Cratis/Chronicle/issues/4445 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 16:41:21 | None |
 | Fluent projection builder drops derivative event registrations when From<T> targets a base event type | https://github.com/Cratis/Chronicle/issues/4442 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 19:36:02 | None |
-| Watchdog checks and completing catch-up or replay jobs route a quarantined observer out of quarantine | https://github.com/Cratis/Chronicle/issues/4440 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Watchdog checks and completing catch-up or replay jobs route a quarantined observer out of quarantine | https://github.com/Cratis/Chronicle/issues/4440 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 7 days, 2:03:37 | None |
 | Appending docs list cross-cutting properties as a kernel append step | https://github.com/Cratis/Chronicle/issues/4439 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2:48:57 | None |
 | An event a child projection handles only through an event property, or that the root also derives, is treated as child-only or as creating the root | https://github.com/Cratis/Chronicle/issues/4436 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 23:06:58 | None |
 | An event that changes no property creates its read model when materialized, but not in immediate projections, decision reads or ReadModelScenario | https://github.com/Cratis/Chronicle/issues/4434 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 23:39:58 | None |
@@ -276,21 +294,4 @@
 | CI: Update Packages failing repeatedly | https://github.com/Cratis/Chronicle/issues/4255 | [woksin](https://github.com/woksin) | [github-actions[bot]](https://github.com/github-actions[bot]) | 5 days, 15:38:32 | 5 days, 15:38:33 | None |
 | A resumed reducer batch that straddles the watermark re-folds applied events | https://github.com/Cratis/Chronicle/issues/4254 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Emit the type token from the fluent CompositeKeyBuilder once kernels accept it | https://github.com/Cratis/Chronicle/issues/4253 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 20:18:48 | None |
-| and_the_read_model_is_never_registered fails intermittently in full Core.Specs runs | https://github.com/Cratis/Chronicle/issues/4252 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1 day, 18:17:20 | None |
-| MongoDB sink drops the rest of a bulk write after the first failed operation | https://github.com/Cratis/Chronicle/issues/4244 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 23:38:01 | None |
-| Require at least one silo to finalize a projection replay | https://github.com/Cratis/Chronicle/issues/4243 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2 days, 9:22:09 | None |
-| ImmediateProjectionKey splits read-model keys that contain '#' | https://github.com/Cratis/Chronicle/issues/4241 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1 day, 0:55:47 | None |
-| Kernel / CLI / Workbench support for repairing registered event types (replace or delete a registered schema without a new generation) | https://github.com/Cratis/Chronicle/issues/4240 | None | [einari](https://github.com/einari) | None | None | None |
-| Projection declarations reject negative add/subtract operands and round large integer literals | https://github.com/Cratis/Chronicle/issues/4239 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| [PII] values in causation chains are not covered by crypto-shredding | https://github.com/Cratis/Chronicle/issues/4238 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2 days, 10:10:45 | None |
-| Actions cache quota (10GB) exceeded, causing intermittent integration-matrix failures unrelated to the PR under test | https://github.com/Cratis/Chronicle/issues/4236 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | 4 days, 20:52:09 | 4 days, 20:52:11 | None |
-| Verify Spec Coverage Retained: one-off run failed with zero jobs scheduled (run 36187663359) | https://github.com/Cratis/Chronicle/issues/4222 | None | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | 4 days, 22:45:08 | 4 days, 22:45:09 | None |
-| The Elixir contracts package requires grpc ~> 0.11, which has security advisories | https://github.com/Cratis/Chronicle/issues/4214 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2 days, 20:39:05 | None |
-| The Elixir contracts package reports version 0.1.0 when compiled, so it can't be pinned | https://github.com/Cratis/Chronicle/issues/4213 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 5 days, 0:31:32 | None |
-| Shared docs: TypeScript gaps in console get-started and major-versions upgrade guide | https://github.com/Cratis/Chronicle/issues/4212 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 5 days, 13:32:49 | None |
-| Wire protocol project rule names the wrong folder for generated services | https://github.com/Cratis/Chronicle/issues/4209 | None | [woksin](https://github.com/woksin) | 1:50:38 | 1:59:42 | None |
-| Kernel development Compose file publishes services on all interfaces | https://github.com/Cratis/Chronicle/issues/4208 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 8:09:37 | None |
-| CHR0037 flags multi-generation chains written with EventTypeGenerationFor | https://github.com/Cratis/Chronicle/issues/4207 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2:27:15 | None |
-| CHR0004 rejects an EventsWithConcurrencyScopes return and blames a parameter | https://github.com/Cratis/Chronicle/issues/4206 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 6:30:52 | None |
-| CHR0028 flags .AutoMap() that re-enables AutoMap after .NoAutoMap() | https://github.com/Cratis/Chronicle/issues/4205 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1 day, 2:28:07 | None |
-| identityProvider.certificate is accepted but never applied | https://github.com/Cratis/Chronicle/issues/4204 | [woksin](https://github.com/wo
+| and_the_read_model_is_neve
