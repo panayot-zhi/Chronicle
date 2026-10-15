@@ -2,27 +2,51 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 24 days, 13:18:40 | 3 days, 9:16:26 | 49 days, 19:53:29 |
-| Time to close | 13 days, 0:41:05 | 1 day, 12:59:46 | 31 days, 5:33:05 |
+| Time to first response | 16 days, 10:50:08 | 3 days, 7:40:18 | 37 days, 2:09:42 |
+| Time to close | 9 days, 4:12:31 | 1 day, 8:25:22 | 26 days, 19:01:41 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 288 |
-| Number of items closed | 712 |
+| Number of items that remain open | 300 |
+| Number of items closed | 700 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Read models that declare the event stream they are built from | https://github.com/Cratis/Chronicle/issues/4932 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Docs: how decision guards are derived, and more consistency scenarios | https://github.com/Cratis/Chronicle/issues/4931 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 0:35:52 | None |
+| Let the event sequence grain take a TimeProvider for Occurred and receipt RecordedAt | https://github.com/Cratis/Chronicle/issues/4930 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Remove dead InProcessChronicleConnection and InProcessServices from Chronicle.Testing | https://github.com/Cratis/Chronicle/issues/4929 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Report which event caused a concurrency violation | https://github.com/Cratis/Chronicle/issues/4926 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Integration specs cannot hold a materialized projection behind the event log | https://github.com/Cratis/Chronicle/issues/4923 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| A reactor whose only handlers take [EventTypeGenerationFor] types registers silently and never becomes active | https://github.com/Cratis/Chronicle/issues/4922 | None | [woksin](https://github.com/woksin) | None | None | None |
+| docs and the Library sample disagree on MongoDB under Aspire | https://github.com/Cratis/Chronicle/issues/4920 | None | [woksin](https://github.com/woksin) | None | None | None |
+| subscriptions pin event types to generation 1 | https://github.com/Cratis/Chronicle/issues/4919 | None | [woksin](https://github.com/woksin) | None | None | None |
+| no way to re-forward outbox history into an inbox | https://github.com/Cratis/Chronicle/issues/4918 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Aspire connection string is not read by the .NET client | https://github.com/Cratis/Chronicle/issues/4917 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Compact retained occurrences while keeping their deduplication identities | https://github.com/Cratis/Chronicle/issues/4913 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Restore fails: Microsoft.Data.SqlClient 7.1.1 pulls in vulnerable System.Security.Cryptography.Pkcs 9.0.18 | https://github.com/Cratis/Chronicle/issues/4912 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1:13:10 | None |
+| Durable application occurrences and UTC schedules with fenced recovery | https://github.com/Cratis/Chronicle/issues/4911 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Client: make ConflictingEnrollmentScope typed and redactable for enrollment contributors | https://github.com/Cratis/Chronicle/issues/4909 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2:55:13 | None |
+| Flaky spec: for_ClaimsBasedNamespaceResolver races on the process-wide ClaimsPrincipal.ClaimsPrincipalSelector | https://github.com/Cratis/Chronicle/issues/4908 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Make constraint-index repair budgets and limits configurable | https://github.com/Cratis/Chronicle/issues/4906 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Revising an event does not move its unique-constraint claims or closures | https://github.com/Cratis/Chronicle/issues/4905 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Alert when a sequence's constraint-index repair keeps failing | https://github.com/Cratis/Chronicle/issues/4904 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Revisions and redactions are not detected by append conditions | https://github.com/Cratis/Chronicle/issues/4900 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| ForEventSource accepts a guard for a different stream than the append | https://github.com/Cratis/Chronicle/issues/4899 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 18:49:28 | None |
+| Explicit concurrency scopes with an unavailable tail are silently skipped | https://github.com/Cratis/Chronicle/issues/4898 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 18:49:29 | None |
+| Builds fail restore: System.Security.Cryptography.Pkcs/Xml 10.0.12 have known vulnerabilities | https://github.com/Cratis/Chronicle/issues/4897 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 0:39:57 | None |
+| Constraint index silently diverges from the event log when a post-commit claim update fails | https://github.com/Cratis/Chronicle/issues/4895 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | SQLite integration bootstrap can fail with DatabaseMigrationIncomplete after a duplicate-table migration race | https://github.com/Cratis/Chronicle/issues/4894 | None | [woksin](https://github.com/woksin) | None | None | None |
-| Document event source definitions and streams end to end, linked with DCB | https://github.com/Cratis/Chronicle/issues/4893 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Position Chronicle accurately against DCB: decision models and append conditions, not multi-entity events | https://github.com/Cratis/Chronicle/issues/4892 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Implicit concurrency scopes merged per label in the unit of work | https://github.com/Cratis/Chronicle/issues/4888 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Document event source definitions and streams end to end, linked with DCB | https://github.com/Cratis/Chronicle/issues/4893 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2:21:33 | None |
+| Position Chronicle accurately against DCB: decision models and append conditions, not multi-entity events | https://github.com/Cratis/Chronicle/issues/4892 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2:51:31 | None |
+| Implicit concurrency scopes merged per label in the unit of work | https://github.com/Cratis/Chronicle/issues/4888 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 23:09:45 | None |
 | Flaky spec: and_an_unsubscribed_observer_reconnects_with_a_filter depends on a 150 ms deadline | https://github.com/Cratis/Chronicle/issues/4886 | None | [woksin](https://github.com/woksin) | None | None | None |
 | CHR0054: let hosts declare additional supported reactor return types (Arc CommandInvocation) | https://github.com/Cratis/Chronicle/issues/4882 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 4:01:59 | None |
 | SQL database names longer than the provider limit collide on PostgreSQL and fail on SQL Server | https://github.com/Cratis/Chronicle/issues/4880 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 0:00:31 | None |
 | Client ready health check reports Healthy before artifacts are registered | https://github.com/Cratis/Chronicle/issues/4877 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 0:16:52 | None |
-| Readiness and WaitForRegistration report the previous registration while the client registers again after a reconnect | https://github.com/Cratis/Chronicle/issues/4875 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Readiness and WaitForRegistration report the previous registration while the client registers again after a reconnect | https://github.com/Cratis/Chronicle/issues/4875 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 12:16:34 | None |
 | Characterization specs for concurrency-scope behaviour that write-side consistency relies on | https://github.com/Cratis/Chronicle/issues/4874 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 5:46:12 | None |
 | ReactorScenario: redeliver a recorded occurrence with its original context | https://github.com/Cratis/Chronicle/issues/4873 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 3:53:55 | None |
 | Readiness health check reports healthy before artifact registration completes | https://github.com/Cratis/Chronicle/issues/4872 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2:06:55 | None |
@@ -271,27 +295,4 @@
 | Observers.Replay can return an empty JobId for a replayable observer that does replay | https://github.com/Cratis/Chronicle/issues/4514 | [woksin](https://github.com/woksin) | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | 0:48:56 | 4 days, 20:55:57 | None |
 | Projection tagging docs say TypeScript cannot tag projections | https://github.com/Cratis/Chronicle/issues/4513 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 7 days, 18:53:37 | None |
 | Projection registration drops definition tags | https://github.com/Cratis/Chronicle/issues/4512 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 7 days, 18:53:38 | None |
-| Event-type statistics can block completion after the first state snapshot write fails | https://github.com/Cratis/Chronicle/issues/4511 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Verify that a stored event's content equals an attempted append | https://github.com/Cratis/Chronicle/issues/4510 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 6 days, 5:37:43 | None |
-| SQL Server storage fails in the Production and DevelopmentSlim images because the server runs in invariant globalization mode | https://github.com/Cratis/Chronicle/issues/4508 | None | [woksin](https://github.com/woksin) | None | None | None |
-| Rebuild or repair alert incident rows from the event log | https://github.com/Cratis/Chronicle/issues/4507 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Week composite keys pair the ISO week with the calendar year, so keys collide around New Year | https://github.com/Cratis/Chronicle/issues/4505 | None | [woksin](https://github.com/woksin) | None | None | None |
-| Resolve schema resource scopes before classifying documents as unprotected | https://github.com/Cratis/Chronicle/issues/4503 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Reducer fingerprint changes on every application release, forcing a full replay | https://github.com/Cratis/Chronicle/issues/4502 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 9:19:09 | None |
-| Child projection From<T> update silently dropped when the creating event also maps a differently keyed root | https://github.com/Cratis/Chronicle/issues/4501 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Observer resubscription can report success while stranded after a failed state-entry write | https://github.com/Cratis/Chronicle/issues/4500 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Prevent newer-generation observers from consuming history before migration backfill completes | https://github.com/Cratis/Chronicle/issues/4497 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| A scheduled observer quarantine can be replaced by an interleaved transition | https://github.com/Cratis/Chronicle/issues/4496 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| ReadModelScenario loses nested event property mapped through fluent Set().To() | https://github.com/Cratis/Chronicle/issues/4493 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 10 days, 15:37:44 | None |
-| AppendResult.WaitForCompletion times out on an unsubscribed $system.patterns observer in a newly used namespace | https://github.com/Cratis/Chronicle/issues/4492 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 8:38:11 | None |
-| Projection $add/$subtract reject event properties with a non-leading underscore | https://github.com/Cratis/Chronicle/issues/4491 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Support external MongoDB in client integration suites with isolated readers and safe resets | https://github.com/Cratis/Chronicle/issues/4485 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Safely reclaim abandoned reducer replay targets after workers drain | https://github.com/Cratis/Chronicle/issues/4484 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Client Snippet Verification fails on PR #4481: SA1515 in ChronicleFixture.cs(49) | https://github.com/Cratis/Chronicle/issues/4482 | [woksin](https://github.com/woksin) | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | 14:21:36 | 14:21:37 | None |
-| Compliance release reports success when a property fails to decrypt | https://github.com/Cratis/Chronicle/issues/4480 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Make observer alert delivery durable across restarts | https://github.com/Cratis/Chronicle/issues/4479 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Kernel integration JobsManager specs fail on main against mongo:7 (69/104) | https://github.com/Cratis/Chronicle/issues/4478 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| CausationManager.Add mutates a causation list shared across flows | https://github.com/Cratis/Chronicle/issues/4477 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 6:11:13 | None |
-| Flaky SQL sink replay spec collides on a SQLite table name | https://github.com/Cratis/Chronicle/issues/4476 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 18:35:38 | None |
-| Extract observer, failed-partition, job and recommendation diagnostic surfaces | https://github.com/Cratis/Chronicle/issues/4471 | None | [einari](https://github.com/einari) | None | None | None |
-| Extract event pivot and behav
+| Event-type statistics can block completion after the first state snapshot write fails | https://github.com/Cratis/Chronicle/issues/4511 | [woksin](https://github.com/woksin) | [woksin](https://github.co
