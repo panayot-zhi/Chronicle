@@ -2,19 +2,39 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 16 days, 10:50:08 | 3 days, 7:40:18 | 37 days, 2:09:42 |
-| Time to close | 9 days, 4:12:31 | 1 day, 8:25:22 | 26 days, 19:01:41 |
+| Time to first response | 14 days, 15:24:30 | 3 days, 6:13:48 | 36 days, 1:12:57 |
+| Time to close | 7 days, 7:36:03 | 1 day, 6:56:38 | 21 days, 3:24:32 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 300 |
-| Number of items closed | 700 |
+| Number of items that remain open | 317 |
+| Number of items closed | 683 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
-| Read models that declare the event stream they are built from | https://github.com/Cratis/Chronicle/issues/4932 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| GrpcCodeGenerator specs flake: absent optional concept becomes an empty value under parallel runs | https://github.com/Cratis/Chronicle/issues/4956 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Observer skips events a newer subscriber handles when its event types change during a rolling upgrade | https://github.com/Cratis/Chronicle/issues/4955 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Catch-up steps fail after successful delivery when per-step handled-event reports queue past the Orleans response timeout, leaving the job Running | https://github.com/Cratis/Chronicle/issues/4954 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Public API to suspend the ambient read region for nested host invocations | https://github.com/Cratis/Chronicle/issues/4953 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Event stores first created by a read never get their kernel projections | https://github.com/Cratis/Chronicle/issues/4952 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Document storage connection resolution, schema and CreateIfMissing | https://github.com/Cratis/Chronicle/issues/4951 | None | [einari](https://github.com/einari) | None | None | None |
+| Resolve MongoDB storage connections through the connection resolver | https://github.com/Cratis/Chronicle/issues/4950 | None | [einari](https://github.com/einari) | None | None | None |
+| Separate Runtime and Schema connections for SQL storage | https://github.com/Cratis/Chronicle/issues/4949 | None | [einari](https://github.com/einari) | None | None | None |
+| Resolve SQL storage connections through the connection resolver | https://github.com/Cratis/Chronicle/issues/4948 | None | [einari](https://github.com/einari) | None | None | None |
+| Add Storage.CreateIfMissing to stop the kernel from creating databases | https://github.com/Cratis/Chronicle/issues/4947 | None | [einari](https://github.com/einari) | None | None | None |
+| Configurable schema for SQL storage | https://github.com/Cratis/Chronicle/issues/4946 | None | [einari](https://github.com/einari) | None | None | None |
+| Pluggable connection and identity resolution for kernel storage (SQL and MongoDB) | https://github.com/Cratis/Chronicle/issues/4945 | None | [einari](https://github.com/einari) | None | None | None |
+| Observer replay can fail to finalize (CouldNotGetReplayContext) and leave the reactor Disconnected | https://github.com/Cratis/Chronicle/issues/4943 | None | [einari](https://github.com/einari) | None | None | None |
+| There is no way to remove a namespace; observer reminders resurrect it and its databases | https://github.com/Cratis/Chronicle/issues/4942 | None | [einari](https://github.com/einari) | None | None | None |
+| Reactor streams retry forever with a stale connection id after a kernel node restarts (ClientIsNotConnected) | https://github.com/Cratis/Chronicle/issues/4941 | None | [einari](https://github.com/einari) | None | None | None |
+| Release logs a 'no subject could be resolved' Warning for composed read models with a nullable [PII] concept, even when all values are null | https://github.com/Cratis/Chronicle/issues/4940 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Constraint index catch-up stalls while another constraint is pending repair | https://github.com/Cratis/Chronicle/issues/4939 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| CI: Benchmarks failing repeatedly | https://github.com/Cratis/Chronicle/issues/4938 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
+| Projection definition change not applied on every silo: new event type silently ignored, even by a full replay | https://github.com/Cratis/Chronicle/issues/4935 | None | [einari](https://github.com/einari) | None | None | None |
+| Root all-event mapping is no longer applied to a child created by childrenFrom (regression after 19.30.0) | https://github.com/Cratis/Chronicle/issues/4934 | None | [einari](https://github.com/einari) | None | None | None |
+| Read models that declare the event stream they are built from | https://github.com/Cratis/Chronicle/issues/4932 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 5:14:03 | None |
 | Docs: how decision guards are derived, and more consistency scenarios | https://github.com/Cratis/Chronicle/issues/4931 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 0:35:52 | None |
 | Let the event sequence grain take a TimeProvider for Occurred and receipt RecordedAt | https://github.com/Cratis/Chronicle/issues/4930 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Remove dead InProcessChronicleConnection and InProcessServices from Chronicle.Testing | https://github.com/Cratis/Chronicle/issues/4929 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
@@ -54,7 +74,7 @@
 | Global event seeds reach every namespace since 19.52 without being documented | https://github.com/Cratis/Chronicle/issues/4869 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 8:36:38 | None |
 | Unique-constraint rows stored before values were hashed never match and can block the SQL Server unique index | https://github.com/Cratis/Chronicle/issues/4866 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Report unit-of-work conflicts and violations to the caller in ASP.NET Core | https://github.com/Cratis/Chronicle/issues/4864 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Large-volume read-model integration spec times out under load | https://github.com/Cratis/Chronicle/issues/4863 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Large-volume read-model integration spec times out under load | https://github.com/Cratis/Chronicle/issues/4863 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2 days, 2:05:03 | None |
 | CHR0001 rejects appending a previous generation declared with EventTypeGenerationFor | https://github.com/Cratis/Chronicle/issues/4862 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 3:06:33 | None |
 | Client: enrollment hook for unit-of-work appends (scope contributor before AddEvent/AddEvents) | https://github.com/Cratis/Chronicle/issues/4861 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 7:16:32 | None |
 | observers remove can never remove an orphaned projection: the kernel's own subscription trips the 'client subscribed' guard | https://github.com/Cratis/Chronicle/issues/4859 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
@@ -69,7 +89,7 @@
 | ReadModelScenario: seed a projected instance for one key before replaying events | https://github.com/Cratis/Chronicle/issues/4846 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Document how to keep a decision correct with Chronicle, and correct the Dynamic Consistency Boundary pages | https://github.com/Cratis/Chronicle/issues/4845 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 3:44:21 | None |
 | Strongly consistent projection reads keep content of redacted or revised events | https://github.com/Cratis/Chronicle/issues/4844 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Single-node benchmarks report success with no results on macOS | https://github.com/Cratis/Chronicle/issues/4842 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Single-node benchmarks report success with no results on macOS | https://github.com/Cratis/Chronicle/issues/4842 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2 days, 7:38:02 | None |
 | Observer failure-recovery integration specs (reactors and reducers: and_it_fails.but_not_third_time) time out intermittently out-of-process on SQLite | https://github.com/Cratis/Chronicle/issues/4838 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Variants documentation: shared handlers, early joins and testing | https://github.com/Cratis/Chronicle/issues/4834 | None | [einari](https://github.com/einari) | None | 1:41:01 | None |
 | ReadModelScenario does not resolve the join of a variant's non-entering event when the variant is entered | https://github.com/Cratis/Chronicle/issues/4833 | None | [einari](https://github.com/einari) | None | 1:41:01 | None |
@@ -277,22 +297,4 @@
 | Reducer batch failure advances recovery beyond unpersisted folds | https://github.com/Cratis/Chronicle/issues/4540 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | 3 days, 9:12:20 | 3 days, 16:58:04 | None |
 | Projection Preview drops properties when inferring the read-model schema | https://github.com/Cratis/Chronicle/issues/4539 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | 3 days, 9:20:31 | 3 days, 11:22:09 | None |
 | MongoDB RemovedWithJoin does not translate child Id/id to _id | https://github.com/Cratis/Chronicle/issues/4538 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | 3 days, 10:05:27 | 3 days, 12:07:05 | None |
-| Reactor rejection followed by ConnectionKeepAlive Reading is already in progress failure | https://github.com/Cratis/Chronicle/issues/4537 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 4 days, 12:16:23 | None |
-| Read models lose their key when the identifier property is not spelled id or Id | https://github.com/Cratis/Chronicle/issues/4536 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 3 days, 13:20:23 | None |
-| Upgrade to Cratis.Orleans 1.15.0 for bounded terminal-job retention | https://github.com/Cratis/Chronicle/issues/4534 | None | [einari](https://github.com/einari) | None | 1:36:20 | None |
-| Publish open alert incident gauges | https://github.com/Cratis/Chronicle/issues/4533 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 5 days, 12:39:50 | None |
-| In-memory sink replaces the root document on a child join | https://github.com/Cratis/Chronicle/issues/4531 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 10 days, 5:43:24 | None |
-| Child joins use the resolved join key as the root document key | https://github.com/Cratis/Chronicle/issues/4530 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Tag-filtered reactors receive excluded events during historical catch-up | https://github.com/Cratis/Chronicle/issues/4529 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 5 days, 14:07:22 | None |
-| Expose the applied or rejected outcome of asynchronous event revision requests | https://github.com/Cratis/Chronicle/issues/4526 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Apply event compliance before persisting revision content and revision requests | https://github.com/Cratis/Chronicle/issues/4525 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 3 days, 22:33:54 | None |
-| Child [FromAll] mappings are not applied to children without a root all-event subscription | https://github.com/Cratis/Chronicle/issues/4524 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Subscribe pattern capture in newly used namespaces | https://github.com/Cratis/Chronicle/issues/4521 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| EventScenario can't combine an explicit identity with automatic constraint discovery | https://github.com/Cratis/Chronicle/issues/4520 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 8 days, 12:51:39 | None |
-| CI: Update Packages failing repeatedly | https://github.com/Cratis/Chronicle/issues/4519 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
-| FromAll docs describe the old TypeScript behavior | https://github.com/Cratis/Chronicle/issues/4518 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Event sources as registered definitions: IEventSource, streams, Kernel registration, Workbench page and event metadata | https://github.com/Cratis/Chronicle/issues/4516 | None | [einari](https://github.com/einari) | None | None | None |
-| Observers.Replay can return an empty JobId for a replayable observer that does replay | https://github.com/Cratis/Chronicle/issues/4514 | [woksin](https://github.com/woksin) | [cratis-direct[bot]](https://github.com/cratis-direct[bot]) | 0:48:56 | 4 days, 20:55:57 | None |
-| Projection tagging docs say TypeScript cannot tag projections | https://github.com/Cratis/Chronicle/issues/4513 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 7 days, 18:53:37 | None |
-| Projection registration drops definition tags | https://github.com/Cratis/Chronicle/issues/4512 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 7 days, 18:53:38 | None |
-| Event-type statistics can block completion after the first state snapshot write fails | https://github.com/Cratis/Chronicle/issues/4511 | [woksin](https://github.com/woksin) | [woksin](https://github.co
+| Reactor rejec
