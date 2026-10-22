@@ -2,27 +2,38 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 8 days, 6:36:18 | 3 days, 2:40:12 | 21 days, 20:42:44 |
-| Time to close | 5 days, 0:25:18 | 1 day, 2:28:20 | 16 days, 9:13:38 |
+| Time to first response | 8 days, 7:08:05 | 3 days, 2:15:46 | 21 days, 21:30:07 |
+| Time to close | 4 days, 20:16:33 | 1 day, 2:28:07 | 16 days, 6:53:11 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 374 |
-| Number of items closed | 626 |
+| Number of items that remain open | 375 |
+| Number of items closed | 625 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Stored webhooks are quarantined in Enforce mode when DNS resolution fails temporarily at subscribe | https://github.com/Cratis/Chronicle/issues/5255 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Testing scenarios register event types without visibility, so public-on-event-log appends pass in tests but fail in the kernel | https://github.com/Cratis/Chronicle/issues/5254 | None | [roar-nikolay-ytreeide](https://github.com/roar-nikolay-ytreeide) | None | None | None |
+| The SQL Server spec shard takes 13.5 minutes per pull request | https://github.com/Cratis/Chronicle/issues/5253 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Chronicle.Testing: every scenario regenerates all event type schemas | https://github.com/Cratis/Chronicle/issues/5252 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 9:38:02 | None |
+| Let a model-bound projection keep an explicit projection identifier | https://github.com/Cratis/Chronicle/issues/5251 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Projection stores an object with a single member named 'value' as that member's bare value | https://github.com/Cratis/Chronicle/issues/5250 | None | [einari](https://github.com/einari) | None | None | None |
+| Reactor handlers: return an ordered sequence of separate all-or-none append batches | https://github.com/Cratis/Chronicle/issues/5248 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| ExpandoObjectExtensions.Contains throws on a key of another type, so a projection future is never resolved | https://github.com/Cratis/Chronicle/issues/5247 | [woksin](https://github.com/woksin) | [roar-nikolay-ytreeide](https://github.com/roar-nikolay-ytreeide) | 0:14:46 | None | None |
+| Observers wait for the watchdog when spilling appended events to catch-up fails after a node loss | https://github.com/Cratis/Chronicle/issues/5246 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| SQL migration IDs sort lexically, so 19.1xx migrations run before 19.1x–19.9x ones on fresh databases | https://github.com/Cratis/Chronicle/issues/5244 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Reactor two-generations integration spec fails: RuntimeGenerationEvent has no migrators | https://github.com/Cratis/Chronicle/issues/5243 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Keep gRPC delivery fences across failure clearance and observer reactivation | https://github.com/Cratis/Chronicle/issues/5242 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Cancel a client reactor or reducer handler when the kernel abandons its delivery | https://github.com/Cratis/Chronicle/issues/5241 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Close a lapsed client connection so the client re-registers | https://github.com/Cratis/Chronicle/issues/5240 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Let a kernel waiting for the single-writer lease report ready so start-before-stop rollouts converge | https://github.com/Cratis/Chronicle/issues/5238 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Complete NuGet package metadata | https://github.com/Cratis/Chronicle/issues/5235 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Complete NuGet package metadata | https://github.com/Cratis/Chronicle/issues/5235 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 18:18:08 | None |
 | Approve webhook hosts proposed at registration without editing configuration | https://github.com/Cratis/Chronicle/issues/5234 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Expand five thin documentation pages | https://github.com/Cratis/Chronicle/issues/5232 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 0:24:16 | None |
 | Report a typed outcome-unknown error when an append is interrupted by node loss | https://github.com/Cratis/Chronicle/issues/5231 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Observers stop delivering when their host node is lost while the client stays connected | https://github.com/Cratis/Chronicle/issues/5230 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Observers stop delivering when their host node is lost while the client stays connected | https://github.com/Cratis/Chronicle/issues/5230 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 20:21:35 | None |
 | Prototype SQL storage-enforced writer fencing and binding publication on PostgreSQL, SQL Server and SQLite | https://github.com/Cratis/Chronicle/issues/5229 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Keep source-history corrections and erasure authoritative across projection generations | https://github.com/Cratis/Chronicle/issues/5228 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Reducer generation admission and dispatch: exact implementation selection, concurrent hosts and isolated sinks | https://github.com/Cratis/Chronicle/issues/5227 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
@@ -36,7 +47,7 @@
 | Speed up or split Storage.Sql.Specs in CI | https://github.com/Cratis/Chronicle/issues/5216 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 6:54:34 | None |
 | A removed read-model root is re-created as an uninitialized placeholder by later child events | https://github.com/Cratis/Chronicle/issues/5214 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Constraint index retry spec sometimes sees two attempts instead of three | https://github.com/Cratis/Chronicle/issues/5210 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Configuration binding for Orleans cluster membership timings | https://github.com/Cratis/Chronicle/issues/5209 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Configuration binding for Orleans cluster membership timings | https://github.com/Cratis/Chronicle/issues/5209 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1 day, 3:01:42 | None |
 | Webhooks: managed identity / Entra workload identity for outbound OAuth | https://github.com/Cratis/Chronicle/issues/5208 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | PostgreSQL: native Microsoft Entra (managed identity) authentication | https://github.com/Cratis/Chronicle/issues/5207 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Startup and migration telemetry for clustered SQL deployments | https://github.com/Cratis/Chronicle/issues/5206 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
@@ -48,16 +59,16 @@
 | SQLite sink: decimal stored as TEXT sorts and compares as text | https://github.com/Cratis/Chronicle/issues/5200 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Read models: composite and descending indexes | https://github.com/Cratis/Chronicle/issues/5199 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | SQL sinks: indexes on nested JSON paths and arrays | https://github.com/Cratis/Chronicle/issues/5198 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| SQL Server sink: bounded NVARCHAR for indexed and length-declared strings | https://github.com/Cratis/Chronicle/issues/5197 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| SQL sinks: run joins and child lookups as SQL filters instead of loading the whole table | https://github.com/Cratis/Chronicle/issues/5196 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| SQL sinks: build read-model indexes online and manage their lifecycle | https://github.com/Cratis/Chronicle/issues/5195 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| SQL Server sink: bounded NVARCHAR for indexed and length-declared strings | https://github.com/Cratis/Chronicle/issues/5197 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1 day, 3:02:06 | None |
+| SQL sinks: run joins and child lookups as SQL filters instead of loading the whole table | https://github.com/Cratis/Chronicle/issues/5196 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1 day, 3:02:04 | None |
+| SQL sinks: build read-model indexes online and manage their lifecycle | https://github.com/Cratis/Chronicle/issues/5195 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1 day, 3:02:04 | None |
 | Request event store binds the namespace before authentication, so claim tenancy can write to the default namespace | https://github.com/Cratis/Chronicle/issues/5194 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 4:36:26 | None |
 | SQL sinks ignore [Index] on read-model properties | https://github.com/Cratis/Chronicle/issues/5193 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 5:42:13 | None |
 | Package and README metadata: Cratis as author, canonical www.cratis.io links | https://github.com/Cratis/Chronicle/issues/5191 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1:00:38 | None |
 | Nested child updates fail with MongoDB error 2 after the parent is removed | https://github.com/Cratis/Chronicle/issues/5190 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 4:58:11 | None |
 | Projection catch-up retries a deterministic sink write failure forever instead of failing the partition | https://github.com/Cratis/Chronicle/issues/5189 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Catch-up loses bulk windows (BulkWindowLost) on a healthy single silo | https://github.com/Cratis/Chronicle/issues/5188 | None | [woksin](https://github.com/woksin) | None | None | None |
-| Retire a webhook on 410 Gone and keep an alert after retirement | https://github.com/Cratis/Chronicle/issues/5186 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Retire a webhook on 410 Gone and keep an alert after retirement | https://github.com/Cratis/Chronicle/issues/5186 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Expand the kernel contributing page and give duplicate concept pages distinct titles | https://github.com/Cratis/Chronicle/issues/5181 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 0:20:32 | None |
 | Cut repeated setup and duplicate work in Requested Integration | https://github.com/Cratis/Chronicle/issues/5174 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Decide how much CodeQL and Code Quality scanning runs on pull requests | https://github.com/Cratis/Chronicle/issues/5173 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
@@ -94,7 +105,7 @@
 | Opt-in encrypted or redacted PII delivery for webhook and HTTP delivery targets | https://github.com/Cratis/Chronicle/issues/5132 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Public, versioned HTTP append API with scoped tokens, per-token rate limits and no Workbench or admin escalation | https://github.com/Cratis/Chronicle/issues/5131 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Keyed appends on the other clients and the HTTP append surface | https://github.com/Cratis/Chronicle/issues/5129 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Support multi-node clustering on SQL Server and PostgreSQL storage | https://github.com/Cratis/Chronicle/issues/5127 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Support multi-node clustering on SQL Server and PostgreSQL storage | https://github.com/Cratis/Chronicle/issues/5127 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2 days, 0:48:25 | None |
 | Entra ID authentication in SQL Server connection strings fails: Microsoft.Data.SqlClient.Extensions.Azure is not referenced | https://github.com/Cratis/Chronicle/issues/5126 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 6:21:47 | None |
 | Pull-based delivery mode for receivers the kernel cannot reach | https://github.com/Cratis/Chronicle/issues/5125 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Serverless documentation and samples: guarantees, idempotency, security and platform walkthroughs | https://github.com/Cratis/Chronicle/issues/5124 | None | [woksin](https://github.com/woksin) | None | None | None |
@@ -114,7 +125,7 @@
 | Define a container hosting profile for the kernel: GC configuration, ReadyToRun and memory sizing | https://github.com/Cratis/Chronicle/issues/5110 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Prevent two kernel instances from processing the same event store during rolling deploys with localhost clustering | https://github.com/Cratis/Chronicle/issues/5109 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Webhook retry behaviour is two uncoordinated layers with irregular backoff and quarantine disabled by default | https://github.com/Cratis/Chronicle/issues/5108 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Webhook targets accept any URL: require HTTPS, add a host allow-list and block private and link-local addresses | https://github.com/Cratis/Chronicle/issues/5107 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Webhook targets accept any URL: require HTTPS, add a host allow-list and block private and link-local addresses | https://github.com/Cratis/Chronicle/issues/5107 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2 days, 16:17:21 | None |
 | All webhook targets share one circuit breaker, so one failing endpoint stalls delivery to every webhook | https://github.com/Cratis/Chronicle/issues/5106 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1 day, 4:42:57 | None |
 | Harden webhook delivery and container hosting | https://github.com/Cratis/Chronicle/issues/5105 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Serverless mode: run reactors, reducers and Arc applications on serverless platforms with a turnkey switch | https://github.com/Cratis/Chronicle/issues/5104 | None | [woksin](https://github.com/woksin) | None | None | None |
@@ -284,16 +295,4 @@
 | Replay after re-registering a projection without a removed child collection intermittently fails with 'Missing key resolver' | https://github.com/Cratis/Chronicle/issues/4806 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Workbench: disabled Save/Preview in the projection editor doesn't show why | https://github.com/Cratis/Chronicle/issues/4804 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Workbench: saving a PDL projection with an inferred read model fails for children, counters and every | https://github.com/Cratis/Chronicle/issues/4802 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Adopt the 2026-10-12 package updates that were reverted from main | https://github.com/Cratis/Chronicle/issues/4799 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 21:30:53 | None |
-| Scheduled NuGet update moved the Castle.Core pin to 5.2.1 and broke every spec project on main | https://github.com/Cratis/Chronicle/issues/4798 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1:02:32 | None |
-| Projection futures: make applying a future idempotent | https://github.com/Cratis/Chronicle/issues/4796 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Reduce per-context host startup cost in the in-process integration fixture | https://github.com/Cratis/Chronicle/issues/4792 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Define one cross-generation event-store ownership rule for projection routing and registration | https://github.com/Cratis/Chronicle/issues/4791 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Kernel shutdown does not join in-flight catch-up bulk writes and other background work | https://github.com/Cratis/Chronicle/issues/4790 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1 day, 14:41:16 | None |
-| Projection integration batches intermittently overcount keyed events and retain obsolete subscribers | https://github.com/Cratis/Chronicle/issues/4787 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 15:11:03 | None |
-| ReadModelScenario does not apply reducer tag filters | https://github.com/Cratis/Chronicle/issues/4786 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1 day, 18:34:03 | None |
-| Passive reducer reads bypass observer tag and route filters | https://github.com/Cratis/Chronicle/issues/4785 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1 day, 18:40:32 | None |
-| Evaluate included parent every-mapping accumulators against each target current state | https://github.com/Cratis/Chronicle/issues/4784 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Renamed-reactor integration sometimes omits identity drift or its configured failure | https://github.com/Cratis/Chronicle/issues/4783 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Flaky integration spec: removing an observer after its client is gone | https://github.com/Cratis/Chronicle/issues/4780 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 15:49:10 | None |
-| Children identified by a nested property are never matched; every event adds a new child | ht
+| Adopt the 2026-10-12 package updates that were reverted from main | https://github.com/Cratis/Chronicle/issues/4799 | [woksin](https://github.com/wo
