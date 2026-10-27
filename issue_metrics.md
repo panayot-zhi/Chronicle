@@ -2,20 +2,29 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 8 days, 9:03:20 | 3 days, 4:13:56 | 21 days, 5:54:35 |
-| Time to close | 4 days, 4:30:19 | 1 day, 3:45:22 | 15 days, 6:07:03 |
+| Time to first response | 8 days, 7:57:03 | 3 days, 4:02:41 | 21 days, 6:23:56 |
+| Time to close | 4 days, 1:03:30 | 1 day, 3:43:16 | 14 days, 19:37:38 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 390 |
-| Number of items closed | 610 |
+| Number of items that remain open | 395 |
+| Number of items closed | 605 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Kernel creates an event store with an empty name, and then fails to start | https://github.com/Cratis/Chronicle/issues/5422 | None | [einari](https://github.com/einari) | None | None | None |
+| Client reconnect after a kernel node restart waits ~30 s instead of failing over | https://github.com/Cratis/Chronicle/issues/5421 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Observe reducer and reactor re-registration failures and tighten reconnect specs | https://github.com/Cratis/Chronicle/issues/5420 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Scheduled main builds fail: development image push is rejected and spec jobs are skipped | https://github.com/Cratis/Chronicle/issues/5418 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Expose bounded runtime diagnostics for the mixed-version reactor subscription wire crash | https://github.com/Cratis/Chronicle/issues/5417 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Rolling upgrade: new kernel's startup patching fails because PatchManager retries reach an older silo | https://github.com/Cratis/Chronicle/issues/5416 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| AspNetCore.Specs fails 42 specs with a Castle proxy ArgumentNullException after the NuGet update | https://github.com/Cratis/Chronicle/issues/5414 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Reject permanently failing event store registrations with a typed reason so clients stop retrying | https://github.com/Cratis/Chronicle/issues/5413 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| CI: .NET Build & Integration failing repeatedly | https://github.com/Cratis/Chronicle/issues/5412 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
 | Persist pre-fingerprint erasure coverage so strict release can classify legacy erased values | https://github.com/Cratis/Chronicle/issues/5411 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Applications can read and write any non-System event store; add per-application store entitlement | https://github.com/Cratis/Chronicle/issues/5410 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Applications can read and write any non-System event store; add per-application store entitlement | https://github.com/Cratis/Chronicle/issues/5410 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Non-replayable webhooks get replayable observers | https://github.com/Cratis/Chronicle/issues/5409 | None | [woksin](https://github.com/woksin) | None | None | None |
 | A replay whose job steps cannot be prepared leaves the observer Active with the read model never rebuilt | https://github.com/Cratis/Chronicle/issues/5408 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | PostgreSQL storage keeps too many idle connections across per-database pools | https://github.com/Cratis/Chronicle/issues/5407 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
@@ -280,13 +289,4 @@
 | A retry after a subscriber timeout can overlap the abandoned delivery of the same partition | https://github.com/Cratis/Chronicle/issues/5014 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 6 days, 7:04:06 | None |
 | Late automatic projection registration can overwrite a newer definition | https://github.com/Cratis/Chronicle/issues/5012 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 9:23:40 | None |
 | Job step flush follow-ups after adopting Cratis.Orleans 1.20.0 | https://github.com/Cratis/Chronicle/issues/5010 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Flaky: re-registered projection definition still contains a removed child collection | https://github.com/Cratis/Chronicle/issues/5008 | None | [woksin](https://github.com/woksin) | None | None | None |
-| SQLite development reset races with migrations and fails every later integration spec | https://github.com/Cratis/Chronicle/issues/5007 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1 day, 13:07:44 | None |
-| Occurrence client hardening follow-ups from #5003 | https://github.com/Cratis/Chronicle/issues/5005 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Adopt Cratis.Orleans 1.20.0 so job steps drain on stop and deactivation | https://github.com/Cratis/Chronicle/issues/5004 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 3:17:07 | None |
-| Flaky: when_updating_projection_definition integration specs lose the updated value | https://github.com/Cratis/Chronicle/issues/5002 | None | [woksin](https://github.com/woksin) | None | None | None |
-| Occurrence integration: two Startups per process, and a real kernel kill mid-lease on SQL | https://github.com/Cratis/Chronicle/issues/5001 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Updated definition of an immediate projection is not applied after re-registration | https://github.com/Cratis/Chronicle/issues/4998 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 10:48:42 | None |
-| Constraint rebuild marks are lost on a lost final notification or a sequence restart | https://github.com/Cratis/Chronicle/issues/4996 | None | [woksin](https://github.com/woksin) | None | None | None |
-| Storage.Sql.Specs fail intermittently with ManyServiceProvidersCreatedWarning on SQL Server | https://github.com/Cratis/Chronicle/issues/4995 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Kernel host fails to start: StorageConnectionResolution is bound by convention and cannot be constructed | https://github.com/Cratis/Chronicle/issues/4994 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None
+| Flaky: re-registered projection definition still contains a removed child collection | https://github.com/Cratis/Chronicle/issues/5008
