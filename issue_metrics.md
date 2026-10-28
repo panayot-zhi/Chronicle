@@ -2,18 +2,24 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 8 days, 7:57:03 | 3 days, 4:02:41 | 21 days, 6:23:56 |
-| Time to close | 4 days, 1:03:30 | 1 day, 3:43:16 | 14 days, 19:37:38 |
+| Time to first response | 8 days, 8:53:07 | 3 days, 3:33:40 | 21 days, 6:53:17 |
+| Time to close | 4 days, 1:19:37 | 1 day, 4:07:10 | 14 days, 22:46:51 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 395 |
-| Number of items closed | 605 |
+| Number of items that remain open | 400 |
+| Number of items closed | 600 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| ReadModelScenario: seed a read model instance under a composite key | https://github.com/Cratis/Chronicle/issues/5428 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Decimal composite key parts keep their scale in MongoDB and SQL sinks | https://github.com/Cratis/Chronicle/issues/5427 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Client logs transient startup connection retries as errors (OAuthTokenProvider SSL reset, connect timeout) | https://github.com/Cratis/Chronicle/issues/5426 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Report MongoDB authorization failures clearly at startup and in the Workbench | https://github.com/Cratis/Chronicle/issues/5425 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Document the MongoDB permissions the kernel needs, including the System databases | https://github.com/Cratis/Chronicle/issues/5424 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| A job step that throws leaves replay and catch-up jobs Running forever | https://github.com/Cratis/Chronicle/issues/5423 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Kernel creates an event store with an empty name, and then fails to start | https://github.com/Cratis/Chronicle/issues/5422 | None | [einari](https://github.com/einari) | None | None | None |
 | Client reconnect after a kernel node restart waits ~30 s instead of failing over | https://github.com/Cratis/Chronicle/issues/5421 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Observe reducer and reactor re-registration failures and tighten reconnect specs | https://github.com/Cratis/Chronicle/issues/5420 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
@@ -283,10 +289,4 @@
 | Upgrading the kernel to 19.79.0 replays system statistics projections until MongoDB runs out of memory | https://github.com/Cratis/Chronicle/issues/5028 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 5:34:57 | None |
 | All-event mappings clear a property when an event lacks the source payload property, contrary to the documentation | https://github.com/Cratis/Chronicle/issues/5026 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 17:36:26 | None |
 | A cached projection definition can be stale after another silo changes or deletes it | https://github.com/Cratis/Chronicle/issues/5021 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1 day, 3:16:49 | None |
-| Let a unit of work refuse immediate appends independently of read protection | https://github.com/Cratis/Chronicle/issues/5019 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 9:36:13 | None |
-| EventStoreForTesting: accept an explicit event store name and namespace | https://github.com/Cratis/Chronicle/issues/5018 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 3:21:20 | None |
-| Operator roles for kernel administration operations | https://github.com/Cratis/Chronicle/issues/5015 | None | [woksin](https://github.com/woksin) | None | None | None |
-| A retry after a subscriber timeout can overlap the abandoned delivery of the same partition | https://github.com/Cratis/Chronicle/issues/5014 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 6 days, 7:04:06 | None |
-| Late automatic projection registration can overwrite a newer definition | https://github.com/Cratis/Chronicle/issues/5012 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 9:23:40 | None |
-| Job step flush follow-ups after adopting Cratis.Orleans 1.20.0 | https://github.com/Cratis/Chronicle/issues/5010 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Flaky: re-registered projection definition still contains a removed child collection | https://github.com/Cratis/Chronicle/issues/5008
+| Let a unit of work refuse immediate appends independently of read protection | https://github.com/Cratis/C
