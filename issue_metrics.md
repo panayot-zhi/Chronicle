@@ -2,31 +2,35 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 8 days, 8:53:07 | 3 days, 3:33:40 | 21 days, 6:53:17 |
-| Time to close | 4 days, 1:19:37 | 1 day, 4:07:10 | 14 days, 22:46:51 |
+| Time to first response | 8 days, 7:18:45 | 3 days, 3:04:39 | 21 days, 6:23:56 |
+| Time to close | 3 days, 23:02:19 | 1 day, 3:45:22 | 14 days, 10:00:24 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 400 |
-| Number of items closed | 600 |
+| Number of items that remain open | 396 |
+| Number of items closed | 604 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
-| ReadModelScenario: seed a read model instance under a composite key | https://github.com/Cratis/Chronicle/issues/5428 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Publish skips NuGet: Testing-only consumer smoke fails in type discovery (19.111.1, 19.112.0) | https://github.com/Cratis/Chronicle/issues/5435 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1:10:57 | None |
+| A reactor returning an empty EventsWithConcurrencyScopes fails its partition with "At least one event is required" | https://github.com/Cratis/Chronicle/issues/5432 | None | [roar-nikolay-ytreeide](https://github.com/roar-nikolay-ytreeide) | None | None | None |
+| Chronicle ≥ 19.106.2 on MongoDB Atlas Flex: `GetInstanceByKey` fails with `listCollections … can't get regex from filter doc not a regex` | https://github.com/Cratis/Chronicle/issues/5431 | [einari](https://github.com/einari) | [jonmmo](https://github.com/jonmmo) | 7:27:34 | 17:38:08 | None |
+| Large AppendMany batches are slow with unique constraints or personal data | https://github.com/Cratis/Chronicle/issues/5429 | None | [einari](https://github.com/einari) | None | None | None |
+| ReadModelScenario: seed a read model instance under a composite key | https://github.com/Cratis/Chronicle/issues/5428 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1 day, 0:39:53 | None |
 | Decimal composite key parts keep their scale in MongoDB and SQL sinks | https://github.com/Cratis/Chronicle/issues/5427 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Client logs transient startup connection retries as errors (OAuthTokenProvider SSL reset, connect timeout) | https://github.com/Cratis/Chronicle/issues/5426 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Report MongoDB authorization failures clearly at startup and in the Workbench | https://github.com/Cratis/Chronicle/issues/5425 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Document the MongoDB permissions the kernel needs, including the System databases | https://github.com/Cratis/Chronicle/issues/5424 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | A job step that throws leaves replay and catch-up jobs Running forever | https://github.com/Cratis/Chronicle/issues/5423 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Kernel creates an event store with an empty name, and then fails to start | https://github.com/Cratis/Chronicle/issues/5422 | None | [einari](https://github.com/einari) | None | None | None |
+| Kernel creates an event store with an empty name, and then fails to start | https://github.com/Cratis/Chronicle/issues/5422 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 2 days, 3:01:46 | None |
 | Client reconnect after a kernel node restart waits ~30 s instead of failing over | https://github.com/Cratis/Chronicle/issues/5421 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Observe reducer and reactor re-registration failures and tighten reconnect specs | https://github.com/Cratis/Chronicle/issues/5420 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Scheduled main builds fail: development image push is rejected and spec jobs are skipped | https://github.com/Cratis/Chronicle/issues/5418 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Expose bounded runtime diagnostics for the mixed-version reactor subscription wire crash | https://github.com/Cratis/Chronicle/issues/5417 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Rolling upgrade: new kernel's startup patching fails because PatchManager retries reach an older silo | https://github.com/Cratis/Chronicle/issues/5416 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| AspNetCore.Specs fails 42 specs with a Castle proxy ArgumentNullException after the NuGet update | https://github.com/Cratis/Chronicle/issues/5414 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| AspNetCore.Specs fails 42 specs with a Castle proxy ArgumentNullException after the NuGet update | https://github.com/Cratis/Chronicle/issues/5414 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2 days, 13:27:30 | None |
 | Reject permanently failing event store registrations with a typed reason so clients stop retrying | https://github.com/Cratis/Chronicle/issues/5413 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | CI: .NET Build & Integration failing repeatedly | https://github.com/Cratis/Chronicle/issues/5412 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
 | Persist pre-fingerprint erasure coverage so strict release can classify legacy erased values | https://github.com/Cratis/Chronicle/issues/5411 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
@@ -106,7 +110,7 @@
 | Parent key lookup during replay may use a parent event that comes after the child event | https://github.com/Cratis/Chronicle/issues/5328 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2 days, 7:11:09 | None |
 | Guard observer grains against activation under a key that does not match their definition | https://github.com/Cratis/Chronicle/issues/5326 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1 day, 12:22:39 | None |
 | PostgreSQL storage specs migrate a fresh database for every specification | https://github.com/Cratis/Chronicle/issues/5325 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| SQL Server storage specs take 14 minutes locally and 21–24 minutes in CI | https://github.com/Cratis/Chronicle/issues/5324 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| SQL Server storage specs take 14 minutes locally and 21–24 minutes in CI | https://github.com/Cratis/Chronicle/issues/5324 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 6 days, 0:57:22 | None |
 | Make the legacy-contract gate a release barrier before the first generation minor | https://github.com/Cratis/Chronicle/issues/5323 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | 1 day, 8:06:32 | None | None |
 | Postgres client-integration legs exhaust connections (53300) in for_EventStoreSubscriptions | https://github.com/Cratis/Chronicle/issues/5322 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1 day, 2:20:03 | None |
 | Send read-model changeset notifications once per replay page | https://github.com/Cratis/Chronicle/issues/5321 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1 day, 2:26:03 | None |
@@ -285,8 +289,4 @@
 | Drop the joins-event-no-automap conformance exception once Screenplay honors join automap | https://github.com/Cratis/Chronicle/issues/5040 | None | [woksin](https://github.com/woksin) | None | None | None |
 | SQL observer state drops IsQuarantined and AttemptsBeforeBudgetReset of failed partitions | https://github.com/Cratis/Chronicle/issues/5039 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 23:06:40 | None |
 | ReadModelScenario: fold appended events with their original EventContext | https://github.com/Cratis/Chronicle/issues/5034 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2:34:12 | None |
-| Reduce Code Health declines in the constraint index replay and catch-up code | https://github.com/Cratis/Chronicle/issues/5031 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Upgrading the kernel to 19.79.0 replays system statistics projections until MongoDB runs out of memory | https://github.com/Cratis/Chronicle/issues/5028 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 5:34:57 | None |
-| All-event mappings clear a property when an event lacks the source payload property, contrary to the documentation | https://github.com/Cratis/Chronicle/issues/5026 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 17:36:26 | None |
-| A cached projection definition can be stale after another silo changes or deletes it | https://github.com/Cratis/Chronicle/issues/5021 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1 day, 3:16:49 | None |
-| Let a unit of work refuse immediate appends independently of read protection | https://github.com/Cratis/C
+| Reduce Code Health declines
