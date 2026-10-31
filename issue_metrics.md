@@ -2,18 +2,23 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 11 days, 14:51:07 | 4 days, 21:48:38 | 27 days, 19:59:12 |
-| Time to close | 4 days, 4:48:44 | 1 day, 5:01:58 | 15 days, 5:32:42 |
+| Time to first response | 11 days, 18:15:39 | 4 days, 20:52:09 | 29 days, 17:42:18 |
+| Time to close | 4 days, 10:35:08 | 1 day, 5:33:40 | 15 days, 16:12:09 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 387 |
-| Number of items closed | 613 |
+| Number of items that remain open | 382 |
+| Number of items closed | 618 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Support caller cancellation of .NET event sequence tail reads | https://github.com/Cratis/Chronicle/issues/5460 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Admit protected decision reads over projections keyed by an event property | https://github.com/Cratis/Chronicle/issues/5459 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Shared integration hosts still build framework services with test-assembly implementations from the first context | https://github.com/Cratis/Chronicle/issues/5458 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Released 19.106.2 kernel does not update observer state written by the current kernel | https://github.com/Cratis/Chronicle/issues/5457 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Observer health after subscriber timeouts: surface stalled observers, escalate repeated timeouts, document the timeout | https://github.com/Cratis/Chronicle/issues/5455 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Run dotnet pack in pull request CI so pack-only failures block the merge, not the release | https://github.com/Cratis/Chronicle/issues/5452 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | CI: .NET Build & Integration failing repeatedly | https://github.com/Cratis/Chronicle/issues/5446 | [woksin](https://github.com/woksin) | [github-actions[bot]](https://github.com/github-actions[bot]) | 12:46:43 | 12:46:44 | None |
 | Chronicle.Testing does not declare package dependencies of its bundled kernel assemblies | https://github.com/Cratis/Chronicle/issues/5445 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 5:08:11 | None |
@@ -26,9 +31,9 @@
 | Publish skips NuGet: Testing-only consumer smoke fails in type discovery (19.111.1, 19.112.0) | https://github.com/Cratis/Chronicle/issues/5435 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1:10:57 | None |
 | A reactor returning an empty EventsWithConcurrencyScopes fails its partition with "At least one event is required" | https://github.com/Cratis/Chronicle/issues/5432 | [woksin](https://github.com/woksin) | [roar-nikolay-ytreeide](https://github.com/roar-nikolay-ytreeide) | 17:07:48 | None | None |
 | Chronicle ≥ 19.106.2 on MongoDB Atlas Flex: `GetInstanceByKey` fails with `listCollections … can't get regex from filter doc not a regex` | https://github.com/Cratis/Chronicle/issues/5431 | [einari](https://github.com/einari) | [jonmmo](https://github.com/jonmmo) | 7:27:34 | 17:38:08 | None |
-| Large AppendMany batches are slow with unique constraints or personal data | https://github.com/Cratis/Chronicle/issues/5429 | None | [einari](https://github.com/einari) | None | None | None |
+| Large AppendMany batches are slow with unique constraints or personal data | https://github.com/Cratis/Chronicle/issues/5429 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | None | None |
 | ReadModelScenario: seed a read model instance under a composite key | https://github.com/Cratis/Chronicle/issues/5428 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1 day, 0:39:53 | None |
-| Decimal composite key parts keep their scale in MongoDB and SQL sinks | https://github.com/Cratis/Chronicle/issues/5427 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Decimal composite key parts keep their scale in MongoDB and SQL sinks | https://github.com/Cratis/Chronicle/issues/5427 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Client logs transient startup connection retries as errors (OAuthTokenProvider SSL reset, connect timeout) | https://github.com/Cratis/Chronicle/issues/5426 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Report MongoDB authorization failures clearly at startup and in the Workbench | https://github.com/Cratis/Chronicle/issues/5425 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | 1 day, 20:45:46 | None | None |
 | Document the MongoDB permissions the kernel needs, including the System databases | https://github.com/Cratis/Chronicle/issues/5424 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | 1 day, 20:45:47 | None | None |
@@ -36,7 +41,7 @@
 | Kernel creates an event store with an empty name, and then fails to start | https://github.com/Cratis/Chronicle/issues/5422 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 2 days, 3:01:46 | None |
 | Client reconnect after a kernel node restart waits ~30 s instead of failing over | https://github.com/Cratis/Chronicle/issues/5421 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Observe reducer and reactor re-registration failures and tighten reconnect specs | https://github.com/Cratis/Chronicle/issues/5420 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Scheduled main builds fail: development image push is rejected and spec jobs are skipped | https://github.com/Cratis/Chronicle/issues/5418 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Scheduled main builds fail: development image push is rejected and spec jobs are skipped | https://github.com/Cratis/Chronicle/issues/5418 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 3 days, 11:44:07 | None |
 | Expose bounded runtime diagnostics for the mixed-version reactor subscription wire crash | https://github.com/Cratis/Chronicle/issues/5417 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Rolling upgrade: new kernel's startup patching fails because PatchManager retries reach an older silo | https://github.com/Cratis/Chronicle/issues/5416 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | AspNetCore.Specs fails 42 specs with a Castle proxy ArgumentNullException after the NuGet update | https://github.com/Cratis/Chronicle/issues/5414 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2 days, 13:27:30 | None |
@@ -125,7 +130,7 @@
 | Send read-model changeset notifications once per replay page | https://github.com/Cratis/Chronicle/issues/5321 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1 day, 2:26:03 | None |
 | Fenced MongoDB sink: split or bound oversized changesets with non-idempotent child additions | https://github.com/Cratis/Chronicle/issues/5320 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Batch MongoDB sink reads per page during projection replay | https://github.com/Cratis/Chronicle/issues/5317 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2 days, 9:21:44 | None |
-| Re-land Workbench fixes dropped by the e0c87bebae revert (recommendations ignore, recommendations selection, observers view) | https://github.com/Cratis/Chronicle/issues/5310 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Re-land Workbench fixes dropped by the e0c87bebae revert (recommendations ignore, recommendations selection, observers view) | https://github.com/Cratis/Chronicle/issues/5310 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Hot-core gate fails closed with HTTP 502 on large integration runs | https://github.com/Cratis/Chronicle/issues/5308 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 10:41:40 | None |
 | Bound the replay redo window (checkpoint mid-page) | https://github.com/Cratis/Chronicle/issues/5307 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | SQL storage never catches up observers that subscribe to all events: key enumeration returns no keys for a wildcard scope | https://github.com/Cratis/Chronicle/issues/5305 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 13:32:11 | None |
@@ -282,10 +287,4 @@
 | Stop re-running Client Snippet Verification on push to main | https://github.com/Cratis/Chronicle/issues/5080 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2:20:31 | None |
 | Pack CI build output with zstd instead of gzip | https://github.com/Cratis/Chronicle/issues/5079 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2:20:30 | None |
 | Observer position fields and stranded in-flight markers after state-machine transitions | https://github.com/Cratis/Chronicle/issues/5078 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1 day, 15:12:53 | None |
-| Publish cancels pending runs, so merges while a release publishes lose their release | https://github.com/Cratis/Chronicle/issues/5076 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2:09:23 | None |
-| Docs: explain how a connection resolution endpoint identifies the tenant | https://github.com/Cratis/Chronicle/issues/5072 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 0:22:16 | None |
-| Replay triggered by a projection definition change runs with the previous definition (2 silos, 19.83.4) | https://github.com/Cratis/Chronicle/issues/5071 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | 6 days, 19:12:13 | None |
-| for_UnitOfWork read-protection integration spec fails on main (likely since #5058) | https://github.com/Cratis/Chronicle/issues/5070 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 6:56:31 | None |
-| TypeScript, Kotlin and Elixir clients: send the projection connection id and support several guards per event source | https://github.com/Cratis/Chronicle/issues/5061 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| In-memory sink collapses distinct composite read-model keys whose parts contain '_' | https://github.com/Cratis/Chronicle/issues/5057 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 3:18:06 | None |
-|
+| Publish cancels pending runs, so merges while a release publishes lose their release | https://github.com/Cratis/Chronicle/issues/5076 | [woksin](https://git
