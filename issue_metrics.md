@@ -2,26 +2,49 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 9 days, 16:13:39 | 3 days, 3:33:40 | 27 days, 19:58:33 |
-| Time to close | 6 days, 3:23:40 | 2 days, 0:48:25 | 21 days, 19:03:46 |
+| Time to first response | 8 days, 23:47:33 | 3 days, 2:08:26 | 27 days, 16:44:49 |
+| Time to close | 6 days, 2:18:51 | 2 days, 0:21:30 | 21 days, 18:39:25 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 333 |
-| Number of items closed | 667 |
+| Number of items that remain open | 341 |
+| Number of items closed | 659 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Flaky: with_concurrent_appends_racing_a_closing_event | https://github.com/Cratis/Chronicle/issues/5790 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Reactor misses events appended right after registration until the observer watchdog runs | https://github.com/Cratis/Chronicle/issues/5786 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | None | None |
+| Auth-disabled kernel maps AuthorizationController without Identity services (500 on /Authentication/Authenticate) | https://github.com/Cratis/Chronicle/issues/5784 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Flaky: for_DatabaseSchemaLock should_reacquire_after_the_other_session_releases (SQL Server) | https://github.com/Cratis/Chronicle/issues/5783 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Erasing personal data times out with many event stores since 19.147.0 | https://github.com/Cratis/Chronicle/issues/5781 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 1:53:06 | None |
+| Setup and defaults streamlining | https://github.com/Cratis/Chronicle/issues/5778 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Chaos testing: durability rig for the kernel and clients | https://github.com/Cratis/Chronicle/issues/5777 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Flaky: for_ReducerDispatcher when_dispatching_a_page and_a_partition_is_unchanged | https://github.com/Cratis/Chronicle/issues/5776 | None | [einari](https://github.com/einari) | 10:49:07 | None | None |
+| Namespace append fence enforced by the kernel for every writer, and a namespace incarnation precondition | https://github.com/Cratis/Chronicle/issues/5772 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Read the Neo4j server address from a mounted file | https://github.com/Cratis/Chronicle/issues/5771 | None | [einari](https://github.com/einari) | None | 2:26:13 | None |
+| Code Health: Vault key store migrator and secret store to 9.5 | https://github.com/Cratis/Chronicle/issues/5768 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Code Health: raise all files to 9.5 | https://github.com/Cratis/Chronicle/issues/5767 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Observer registrations refused when a client's session and observer streams reach different silos | https://github.com/Cratis/Chronicle/issues/5766 | [woksin](https://github.com/woksin) | [jonmmo](https://github.com/jonmmo) | 0:08:11 | 4:34:10 | None |
+| Confirm the read guarantees state-aware authorization needs (admission freshness, change signal, lag behaviour) | https://github.com/Cratis/Chronicle/issues/5765 | None | [einari](https://github.com/einari) | None | 16:38:55 | None |
+| Upgrade to .NET 11 and drop .NET 8/9 | https://github.com/Cratis/Chronicle/issues/5763 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| A ReplayObserver job left in StartingSteps and thousands of expired failed jobs survive on 19.147.2 after #5667 | https://github.com/Cratis/Chronicle/issues/5762 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 7:34:20 | None |
+| Replay failures are reduced to 'Could not begin observer replay: Unknown', losing the cause | https://github.com/Cratis/Chronicle/issues/5761 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 7:34:20 | None |
+| Closed streams on SQL Server: list order is not strictly code point order for trailing-space ids | https://github.com/Cratis/Chronicle/issues/5760 | None | [woksin](https://github.com/woksin) | None | None | None |
+| .NET client: builders, attributes and contracts for the new projection operations | https://github.com/Cratis/Chronicle/issues/5759 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 11:40:29 | None |
+| Projection engine: control child collection order (prepend / sort by property) | https://github.com/Cratis/Chronicle/issues/5758 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 11:40:29 | None |
+| Projection engine: set-once ("set if no value") property operation | https://github.com/Cratis/Chronicle/issues/5757 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 11:40:28 | None |
+| Projection engine: dictionary key from event content and removal of a dictionary key | https://github.com/Cratis/Chronicle/issues/5756 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 11:40:29 | None |
+| Epic: Projections that can replace reducers — dictionary keys from event content, set-once, children ordering | https://github.com/Cratis/Chronicle/issues/5755 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | None | None |
 | cratis/chronicle:19.144.0-development-slim arm64 image has a zeroed /usr/bin/tini | https://github.com/Cratis/Chronicle/issues/5752 | None | [einari](https://github.com/einari) | None | None | None |
-| Flaky: concurrent node startup can fail on duplicate development client records | https://github.com/Cratis/Chronicle/issues/5751 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Flaky: concurrent node startup can fail on duplicate development client records | https://github.com/Cratis/Chronicle/issues/5751 | [einari](https://github.com/einari) | [woksin](https://github.com/woksin) | None | None | None |
 | Azure Key Vault encryption keys: legacy secret inventory and remediation gate | https://github.com/Cratis/Chronicle/issues/5747 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Vault encryption keys: legacy key inventory and remediation gate | https://github.com/Cratis/Chronicle/issues/5746 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Vault encryption keys: legacy key inventory and remediation gate | https://github.com/Cratis/Chronicle/issues/5746 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1 day, 11:42:01 | None |
 | SQL Server: exact identifier comparison for observer handled counts and unique-constraint claim tables | https://github.com/Cratis/Chronicle/issues/5745 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| SQL Server: compare event source ids and stream ids by exact spelling | https://github.com/Cratis/Chronicle/issues/5744 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Chronicle security defaults: one major release for secure-by-default settings | https://github.com/Cratis/Chronicle/issues/5743 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| SQL Server: compare event source ids and stream ids by exact spelling | https://github.com/Cratis/Chronicle/issues/5744 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 18:33:53 | None |
 | Persist connection owner binding and issue connection ids on the server | https://github.com/Cratis/Chronicle/issues/5742 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Chronicle security defaults: one major release for secure-by-default settings | https://github.com/Cratis/Chronicle/issues/5743 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Read storage and sink connections from mounted files | https://github.com/Cratis/Chronicle/issues/5740 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 4:19:46 | None |
 | Settle the Neo4j Enterprise licence for the graph integration lane | https://github.com/Cratis/Chronicle/issues/5739 | None | [einari](https://github.com/einari) | None | None | None |
 | Run the development image's embedded MongoDB as a single-node replica set | https://github.com/Cratis/Chronicle/issues/5736 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
@@ -35,7 +58,7 @@
 | Graph projections: iterate an event's collection property (ForEach) | https://github.com/Cratis/Chronicle/issues/5708 | None | [einari](https://github.com/einari) | None | 11:15:06 | None |
 | CI: scheduled .NET nightly health | https://github.com/Cratis/Chronicle/issues/5707 | None | [github-actions[bot]](https://github.com/github-actions[bot]) | None | None | None |
 | Opening a foreign event store registers the whole client artifact catalog there | https://github.com/Cratis/Chronicle/issues/5703 | None | [einari](https://github.com/einari) | None | None | None |
-| Resolve namespace casing in generated queries and invalidate the casing cache on removal | https://github.com/Cratis/Chronicle/issues/5701 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Resolve namespace casing in generated queries and invalidate the casing cache on removal | https://github.com/Cratis/Chronicle/issues/5701 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Namespaces that differ only in case get separate grains over one database | https://github.com/Cratis/Chronicle/issues/5699 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 4:40:41 | None |
 | Chronicle fails to start when a namespace differs only in case from its MongoDB database | https://github.com/Cratis/Chronicle/issues/5697 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 6:00:32 | None |
 | One subscription that cannot refresh on activation stops the whole kernel from starting | https://github.com/Cratis/Chronicle/issues/5695 | None | [einari](https://github.com/einari) | None | 4:21:00 | None |
@@ -278,26 +301,4 @@
 | A projection replay with a failed step or flush is promoted instead of aborted | https://github.com/Cratis/Chronicle/issues/5387 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 7 days, 6:58:57 | None |
 | Held-back live events are not delivered after a partial or empty partition replay | https://github.com/Cratis/Chronicle/issues/5386 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 7 days, 7:06:38 | None |
 | Observers can reactivate on an older silo mid-protocol during rolling upgrades | https://github.com/Cratis/Chronicle/issues/5384 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 4:26:20 | None |
-| Partition replay completion writes observer and failure state non-atomically | https://github.com/Cratis/Chronicle/issues/5383 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| A delayed job start can land after the observer concluded no job exists | https://github.com/Cratis/Chronicle/issues/5382 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 10 days, 21:02:57 | None |
-| Catch-up after a selected-type or refused partition replay skips held-back events | https://github.com/Cratis/Chronicle/issues/5381 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 7 days, 7:38:17 | None |
-| Observer-wide catch-up and failed-partition retries deliver to a fenced partition | https://github.com/Cratis/Chronicle/issues/5380 | None | [woksin](https://github.com/woksin) | None | None | None |
-| Watchdog and routing drop a partition catch-up's hold and resume live delivery beside it | https://github.com/Cratis/Chronicle/issues/5379 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 7 days, 7:38:19 | None |
-| Observers treat a Removing job as finished while its workers still deliver | https://github.com/Cratis/Chronicle/issues/5378 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 7 days, 7:38:18 | None |
-| More SQL live-query specs can flake when subscribed on xUnit's synchronization context | https://github.com/Cratis/Chronicle/issues/5377 | None | [woksin](https://github.com/woksin) | None | None | None |
-| One failed database poll permanently stops SQL live queries until the client resubscribes | https://github.com/Cratis/Chronicle/issues/5376 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 7 days, 7:43:09 | None |
-| Constraint index retry spec fails intermittently (and_a_retry_succeeds) | https://github.com/Cratis/Chronicle/issues/5375 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 10 days, 11:35:40 | None |
-| Decide whether the .NET client should send pinned generation delivery for passive and wildcard projections | https://github.com/Cratis/Chronicle/issues/5374 | None | [woksin](https://github.com/woksin) | None | None | None |
-| Model-bound [SetFromContext] rejects derived event-context functions such as Occurred.Week | https://github.com/Cratis/Chronicle/issues/5373 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 9 days, 10:22:25 | None |
-| Re-scope content-scoped ReopenedBy events when they are revised | https://github.com/Cratis/Chronicle/issues/5372 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 10 days, 18:38:14 | None |
-| Cratis.Chronicle.XUnit.Integration consumers get NU1608 for Microsoft.CodeAnalysis.Common on net10.0 | https://github.com/Cratis/Chronicle/issues/5371 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 7 days, 8:53:56 | None |
-| Registering a webhook does not take over an observer served by an open gRPC stream | https://github.com/Cratis/Chronicle/issues/5370 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 7 days, 9:13:04 | None |
-| Webhook delivery that times out is repeated far beyond MaxRetryAttempts, with overlapping requests | https://github.com/Cratis/Chronicle/issues/5369 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 7 days, 9:13:04 | None |
-| Hand over cursor and failed partitions when an observer moves to another event sequence | https://github.com/Cratis/Chronicle/issues/5368 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Decide which registration owns an observer definition when reactor or reducer clients register on different event sequences | https://github.com/Cratis/Chronicle/issues/5367 | None | [woksin](https://github.com/woksin) | None | None | None |
-| The $system.patterns observer catches up about 70 times slower than other observers | https://github.com/Cratis/Chronicle/issues/5366 | None | [woksin](https://github.com/woksin) | None | None | None |
-| Re-trigger catch-up when a replacement subscription spills while a catch-up is in flight | https://github.com/Cratis/Chronicle/issues/5365 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 8 days, 14:18:50 | None |
-| Decision needed: unique-constraint value encoding v2 and removal of legacy unhashed rows | https://github.com/Cratis/Chronicle/issues/5362 | None | [woksin](https://github.com/woksin) | None | 10 days, 23:26:23 | None |
-| Containers do not forward SIGTERM, so the kernel never shuts down gracefully | https://github.com/Cratis/Chronicle/issues/5361 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 9 days, 14:57:51 | None |
-| Run the xUnit v2 integration harness specs without dotnet test | https://github.com/Cratis/Chronicle/issues/5360 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 0:02:41 | None |
-| Migrate XUnit.
+| Partition replay completion writes observer 
