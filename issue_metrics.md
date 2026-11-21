@@ -2,32 +2,55 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 6 days, 9:37:17 | 2 days, 22:56:00 | 21 days, 17:28:05 |
-| Time to close | 5 days, 15:29:28 | 1 day, 21:48:57 | 18 days, 2:01:05 |
+| Time to first response | 6 days, 4:17:03 | 2 days, 21:40:19 | 21 days, 15:46:27 |
+| Time to close | 5 days, 10:53:11 | 1 day, 16:40:11 | 17 days, 14:36:13 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 280 |
-| Number of items closed | 720 |
+| Number of items that remain open | 289 |
+| Number of items closed | 711 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
-| CI test reliability: root-cause analysis and follow-ups | https://github.com/Cratis/Chronicle/issues/6026 | None | [woksin](https://github.com/woksin) | None | None | None |
-| Kernel exits 70 at startup when the guarded administrator-roster append is rejected after fixture kernel retries | https://github.com/Cratis/Chronicle/issues/6025 | None | [woksin](https://github.com/woksin) | None | None | None |
-| Run a local build and analyzer preflight before pushing or folding a branch into a train | https://github.com/Cratis/Chronicle/issues/6024 | None | [woksin](https://github.com/woksin) | None | None | None |
-| CI aggregate step reports "Invalid/duplicate producer API identities: artifacts" although every producer job succeeded | https://github.com/Cratis/Chronicle/issues/6022 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Recovered failed partition is delivered again after RetryPartition succeeds (19.32.3) | https://github.com/Cratis/Chronicle/issues/6064 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Measure and avoid per-call connection string normalization in SQL Database.Target() | https://github.com/Cratis/Chronicle/issues/6063 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Attribute single-call SQL storage allocations to harness versus production code | https://github.com/Cratis/Chronicle/issues/6061 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Evaluate overlapping indexes on SQL event sequence tables | https://github.com/Cratis/Chronicle/issues/6062 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Statistics for the System event store are refused when authentication is on | https://github.com/Cratis/Chronicle/issues/6056 | None | [einari](https://github.com/einari) | None | None | None |
+| Enforce the profile time budget in the storage benchmark harness | https://github.com/Cratis/Chronicle/issues/6050 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Investigate per-event allocations when reading events for catch-up | https://github.com/Cratis/Chronicle/issues/6054 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Run only meaningful parameter combinations in the append storage benchmarks | https://github.com/Cratis/Chronicle/issues/6051 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Check and record unique-constraint claims in batches on the SQL providers | https://github.com/Cratis/Chronicle/issues/6053 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Investigate wide timing spreads for concurrent appends to many sequences | https://github.com/Cratis/Chronicle/issues/6052 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Benchmark warm, cold and post-crash grain activation for event sequences and observers | https://github.com/Cratis/Chronicle/issues/6045 | None | [woksin](https://github.com/woksin) | None | None | None |
+| EventImport cancellation spec intermittently fails with TaskCanceledException from Because() | https://github.com/Cratis/Chronicle/issues/6044 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Storage benchmarks: SQL activation GetState, SQL Server and comparison-grade baselines | https://github.com/Cratis/Chronicle/issues/6042 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 6:37:41 | None |
+| KernelHost "silo held" specs fail with TimeoutException in StartHeld | https://github.com/Cratis/Chronicle/issues/6037 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| hot-core-gate reports failure while Requested Integration or .NET Build are still running or not yet started | https://github.com/Cratis/Chronicle/issues/6038 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 5:41:07 | None |
+| Core.Specs run hangs until the 30-minute job timeout without naming the spec | https://github.com/Cratis/Chronicle/issues/6040 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 5:41:09 | None |
+| RollingUpgrade ObserverStorageRoundtrip: old-kernel container aborts with an unhandled "address already in use" on port 35000 | https://github.com/Cratis/Chronicle/issues/6039 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 3:28:34 | None |
+| Avoid logging raw exception messages in protected value release | https://github.com/Cratis/Chronicle/issues/6035 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Kernel stop: cooperative cancellation for observer work | https://github.com/Cratis/Chronicle/issues/6034 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Kernel stop: bound in-flight observer turns without leaking writes after abandonment | https://github.com/Cratis/Chronicle/issues/6033 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Measure storage-provider performance: append, catch-up reads, uniqueness reads and activation across MongoDB, PostgreSQL, SQL Server and SQLite | https://github.com/Cratis/Chronicle/issues/6031 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 7:25:05 | None |
+| Reducer stops receiving acknowledged events during PostgreSql clustering node restarts | https://github.com/Cratis/Chronicle/issues/6029 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| hot-core-gate passes while a rerun of a failed integration job is still queued | https://github.com/Cratis/Chronicle/issues/6027 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 12:54:12 | None |
+| CI test reliability: root-cause analysis and follow-ups | https://github.com/Cratis/Chronicle/issues/6026 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Kernel exits 70 at startup when the guarded administrator-roster append is rejected after fixture kernel retries | https://github.com/Cratis/Chronicle/issues/6025 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 14:02:56 | None |
 | Replace fixed Task.Delay waits in integration specs with explicit readiness waits | https://github.com/Cratis/Chronicle/issues/6023 | None | [woksin](https://github.com/woksin) | None | None | None |
-| SQL clustering specs fail when an append is refused with 'Silo stopping' during node restart | https://github.com/Cratis/Chronicle/issues/6019 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Kernel graceful stop can exceed its timeout with unfinished append batches (exit 70) | https://github.com/Cratis/Chronicle/issues/6021 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Run a local build and analyzer preflight before pushing or folding a branch into a train | https://github.com/Cratis/Chronicle/issues/6024 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| CI aggregate step reports "Invalid/duplicate producer API identities: artifacts" although every producer job succeeded | https://github.com/Cratis/Chronicle/issues/6022 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | when_revising an_event_with_observers intermittently times out waiting for the replay job | https://github.com/Cratis/Chronicle/issues/6020 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Appends are refused while a unique-constraint reindex started at registration is still pending | https://github.com/Cratis/Chronicle/issues/6012 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Kernel graceful stop can exceed its timeout with unfinished append batches (exit 70) | https://github.com/Cratis/Chronicle/issues/6021 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| SQL clustering specs fail when an append is refused with 'Silo stopping' during node restart | https://github.com/Cratis/Chronicle/issues/6019 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 14:46:20 | None |
+| Appends are refused while a unique-constraint reindex started at registration is still pending | https://github.com/Cratis/Chronicle/issues/6012 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 8:22:13 | None |
 | Standard Webhooks: HMAC v1 signing, verifier interoperability and key-rotation procedure | https://github.com/Cratis/Chronicle/issues/6010 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Event seeding silently skips seeds while a constraint index is being rebuilt | https://github.com/Cratis/Chronicle/issues/6009 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Event seeding silently skips seeds while a constraint index is being rebuilt | https://github.com/Cratis/Chronicle/issues/6009 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | MongoDB namespace HasData() reports bootstrapped empty namespaces as having data | https://github.com/Cratis/Chronicle/issues/6006 | None | [woksin](https://github.com/woksin) | None | None | None |
 | AppendFingerprint metadata-free allocation spec fails locally | https://github.com/Cratis/Chronicle/issues/5999 | None | [woksin](https://github.com/woksin) | None | None | None |
-| Removing a namespace fails when an observer state has no definition in the event store | https://github.com/Cratis/Chronicle/issues/5996 | None | [einari](https://github.com/einari) | None | None | None |
+| Removing a namespace fails when an observer state has no definition in the event store | https://github.com/Cratis/Chronicle/issues/5996 | [woksin](https://github.com/woksin) | [einari](https://github.com/einari) | None | 1 day, 17:33:11 | None |
 | A rolling upgrade from 19.170.0 to 19.172.10 crash-loops the new silo and stalls the old one | https://github.com/Cratis/Chronicle/issues/5995 | None | [einari](https://github.com/einari) | None | None | None |
 | Flaky: for_Imports mssql specs stall (reactor never reaches tail, SQL Server execution timeouts) | https://github.com/Cratis/Chronicle/issues/5994 | None | [woksin](https://github.com/woksin) | None | None | None |
 | Keep governed appends available during a constraint rebuild (shadow generation) | https://github.com/Cratis/Chronicle/issues/5992 | None | [woksin](https://github.com/woksin) | None | None | None |
@@ -273,28 +296,4 @@
 | Chained event migrations retain properties removed by intermediate generations | https://github.com/Cratis/Chronicle/issues/5583 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 20:48:38 | None |
 | Older client registration removes migration bridges for newer generations | https://github.com/Cratis/Chronicle/issues/5584 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 20:48:40 | None |
 | SQL single-generation registration can discard stored schemas and migrations | https://github.com/Cratis/Chronicle/issues/5582 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 20:48:36 | None |
-| Object-valued migration defaults and value maps ignore the client JSON naming policy | https://github.com/Cratis/Chronicle/issues/5581 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1 day, 11:10:11 | None |
-| Reuse cached kernel event schemas during per-store registration | https://github.com/Cratis/Chronicle/issues/5580 | None | [woksin](https://github.com/woksin) | None | None | None |
-| Preserve deferred projection revival across manager activation loss | https://github.com/Cratis/Chronicle/issues/5579 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| SQL JSON object replacement stores an empty object for an explicit null | https://github.com/Cratis/Chronicle/issues/5578 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2 days, 9:08:35 | None |
-| SQL joins apply root identity mappings to the tracked primary key | https://github.com/Cratis/Chronicle/issues/5577 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2 days, 9:08:33 | None |
-| Correct obsolete SQL migration claims in the rolling-deploy guide | https://github.com/Cratis/Chronicle/issues/5576 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 21:01:37 | None |
-| SQL sink removes from the outer collection for nested child removals | https://github.com/Cratis/Chronicle/issues/5575 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 21:14:00 | None |
-| Clarify direct observer replay confirmation and typed not-started outcomes | https://github.com/Cratis/Chronicle/issues/5574 | None | [woksin](https://github.com/woksin) | None | None | None |
-| Compare retained event revisions in Workbench without changing event state | https://github.com/Cratis/Chronicle/issues/5573 | None | [woksin](https://github.com/woksin) | None | None | None |
-| Correct short-lived client subscription and manual registration guidance | https://github.com/Cratis/Chronicle/issues/5572 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 13 days, 8:57:11 | None |
-| Reducer reconnect can re-register a stale handler after the reconnect delay | https://github.com/Cratis/Chronicle/issues/5571 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 12 days, 9:16:07 | None |
-| SQL GetEventsWithLimit takes rows before ordering by sequence number | https://github.com/Cratis/Chronicle/issues/5570 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 11 days, 21:35:37 | None |
-| Mark event-store dashboard health stale or unavailable after failed polling | https://github.com/Cratis/Chronicle/issues/5569 | None | [woksin](https://github.com/woksin) | None | None | None |
-| Workbench: measure and reduce the startup asset payload | https://github.com/Cratis/Chronicle/issues/5568 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Workbench: bound nested-array browsing independently of root paging | https://github.com/Cratis/Chronicle/issues/5567 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Workbench: prevent stale editor responses and coalesce code-generation requests | https://github.com/Cratis/Chronicle/issues/5566 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Include the connection-string namespace in the .NET quickstart | https://github.com/Cratis/Chronicle/issues/5565 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 13 days, 9:48:14 | None |
-| Use a compatible published package in the implicit-subscriptions tutorial | https://github.com/Cratis/Chronicle/issues/5564 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 13 days, 9:48:11 | None |
-| Composite seed-key validation accepts lossy fractions and rejects valid large double keys | https://github.com/Cratis/Chronicle/issues/5563 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 12 days, 9:50:27 | None |
-| Live event store list does not retry a store whose first initialization failed | https://github.com/Cratis/Chronicle/issues/5562 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 22:33:10 | None |
-| Restore a multi-framework normal Pack probe in the rolling delivery guard check | https://github.com/Cratis/Chronicle/issues/5561 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 11 days, 23:12:13 | None |
-| Keep the train hot-core gate pending until requested integration finishes | https://github.com/Cratis/Chronicle/issues/5560 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 10 days, 6:06:15 | None |
-| Harden connection registration error handling after #5486 | https://github.com/Cratis/Chronicle/issues/5559 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 23:31:44 | None |
-| Warn on async void reactor handlers and offer an async Task fix | https://github.com/Cratis/Chronicle/issues/5557 | None | [woksin](https://github.com/woksin) | None | None | None |
-| Next major: reject unsupported returns on dependency-rich public reactor handlers | https:/
+| Object-valued migration defaults and value maps ignore the client JSON naming policy | https://github.com/Cratis/Chronicle/issues/5581 | [woksin](https://github.com/
