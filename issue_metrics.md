@@ -2,18 +2,28 @@
 
 | Metric | Average | Median | 90th percentile |
 | --- | --- | --- | ---: |
-| Time to first response | 3 days, 23:33:20 | 1 day, 17:40:55 | 9 days, 12:52:32 |
-| Time to close | 5 days, 1:18:11 | 1 day, 13:38:10 | 16 days, 19:31:00 |
+| Time to first response | 4 days, 9:24:04 | 1 day, 20:45:46 | 11 days, 9:29:37 |
+| Time to close | 4 days, 22:35:27 | 1 day, 12:43:15 | 15 days, 23:55:10 |
 | Time to answer | None | None | None |
 
 | Metric | Count |
 | --- | ---: |
-| Number of items that remain open | 251 |
-| Number of items closed | 749 |
+| Number of items that remain open | 260 |
+| Number of items closed | 740 |
 | Total number of items created | 1000 |
 
 | Title | URL | Assignee | Author | Time to first response | Time to close | Time to answer |
 | --- | --- | --- | --- | --- | --- | --- |
+| Preserve queued partition repairs across observer handover | https://github.com/Cratis/Chronicle/issues/6238 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Expose observer lag on an authenticated HTTP endpoint for autoscalers such as KEDA | https://github.com/Cratis/Chronicle/issues/6237 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Expose the constraint reindex operator service to clients | https://github.com/Cratis/Chronicle/issues/6236 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Publish re-run fails in the Kotlin client job when Maven Central already has the version | https://github.com/Cratis/Chronicle/issues/6234 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Share artifact-selection spec between clustering append benchmarks | https://github.com/Cratis/Chronicle/issues/6231 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Support reducer read-model snapshot history through ReadModelExplorer | https://github.com/Cratis/Chronicle/issues/6229 | None | [woksin](https://github.com/woksin) | None | None | None |
+| Rebuild the kernel against Cratis.Choreography 2.11 (availability interfaces moved to Cratis.Arc.Availability) | https://github.com/Cratis/Chronicle/issues/6228 | None | [einari](https://github.com/einari) | None | None | None |
+| Give the affected-tests pilot an end date: replace the full test run or stop | https://github.com/Cratis/Chronicle/issues/6227 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Development image keeps running after a supervised process aborts | https://github.com/Cratis/Chronicle/issues/6226 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
+| Add opt-in event-time review and tail-pin analyzers | https://github.com/Cratis/Chronicle/issues/6224 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Kernel and client compiled against Cratis.Choreography.Availability interfaces removed in Choreography 2.11.0 | https://github.com/Cratis/Chronicle/issues/6221 | None | [einari](https://github.com/einari) | None | None | None |
 | Client 19.180.8+ loses its session shortly after connecting and never recovers (token cache binding change?) | https://github.com/Cratis/Chronicle/issues/6212 | None | [einari](https://github.com/einari) | None | 0:51:28 | None |
 | A failed catch-up acknowledgement releases the job's ownership, allowing a duplicate catch-up | https://github.com/Cratis/Chronicle/issues/6207 | None | [woksin](https://github.com/woksin) | None | None | None |
@@ -129,12 +139,12 @@
 | hot-core-gate passes while a rerun of a failed integration job is still queued | https://github.com/Cratis/Chronicle/issues/6027 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 12:54:12 | None |
 | CI test reliability: root-cause analysis and follow-ups | https://github.com/Cratis/Chronicle/issues/6026 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Kernel exits 70 at startup when the guarded administrator-roster append is rejected after fixture kernel retries | https://github.com/Cratis/Chronicle/issues/6025 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 14:02:56 | None |
+| Run a local build and analyzer preflight before pushing or folding a branch into a train | https://github.com/Cratis/Chronicle/issues/6024 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | CI aggregate step reports "Invalid/duplicate producer API identities: artifacts" although every producer job succeeded | https://github.com/Cratis/Chronicle/issues/6022 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2 days, 8:39:33 | None |
 | Replace fixed Task.Delay waits in integration specs with explicit readiness waits | https://github.com/Cratis/Chronicle/issues/6023 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 2 days, 3:58:06 | None |
-| Run a local build and analyzer preflight before pushing or folding a branch into a train | https://github.com/Cratis/Chronicle/issues/6024 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Kernel graceful stop can exceed its timeout with unfinished append batches (exit 70) | https://github.com/Cratis/Chronicle/issues/6021 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| when_revising an_event_with_observers intermittently times out waiting for the replay job | https://github.com/Cratis/Chronicle/issues/6020 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | SQL clustering specs fail when an append is refused with 'Silo stopping' during node restart | https://github.com/Cratis/Chronicle/issues/6019 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 14:46:20 | None |
+| when_revising an_event_with_observers intermittently times out waiting for the replay job | https://github.com/Cratis/Chronicle/issues/6020 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Appends are refused while a unique-constraint reindex started at registration is still pending | https://github.com/Cratis/Chronicle/issues/6012 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 8:22:13 | None |
 | Standard Webhooks: HMAC v1 signing, verifier interoperability and key-rotation procedure | https://github.com/Cratis/Chronicle/issues/6010 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
 | Event seeding silently skips seeds while a constraint index is being rebuilt | https://github.com/Cratis/Chronicle/issues/6009 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1 day, 12:11:17 | None |
@@ -284,13 +294,4 @@
 | Projection engine: dictionary key from event content and removal of a dictionary key | https://github.com/Cratis/Chronicle/issues/5756 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 11:40:29 | None |
 | Epic: Projections that can replace reducers — dictionary keys from event content, set-once, children ordering | https://github.com/Cratis/Chronicle/issues/5755 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 1 day, 2:18:51 | None |
 | cratis/chronicle:19.144.0-development-slim arm64 image has a zeroed /usr/bin/tini | https://github.com/Cratis/Chronicle/issues/5752 | None | [einari](https://github.com/einari) | None | None | None |
-| Flaky: concurrent node startup can fail on duplicate development client records | https://github.com/Cratis/Chronicle/issues/5751 | [einari](https://github.com/einari) | [woksin](https://github.com/woksin) | None | 1 day, 9:44:01 | None |
-| Azure Key Vault encryption keys: legacy secret inventory and remediation gate | https://github.com/Cratis/Chronicle/issues/5747 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 5 days, 15:36:21 | None |
-| Vault encryption keys: legacy key inventory and remediation gate | https://github.com/Cratis/Chronicle/issues/5746 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 1 day, 11:42:01 | None |
-| SQL Server: exact identifier comparison for observer handled counts and unique-constraint claim tables | https://github.com/Cratis/Chronicle/issues/5745 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| SQL Server: compare event source ids and stream ids by exact spelling | https://github.com/Cratis/Chronicle/issues/5744 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 18:33:53 | None |
-| Chronicle security defaults: one major release for secure-by-default settings | https://github.com/Cratis/Chronicle/issues/5743 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Persist connection owner binding and issue connection ids on the server | https://github.com/Cratis/Chronicle/issues/5742 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | None | None |
-| Read storage and sink connections from mounted files | https://github.com/Cratis/Chronicle/issues/5740 | [einari](https://github.com/einari) | [einari](https://github.com/einari) | None | 4:19:46 | None |
-| Settle the Neo4j Enterprise licence for the graph integration lane | https://github.com/Cratis/Chronicle/issues/5739 | None | [einari](https://github.com/einari) | None | None | None |
-| Specify that PII erasure is confirmed (not pending) against the development image | https://github.com/Cratis/Chronicle/issues/5736 | [woksin](https://github.com/woksin) | [woksin](https://github.com/woksin) | None | 
+| Flaky: concurrent node startup can fail on duplicate development client records | https://github.com/Cratis/Chronicle/issues/5751 | [einari](https://github.com/einari) | [woksin](https://github.c
